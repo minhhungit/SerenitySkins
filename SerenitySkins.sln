@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerenitySkins.Web", "SerenitySkins\SerenitySkins.Web\SerenitySkins.Web.csproj", "{50947B96-6CED-449F-AD69-4120317D797E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50947B96-6CED-449F-AD69-4120317D797E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50947B96-6CED-449F-AD69-4120317D797E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50947B96-6CED-449F-AD69-4120317D797E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50947B96-6CED-449F-AD69-4120317D797E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BCFF570-7383-42D5-BCC8-A7ABC309B80E}
+	EndGlobalSection
+EndGlobal
