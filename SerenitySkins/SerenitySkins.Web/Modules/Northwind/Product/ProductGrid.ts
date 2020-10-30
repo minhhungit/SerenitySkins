@@ -275,5 +275,11 @@
             return flt;
         }
 
+
+        protected getSlickOptions() {
+            let opt = super.getSlickOptions();
+            opt.rowHeight = 30;
+            return opt;
+        }
     }
 }

@@ -178,6 +178,9 @@ namespace SerenitySkins
                 public static LocalText ThemeRedLight = "Red Light";
                 public static LocalText ThemeYellow = "Yellow";
                 public static LocalText ThemeYellowLight = "Yellow Light";
+
+                // custom skins
+                public static LocalText Dark001 = "Dark 001";
             }
 
             public static class ValidationError

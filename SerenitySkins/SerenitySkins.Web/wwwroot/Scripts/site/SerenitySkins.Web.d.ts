@@ -2284,6 +2284,7 @@ declare namespace SerenitySkins.Northwind {
         private setSaveButtonState;
         private saveClick;
         protected getQuickFilters(): Serenity.QuickFilter<Serenity.Widget<any>, any>[];
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }
 declare namespace SerenitySkins.BasicSamples {
@@ -2311,6 +2312,7 @@ declare namespace SerenitySkins.Northwind {
         protected onClick(e: JQueryEventObject, row: number, cell: number): void;
         set_shippingState(value: number): void;
         protected addButtonClick(): void;
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }
 declare namespace SerenitySkins.BasicSamples {
@@ -2380,6 +2382,7 @@ declare namespace SerenitySkins.Northwind {
         protected getLocalTextPrefix(): string;
         protected getService(): string;
         constructor(container: JQuery);
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }
 declare namespace SerenitySkins.BasicSamples {
@@ -2538,6 +2541,7 @@ declare namespace SerenitySkins.Northwind {
         protected getLocalTextPrefix(): string;
         protected getService(): string;
         constructor(container: JQuery);
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }
 declare namespace SerenitySkins.BasicSamples {
@@ -2608,6 +2612,7 @@ declare namespace SerenitySkins.Northwind {
         protected getService(): string;
         constructor(container: JQuery);
         getButtons(): Serenity.ToolButton[];
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }
 declare namespace SerenitySkins.BasicSamples {
@@ -2698,6 +2703,7 @@ declare namespace SerenitySkins.Common {
         protected enableDeleteColumn(): boolean;
         protected getColumns(): Slick.Column[];
         protected onClick(e: JQueryEventObject, row: number, cell: number): void;
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }
 declare namespace SerenitySkins.Northwind {
@@ -3461,6 +3467,7 @@ declare namespace SerenitySkins.Northwind {
         protected getLocalTextPrefix(): string;
         protected getService(): string;
         constructor(container: JQuery);
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }
 declare namespace SerenitySkins.Northwind {
@@ -3502,6 +3509,7 @@ declare namespace SerenitySkins.Northwind {
         protected getLocalTextPrefix(): string;
         protected getService(): string;
         constructor(container: JQuery);
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }
 declare namespace SerenitySkins.Northwind {
@@ -3523,5 +3531,6 @@ declare namespace SerenitySkins.Northwind {
         protected getLocalTextPrefix(): string;
         protected getService(): string;
         constructor(container: JQuery);
+        protected getSlickOptions(): Slick.GridOptions;
     }
 }

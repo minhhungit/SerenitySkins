@@ -4,7 +4,7 @@
     var hideNav = (string)Context.Request.Query["hideNav"] == "1";
     var logged = Serenity.Authorization.Username;
     var themeCookie = Context.Request.Cookies["ThemePreference"];
-    var theme = !themeCookie.IsEmptyOrNull() ? themeCookie : "blue";
+    var theme = !themeCookie.IsEmptyOrNull() ? themeCookie : "dark-001";
     var darkSidebar = theme != null && theme.IndexOf("light") < 0;
     var rtl = System.Globalization.CultureInfo.CurrentUICulture.TextInfo.IsRightToLeft;
     var user = (UserDefinition)Serenity.Authorization.UserDefinition;
