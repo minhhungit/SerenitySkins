@@ -3,6 +3,9 @@
 - Modify connectionstring in `appsettings.json`
 - Run project
 
+## HOW TO SETUP
+>... coming soon
+
 ## SKINS: DARK 001
 
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/1.png?raw=true" style="width: 100%;" />
