@@ -19,6 +19,8 @@
                 $('body').addClass('skin-' + theme)
                     .toggleClass('dark-sidebar', darkSidebar)
                     .toggleClass('light-sidebar', !darkSidebar);
+
+                window.location.reload();
             });
 
             Q.addOption(select, 'blue', Q.text('Site.Layout.ThemeBlue'));

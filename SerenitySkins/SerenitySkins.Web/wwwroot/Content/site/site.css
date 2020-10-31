@@ -4551,12 +4551,21 @@ table.text-center th {
  * Skin: Dark 001
  * ------------
  */
+/*@dark-001-asset-path: "/Content/skins/dark001/assets/";*/
 .skin-dark-001 {
   /*    .flex-layout .s-Form .caption + input[type="checkbox"], .flex-layout .s-Form .caption + input[type="radio"] {
         padding-top: 14px;
     }*/
   /*div.s-Toolbar .tool-button.no-text div.button-outer {
         padding: 5px 3px 19px 13px;
+    }*/
+  /*.refresh-button span.button-inner {
+        background-image: url("@{dark-001-asset-path}refresh.svg");
+    }
+
+    .add-button span.button-inner {
+        background-image: url("@{dark-001-asset-path}add.svg");
+        background-size: 18px 14px;
     }*/
 }
 .skin-dark-001 button {
@@ -4879,7 +4888,7 @@ table.text-center th {
   background-color: unset;
 }
 .skin-dark-001 div .s-Toolbar .tool-button.no-text span.button-inner {
-  padding: 8px 6px 8px 10px;
+  padding: 10px 6px 8px 10px;
   margin: 4px;
 }
 .skin-dark-001 .s-Form .inplace-button {

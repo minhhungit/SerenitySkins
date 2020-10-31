@@ -114,13 +114,5 @@
                 CustomerID: eq ? eq.CustomerID : null
             });
         }
-
-
-        protected getSlickOptions() {
-            let opt = super.getSlickOptions();
-            opt.rowHeight = 30;
-            return opt;
-        }
-
     }
 }

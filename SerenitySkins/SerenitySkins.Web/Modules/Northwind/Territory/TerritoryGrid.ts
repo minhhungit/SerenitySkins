@@ -11,11 +11,5 @@
         constructor(container: JQuery) {
             super(container);
         }
-
-        protected getSlickOptions() {
-            let opt = super.getSlickOptions();
-            opt.rowHeight = 30;
-            return opt;
-        }
     }
 }

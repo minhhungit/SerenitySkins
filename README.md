@@ -4,16 +4,19 @@
 
 ### HOW TO SETUP
 
-Create new folder called `skins` in `/wwwroot/Content/` and copy `dark001.less` to, the full path will be like this: `/wwwroot/Content/skins/dark001.less`
+Copy this folder `/wwwroot/Content/skins/dark001/` to your project (keep same path)
 
-Modify file `/wwwroot/Content/site/site.theme.less`, add this line bellow `_all-skins.less";`, for example:
+Copy `J.initSkins.ts` file from `Modules/Common/Helper/` to your project (keep same path)
+
+Modify file `/wwwroot/Content/site/site.theme.less`, import `theme.less` like bellow
 ```css
 @import "../adminlte/social-widgets.less";
 @import "../adminlte/skins/_all-skins.less";
-@import "../skins/dark001.less"; /* <======================== */
+@import "../skins/dark001/theme.less"; /* <======================== */
 
 @import "../adminlte/mailbox.less";
 ```
+
 
 In `/Modules/Common/Navigation/ThemeSelection.ts`, add 
 
@@ -21,18 +24,38 @@ In `/Modules/Common/Navigation/ThemeSelection.ts`, add
 Q.addOption(select, 'dark-001', Q.text('Site.Layout.Dark001'));
 ```
 
-In `/Modules/Texts.cs`, inside class Site/Layout add this line
->public static LocalText Dark001 = "Dark 001";
+Then add `window.location.reload();` at end of `this.change` function to page can be refreshed after user select skin
 
-
-Change row height of slickgrid to 30
+Modify file `Modules/Common/ScriptInitialization.ts`, add this line:
 ```javascript
-protected getSlickOptions() {
-	let opt = super.getSlickOptions();
-	opt.rowHeight = 30;
-	return opt;
+J.initSkins();
+```
+
+Remember to add `/// <reference path="Helpers/J.initSkins.ts" />` to top of file, your `ScriptInitialization.ts` should be like this
+
+```javascript
+/// <reference path="../Common/Helpers/LanguageList.ts" />
+/// <reference path="Helpers/J.initSkins.ts" />
+
+namespace SerenitySkins.ScriptInitialization {
+    Q.Config.responsiveDialogs = true;
+    Q.Config.rootNamespaces.push('SerenitySkins');
+    Serenity.EntityDialog.defaultLanguageList = LanguageList.getValue;
+
+    if ($.fn['colorbox']) {
+        $.fn['colorbox'].settings.maxWidth = "95%";
+        $.fn['colorbox'].settings.maxHeight = "95%";
+    }
+
+    J.initSkins();
+
+    window.onerror = Q.ErrorHandling.runtimeErrorHandler;
 }
 ```
+
+In `/Modules/Texts.cs`, inside Site class > Layout class, add this line
+>public static LocalText Dark001 = "Dark 001";
+
 
 Add a helper function for navigation in `/Views/Shared/LeftNavigation.cshtml` to make slimScrollBar bigger => easy for dragging, like this:
 ```javascript
