@@ -3075,7 +3075,7 @@ declare namespace SerenitySkins.BasicSamples {
         private form;
         constructor();
         protected getDialogTitle(): string;
-        protected getDialogButtons(): Serenity.DialogButton[];
+        protected getDialogButtons(): any[];
     }
 }
 declare namespace SerenitySkins.BasicSamples {

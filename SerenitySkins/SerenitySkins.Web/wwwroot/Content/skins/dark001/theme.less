@@ -3,6 +3,7 @@
  * ------------
  */
 
+@sidebar-width: 280px;
 @box-border-radius: 1px;
 @dark-001-header-bg-color: #303641;
 @dark-001-main-sidebar-color: #303641;
@@ -83,6 +84,10 @@
         font-size: 14px;
     }
 
+    .main-sidebar {
+        background-color: @dark-001-main-sidebar-color;
+    }
+
     .sidebar-form {
         border-radius: 1px;
         margin: 10px;
@@ -127,15 +132,15 @@
 
     .sidebar-menu > li:hover > a, .sidebar-menu > li.active > a {
         border-left-color: #3c8dbc;
-        background-color: #1d262978;
+        /*background-color: #1d262978;*/
     }
 
-    .sidebar-menu > li > .treeview-menu {
-        background: #1f252b4f;
+    .sidebar-menu > li > .treeview-menu, .sidebar-menu > li > .treeview-menu li {
+        background: @dark-001-main-sidebar-color;
     }
 
-    .main-sidebar {
-        background-color: @dark-001-main-sidebar-color;
+    .sidebar-menu .treeview-menu > li.active > a, .treeview-menu > li > a:hover {
+        color: @dark-001-navigation-link-hover-active-color;
     }
 
     .sidebar-form div.input-group, .sidebar-form .s-SidebarSearch, .sidebar-form button {
@@ -165,10 +170,6 @@
 
     .control-sidebar-dark, .control-sidebar-dark + .control-sidebar-bg {
         background: @dark-001-main-sidebar-color;
-    }
-
-    .treeview-menu > li.active > a, .treeview-menu > li > a:hover {
-        color: @dark-001-navigation-link-hover-active-color;
     }
 
     .main-header {
@@ -384,7 +385,6 @@
         margin-left: 0px;
         border-left: 0px;
     }
-
     /*.refresh-button span.button-inner {
         background-image: url("@{dark-001-asset-path}refresh.svg");
     }
@@ -393,8 +393,6 @@
         background-image: url("@{dark-001-asset-path}add.svg");
         background-size: 18px 14px;
     }*/
-
-
     .inplace-create.edit b {
         margin: 2px 0px 0px 0px;
     }
@@ -442,6 +440,26 @@
         font-weight: 500;
         font-size: 14px;
         color: #000000d6;
+    }
+
+    .editor .slick-header-column, .slick-header-column.ui-state-default {
+        font-family: Poppins, Helvetica, "sans-serif";
+        font-weight: 500;
+        font-size: 13px;
+        color: #333;
+    }
+
+    .editor .slick-header-column {
+        border-right: solid 1px #cacaca;
+        border-style: none solid solid none;
+    }
+
+    .editor .slick-cell {
+        color: #000;
+        padding: 1px 4px 0 4px;
+        border-style: none solid solid none;
+        border-right-color: #cacaca;
+        border-bottom-color: #e7e7e7;
     }
 
     .slick-cell input[type='text'], .slick-cell select {
