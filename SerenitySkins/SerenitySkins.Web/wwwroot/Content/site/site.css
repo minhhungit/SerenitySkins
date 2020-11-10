@@ -5533,7 +5533,7 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .s-PropertyGrid .category-links {
   background-color: rgba(193, 155, 204, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-1 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(193, 155, 204, 0.4);
@@ -5704,13 +5704,14 @@ body.skin-glass-001-style-1 {
   border-radius: unset;
 }
 .skin-glass-001-style-1 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(193, 155, 204, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-1 .s-Form .inplace-button:hover {
@@ -6480,7 +6481,7 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .s-PropertyGrid .category-links {
   background-color: rgba(124, 149, 169, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-2 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(124, 149, 169, 0.4);
@@ -6651,13 +6652,14 @@ body.skin-glass-001-style-2 {
   border-radius: unset;
 }
 .skin-glass-001-style-2 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(124, 149, 169, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-2 .s-Form .inplace-button:hover {
@@ -7427,7 +7429,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .s-PropertyGrid .category-links {
   background-color: rgba(148, 119, 130, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-3 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(148, 119, 130, 0.4);
@@ -7598,13 +7600,14 @@ body.skin-glass-001-style-3 {
   border-radius: unset;
 }
 .skin-glass-001-style-3 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(148, 119, 130, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-3 .s-Form .inplace-button:hover {
@@ -8374,7 +8377,7 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .s-PropertyGrid .category-links {
   background-color: rgba(146, 136, 154, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-4 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(146, 136, 154, 0.4);
@@ -8545,13 +8548,14 @@ body.skin-glass-001-style-4 {
   border-radius: unset;
 }
 .skin-glass-001-style-4 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(146, 136, 154, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-4 .s-Form .inplace-button:hover {
@@ -9321,7 +9325,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .s-PropertyGrid .category-links {
   background-color: rgba(146, 146, 146, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-5 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(146, 146, 146, 0.4);
@@ -9492,13 +9496,14 @@ body.skin-glass-001-style-5 {
   border-radius: unset;
 }
 .skin-glass-001-style-5 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(146, 146, 146, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-5 .s-Form .inplace-button:hover {
@@ -10268,7 +10273,7 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .s-PropertyGrid .category-links {
   background-color: rgba(155, 129, 146, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-6 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(155, 129, 146, 0.4);
@@ -10439,13 +10444,14 @@ body.skin-glass-001-style-6 {
   border-radius: unset;
 }
 .skin-glass-001-style-6 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(155, 129, 146, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-6 .s-Form .inplace-button:hover {
@@ -11215,7 +11221,7 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .s-PropertyGrid .category-links {
   background-color: rgba(185, 149, 184, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-7 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(185, 149, 184, 0.4);
@@ -11386,13 +11392,14 @@ body.skin-glass-001-style-7 {
   border-radius: unset;
 }
 .skin-glass-001-style-7 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(185, 149, 184, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-7 .s-Form .inplace-button:hover {
@@ -12162,7 +12169,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .s-PropertyGrid .category-links {
   background-color: rgba(157, 167, 159, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-8 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(157, 167, 159, 0.4);
@@ -12333,13 +12340,14 @@ body.skin-glass-001-style-8 {
   border-radius: unset;
 }
 .skin-glass-001-style-8 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(157, 167, 159, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-8 .s-Form .inplace-button:hover {
@@ -13109,7 +13117,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .s-PropertyGrid .category-links {
   background-color: rgba(179, 193, 184, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-9 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(179, 193, 184, 0.4);
@@ -13280,13 +13288,14 @@ body.skin-glass-001-style-9 {
   border-radius: unset;
 }
 .skin-glass-001-style-9 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(179, 193, 184, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-9 .s-Form .inplace-button:hover {
@@ -14056,7 +14065,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .s-PropertyGrid .category-links {
   background-color: rgba(175, 175, 175, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-10 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(175, 175, 175, 0.4);
@@ -14227,13 +14236,14 @@ body.skin-glass-001-style-10 {
   border-radius: unset;
 }
 .skin-glass-001-style-10 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(175, 175, 175, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-10 .s-Form .inplace-button:hover {
@@ -15003,7 +15013,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .s-PropertyGrid .category-links {
   background-color: rgba(154, 170, 181, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-11 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(154, 170, 181, 0.4);
@@ -15174,13 +15184,14 @@ body.skin-glass-001-style-11 {
   border-radius: unset;
 }
 .skin-glass-001-style-11 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(154, 170, 181, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-11 .s-Form .inplace-button:hover {
@@ -15950,7 +15961,7 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .s-PropertyGrid .category-links {
   background-color: rgba(159, 166, 169, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-12 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(159, 166, 169, 0.4);
@@ -16121,13 +16132,14 @@ body.skin-glass-001-style-12 {
   border-radius: unset;
 }
 .skin-glass-001-style-12 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(159, 166, 169, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-12 .s-Form .inplace-button:hover {
@@ -16897,7 +16909,7 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .s-PropertyGrid .category-links {
   background-color: rgba(138, 149, 167, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-13 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(138, 149, 167, 0.4);
@@ -17068,13 +17080,14 @@ body.skin-glass-001-style-13 {
   border-radius: unset;
 }
 .skin-glass-001-style-13 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(138, 149, 167, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-13 .s-Form .inplace-button:hover {
@@ -17844,7 +17857,7 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .s-PropertyGrid .category-links {
   background-color: rgba(156, 151, 162, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-14 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(156, 151, 162, 0.4);
@@ -18015,13 +18028,14 @@ body.skin-glass-001-style-14 {
   border-radius: unset;
 }
 .skin-glass-001-style-14 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(156, 151, 162, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-14 .s-Form .inplace-button:hover {
@@ -18791,7 +18805,7 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .s-PropertyGrid .category-links {
   background-color: rgba(139, 150, 156, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-15 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(139, 150, 156, 0.4);
@@ -18962,13 +18976,14 @@ body.skin-glass-001-style-15 {
   border-radius: unset;
 }
 .skin-glass-001-style-15 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(139, 150, 156, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-15 .s-Form .inplace-button:hover {
@@ -19738,7 +19753,7 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .s-PropertyGrid .category-links {
   background-color: rgba(134, 149, 156, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-16 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(134, 149, 156, 0.4);
@@ -19909,13 +19924,14 @@ body.skin-glass-001-style-16 {
   border-radius: unset;
 }
 .skin-glass-001-style-16 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(134, 149, 156, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-16 .s-Form .inplace-button:hover {
@@ -20685,7 +20701,7 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .s-PropertyGrid .category-links {
   background-color: rgba(131, 170, 173, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-17 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(131, 170, 173, 0.4);
@@ -20856,13 +20872,14 @@ body.skin-glass-001-style-17 {
   border-radius: unset;
 }
 .skin-glass-001-style-17 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(131, 170, 173, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-17 .s-Form .inplace-button:hover {
@@ -21632,7 +21649,7 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .s-PropertyGrid .category-links {
   background-color: rgba(118, 157, 160, 0.2);
   border-radius: 2px;
-  margin: 2px 10px;
+  /*margin: 2px 10px;*/
 }
 .skin-glass-001-style-18 .s-PropertyGrid .category-title {
   border-bottom: 1px solid rgba(118, 157, 160, 0.4);
@@ -21803,13 +21820,14 @@ body.skin-glass-001-style-18 {
   border-radius: unset;
 }
 .skin-glass-001-style-18 .s-Form .inplace-button {
-  height: 30px;
-  padding: 2px;
-  width: 28px;
+  height: 32px;
+  padding: 2px 3px;
+  width: 32px;
   margin-left: 2px;
   border-left: 0px;
   background: rgba(118, 157, 160, 0.5);
   border: unset;
+  border-radius: 2px;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
 }
 .skin-glass-001-style-18 .s-Form .inplace-button:hover {
