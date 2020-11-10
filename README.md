@@ -97,6 +97,3 @@ Add new font into `/Views/Shared/_LayoutHead.cshtml`:
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/6.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/7.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/8.png?raw=true" style="width: 100%;" />
-
-
-![](https://media.giphy.com/media/uYNgiAMahwNHG4VGnW/giphy.mp4)
