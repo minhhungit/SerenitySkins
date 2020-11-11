@@ -4756,6 +4756,9 @@ table.text-center th {
   color: #35acf1;
   border-color: #303641 !important;
 }
+.skin-dark-001 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #444;
+}
 .skin-dark-001 section.content > .s-DataGrid {
   border-radius: 1px;
   border-top: unset;
@@ -5506,6 +5509,9 @@ body.skin-glass-001-style-1 {
   background: unset !important;
   color: #56c1ff;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-1 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56c1ff;
 }
 .skin-glass-001-style-1 section.content > .s-DataGrid {
   border-top: unset;
@@ -6501,6 +6507,9 @@ body.skin-glass-001-style-2 {
   color: #56c1ff;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-2 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56c1ff;
+}
 .skin-glass-001-style-2 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -7494,6 +7503,9 @@ body.skin-glass-001-style-3 {
   background: unset !important;
   color: #56c1ff;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-3 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56c1ff;
 }
 .skin-glass-001-style-3 section.content > .s-DataGrid {
   border-top: unset;
@@ -8489,6 +8501,9 @@ body.skin-glass-001-style-4 {
   color: #56c1ff;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-4 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56c1ff;
+}
 .skin-glass-001-style-4 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -9482,6 +9497,9 @@ body.skin-glass-001-style-5 {
   background: unset !important;
   color: #dab155;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-5 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #dab155;
 }
 .skin-glass-001-style-5 section.content > .s-DataGrid {
   border-top: unset;
@@ -10477,6 +10495,9 @@ body.skin-glass-001-style-6 {
   color: #e2b143;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-6 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #e2b143;
+}
 .skin-glass-001-style-6 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -11470,6 +11491,9 @@ body.skin-glass-001-style-7 {
   background: unset !important;
   color: #a2de10;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-7 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #a2de10;
 }
 .skin-glass-001-style-7 section.content > .s-DataGrid {
   border-top: unset;
@@ -12465,6 +12489,9 @@ body.skin-glass-001-style-8 {
   color: #e6b84f;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-8 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #e6b84f;
+}
 .skin-glass-001-style-8 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -13458,6 +13485,9 @@ body.skin-glass-001-style-9 {
   background: unset !important;
   color: #e3fd95;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-9 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #e3fd95;
 }
 .skin-glass-001-style-9 section.content > .s-DataGrid {
   border-top: unset;
@@ -14453,6 +14483,9 @@ body.skin-glass-001-style-10 {
   color: #a4fff2;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-10 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #a4fff2;
+}
 .skin-glass-001-style-10 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -15446,6 +15479,9 @@ body.skin-glass-001-style-11 {
   background: unset !important;
   color: #a4fff2;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-11 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #a4fff2;
 }
 .skin-glass-001-style-11 section.content > .s-DataGrid {
   border-top: unset;
@@ -16441,6 +16477,9 @@ body.skin-glass-001-style-12 {
   color: #56ecec;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-12 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56ecec;
+}
 .skin-glass-001-style-12 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -17434,6 +17473,9 @@ body.skin-glass-001-style-13 {
   background: unset !important;
   color: #56ecec;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-13 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56ecec;
 }
 .skin-glass-001-style-13 section.content > .s-DataGrid {
   border-top: unset;
@@ -18429,6 +18471,9 @@ body.skin-glass-001-style-14 {
   color: #56ecec;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-14 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56ecec;
+}
 .skin-glass-001-style-14 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -19422,6 +19467,9 @@ body.skin-glass-001-style-15 {
   background: unset !important;
   color: #56ecec;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-15 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56ecec;
 }
 .skin-glass-001-style-15 section.content > .s-DataGrid {
   border-top: unset;
@@ -20417,6 +20465,9 @@ body.skin-glass-001-style-16 {
   color: #56ecec;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-16 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #56ecec;
+}
 .skin-glass-001-style-16 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -21410,6 +21461,9 @@ body.skin-glass-001-style-17 {
   background: unset !important;
   color: #e0d445;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-17 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #e0d445;
 }
 .skin-glass-001-style-17 section.content > .s-DataGrid {
   border-top: unset;
@@ -22405,6 +22459,9 @@ body.skin-glass-001-style-18 {
   color: #6ef2ff;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-18 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #6ef2ff;
+}
 .skin-glass-001-style-18 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -23399,6 +23456,9 @@ body.skin-glass-001-style-19 {
   color: #007bff;
   border-color: #303641 !important;
 }
+.skin-glass-001-style-19 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #007bff;
+}
 .skin-glass-001-style-19 section.content > .s-DataGrid {
   border-top: unset;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -24392,6 +24452,9 @@ body.skin-glass-001-style-20 {
   background: unset !important;
   color: #000000;
   border-color: #303641 !important;
+}
+.skin-glass-001-style-20 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
+  color: #000000;
 }
 .skin-glass-001-style-20 section.content > .s-DataGrid {
   border-top: unset;
