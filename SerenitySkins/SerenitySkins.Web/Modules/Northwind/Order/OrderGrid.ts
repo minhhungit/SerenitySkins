@@ -58,6 +58,15 @@
                 onViewSubmit: () => this.onViewSubmit()
             }));
 
+            buttons.push({
+                title: "Test inner panel",
+                cssClass: "test-inner-panel",
+                icon: "fa fa-home",
+                onClick: () => {
+                    let dlg = new CustomerDialog();
+                    dlg.loadNewAndOpenDialog(true);
+                }
+            })
             return buttons;
         }
 

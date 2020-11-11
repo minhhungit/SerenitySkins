@@ -36,6 +36,9 @@
     <PackageReference Include="Serenity.Web" Version="3.14.0" />
     <PackageReference Include="Serenity.Web.Assets" Version="3.9.2" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\upload\" />
+  </ItemGroup>
   <PropertyGroup>
     <DefineConstants>$(DefineConstants);COREFX;ASPNETCORE</DefineConstants>
   </PropertyGroup>
