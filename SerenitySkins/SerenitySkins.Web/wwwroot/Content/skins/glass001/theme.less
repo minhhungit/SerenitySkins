@@ -542,7 +542,7 @@
 
     @glass-001-text-color: #777;
     @glass-001-text-hover-active-color: #ccc;
-    @glass-001-text-shadow-color: #ddd;
+    @glass-001-text-shadow-color: #a5a5a5;
 
     @glass-001-link-color: #007bff;
     @glass-001-link-hover-active-color: #5baaff;
@@ -574,7 +574,7 @@
 
     @glass-001-text-color: #777;
     @glass-001-text-hover-active-color: #ccc;
-    @glass-001-text-shadow-color: #ddd;
+    @glass-001-text-shadow-color: #a5a5a5;
 
     @glass-001-link-color: #000000;
     @glass-001-link-hover-active-color: #000000;
@@ -673,7 +673,7 @@
             border: unset;
             border-radius: @glass-001-border-radius;
             background: unset;
-            color: @glass-001-text-color;
+            color: #fff;
         }
 
         .ui-dialog .ui-dialog-titlebar button:hover {
@@ -686,7 +686,7 @@
             color: @glass-001-link-color;
             margin: 5px 4px 0 0;
             font-weight: 300;
-            text-shadow: 1px 1px 2px @glass-001-text-shadow-color;
+            text-shadow: 1px 1px 1px if((@glass-001-is-dark-style), @glass-001-text-shadow-color, #464646);
             font-size: 16px;
             padding-top: 1px;
         }
@@ -696,11 +696,13 @@
         }
 
         .ui-dialog .ui-dialog-content button, .ui-dialog .ui-dialog-buttonpane button {
-            background: @glass-001-input-bg-color;
-            border: solid 1px if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+            background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);
+            border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+            border-style: solid;
+            border-width: if((@glass-001-is-dark-style), 1px, 0px);
             border-radius: @glass-001-border-radius;
             /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-            color: spin(@glass-001-text-color, 180);
+            color: if((@glass-001-is-dark-style), @glass-001-text-color, #fff);
             font-family: Poppins, Helvetica, "sans-serif";
             font-size: 14px;
             height: 32px;
@@ -903,7 +905,7 @@
         }
 
         .s-MessageDialog .ui-dialog-content:before {
-            color: @glass-001-text-color;
+            color: #fff;
         }
 
         .s-MessageDialog .ui-dialog-content a {
@@ -917,6 +919,7 @@
             font-family: Poppins, Helvetica, "sans-serif";
             font-weight: 300;
             font-size: 14px;
+            color: #fff;
         }
 
 
@@ -951,7 +954,7 @@
         .s-MessageDialog.s-WarningDialog .ui-dialog-title,
         .s-MessageDialog.s-InformationDialog .ui-dialog-title,
         .s-MessageDialog.s-ConfirmDialog .ui-dialog-title {
-            color: @glass-001-text-color;
+            color: #fff;
         }
 
         .main-sidebar {
@@ -1167,7 +1170,7 @@
             border-color: @glass-001-header-bg-color !important;
         }
 
-        .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p{
+        .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
             color: @glass-001-link-color;
         }
 
@@ -1207,7 +1210,7 @@
             font-family: Poppins, Helvetica, "sans-serif";
             font-weight: 300;
             font-size: 18px;
-            text-shadow: 1px 1px 2px @glass-001-text-shadow-color;
+            text-shadow: 1px 1px 1px @glass-001-text-shadow-color;
         }
 
         .panel-titlebar-close, .ui-dialog.mobile-layout .ui-dialog-titlebar-close, .ui-dialog.mobile-layout .ui-dialog-titlebar-close:hover {

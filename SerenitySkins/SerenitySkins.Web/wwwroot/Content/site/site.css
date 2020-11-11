@@ -5100,7 +5100,7 @@ body.skin-glass-001-style-1 {
   color: #56c1ff;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -5110,10 +5110,12 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-1 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -5300,6 +5302,7 @@ body.skin-glass-001-style-1 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-1 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -5546,7 +5549,7 @@ body.skin-glass-001-style-1 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-1 .panel-titlebar-close,
 .skin-glass-001-style-1 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -6097,7 +6100,7 @@ body.skin-glass-001-style-2 {
   color: #56c1ff;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -6107,10 +6110,12 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-2 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -6297,6 +6302,7 @@ body.skin-glass-001-style-2 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-2 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -6543,7 +6549,7 @@ body.skin-glass-001-style-2 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-2 .panel-titlebar-close,
 .skin-glass-001-style-2 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -7094,7 +7100,7 @@ body.skin-glass-001-style-3 {
   color: #56c1ff;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -7104,10 +7110,12 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-3 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -7294,6 +7302,7 @@ body.skin-glass-001-style-3 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-3 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -7540,7 +7549,7 @@ body.skin-glass-001-style-3 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-3 .panel-titlebar-close,
 .skin-glass-001-style-3 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -8091,7 +8100,7 @@ body.skin-glass-001-style-4 {
   color: #56c1ff;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -8101,10 +8110,12 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-4 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -8291,6 +8302,7 @@ body.skin-glass-001-style-4 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-4 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -8537,7 +8549,7 @@ body.skin-glass-001-style-4 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-4 .panel-titlebar-close,
 .skin-glass-001-style-4 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -9088,7 +9100,7 @@ body.skin-glass-001-style-5 {
   color: #dab155;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -9098,10 +9110,12 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-5 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -9288,6 +9302,7 @@ body.skin-glass-001-style-5 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-5 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -9534,7 +9549,7 @@ body.skin-glass-001-style-5 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-5 .panel-titlebar-close,
 .skin-glass-001-style-5 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -10085,7 +10100,7 @@ body.skin-glass-001-style-6 {
   color: #e2b143;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -10095,10 +10110,12 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-6 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -10285,6 +10302,7 @@ body.skin-glass-001-style-6 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-6 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -10531,7 +10549,7 @@ body.skin-glass-001-style-6 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-6 .panel-titlebar-close,
 .skin-glass-001-style-6 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -11082,7 +11100,7 @@ body.skin-glass-001-style-7 {
   color: #a2de10;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -11092,10 +11110,12 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-7 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -11282,6 +11302,7 @@ body.skin-glass-001-style-7 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-7 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -11528,7 +11549,7 @@ body.skin-glass-001-style-7 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-7 .panel-titlebar-close,
 .skin-glass-001-style-7 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -12079,7 +12100,7 @@ body.skin-glass-001-style-8 {
   color: #e6b84f;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -12089,10 +12110,12 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-8 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -12279,6 +12302,7 @@ body.skin-glass-001-style-8 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-8 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -12525,7 +12549,7 @@ body.skin-glass-001-style-8 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-8 .panel-titlebar-close,
 .skin-glass-001-style-8 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -13076,7 +13100,7 @@ body.skin-glass-001-style-9 {
   color: #e3fd95;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -13086,10 +13110,12 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-9 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff26;
-  border: solid 1px #ffffff26;
+  border-color: #ffffff26;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -13276,6 +13302,7 @@ body.skin-glass-001-style-9 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-9 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -13522,7 +13549,7 @@ body.skin-glass-001-style-9 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-9 .panel-titlebar-close,
 .skin-glass-001-style-9 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -14073,7 +14100,7 @@ body.skin-glass-001-style-10 {
   color: #a4fff2;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -14083,10 +14110,12 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-10 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -14273,6 +14302,7 @@ body.skin-glass-001-style-10 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-10 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -14519,7 +14549,7 @@ body.skin-glass-001-style-10 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-10 .panel-titlebar-close,
 .skin-glass-001-style-10 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -15070,7 +15100,7 @@ body.skin-glass-001-style-11 {
   color: #a4fff2;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -15080,10 +15110,12 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-11 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -15270,6 +15302,7 @@ body.skin-glass-001-style-11 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-11 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -15516,7 +15549,7 @@ body.skin-glass-001-style-11 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-11 .panel-titlebar-close,
 .skin-glass-001-style-11 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -16067,7 +16100,7 @@ body.skin-glass-001-style-12 {
   color: #56ecec;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -16077,10 +16110,12 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-12 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -16267,6 +16302,7 @@ body.skin-glass-001-style-12 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-12 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -16513,7 +16549,7 @@ body.skin-glass-001-style-12 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-12 .panel-titlebar-close,
 .skin-glass-001-style-12 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -17064,7 +17100,7 @@ body.skin-glass-001-style-13 {
   color: #56ecec;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -17074,10 +17110,12 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-13 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -17264,6 +17302,7 @@ body.skin-glass-001-style-13 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-13 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -17510,7 +17549,7 @@ body.skin-glass-001-style-13 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-13 .panel-titlebar-close,
 .skin-glass-001-style-13 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -18061,7 +18100,7 @@ body.skin-glass-001-style-14 {
   color: #56ecec;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -18071,10 +18110,12 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-14 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -18261,6 +18302,7 @@ body.skin-glass-001-style-14 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-14 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -18507,7 +18549,7 @@ body.skin-glass-001-style-14 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-14 .panel-titlebar-close,
 .skin-glass-001-style-14 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -19058,7 +19100,7 @@ body.skin-glass-001-style-15 {
   color: #56ecec;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -19068,10 +19110,12 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-15 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -19258,6 +19302,7 @@ body.skin-glass-001-style-15 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-15 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -19504,7 +19549,7 @@ body.skin-glass-001-style-15 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-15 .panel-titlebar-close,
 .skin-glass-001-style-15 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -20055,7 +20100,7 @@ body.skin-glass-001-style-16 {
   color: #56ecec;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -20065,10 +20110,12 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-16 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -20255,6 +20302,7 @@ body.skin-glass-001-style-16 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-16 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -20501,7 +20549,7 @@ body.skin-glass-001-style-16 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-16 .panel-titlebar-close,
 .skin-glass-001-style-16 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -21052,7 +21100,7 @@ body.skin-glass-001-style-17 {
   color: #e0d445;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -21062,10 +21110,12 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-17 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -21252,6 +21302,7 @@ body.skin-glass-001-style-17 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-17 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -21498,7 +21549,7 @@ body.skin-glass-001-style-17 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-17 .panel-titlebar-close,
 .skin-glass-001-style-17 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -22049,7 +22100,7 @@ body.skin-glass-001-style-18 {
   color: #6ef2ff;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -22059,10 +22110,12 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-18 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff1a;
-  border: solid 1px #ffffff1a;
+  border-color: #ffffff1a;
+  border-style: solid;
+  border-width: 1px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #ffffff;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -22249,6 +22302,7 @@ body.skin-glass-001-style-18 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-18 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -22495,7 +22549,7 @@ body.skin-glass-001-style-18 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #111;
+  text-shadow: 1px 1px 1px #111;
 }
 .skin-glass-001-style-18 .panel-titlebar-close,
 .skin-glass-001-style-18 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -23036,7 +23090,7 @@ body.skin-glass-001-style-19 {
   border: unset;
   border-radius: 2px;
   background: unset;
-  color: #777;
+  color: #fff;
 }
 .skin-glass-001-style-19 .ui-dialog .ui-dialog-titlebar button:hover {
   text-shadow: 0 0 5px #ccc;
@@ -23046,7 +23100,7 @@ body.skin-glass-001-style-19 {
   color: #007bff;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #ddd;
+  text-shadow: 1px 1px 1px #464646;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -23055,11 +23109,13 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-19 .ui-dialog .ui-dialog-buttonpane button {
-  background: #ffffff4d;
-  border: solid 1px #3e9bff;
+  background: #ffffff3d;
+  border-color: #3e9bff;
+  border-style: solid;
+  border-width: 0px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #777777;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -23234,7 +23290,7 @@ body.skin-glass-001-style-19 {
   color: #777;
 }
 .skin-glass-001-style-19 .s-MessageDialog .ui-dialog-content:before {
-  color: #777;
+  color: #fff;
 }
 .skin-glass-001-style-19 .s-MessageDialog .ui-dialog-content a {
   /*text-decoration: underline;
@@ -23246,6 +23302,7 @@ body.skin-glass-001-style-19 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-19 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -23266,7 +23323,7 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .s-MessageDialog.s-WarningDialog .ui-dialog-title,
 .skin-glass-001-style-19 .s-MessageDialog.s-InformationDialog .ui-dialog-title,
 .skin-glass-001-style-19 .s-MessageDialog.s-ConfirmDialog .ui-dialog-title {
-  color: #777;
+  color: #fff;
 }
 .skin-glass-001-style-19 .main-sidebar {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -23492,7 +23549,7 @@ body.skin-glass-001-style-19 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #ddd;
+  text-shadow: 1px 1px 1px #a5a5a5;
 }
 .skin-glass-001-style-19 .panel-titlebar-close,
 .skin-glass-001-style-19 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
@@ -24033,7 +24090,7 @@ body.skin-glass-001-style-20 {
   border: unset;
   border-radius: 2px;
   background: unset;
-  color: #777;
+  color: #fff;
 }
 .skin-glass-001-style-20 .ui-dialog .ui-dialog-titlebar button:hover {
   text-shadow: 0 0 5px #ccc;
@@ -24043,7 +24100,7 @@ body.skin-glass-001-style-20 {
   color: #000000;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 2px #ddd;
+  text-shadow: 1px 1px 1px #464646;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -24052,11 +24109,13 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .ui-dialog .ui-dialog-content button,
 .skin-glass-001-style-20 .ui-dialog .ui-dialog-buttonpane button {
-  background: #9696961a;
-  border: solid 1px #a9a9a9;
+  background: #ffffff3d;
+  border-color: #a9a9a9;
+  border-style: solid;
+  border-width: 0px;
   border-radius: 2px;
   /*box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;*/
-  color: #777777;
+  color: #fff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -24231,7 +24290,7 @@ body.skin-glass-001-style-20 {
   color: #777;
 }
 .skin-glass-001-style-20 .s-MessageDialog .ui-dialog-content:before {
-  color: #777;
+  color: #fff;
 }
 .skin-glass-001-style-20 .s-MessageDialog .ui-dialog-content a {
   /*text-decoration: underline;
@@ -24243,6 +24302,7 @@ body.skin-glass-001-style-20 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
+  color: #fff;
 }
 .skin-glass-001-style-20 .s-MessageDialog.s-Confirm {
   background-color: #0062b7;
@@ -24263,7 +24323,7 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .s-MessageDialog.s-WarningDialog .ui-dialog-title,
 .skin-glass-001-style-20 .s-MessageDialog.s-InformationDialog .ui-dialog-title,
 .skin-glass-001-style-20 .s-MessageDialog.s-ConfirmDialog .ui-dialog-title {
-  color: #777;
+  color: #fff;
 }
 .skin-glass-001-style-20 .main-sidebar {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
@@ -24489,7 +24549,7 @@ body.skin-glass-001-style-20 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 2px #ddd;
+  text-shadow: 1px 1px 1px #a5a5a5;
 }
 .skin-glass-001-style-20 .panel-titlebar-close,
 .skin-glass-001-style-20 .ui-dialog.mobile-layout .ui-dialog-titlebar-close,
