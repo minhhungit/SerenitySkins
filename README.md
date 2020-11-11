@@ -1,6 +1,6 @@
 # SerenitySkins
 
-## SKINS: DARK 001
+## SKINS: GLASS 001
 
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/001.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/003.png?raw=true" style="width: 100%;" />
@@ -21,10 +21,20 @@
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/033.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/035.png?raw=true" style="width: 100%;" />
 
+## SKINS: DARK 001
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/1.png?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/2.png?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/3.png?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/4.png?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/5.png?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/6.png?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/7.png?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/8.png?raw=true" style="width: 100%;" />
+
 
 ### HOW TO SETUP
 
-Copy this folder `/wwwroot/Content/skins/dark001/` to your project (keep same path)
+Copy `skins` folder from `/wwwroot/Content/` to your project (keep same path)
 
 Copy `J.initSkins.ts` file from `Modules/Common/Helper/` to your project (keep same path)
 
@@ -33,6 +43,7 @@ Modify file `/wwwroot/Content/site/site.theme.less`, import `theme.less` like be
 @import "../adminlte/social-widgets.less";
 @import "../adminlte/skins/_all-skins.less";
 @import "../skins/dark001/theme.less"; /* <======================== */
+@import "../skins/glass001/theme.less"; /* <======================== */
 
 @import "../adminlte/mailbox.less";
 ```
@@ -42,6 +53,12 @@ In `/Modules/Common/Navigation/ThemeSelection.ts`, add
 
 ```javascript
 Q.addOption(select, 'dark-001', Q.text('Site.Layout.Dark001'));
+
+let glassStyleIdx = 1;
+while (glassStyleIdx <= 18) {
+	Q.addOption(select, `glass-001-style-${glassStyleIdx}`, Q.text(`Site.Layout.Glass001Style${glassStyleIdx}`));
+	glassStyleIdx++;
+}
 ```
 
 Then add `window.location.reload();` at end of `this.change` function to page can be refreshed after user select skin
@@ -67,7 +84,7 @@ namespace SerenitySkins.ScriptInitialization {
         $.fn['colorbox'].settings.maxHeight = "95%";
     }
 
-    J.initSkins();
+    J.initSkins(); // <==============
 
     window.onerror = Q.ErrorHandling.runtimeErrorHandler;
 }
@@ -95,9 +112,6 @@ Add a helper function for navigation in `/Views/Shared/LeftNavigation.cshtml` to
 </script>
 ```
 
-In `/Views/Shared/_Layout.cshtml` change default skin name to `dark-001`:
->var theme = !themeCookie.IsEmptyOrNull() ? themeCookie : "dark-001";
-
 Add new font into `/Views/Shared/_LayoutHead.cshtml`:
 
 ```c#
@@ -107,14 +121,3 @@ Add new font into `/Views/Shared/_LayoutHead.cshtml`:
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"> @* <========== add this line*@
 @Html.StyleBundle("Site")
 ```
-### Screenshot
-
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/1.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/2.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/3.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/4.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/5.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/6.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/7.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/8.png?raw=true" style="width: 100%;" />
-
