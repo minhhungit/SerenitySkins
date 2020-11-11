@@ -3,3 +3,7 @@
 /SerenitySkins/SerenitySkins.Web/node_modules
 /SerenitySkins/SerenitySkins.Web/obj
 /SerenitySkins/SerenitySkins.Web/bin/Release/netcoreapp3.1
+/SerenitySkins/SerenitySkins.Web/App_Data/SerenitySkins.ldf
+/SerenitySkins/SerenitySkins.Web/App_Data/SerenitySkins.mdf
+/SerenitySkins/SerenitySkins.Web/App_Data/SerenitySkins_Northwind.ldf
+/SerenitySkins/SerenitySkins.Web/App_Data/SerenitySkins_Northwind.mdf

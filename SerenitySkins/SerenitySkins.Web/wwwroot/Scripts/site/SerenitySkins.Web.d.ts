@@ -3164,7 +3164,7 @@ declare namespace SerenitySkins.LanguageList {
     function getValue(): string[][];
 }
 declare namespace J {
-    function initSkins(): void;
+    function initSkins(themeCookieName: string): void;
 }
 declare namespace SerenitySkins.ScriptInitialization {
 }

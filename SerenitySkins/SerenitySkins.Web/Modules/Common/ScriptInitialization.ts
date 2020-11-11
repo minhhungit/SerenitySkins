@@ -11,7 +11,7 @@ namespace SerenitySkins.ScriptInitialization {
         $.fn['colorbox'].settings.maxHeight = "95%";
     }
 
-    J.initSkins();
+    J.initSkins('ThemePreference');
 
     window.onerror = Q.ErrorHandling.runtimeErrorHandler;
 }

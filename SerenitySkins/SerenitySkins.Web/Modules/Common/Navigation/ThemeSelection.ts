@@ -38,7 +38,7 @@
             Q.addOption(select, 'dark-001', Q.text('Site.Layout.Dark001'));
 
             let glassStyleIdx = 1;
-            while (glassStyleIdx <= 18) {
+            while (glassStyleIdx <= 20) {
                 Q.addOption(select, `glass-001-style-${glassStyleIdx}`, Q.text(`Site.Layout.Glass001Style${glassStyleIdx}`));
                 glassStyleIdx++;
             }

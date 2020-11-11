@@ -1,8 +1,8 @@
 ﻿namespace J {
 
-    export function initSkins() {
+    export function initSkins(themeCookieName: string) {
 
-        let curSkinClass = $.cookie('ThemePreference', ) || "blue";
+        let curSkinClass = $.cookie(themeCookieName) || "blue";
         switch (curSkinClass.toLowerCase().trim()) {
             case "dark-001":
                 Serenity.DataGrid.defaultRowHeight = 30;
@@ -27,6 +27,8 @@
             case "glass-001-style-16":
             case "glass-001-style-17":
             case "glass-001-style-18":
+            case "glass-001-style-19":
+            case "glass-001-style-20":
 
                 $.datepicker.setDefaults({
                     buttonImage: null,

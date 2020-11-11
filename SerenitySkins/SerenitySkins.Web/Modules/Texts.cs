@@ -199,6 +199,8 @@ namespace SerenitySkins
                 public static LocalText Glass001Style16 = "Glass 001 Style 016";
                 public static LocalText Glass001Style17 = "Glass 001 Style 017";
                 public static LocalText Glass001Style18 = "Glass 001 Style 018";
+                public static LocalText Glass001Style19 = "Glass 001 Style 019";
+                public static LocalText Glass001Style20 = "Glass 001 Style 020";
             }
 
             public static class ValidationError
