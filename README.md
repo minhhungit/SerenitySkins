@@ -2,35 +2,30 @@
 
 ## SKINS: GLASS 001
 
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im001.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im003.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im005.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im007.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im009.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im011.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im013.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im015.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im017.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im019.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im021.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im023.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im025.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im027.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im029.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im031.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im033.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Im035.png?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 001.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 003.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 005.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 007.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 009.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 011.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 013.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 015.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 017.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 019.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 021.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 023.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 025.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 027.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 029.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 031.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 033.jpg?raw=true" style="width: 100%;" />
+<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 035.jpg?raw=true" style="width: 100%;" />
 
 ## SKINS: DARK 001
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/1.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/2.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/3.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/4.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/5.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/6.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/7.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/8.png?raw=true" style="width: 100%;" />
-
 
 ### HOW TO SETUP
 
@@ -65,6 +60,7 @@ Then add `window.location.reload();` at end of `this.change` function to page ca
 
 Modify file `Modules/Common/ScriptInitialization.ts`, add this line:
 ```javascript
+J.initSkins();
 J.initSkins('ThemePreference');
 ```
 
@@ -84,6 +80,7 @@ namespace SerenitySkins.ScriptInitialization {
         $.fn['colorbox'].settings.maxHeight = "95%";
     }
 
+    J.initSkins(); // <==============
     J.initSkins('ThemePreference'); // <==============
 
     window.onerror = Q.ErrorHandling.runtimeErrorHandler;
