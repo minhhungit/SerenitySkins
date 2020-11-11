@@ -1,5 +1,7 @@
 # SerenitySkins
 
+**!!! RIGHT NOW THESE SKINS ARE JUST FOR SERENE VERSION (FREE VERSION), STARTSHARP HAS NOT SUPPORTED YET**
+
 ## SKINS: GLASS 001
 
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 001.jpg?raw=true" style="width: 100%;" />
