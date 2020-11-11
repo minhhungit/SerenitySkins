@@ -22,15 +22,10 @@
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001/Image 035.jpg?raw=true" style="width: 100%;" />
 
 ## SKINS: DARK 001
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/1.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/2.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/3.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/4.png?raw=true" style="width: 100%;" />
 <img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/5.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/6.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/7.png?raw=true" style="width: 100%;" />
-<img src="https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/dark-001/8.png?raw=true" style="width: 100%;" />
-
 
 ### HOW TO SETUP
 
