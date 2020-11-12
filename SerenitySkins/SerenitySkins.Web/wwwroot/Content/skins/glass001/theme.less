@@ -941,7 +941,7 @@
         }
 
         .s-MessageDialog {
-            background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
+            background: url(/Content/skins/glass001/assets/boxlight_ltr.png) 0 0 / cover;
             background-color: #0062b7;
         }
 
@@ -956,7 +956,7 @@
         .s-MessageDialog .ui-dialog-content button, .s-MessageDialog .ui-dialog-buttonpane button {
             border-width: 0;
             color: #fff;
-            background: fade(@glass-001-input-bg-color, 30%);
+            background: if((@glass-001-is-dark-style), fade(@glass-001-input-bg-color, 30%), #ffffff4d);
         }
 
         .s-MessageDialog .ui-dialog-content {
