@@ -5051,6 +5051,16 @@ body.skin-glass-001-style-1 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-1 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-1 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-1 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-1 .content-header > h1 {
   color: #56c1ff;
 }
@@ -5178,7 +5188,7 @@ body.skin-glass-001-style-1 {
   background: rgba(193, 155, 204, 0.1);
 }
 .skin-glass-001-style-1 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-1 div.s-Toolbar .tool-button {
@@ -5236,7 +5246,7 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-1 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-1 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -5280,6 +5290,9 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-1 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-1 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-1 .s-MessageDialog .ui-dialog-content,
@@ -5528,6 +5541,7 @@ body.skin-glass-001-style-1 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #441352c2;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-1 .grid-title {
   padding: 10px;
@@ -5577,9 +5591,6 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-1 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -5820,8 +5831,11 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .slick-cell > a {
   color: #56c1ff;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-1 .slick-footerrow-column,
+.skin-glass-001-style-1 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56c1ff;
 }
 .skin-glass-001-style-1 .s-DataGrid.editor,
 .skin-glass-001-style-1 .s-Dialog .s-DataGrid.editor {
@@ -6051,6 +6065,16 @@ body.skin-glass-001-style-2 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-2 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-2 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-2 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-2 .content-header > h1 {
   color: #56c1ff;
 }
@@ -6178,7 +6202,7 @@ body.skin-glass-001-style-2 {
   background: rgba(124, 149, 169, 0.1);
 }
 .skin-glass-001-style-2 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-2 div.s-Toolbar .tool-button {
@@ -6236,7 +6260,7 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-2 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-2 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -6280,6 +6304,9 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-2 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-2 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-2 .s-MessageDialog .ui-dialog-content,
@@ -6528,6 +6555,7 @@ body.skin-glass-001-style-2 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #012044c2;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-2 .grid-title {
   padding: 10px;
@@ -6577,9 +6605,6 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-2 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -6820,8 +6845,11 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .slick-cell > a {
   color: #56c1ff;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-2 .slick-footerrow-column,
+.skin-glass-001-style-2 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56c1ff;
 }
 .skin-glass-001-style-2 .s-DataGrid.editor,
 .skin-glass-001-style-2 .s-Dialog .s-DataGrid.editor {
@@ -7051,6 +7079,16 @@ body.skin-glass-001-style-3 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-3 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-3 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-3 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-3 .content-header > h1 {
   color: #56c1ff;
 }
@@ -7178,7 +7216,7 @@ body.skin-glass-001-style-3 {
   background: rgba(162, 154, 167, 0.1);
 }
 .skin-glass-001-style-3 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-3 div.s-Toolbar .tool-button {
@@ -7236,7 +7274,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-3 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-3 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -7280,6 +7318,9 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-3 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-3 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-3 .s-MessageDialog .ui-dialog-content,
@@ -7528,6 +7569,7 @@ body.skin-glass-001-style-3 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #1a12232e;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-3 .grid-title {
   padding: 10px;
@@ -7577,9 +7619,6 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-3 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -7820,8 +7859,11 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .slick-cell > a {
   color: #56c1ff;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-3 .slick-footerrow-column,
+.skin-glass-001-style-3 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56c1ff;
 }
 .skin-glass-001-style-3 .s-DataGrid.editor,
 .skin-glass-001-style-3 .s-Dialog .s-DataGrid.editor {
@@ -8051,6 +8093,16 @@ body.skin-glass-001-style-4 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-4 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-4 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-4 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-4 .content-header > h1 {
   color: #56c1ff;
 }
@@ -8178,7 +8230,7 @@ body.skin-glass-001-style-4 {
   background: rgba(146, 136, 154, 0.1);
 }
 .skin-glass-001-style-4 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-4 div.s-Toolbar .tool-button {
@@ -8236,7 +8288,7 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-4 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-4 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -8280,6 +8332,9 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-4 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-4 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-4 .s-MessageDialog .ui-dialog-content,
@@ -8528,6 +8583,7 @@ body.skin-glass-001-style-4 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #140a1f8f;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-4 .grid-title {
   padding: 10px;
@@ -8577,9 +8633,6 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-4 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -8820,8 +8873,11 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .slick-cell > a {
   color: #56c1ff;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-4 .slick-footerrow-column,
+.skin-glass-001-style-4 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56c1ff;
 }
 .skin-glass-001-style-4 .s-DataGrid.editor,
 .skin-glass-001-style-4 .s-Dialog .s-DataGrid.editor {
@@ -9051,6 +9107,16 @@ body.skin-glass-001-style-5 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-5 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-5 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-5 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-5 .content-header > h1 {
   color: #dab155;
 }
@@ -9178,7 +9244,7 @@ body.skin-glass-001-style-5 {
   background: rgba(146, 146, 146, 0.1);
 }
 .skin-glass-001-style-5 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-5 div.s-Toolbar .tool-button {
@@ -9236,7 +9302,7 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-5 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-5 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -9280,6 +9346,9 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-5 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-5 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-5 .s-MessageDialog .ui-dialog-content,
@@ -9528,6 +9597,7 @@ body.skin-glass-001-style-5 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #2929296b;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-5 .grid-title {
   padding: 10px;
@@ -9577,9 +9647,6 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-5 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -9820,8 +9887,11 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .slick-cell > a {
   color: #dab155;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-5 .slick-footerrow-column,
+.skin-glass-001-style-5 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #dab155;
 }
 .skin-glass-001-style-5 .s-DataGrid.editor,
 .skin-glass-001-style-5 .s-Dialog .s-DataGrid.editor {
@@ -10051,6 +10121,16 @@ body.skin-glass-001-style-6 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-6 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-6 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-6 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-6 .content-header > h1 {
   color: #e2b143;
 }
@@ -10178,7 +10258,7 @@ body.skin-glass-001-style-6 {
   background: rgba(155, 129, 146, 0.1);
 }
 .skin-glass-001-style-6 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-6 div.s-Toolbar .tool-button {
@@ -10236,7 +10316,7 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-6 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-6 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -10280,6 +10360,9 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-6 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-6 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-6 .s-MessageDialog .ui-dialog-content,
@@ -10528,6 +10611,7 @@ body.skin-glass-001-style-6 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #1107179e;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-6 .grid-title {
   padding: 10px;
@@ -10577,9 +10661,6 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-6 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -10820,8 +10901,11 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .slick-cell > a {
   color: #e2b143;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-6 .slick-footerrow-column,
+.skin-glass-001-style-6 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #e2b143;
 }
 .skin-glass-001-style-6 .s-DataGrid.editor,
 .skin-glass-001-style-6 .s-Dialog .s-DataGrid.editor {
@@ -11051,6 +11135,16 @@ body.skin-glass-001-style-7 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-7 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-7 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-7 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-7 .content-header > h1 {
   color: #a2de10;
 }
@@ -11178,7 +11272,7 @@ body.skin-glass-001-style-7 {
   background: rgba(185, 149, 184, 0.1);
 }
 .skin-glass-001-style-7 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-7 div.s-Toolbar .tool-button {
@@ -11236,7 +11330,7 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-7 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-7 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -11280,6 +11374,9 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-7 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-7 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-7 .s-MessageDialog .ui-dialog-content,
@@ -11528,6 +11625,7 @@ body.skin-glass-001-style-7 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #2c042f57;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-7 .grid-title {
   padding: 10px;
@@ -11577,9 +11675,6 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-7 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -11820,8 +11915,11 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .slick-cell > a {
   color: #a2de10;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-7 .slick-footerrow-column,
+.skin-glass-001-style-7 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #a2de10;
 }
 .skin-glass-001-style-7 .s-DataGrid.editor,
 .skin-glass-001-style-7 .s-Dialog .s-DataGrid.editor {
@@ -12051,6 +12149,16 @@ body.skin-glass-001-style-8 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-8 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-8 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-8 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-8 .content-header > h1 {
   color: #e6b84f;
 }
@@ -12178,7 +12286,7 @@ body.skin-glass-001-style-8 {
   background: rgba(157, 167, 159, 0.1);
 }
 .skin-glass-001-style-8 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-8 div.s-Toolbar .tool-button {
@@ -12236,7 +12344,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-8 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-8 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -12280,6 +12388,9 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-8 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-8 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-8 .s-MessageDialog .ui-dialog-content,
@@ -12528,6 +12639,7 @@ body.skin-glass-001-style-8 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #2929296b;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-8 .grid-title {
   padding: 10px;
@@ -12577,9 +12689,6 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-8 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -12820,8 +12929,11 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .slick-cell > a {
   color: #e6b84f;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-8 .slick-footerrow-column,
+.skin-glass-001-style-8 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #e6b84f;
 }
 .skin-glass-001-style-8 .s-DataGrid.editor,
 .skin-glass-001-style-8 .s-Dialog .s-DataGrid.editor {
@@ -13051,6 +13163,16 @@ body.skin-glass-001-style-9 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-9 .info-box {
+  background: #ffffff26;
+  border-radius: 2px;
+}
+.skin-glass-001-style-9 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-9 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-9 .content-header > h1 {
   color: #e3fd95;
 }
@@ -13178,7 +13300,7 @@ body.skin-glass-001-style-9 {
   background: rgba(206, 213, 218, 0.1);
 }
 .skin-glass-001-style-9 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-9 div.s-Toolbar .tool-button {
@@ -13236,7 +13358,7 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-9 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-9 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -13280,6 +13402,9 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-9 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-9 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-9 .s-MessageDialog .ui-dialog-content,
@@ -13528,6 +13653,7 @@ body.skin-glass-001-style-9 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #0532389e;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-9 .grid-title {
   padding: 10px;
@@ -13577,9 +13703,6 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .s-PropertyGrid .category-links {
   background-color: #ffffff26;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-9 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff26;
@@ -13820,8 +13943,11 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .slick-cell > a {
   color: #e3fd95;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-9 .slick-footerrow-column,
+.skin-glass-001-style-9 .slick-footerrow-column.ui-state-default {
+  background: #ffffff26;
+  color: #e3fd95;
 }
 .skin-glass-001-style-9 .s-DataGrid.editor,
 .skin-glass-001-style-9 .s-Dialog .s-DataGrid.editor {
@@ -14051,6 +14177,16 @@ body.skin-glass-001-style-10 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-10 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-10 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-10 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-10 .content-header > h1 {
   color: #a4fff2;
 }
@@ -14178,7 +14314,7 @@ body.skin-glass-001-style-10 {
   background: rgba(154, 170, 181, 0.1);
 }
 .skin-glass-001-style-10 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-10 div.s-Toolbar .tool-button {
@@ -14236,7 +14372,7 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-10 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-10 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -14280,6 +14416,9 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-10 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-10 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-10 .s-MessageDialog .ui-dialog-content,
@@ -14528,6 +14667,7 @@ body.skin-glass-001-style-10 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #292929a6;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-10 .grid-title {
   padding: 10px;
@@ -14577,9 +14717,6 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-10 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -14820,8 +14957,11 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .slick-cell > a {
   color: #a4fff2;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-10 .slick-footerrow-column,
+.skin-glass-001-style-10 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #a4fff2;
 }
 .skin-glass-001-style-10 .s-DataGrid.editor,
 .skin-glass-001-style-10 .s-Dialog .s-DataGrid.editor {
@@ -15051,6 +15191,16 @@ body.skin-glass-001-style-11 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-11 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-11 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-11 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-11 .content-header > h1 {
   color: #a4fff2;
 }
@@ -15178,7 +15328,7 @@ body.skin-glass-001-style-11 {
   background: rgba(154, 170, 181, 0.1);
 }
 .skin-glass-001-style-11 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-11 div.s-Toolbar .tool-button {
@@ -15236,7 +15386,7 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-11 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-11 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -15280,6 +15430,9 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-11 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-11 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-11 .s-MessageDialog .ui-dialog-content,
@@ -15528,6 +15681,7 @@ body.skin-glass-001-style-11 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #08181b57;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-11 .grid-title {
   padding: 10px;
@@ -15577,9 +15731,6 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-11 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -15820,8 +15971,11 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .slick-cell > a {
   color: #a4fff2;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-11 .slick-footerrow-column,
+.skin-glass-001-style-11 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #a4fff2;
 }
 .skin-glass-001-style-11 .s-DataGrid.editor,
 .skin-glass-001-style-11 .s-Dialog .s-DataGrid.editor {
@@ -16051,6 +16205,16 @@ body.skin-glass-001-style-12 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-12 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-12 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-12 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-12 .content-header > h1 {
   color: #56ecec;
 }
@@ -16178,7 +16342,7 @@ body.skin-glass-001-style-12 {
   background: rgba(159, 166, 169, 0.1);
 }
 .skin-glass-001-style-12 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-12 div.s-Toolbar .tool-button {
@@ -16236,7 +16400,7 @@ body.skin-glass-001-style-12 {
 }
 .skin-glass-001-style-12 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-12 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-12 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -16280,6 +16444,9 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-12 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-12 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-12 .s-MessageDialog .ui-dialog-content,
@@ -16528,6 +16695,7 @@ body.skin-glass-001-style-12 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #191a1b85;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-12 .grid-title {
   padding: 10px;
@@ -16577,9 +16745,6 @@ body.skin-glass-001-style-12 {
 }
 .skin-glass-001-style-12 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-12 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -16820,8 +16985,11 @@ body.skin-glass-001-style-12 {
 }
 .skin-glass-001-style-12 .slick-cell > a {
   color: #56ecec;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-12 .slick-footerrow-column,
+.skin-glass-001-style-12 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56ecec;
 }
 .skin-glass-001-style-12 .s-DataGrid.editor,
 .skin-glass-001-style-12 .s-Dialog .s-DataGrid.editor {
@@ -17051,6 +17219,16 @@ body.skin-glass-001-style-13 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-13 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-13 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-13 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-13 .content-header > h1 {
   color: #56ecec;
 }
@@ -17178,7 +17356,7 @@ body.skin-glass-001-style-13 {
   background: rgba(138, 149, 167, 0.1);
 }
 .skin-glass-001-style-13 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-13 div.s-Toolbar .tool-button {
@@ -17236,7 +17414,7 @@ body.skin-glass-001-style-13 {
 }
 .skin-glass-001-style-13 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-13 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-13 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -17280,6 +17458,9 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-13 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-13 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-13 .s-MessageDialog .ui-dialog-content,
@@ -17528,6 +17709,7 @@ body.skin-glass-001-style-13 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #06142ba3;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-13 .grid-title {
   padding: 10px;
@@ -17577,9 +17759,6 @@ body.skin-glass-001-style-13 {
 }
 .skin-glass-001-style-13 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-13 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -17820,8 +17999,11 @@ body.skin-glass-001-style-13 {
 }
 .skin-glass-001-style-13 .slick-cell > a {
   color: #56ecec;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-13 .slick-footerrow-column,
+.skin-glass-001-style-13 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56ecec;
 }
 .skin-glass-001-style-13 .s-DataGrid.editor,
 .skin-glass-001-style-13 .s-Dialog .s-DataGrid.editor {
@@ -18051,6 +18233,16 @@ body.skin-glass-001-style-14 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-14 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-14 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-14 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-14 .content-header > h1 {
   color: #56ecec;
 }
@@ -18178,7 +18370,7 @@ body.skin-glass-001-style-14 {
   background: rgba(156, 151, 162, 0.1);
 }
 .skin-glass-001-style-14 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-14 div.s-Toolbar .tool-button {
@@ -18236,7 +18428,7 @@ body.skin-glass-001-style-14 {
 }
 .skin-glass-001-style-14 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-14 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-14 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -18280,6 +18472,9 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-14 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-14 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-14 .s-MessageDialog .ui-dialog-content,
@@ -18528,6 +18723,7 @@ body.skin-glass-001-style-14 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #221a35c7;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-14 .grid-title {
   padding: 10px;
@@ -18577,9 +18773,6 @@ body.skin-glass-001-style-14 {
 }
 .skin-glass-001-style-14 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-14 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -18820,8 +19013,11 @@ body.skin-glass-001-style-14 {
 }
 .skin-glass-001-style-14 .slick-cell > a {
   color: #56ecec;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-14 .slick-footerrow-column,
+.skin-glass-001-style-14 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56ecec;
 }
 .skin-glass-001-style-14 .s-DataGrid.editor,
 .skin-glass-001-style-14 .s-Dialog .s-DataGrid.editor {
@@ -19051,6 +19247,16 @@ body.skin-glass-001-style-15 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-15 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-15 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-15 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-15 .content-header > h1 {
   color: #56ecec;
 }
@@ -19178,7 +19384,7 @@ body.skin-glass-001-style-15 {
   background: rgba(139, 150, 156, 0.1);
 }
 .skin-glass-001-style-15 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-15 div.s-Toolbar .tool-button {
@@ -19236,7 +19442,7 @@ body.skin-glass-001-style-15 {
 }
 .skin-glass-001-style-15 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-15 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-15 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -19280,6 +19486,9 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-15 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-15 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-15 .s-MessageDialog .ui-dialog-content,
@@ -19528,6 +19737,7 @@ body.skin-glass-001-style-15 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #041621b8;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-15 .grid-title {
   padding: 10px;
@@ -19577,9 +19787,6 @@ body.skin-glass-001-style-15 {
 }
 .skin-glass-001-style-15 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-15 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -19820,8 +20027,11 @@ body.skin-glass-001-style-15 {
 }
 .skin-glass-001-style-15 .slick-cell > a {
   color: #56ecec;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-15 .slick-footerrow-column,
+.skin-glass-001-style-15 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56ecec;
 }
 .skin-glass-001-style-15 .s-DataGrid.editor,
 .skin-glass-001-style-15 .s-Dialog .s-DataGrid.editor {
@@ -20051,6 +20261,16 @@ body.skin-glass-001-style-16 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-16 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-16 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-16 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-16 .content-header > h1 {
   color: #56ecec;
 }
@@ -20178,7 +20398,7 @@ body.skin-glass-001-style-16 {
   background: rgba(134, 149, 156, 0.1);
 }
 .skin-glass-001-style-16 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-16 div.s-Toolbar .tool-button {
@@ -20236,7 +20456,7 @@ body.skin-glass-001-style-16 {
 }
 .skin-glass-001-style-16 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-16 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-16 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -20280,6 +20500,9 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-16 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-16 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-16 .s-MessageDialog .ui-dialog-content,
@@ -20528,6 +20751,7 @@ body.skin-glass-001-style-16 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #01212987;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-16 .grid-title {
   padding: 10px;
@@ -20577,9 +20801,6 @@ body.skin-glass-001-style-16 {
 }
 .skin-glass-001-style-16 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-16 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -20820,8 +21041,11 @@ body.skin-glass-001-style-16 {
 }
 .skin-glass-001-style-16 .slick-cell > a {
   color: #56ecec;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-16 .slick-footerrow-column,
+.skin-glass-001-style-16 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #56ecec;
 }
 .skin-glass-001-style-16 .s-DataGrid.editor,
 .skin-glass-001-style-16 .s-Dialog .s-DataGrid.editor {
@@ -21051,6 +21275,16 @@ body.skin-glass-001-style-17 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-17 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-17 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-17 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-17 .content-header > h1 {
   color: #e0d445;
 }
@@ -21178,7 +21412,7 @@ body.skin-glass-001-style-17 {
   background: rgba(179, 154, 158, 0.1);
 }
 .skin-glass-001-style-17 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-17 div.s-Toolbar .tool-button {
@@ -21236,7 +21470,7 @@ body.skin-glass-001-style-17 {
 }
 .skin-glass-001-style-17 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-17 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-17 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -21280,6 +21514,9 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-17 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-17 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-17 .s-MessageDialog .ui-dialog-content,
@@ -21528,6 +21765,7 @@ body.skin-glass-001-style-17 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #27020073;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-17 .grid-title {
   padding: 10px;
@@ -21577,9 +21815,6 @@ body.skin-glass-001-style-17 {
 }
 .skin-glass-001-style-17 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-17 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -21820,8 +22055,11 @@ body.skin-glass-001-style-17 {
 }
 .skin-glass-001-style-17 .slick-cell > a {
   color: #e0d445;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-17 .slick-footerrow-column,
+.skin-glass-001-style-17 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #e0d445;
 }
 .skin-glass-001-style-17 .s-DataGrid.editor,
 .skin-glass-001-style-17 .s-Dialog .s-DataGrid.editor {
@@ -22051,6 +22289,16 @@ body.skin-glass-001-style-18 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-18 .info-box {
+  background: #ffffff1a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-18 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-18 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-18 .content-header > h1 {
   color: #6ef2ff;
 }
@@ -22178,7 +22426,7 @@ body.skin-glass-001-style-18 {
   background: rgba(118, 157, 160, 0.1);
 }
 .skin-glass-001-style-18 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-18 div.s-Toolbar .tool-button {
@@ -22236,7 +22484,7 @@ body.skin-glass-001-style-18 {
 }
 .skin-glass-001-style-18 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-18 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-18 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -22280,6 +22528,9 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-18 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-18 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-18 .s-MessageDialog .ui-dialog-content,
@@ -22528,6 +22779,7 @@ body.skin-glass-001-style-18 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #00373ac2;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-18 .grid-title {
   padding: 10px;
@@ -22577,9 +22829,6 @@ body.skin-glass-001-style-18 {
 }
 .skin-glass-001-style-18 .s-PropertyGrid .category-links {
   background-color: #ffffff1a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-18 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #ffffff1a;
@@ -22820,8 +23069,11 @@ body.skin-glass-001-style-18 {
 }
 .skin-glass-001-style-18 .slick-cell > a {
   color: #6ef2ff;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-18 .slick-footerrow-column,
+.skin-glass-001-style-18 .slick-footerrow-column.ui-state-default {
+  background: #ffffff1a;
+  color: #6ef2ff;
 }
 .skin-glass-001-style-18 .s-DataGrid.editor,
 .skin-glass-001-style-18 .s-Dialog .s-DataGrid.editor {
@@ -23051,6 +23303,16 @@ body.skin-glass-001-style-19 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-19 .info-box {
+  background: #cacaca47;
+  border-radius: 2px;
+}
+.skin-glass-001-style-19 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-19 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-19 .content-header > h1 {
   color: #007bff;
 }
@@ -23090,7 +23352,7 @@ body.skin-glass-001-style-19 {
   border: unset;
   border-radius: 2px;
   background: unset;
-  color: #fff;
+  color: #777;
 }
 .skin-glass-001-style-19 .ui-dialog .ui-dialog-titlebar button:hover {
   text-shadow: 0 0 5px #ccc;
@@ -23100,7 +23362,7 @@ body.skin-glass-001-style-19 {
   color: #007bff;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 1px #464646;
+  text-shadow: 1px 1px 1px #bdbdbd;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -23178,7 +23440,7 @@ body.skin-glass-001-style-19 {
   background: rgba(62, 155, 255, 0.1);
 }
 .skin-glass-001-style-19 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-19 div.s-Toolbar .tool-button {
@@ -23236,7 +23498,7 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-19 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-19 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -23280,6 +23542,9 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-19 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-19 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-19 .s-MessageDialog .ui-dialog-content,
@@ -23528,6 +23793,7 @@ body.skin-glass-001-style-19 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: transparent;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-19 .grid-title {
   padding: 10px;
@@ -23577,9 +23843,6 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .s-PropertyGrid .category-links {
   background-color: #cacaca47;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-19 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #cacaca47;
@@ -23820,8 +24083,11 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .slick-cell > a {
   color: #007bff;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-19 .slick-footerrow-column,
+.skin-glass-001-style-19 .slick-footerrow-column.ui-state-default {
+  background: #cacaca47;
+  color: #007bff;
 }
 .skin-glass-001-style-19 .s-DataGrid.editor,
 .skin-glass-001-style-19 .s-Dialog .s-DataGrid.editor {
@@ -24051,6 +24317,16 @@ body.skin-glass-001-style-20 {
   background: transparent;
   border-radius: 2px;
 }
+.skin-glass-001-style-20 .info-box {
+  background: #9494941a;
+  border-radius: 2px;
+}
+.skin-glass-001-style-20 .info-box .info-box-icon {
+  border-radius: 2px 0 0 2px;
+}
+.skin-glass-001-style-20 .small-box {
+  border-radius: 2px;
+}
 .skin-glass-001-style-20 .content-header > h1 {
   color: #000000;
 }
@@ -24090,7 +24366,7 @@ body.skin-glass-001-style-20 {
   border: unset;
   border-radius: 2px;
   background: unset;
-  color: #fff;
+  color: #777;
 }
 .skin-glass-001-style-20 .ui-dialog .ui-dialog-titlebar button:hover {
   text-shadow: 0 0 5px #ccc;
@@ -24100,7 +24376,7 @@ body.skin-glass-001-style-20 {
   color: #000000;
   margin: 5px 4px 0 0;
   font-weight: 300;
-  text-shadow: 1px 1px 1px #464646;
+  text-shadow: 1px 1px 1px #bdbdbd;
   font-size: 16px;
   padding-top: 1px;
 }
@@ -24178,7 +24454,7 @@ body.skin-glass-001-style-20 {
   background: rgba(169, 169, 169, 0.1);
 }
 .skin-glass-001-style-20 .s-Toolbar {
-  background: transparent;
+  background: transparent !important;
   border: unset;
 }
 .skin-glass-001-style-20 div.s-Toolbar .tool-button {
@@ -24232,11 +24508,11 @@ body.skin-glass-001-style-20 {
   margin-bottom: 1px;
 }
 .skin-glass-001-style-20 .ui-tabs .ui-tabs-panel {
-  border-top: solid 1px #9494941a;
+  border-top: solid 1px #0000001a;
 }
 .skin-glass-001-style-20 .ui-tabs .ui-tabs-nav li {
   border-top: 3px solid transparent;
-  border-radius: 2px 2px 0 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-20 .s-Dialog .ui-tabs .ui-tabs-nav li a,
 .skin-glass-001-style-20 .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -24280,6 +24556,9 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .s-MessageDialog {
   background: url(/Content/skins/glass001/assets/boxlight_rtl.png) 0 0 / cover;
   background-color: #0062b7;
+}
+.skin-glass-001-style-20 .s-MessageDialog .ui-dialog-titlebar button {
+  color: #fff;
 }
 .skin-glass-001-style-20 .s-MessageDialog .ui-dialog-titlebar,
 .skin-glass-001-style-20 .s-MessageDialog .ui-dialog-content,
@@ -24528,6 +24807,7 @@ body.skin-glass-001-style-20 {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #84848424;
   border: unset;
+  border-radius: 2px;
 }
 .skin-glass-001-style-20 .grid-title {
   padding: 10px;
@@ -24577,9 +24857,6 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .s-PropertyGrid .category-links {
   background-color: #9494941a;
-  border-radius: 2px;
-  /*margin: 2px 10px;*/
-  margin-top: -8px;
 }
 .skin-glass-001-style-20 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #9494941a;
@@ -24820,8 +25097,11 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .slick-cell > a {
   color: #000000;
-  /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+}
+.skin-glass-001-style-20 .slick-footerrow-column,
+.skin-glass-001-style-20 .slick-footerrow-column.ui-state-default {
+  background: #9494941a;
+  color: #000000;
 }
 .skin-glass-001-style-20 .s-DataGrid.editor,
 .skin-glass-001-style-20 .s-Dialog .s-DataGrid.editor {

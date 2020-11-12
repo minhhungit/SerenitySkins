@@ -625,6 +625,19 @@
             border-radius: @glass-001-border-radius;
         }
 
+        .info-box {
+            background: @glass-001-panel-bg-color;
+            border-radius: @glass-001-border-radius;
+        }
+
+        .info-box .info-box-icon {
+            border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius;
+        }
+
+        .small-box {
+            border-radius: @glass-001-border-radius;
+        }
+
         .content-header > h1 {
             color: @glass-001-link-color;
         }
@@ -673,7 +686,7 @@
             border: unset;
             border-radius: @glass-001-border-radius;
             background: unset;
-            color: #fff;
+            color: @glass-001-text-color;
         }
 
         .ui-dialog .ui-dialog-titlebar button:hover {
@@ -686,7 +699,7 @@
             color: @glass-001-link-color;
             margin: 5px 4px 0 0;
             font-weight: 300;
-            text-shadow: 1px 1px 1px if((@glass-001-is-dark-style), @glass-001-text-shadow-color, #464646);
+            text-shadow: 1px 1px 1px if((@glass-001-is-dark-style), @glass-001-text-shadow-color, #bdbdbd);
             font-size: 16px;
             padding-top: 1px;
         }
@@ -778,7 +791,7 @@
         }
 
         .s-Toolbar {
-            background: transparent;
+            background: transparent !important;
             border: unset;
         }
 
@@ -850,12 +863,12 @@
         }
 
         .ui-tabs .ui-tabs-panel {
-            border-top: solid 1px @glass-001-panel-bg-color;
+            border-top: solid 1px @glass-001-tab-active-bg-color;
         }
 
         .ui-tabs .ui-tabs-nav li {
             border-top: 3px solid transparent;
-            border-radius: @glass-001-border-radius @glass-001-border-radius 0 0;
+            border-radius: 2px;
         }
 
         .s-Dialog .ui-tabs .ui-tabs-nav li a, .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -896,6 +909,10 @@
             background-color: #0062b7;
         }
 
+        .s-MessageDialog .ui-dialog-titlebar button {
+            color: #fff;
+        }
+
         .s-MessageDialog .ui-dialog-titlebar, .s-MessageDialog .ui-dialog-content, .s-MessageDialog .ui-dialog-buttonpane {
             background: transparent;
         }
@@ -921,7 +938,6 @@
             font-size: 14px;
             color: #fff;
         }
-
 
         .s-MessageDialog.s-Confirm {
             background-color: #0062b7;
@@ -1187,6 +1203,7 @@
             background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
             background-color: @glass-001-theme-color;
             border: unset;
+            border-radius: @glass-001-border-radius;
         }
 
         .grid-title {
@@ -1241,9 +1258,6 @@
 
         .s-PropertyGrid .category-links {
             background-color: @glass-001-panel-bg-color;
-            border-radius: @glass-001-border-radius;
-            /*margin: 2px 10px;*/
-            margin-top: -8px;
         }
 
         .s-PropertyGrid .category-title {
@@ -1535,8 +1549,11 @@
 
         .slick-cell > a {
             color: @glass-001-link-color;
-            /*        text-decoration: dotted;
-        text-decoration-line: underline;*/
+        }
+
+        .slick-footerrow-column, .slick-footerrow-column.ui-state-default {
+            background: @glass-001-panel-bg-color;
+            color: @glass-001-link-color;
         }
 
         .s-DataGrid.editor, .s-Dialog .s-DataGrid.editor {
