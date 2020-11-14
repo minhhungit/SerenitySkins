@@ -4986,6 +4986,9 @@ table.text-center th {
 .skin-dark-001 .check-box.checked {
   background-position: -30px 0px;
 }
+.skin-dark-001 .check-box.checked.disabled {
+  background-position: -90px 0px;
+}
 @media (max-width: 767px) {
   .main-header {
     background-color: #303641;
