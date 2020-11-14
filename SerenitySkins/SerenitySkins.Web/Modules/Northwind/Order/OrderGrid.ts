@@ -66,7 +66,58 @@
                     let dlg = new CustomerDialog();
                     dlg.loadNewAndOpenDialog(true);
                 }
-            })
+            });
+
+            buttons.push({
+                title: "Test inner panel",
+                cssClass: "test-inner-panel",
+                icon: "fa fa-home",
+                disabled: true,
+                onClick: () => {
+                    let dlg = new CustomerDialog();
+                    dlg.loadNewAndOpenDialog(true);
+                }
+            });
+
+            buttons.push({
+                title: "Test no icon",
+                cssClass: "test-no-icon",
+                icon: null,
+                onClick: () => {
+                    Q.notifyInfo("hello from Jin", "", {timeOut: 0});
+                }
+            });
+
+            buttons.push({
+                title: "Test no icon",
+                cssClass: "test-no-icon",
+                icon: null,
+                disabled: true,
+                onClick: () => {
+                    Q.notifyInfo("hello from Jin", "", { timeOut: 0 });
+                }
+            });
+
+            buttons.push({
+                title: "Green icon red text",
+                cssClass: "text-red",
+                icon: "fa fa-home text-green",
+                onClick: () => {
+                    Q.notifyInfo("Hi Jin", "", { timeOut: 0 });
+                }
+            });
+
+            buttons.push({
+                title: "Green icon red text",
+                cssClass: "text-red",
+                icon: "fa fa-home text-green",
+                disabled: true,
+                onClick: () => {
+                    Q.notifyInfo("Hi Jin", "", { timeOut: 0 });
+                }
+            });
+
+
             return buttons;
         }
 
