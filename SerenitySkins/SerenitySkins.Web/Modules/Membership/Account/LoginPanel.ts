@@ -8,6 +8,9 @@
         constructor(container: JQuery) {
             super(container);
 
+            this.byId("Username").val("admin");
+            this.byId("Password").val("serenity");
+            
             $.fn['vegas'] && $('body')['vegas']({
                 delay: 30000,
                 cover: true,

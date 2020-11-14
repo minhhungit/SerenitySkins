@@ -1537,16 +1537,20 @@
         .tool-buttons .export-pdf-button span.button-inner,
         .tool-buttons .save-and-close-button span.button-inner,
         .tool-buttons .apply-changes-button span.button-inner,
-        .tool-buttons .delete-button span.button-inner {
+        .tool-buttons .delete-button span.button-inner,
+        .tool-buttons .localization-button span.button-inner {
             background: none;
         }
 
         .tool-buttons .add-button span.button-inner::before,
         .tool-buttons .save-and-close-button span.button-inner::before,
         .tool-buttons .delete-button span.button-inner::before,
+        .tool-buttons .refresh-button span.button-inner::before,
+        .tool-buttons .column-picker-button span.button-inner::before,
         .tool-buttons .export-xlsx-button span.button-inner::before,
         .tool-buttons .export-pdf-button span.button-inner::before,
-        .tool-buttons .apply-changes-button span.button-inner::before {
+        .tool-buttons .apply-changes-button span.button-inner::before,
+        .tool-buttons .localization-button span.button-inner::before {
             font-family: 'FontAwesome';
             margin-right: 4px;
             font-size: 15px;
@@ -1555,11 +1559,15 @@
             line-height: 22px;
         }
 
+        .tool-buttons .add-button.no-text span.button-inner::before,
+        .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+        .tool-buttons .delete-button.no-text span.button-inner::before,
         .tool-buttons .refresh-button.no-text span.button-inner::before,
         .tool-buttons .column-picker-button.no-text span.button-inner::before,
         .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
         .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-        .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+        .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+        .tool-buttons .localization-button.no-text span.button-inner::before {
             font-family: 'FontAwesome';
             font-size: 15px;
             color: @glass-001-text-color;
@@ -1580,7 +1588,7 @@
 
 
         .tool-buttons .add-button span.button-inner::before {
-            content: "\f055";
+            content: "\f067";
         }
 
         .tool-buttons .refresh-button span.button-inner::before {
@@ -1609,6 +1617,10 @@
 
         .tool-buttons .delete-button span.button-inner::before {
             content: "\f1f8";
+        }
+
+        .tool-buttons .localization-button span.button-inner::before {
+            content: "\f1ab";
         }
 
         span .button-inner::before, .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {

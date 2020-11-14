@@ -5804,15 +5804,19 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-1 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-1 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-1 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-1 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-1 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-1 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-1 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-1 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-1 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-1 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-1 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -5820,11 +5824,15 @@ body.skin-glass-001-style-1 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-1 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-1 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-1 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-1 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-1 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-1 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -5842,7 +5850,7 @@ body.skin-glass-001-style-1 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-1 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-1 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -5864,6 +5872,9 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-1 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-1 span .button-inner::before,
 .skin-glass-001-style-1 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -6978,15 +6989,19 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-2 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-2 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-2 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-2 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-2 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-2 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-2 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-2 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-2 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-2 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-2 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -6994,11 +7009,15 @@ body.skin-glass-001-style-2 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-2 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-2 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-2 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-2 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-2 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-2 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -7016,7 +7035,7 @@ body.skin-glass-001-style-2 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-2 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-2 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -7038,6 +7057,9 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-2 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-2 span .button-inner::before,
 .skin-glass-001-style-2 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -8152,15 +8174,19 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-3 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-3 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-3 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-3 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-3 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-3 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-3 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-3 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-3 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-3 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-3 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -8168,11 +8194,15 @@ body.skin-glass-001-style-3 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-3 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-3 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-3 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-3 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-3 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-3 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -8190,7 +8220,7 @@ body.skin-glass-001-style-3 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-3 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-3 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -8212,6 +8242,9 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-3 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-3 span .button-inner::before,
 .skin-glass-001-style-3 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -9326,15 +9359,19 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-4 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-4 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-4 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-4 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-4 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-4 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-4 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-4 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-4 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-4 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-4 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -9342,11 +9379,15 @@ body.skin-glass-001-style-4 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-4 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-4 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-4 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-4 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-4 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-4 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -9364,7 +9405,7 @@ body.skin-glass-001-style-4 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-4 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-4 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -9386,6 +9427,9 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-4 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-4 span .button-inner::before,
 .skin-glass-001-style-4 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -10500,15 +10544,19 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-5 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-5 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-5 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-5 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-5 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-5 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-5 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-5 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-5 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-5 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-5 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -10516,11 +10564,15 @@ body.skin-glass-001-style-5 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-5 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-5 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-5 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-5 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-5 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-5 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -10538,7 +10590,7 @@ body.skin-glass-001-style-5 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-5 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-5 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -10560,6 +10612,9 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-5 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-5 span .button-inner::before,
 .skin-glass-001-style-5 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -11674,15 +11729,19 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-6 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-6 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-6 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-6 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-6 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-6 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-6 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-6 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-6 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-6 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-6 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -11690,11 +11749,15 @@ body.skin-glass-001-style-6 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-6 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-6 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-6 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-6 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-6 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-6 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -11712,7 +11775,7 @@ body.skin-glass-001-style-6 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-6 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-6 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -11734,6 +11797,9 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-6 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-6 span .button-inner::before,
 .skin-glass-001-style-6 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -12848,15 +12914,19 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-7 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-7 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-7 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-7 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-7 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-7 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-7 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-7 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-7 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-7 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-7 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -12864,11 +12934,15 @@ body.skin-glass-001-style-7 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-7 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-7 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-7 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-7 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-7 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-7 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -12886,7 +12960,7 @@ body.skin-glass-001-style-7 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-7 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-7 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -12908,6 +12982,9 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-7 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-7 span .button-inner::before,
 .skin-glass-001-style-7 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -14022,15 +14099,19 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-8 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-8 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-8 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-8 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-8 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-8 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-8 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-8 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-8 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-8 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-8 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -14038,11 +14119,15 @@ body.skin-glass-001-style-8 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-8 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-8 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-8 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-8 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-8 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-8 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -14060,7 +14145,7 @@ body.skin-glass-001-style-8 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-8 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-8 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -14082,6 +14167,9 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-8 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-8 span .button-inner::before,
 .skin-glass-001-style-8 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -15196,15 +15284,19 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-9 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-9 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-9 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-9 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-9 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-9 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-9 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-9 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-9 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-9 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-9 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -15212,11 +15304,15 @@ body.skin-glass-001-style-9 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-9 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-9 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-9 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-9 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-9 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-9 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -15234,7 +15330,7 @@ body.skin-glass-001-style-9 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-9 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-9 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -15256,6 +15352,9 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-9 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-9 span .button-inner::before,
 .skin-glass-001-style-9 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -16370,15 +16469,19 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-10 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-10 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-10 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-10 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-10 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-10 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-10 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-10 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-10 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-10 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-10 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -16386,11 +16489,15 @@ body.skin-glass-001-style-10 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-10 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-10 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-10 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-10 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-10 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-10 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -16408,7 +16515,7 @@ body.skin-glass-001-style-10 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-10 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-10 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -16430,6 +16537,9 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-10 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-10 span .button-inner::before,
 .skin-glass-001-style-10 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -17544,15 +17654,19 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-11 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-11 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-11 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-11 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-11 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-11 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-11 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-11 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-11 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-11 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-11 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -17560,11 +17674,15 @@ body.skin-glass-001-style-11 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-11 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-11 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-11 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-11 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-11 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-11 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -17582,7 +17700,7 @@ body.skin-glass-001-style-11 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-11 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-11 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -17604,6 +17722,9 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-11 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-11 span .button-inner::before,
 .skin-glass-001-style-11 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -18718,15 +18839,19 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-12 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-12 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-12 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-12 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-12 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-12 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-12 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-12 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-12 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-12 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-12 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -18734,11 +18859,15 @@ body.skin-glass-001-style-12 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-12 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-12 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-12 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-12 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-12 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-12 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -18756,7 +18885,7 @@ body.skin-glass-001-style-12 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-12 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-12 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -18778,6 +18907,9 @@ body.skin-glass-001-style-12 {
 }
 .skin-glass-001-style-12 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-12 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-12 span .button-inner::before,
 .skin-glass-001-style-12 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -19892,15 +20024,19 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-13 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-13 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-13 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-13 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-13 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-13 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-13 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-13 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-13 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-13 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-13 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -19908,11 +20044,15 @@ body.skin-glass-001-style-13 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-13 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-13 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-13 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-13 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-13 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-13 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -19930,7 +20070,7 @@ body.skin-glass-001-style-13 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-13 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-13 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -19952,6 +20092,9 @@ body.skin-glass-001-style-13 {
 }
 .skin-glass-001-style-13 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-13 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-13 span .button-inner::before,
 .skin-glass-001-style-13 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -21066,15 +21209,19 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-14 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-14 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-14 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-14 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-14 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-14 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-14 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-14 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-14 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-14 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-14 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -21082,11 +21229,15 @@ body.skin-glass-001-style-14 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-14 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-14 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-14 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-14 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-14 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-14 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -21104,7 +21255,7 @@ body.skin-glass-001-style-14 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-14 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-14 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -21126,6 +21277,9 @@ body.skin-glass-001-style-14 {
 }
 .skin-glass-001-style-14 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-14 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-14 span .button-inner::before,
 .skin-glass-001-style-14 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -22240,15 +22394,19 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-15 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-15 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-15 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-15 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-15 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-15 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-15 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-15 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-15 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-15 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-15 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -22256,11 +22414,15 @@ body.skin-glass-001-style-15 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-15 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-15 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-15 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-15 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-15 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-15 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -22278,7 +22440,7 @@ body.skin-glass-001-style-15 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-15 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-15 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -22300,6 +22462,9 @@ body.skin-glass-001-style-15 {
 }
 .skin-glass-001-style-15 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-15 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-15 span .button-inner::before,
 .skin-glass-001-style-15 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -23414,15 +23579,19 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-16 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-16 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-16 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-16 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-16 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-16 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-16 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-16 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-16 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-16 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-16 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -23430,11 +23599,15 @@ body.skin-glass-001-style-16 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-16 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-16 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-16 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-16 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-16 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-16 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -23452,7 +23625,7 @@ body.skin-glass-001-style-16 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-16 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-16 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -23474,6 +23647,9 @@ body.skin-glass-001-style-16 {
 }
 .skin-glass-001-style-16 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-16 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-16 span .button-inner::before,
 .skin-glass-001-style-16 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -24588,15 +24764,19 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-17 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-17 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-17 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-17 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-17 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-17 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-17 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-17 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-17 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-17 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-17 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -24604,11 +24784,15 @@ body.skin-glass-001-style-17 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-17 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-17 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-17 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-17 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-17 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-17 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -24626,7 +24810,7 @@ body.skin-glass-001-style-17 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-17 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-17 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -24648,6 +24832,9 @@ body.skin-glass-001-style-17 {
 }
 .skin-glass-001-style-17 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-17 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-17 span .button-inner::before,
 .skin-glass-001-style-17 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -25762,15 +25949,19 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-18 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-18 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-18 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-18 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-18 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-18 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-18 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-18 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-18 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-18 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-18 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -25778,11 +25969,15 @@ body.skin-glass-001-style-18 {
   color: #fff;
   line-height: 22px;
 }
+.skin-glass-001-style-18 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-18 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-18 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-18 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-18 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-18 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #fff;
@@ -25800,7 +25995,7 @@ body.skin-glass-001-style-18 {
   text-shadow: 0 0 5px #3a3a3a;
 }
 .skin-glass-001-style-18 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-18 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -25822,6 +26017,9 @@ body.skin-glass-001-style-18 {
 }
 .skin-glass-001-style-18 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-18 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-18 span .button-inner::before,
 .skin-glass-001-style-18 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -26936,15 +27134,19 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-19 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-19 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-19 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-19 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-19 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-19 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-19 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-19 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-19 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-19 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-19 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -26952,11 +27154,15 @@ body.skin-glass-001-style-19 {
   color: #777;
   line-height: 22px;
 }
+.skin-glass-001-style-19 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-19 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-19 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-19 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-19 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-19 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #777;
@@ -26974,7 +27180,7 @@ body.skin-glass-001-style-19 {
   text-shadow: 0 0 5px #a09d9d;
 }
 .skin-glass-001-style-19 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-19 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -26996,6 +27202,9 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-19 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-19 span .button-inner::before,
 .skin-glass-001-style-19 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
@@ -28110,15 +28319,19 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .tool-buttons .export-pdf-button span.button-inner,
 .skin-glass-001-style-20 .tool-buttons .save-and-close-button span.button-inner,
 .skin-glass-001-style-20 .tool-buttons .apply-changes-button span.button-inner,
-.skin-glass-001-style-20 .tool-buttons .delete-button span.button-inner {
+.skin-glass-001-style-20 .tool-buttons .delete-button span.button-inner,
+.skin-glass-001-style-20 .tool-buttons .localization-button span.button-inner {
   background: none;
 }
 .skin-glass-001-style-20 .tool-buttons .add-button span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .save-and-close-button span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .delete-button span.button-inner::before,
+.skin-glass-001-style-20 .tool-buttons .refresh-button span.button-inner::before,
+.skin-glass-001-style-20 .tool-buttons .column-picker-button span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .export-xlsx-button span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .export-pdf-button span.button-inner::before,
-.skin-glass-001-style-20 .tool-buttons .apply-changes-button span.button-inner::before {
+.skin-glass-001-style-20 .tool-buttons .apply-changes-button span.button-inner::before,
+.skin-glass-001-style-20 .tool-buttons .localization-button span.button-inner::before {
   font-family: 'FontAwesome';
   margin-right: 4px;
   font-size: 15px;
@@ -28126,11 +28339,15 @@ body.skin-glass-001-style-20 {
   color: #777;
   line-height: 22px;
 }
+.skin-glass-001-style-20 .tool-buttons .add-button.no-text span.button-inner::before,
+.skin-glass-001-style-20 .tool-buttons .save-and-close-button.no-text span.button-inner::before,
+.skin-glass-001-style-20 .tool-buttons .delete-button.no-text span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .refresh-button.no-text span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .column-picker-button.no-text span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-.skin-glass-001-style-20 .tool-buttons .apply-changes-button.no-text span.button-inner::before {
+.skin-glass-001-style-20 .tool-buttons .apply-changes-button.no-text span.button-inner::before,
+.skin-glass-001-style-20 .tool-buttons .localization-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 15px;
   color: #777;
@@ -28148,7 +28365,7 @@ body.skin-glass-001-style-20 {
   text-shadow: 0 0 5px #a0a0a0;
 }
 .skin-glass-001-style-20 .tool-buttons .add-button span.button-inner::before {
-  content: "\f055";
+  content: "\f067";
 }
 .skin-glass-001-style-20 .tool-buttons .refresh-button span.button-inner::before {
   content: "\f021";
@@ -28170,6 +28387,9 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .tool-buttons .delete-button span.button-inner::before {
   content: "\f1f8";
+}
+.skin-glass-001-style-20 .tool-buttons .localization-button span.button-inner::before {
+  content: "\f1ab";
 }
 .skin-glass-001-style-20 span .button-inner::before,
 .skin-glass-001-style-20 .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
