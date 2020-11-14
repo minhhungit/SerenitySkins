@@ -53,5 +53,14 @@
 
             Q.reloadLookup('Northwind.Customer');
         }
+
+        afterLoadEntity() {
+            super.afterLoadEntity();
+
+            if (this.isNew()) {
+                // demo disable select2 control
+                Serenity.EditorUtils.setReadOnly(this.form.City, true);
+            }
+        }
     }
 }

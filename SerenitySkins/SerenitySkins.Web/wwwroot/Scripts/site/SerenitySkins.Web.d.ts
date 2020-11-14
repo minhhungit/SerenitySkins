@@ -2590,6 +2590,7 @@ declare namespace SerenitySkins.Northwind {
         loadResponse(data: any): void;
         loadEntity(entity: CustomerRow): void;
         onSaveSuccess(response: any): void;
+        afterLoadEntity(): void;
     }
 }
 declare namespace SerenitySkins.BasicSamples {

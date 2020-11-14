@@ -72,6 +72,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(2) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -100,6 +101,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(3) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -128,6 +130,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(4) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -156,6 +159,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(5) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -184,6 +188,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(6) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -212,6 +217,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(7) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -240,6 +246,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(8) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -268,6 +275,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(9) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -296,6 +304,7 @@
     @glass-001-tab-active-bg-color: #ffffff26;
     @glass-001-panel-bg-color: #ffffff26;
 }
+
 .themeDefs(10) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -324,6 +333,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(11) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -352,6 +362,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(12) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -380,6 +391,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(13) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -408,6 +420,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(14) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -436,6 +449,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(15) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -464,6 +478,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(16) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -492,6 +507,7 @@
     @glass-001-tab-active-bg-color: #ffffff1a;
     @glass-001-panel-bg-color: #ffffff1a;
 }
+
 .themeDefs(17) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: true;
@@ -1564,6 +1580,32 @@
                     background-image: unset;
                     background-color: unset;
                     border-color: @glass-001-input-border-color;
+                }
+            }
+
+            &.select2-container-disabled {
+                background-color: if((@glass-001-is-dark-style), #ffffff12, #00000008);
+                background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+                border-radius: @glass-001-border-radius;
+
+                .select2-choice {
+                    cursor: default;
+                    border-radius: @glass-001-border-radius;
+                    border-color: #ffffff0d;
+                    color: #98989880 !important;
+
+                    .select2-arrow {
+                        border-left: 0;
+                    }
+
+                    abbr {
+                        display: none;
+                    }
+                }
+
+                &.readonly {
+                    background-color: if((@glass-001-is-dark-style), #ffffff12, #00000008);
+                    background-image: url('/Content/skins/glass001/assets/az-subtle.png');
                 }
             }
         }
