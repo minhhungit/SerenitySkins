@@ -664,10 +664,10 @@
         .info-box {
             background: @glass-001-panel-bg-color;
             border-radius: @glass-001-border-radius;
-        }
 
-        .info-box .info-box-icon {
-            border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius;
+            .info-box-icon {
+                border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius;
+            }
         }
 
         .small-box {
@@ -706,217 +706,282 @@
         .ui-dialog {
             box-shadow: 0 0 20px #00000096;
             -webkit-box-shadow: 0 0 20px #00000096;
-        }
 
-        .ui-dialog .ui-dialog-titlebar {
-            height: 40px;
-            background: transparent;
-            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-        }
+            .ui-dialog-titlebar {
+                height: 40px;
+                background: transparent;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+                box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+                -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
 
-        .ui-dialog .ui-dialog-titlebar button {
-            border: unset;
-            border-radius: @glass-001-border-radius;
-            background: unset;
-            color: @glass-001-text-color;
-        }
+                button {
+                    border: unset;
+                    border-radius: @glass-001-border-radius;
+                    background: unset;
+                    color: @glass-001-text-color;
 
-        .ui-dialog .ui-dialog-titlebar button:hover {
-            text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-        }
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }
 
-        .ui-dialog .ui-dialog-title {
-            font-weight: 300;
-            font-family: Poppins, Helvetica, "sans-serif";
-            color: @glass-001-link-color;
-            margin: 5px 4px 0 0;
-            font-weight: 300;
-            text-shadow: 1px 1px 1px if((@glass-001-is-dark-style), @glass-001-text-shadow-color, #bdbdbd);
-            font-size: 16px;
-            padding-top: 1px;
-        }
+            .ui-dialog-title {
+                font-weight: 300;
+                font-family: Poppins, Helvetica, "sans-serif";
+                color: @glass-001-link-color;
+                margin: 5px 4px 0 0;
+                font-weight: 300;
+                text-shadow: 1px 1px 1px if((@glass-001-is-dark-style), @glass-001-text-shadow-color, #bdbdbd);
+                font-size: 16px;
+                padding-top: 1px;
+            }
 
-        .ui-dialog .ui-dialog-buttonpane {
-            border: unset;
-        }
+            .ui-dialog-buttonpane {
+                border: unset;
 
-        .ui-dialog .ui-dialog-content button, .ui-dialog .ui-dialog-buttonpane button {
-            background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);
-            border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
-            border-style: solid;
-            border-width: 1px;
-            border-radius: @glass-001-border-radius;
-            color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-size: 14px;
-            height: 32px;
-            font-weight: 300;
-            box-shadow: unset;
-            -webkit-box-shadow: unset;
-        }
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);
+                    border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+                    border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
 
-        .ui-dialog .ui-dialog-content button:hover, .ui-dialog .ui-dialog-buttonpane button:hover {
-            text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }
+
+            .ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);
+                    border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+                    border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }
         }
 
         .s-Dialog {
             background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
             background-color: @glass-001-dialog-bg-color;
             border-radius: @glass-001-border-radius;
+
+            .ui-dialog-content {
+                border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+                box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+                -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+            }
+
+            .ui-dialog-buttonpane {
+                background: transparent;
+            }
         }
 
-        .s-Dialog.s-FilterDialog {
+        .s-Panel {
+            .ui-dialog-buttonpane {
+                background: transparent;
+            }
         }
 
-        .s-Dialog .ui-dialog-content {
-            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+        .s-ColumnPickerDialog {
+            .search {
+                color: @glass-001-text-color;
+
+                input {
+                    border: solid 1px @glass-001-input-border-color;
+                }
+            }
+
+            .column-list {
+                background: @glass-001-panel-bg-color;
+                border-radius: @glass-001-border-radius;
+
+                h5 {
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-weight: 300;
+                    color: @glass-001-text-color;
+                    font-size: 13px;
+                    background: if((@glass-001-is-dark-style), lighten(@glass-001-panel-bg-color, 12%), darken(@glass-001-panel-bg-color, 10%));
+                    border-radius: @glass-001-border-radius @glass-001-border-radius 0 0;
+                }
+            }
+
+            li {
+                background: transparent;
+            }
+
+            .visible-list {
+                li {
+                    color: @glass-001-text-color;
+                }
+            }
+
+            .hidden-list {
+                li {
+                    color: fade(@glass-001-text-color, 60%);
+                }
+            }
+
+            h5 {
+                color: @glass-001-link-color;
+
+                i {
+                    color: @glass-001-link-color;
+                }
+            }
+
+            .drag-handle {
+                color: @glass-001-link-color;
+            }
         }
 
-        .s-Dialog .ui-dialog-buttonpane, .s-Panel .ui-dialog-buttonpane {
-            background: transparent;
+        .s-ImageUploadEditor, .s-MultipleImageUploadEditor {
+            ul {
+                border: unset;
+                border-radius: @glass-001-border-radius;
+                background: fade(@glass-001-input-border-color, 10%);
+            }
+
+            .s-Toolbar {
+                padding: 4px 0;
+            }
         }
 
-        .s-ColumnPickerDialog .search {
-            color: @glass-001-text-color;
-        }
-
-        .s-ColumnPickerDialog .search input {
-            border: solid 1px @glass-001-input-border-color;
-        }
-
-
-        .s-ColumnPickerDialog .column-list {
-            background: @glass-001-panel-bg-color;
-            border-radius: @glass-001-border-radius;
-        }
-
-        .s-ColumnPickerDialog .column-list h5 {
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-weight: 300;
-            color: @glass-001-text-color;
-            font-size: 13px;
-            background: if((@glass-001-is-dark-style), lighten(@glass-001-panel-bg-color, 12%), darken(@glass-001-panel-bg-color, 10%));
-            border-radius: @glass-001-border-radius @glass-001-border-radius 0 0;
-        }
-
-        .s-ColumnPickerDialog li {
-            background: transparent;
-        }
-
-        .s-ColumnPickerDialog .visible-list li {
-            color: @glass-001-text-color;
-        }
-
-        .s-ColumnPickerDialog .hidden-list li {
-            color: fade(@glass-001-text-color, 60%);
-        }
-
-        .s-ColumnPickerDialog h5, .s-ColumnPickerDialog h5 i, .s-ColumnPickerDialog .drag-handle {
-            color: @glass-001-link-color;
-        }
-
-        .s-ImageUploadEditor ul, .s-MultipleImageUploadEditor ul {
-            border: unset;
-            border-radius: @glass-001-border-radius;
-            background: fade(@glass-001-input-border-color, 10%);
-        }
-
-        .s-ImageUploadEditor .s-Toolbar, .s-MultipleImageUploadEditor .s-Toolbar {
-            padding: 4px 0;
-        }
-
-        .s-Toolbar {
+        div.s-Toolbar {
             background: transparent !important;
             border: unset;
+
+            .tool-button {
+                height: 32px;
+                font-family: Poppins, Helvetica, "sans-serif";
+                font-size: 13px;
+                background: @glass-001-input-bg-color;
+                border: solid 1px if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+                color: @glass-001-text-color;
+                border-radius: @glass-001-border-radius;
+
+                &:not(.disabled).hover {
+                    span.button-inner {
+                        &::before {
+                            color: @glass-001-link-color;
+                        }
+                    }
+                }
+
+                span.button-inner {
+                    line-height: 26px;
+
+                    &::before {
+                        color: @glass-001-text-color;
+                    }
+                }
+
+                div.button-outer {
+                    margin: 0;
+                    border: unset;
+                    border-radius: unset;
+                    height: 30px;
+                }
+
+                &:hover {
+                    div.button-outer {
+                        background-color: unset;
+                    }
+                }
+            }
+
+            .tool-button.test-no-icon {
+                .button-inner {
+                    padding: 3px;
+                }
+            }
+
+            .tool-button.icon-tool-button {
+                .button-inner {
+                    padding: 3px 5px;
+                }
+            }
+
+            .tool-button.disabled {
+                border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ddd);
+
+                &:hover {
+                    text-shadow: unset;
+
+                    .button-inner {
+                        i, &::before {
+                            text-shadow: unset;
+                        }
+                    }
+                }
+            }
+
+            .tool-button.no-text {
+                span.button-inner {
+                    margin: 4px;
+                    padding: unset;
+                    height: 22px;
+                    width: 14px;
+                }
+            }
+
+            .separator {
+                margin: 5px 6px 0 3px;
+                border-left: 1px solid fade(@glass-001-input-border-color, 35%);
+            }
         }
 
-        div.s-Toolbar .tool-button {
-            height: 32px;
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-size: 13px;
-            background: @glass-001-input-bg-color;
-            border: solid 1px if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
-            color: @glass-001-text-color;
-            border-radius: @glass-001-border-radius;
-        }
+        .ui-tabs {
+            .ui-tabs-nav {
+                border: unset;
+                margin-bottom: 1px;
 
-        div.s-Toolbar .tool-button.test-no-icon .button-inner {
-            padding: 3px;
-        }
+                li {
+                    border-top: 3px solid transparent;
+                    border-radius: 2px;
+                }
 
-        div.s-Toolbar .tool-button.icon-tool-button .button-inner {
-            padding: 3px 5px;
-        }
+                li.ui-state-disabled {
+                    a {
+                        text-shadow: unset;
+                    }
 
-        div.s-Toolbar .tool-button:hover {
-            /*color: @glass-001-link-color;*/
-        }
+                    &:hover {
+                        a {
+                            text-shadow: unset;
+                        }
+                    }
+                }
+            }
 
-        div.s-Toolbar .tool-button.disabled {
-            border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ddd);
-        }
-
-        div.s-Toolbar .tool-button.disabled:hover,
-        div.s-Toolbar .tool-button.disabled:hover .button-inner i,
-        div.s-Toolbar .tool-button.disabled:hover .button-inner::before {
-            text-shadow: unset;
-            /*color: @glass-001-text-color;*/
-            text-shadow: unset;
-        }
-
-        div.s-Toolbar .tool-button span.button-inner {
-            line-height: 26px;
-        }
-
-        div.s-Toolbar .tool-button div.button-outer {
-            margin: 0;
-            border: unset;
-            border-radius: unset;
-            height: 30px;
-        }
-
-        div.s-Toolbar .tool-button:hover div.button-outer {
-            background-color: unset;
-        }
-        /*div.s-Toolbar .tool-button.no-text div.button-outer {
-        padding: 5px 3px 19px 13px;
-    }*/
-        div .s-Toolbar .tool-button.no-text span.button-inner {
-            margin: 4px;
-            padding: unset;
-            padding: unset;
-            height: 22px;
-            width: 14px;
-        }
-
-        div.s-Toolbar .separator {
-            margin: 5px 6px 0 3px;
-            border-left: 1px solid fade(@glass-001-input-border-color, 35%);
+            .ui-tabs-panel {
+                border-top: solid 1px @glass-001-tab-active-bg-color;
+            }
         }
 
         .s-TemplatedDialog.s-Panel .s-DialogToolbar {
             margin: 0 10px 10px 10px;
-        }
-
-        .ui-tabs .ui-tabs-nav {
-            border: unset;
-            margin-bottom: 1px;
-        }
-
-        .s-Panel .ui-tabs .ui-tabs-nav {
-        }
-
-        .ui-tabs .ui-tabs-panel {
-            border-top: solid 1px @glass-001-tab-active-bg-color;
-        }
-
-        .ui-tabs .ui-tabs-nav li {
-            border-top: 3px solid transparent;
-            border-radius: 2px;
         }
 
         .s-Dialog .ui-tabs .ui-tabs-nav li a, .s-Panel .ui-tabs .ui-tabs-nav li a {
@@ -944,10 +1009,6 @@
             text-shadow: 0 0 2px @glass-001-text-hover-active-color;
         }
 
-        .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-disabled:hover a {
-            text-shadow: unset;
-        }
-
         .flex-layout .ui-dialog-content, .flex-layout .s-DialogContent, .flex-layout .s-Form, .flex-layout form, .flex-layout .fieldset, .flex-layout .ui-tabs-panel, .flex-layout .ui-tabs-panel > .s-DataGrid, .flex-layout .property-panes, .flex-layout .property-panes .tab-pane.active, .flex-layout .s-PropertyGrid {
             background: transparent;
         }
@@ -955,42 +1016,51 @@
         .s-MessageDialog {
             background: url(/Content/skins/glass001/assets/boxlight_ltr.png) 0 0 / cover;
             background-color: #0062b7;
-        }
 
-        .s-MessageDialog .ui-dialog-titlebar button {
-            color: #fff;
-        }
+            .ui-dialog-titlebar {
+                button {
+                    color: #fff;
+                }
 
-        .s-MessageDialog .ui-dialog-titlebar, .s-MessageDialog .ui-dialog-content, .s-MessageDialog .ui-dialog-buttonpane {
-            background: transparent;
-        }
+                background: transparent;
+            }
 
-        .s-MessageDialog .ui-dialog-content button, .s-MessageDialog .ui-dialog-buttonpane button {
-            border-width: 0;
-            color: #fff;
-            background: if((@glass-001-is-dark-style), fade(@glass-001-input-bg-color, 30%), #ffffff4d);
-        }
+            .ui-dialog-content {
+                background: transparent;
+                color: @glass-001-text-color;
 
-        .s-MessageDialog .ui-dialog-content {
-            color: @glass-001-text-color;
-        }
+                button {
+                    border-width: 0;
+                    color: #fff;
+                    background: if((@glass-001-is-dark-style), fade(@glass-001-input-bg-color, 30%), #ffffff4d);
+                }
 
-        .s-MessageDialog .ui-dialog-content:before {
-            color: #fff;
-        }
+                &:before {
+                    color: #fff;
+                }
 
-        .s-MessageDialog .ui-dialog-content a {
-            /*text-decoration: underline;
-        text-decoration-style: double;*/
-            color: @glass-001-link-color;
-            text-shadow: 0 2px 2px @glass-001-link-shadow-color;
-        }
+                a {
+                    color: @glass-001-link-color;
+                    text-shadow: 0 2px 2px @glass-001-link-shadow-color;
+                }
+            }
 
-        .s-MessageDialog .message {
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-weight: 300;
-            font-size: 14px;
-            color: #fff;
+            .ui-dialog-buttonpane {
+                background: transparent;
+
+                button {
+                    border-width: 0;
+                    color: #fff;
+                    background: if((@glass-001-is-dark-style), fade(@glass-001-input-bg-color, 30%), #ffffff4d);
+                }
+            }
+
+            .message {
+                font-family: Poppins, Helvetica, "sans-serif";
+                font-weight: 300;
+                font-size: 14px;
+                color: #fff;
+            }
         }
 
         .s-MessageDialog.s-Confirm {
@@ -999,110 +1069,34 @@
 
         .s-MessageDialog.s-InformationDialog {
             background-color: #0da6ce;
-        }
-        /*
-    .s-MessageDialog.s-InformationDialog.ui-dialog .ui-dialog-buttonpane button {
-        background: #ffffff30;
-    }
 
-    .s-MessageDialog.s-InformationDialog.ui-dialog .ui-dialog-buttonpane button {
-        background: #ffffff30;
-    }*/
+            .ui-dialog-title {
+                color: #fff;
+            }
+        }
+
         .s-MessageDialog.s-WarningDialog {
             background-color: #e88200;
+
+            .ui-dialog-title {
+                color: #fff;
+            }
         }
 
         .s-MessageDialog.s-AlertDialog {
             background-color: #de331f;
+
+            .ui-dialog-title {
+                color: #fff;
+            }
         }
 
-        .s-TemplatedDialog {
-            /*background: #ffffff21;*/
+        .s-MessageDialog.s-ConfirmDialog {
+            .ui-dialog-title {
+                color: #fff;
+            }
         }
 
-        .s-MessageDialog.s-AlertDialog .ui-dialog-title,
-        .s-MessageDialog.s-WarningDialog .ui-dialog-title,
-        .s-MessageDialog.s-InformationDialog .ui-dialog-title,
-        .s-MessageDialog.s-ConfirmDialog .ui-dialog-title {
-            color: #fff;
-        }
-
-        .main-sidebar {
-            background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
-            background-color: @glass-001-theme-color;
-        }
-
-        .sidebar-form {
-            margin: 10px;
-        }
-
-        .sidebar-menu > li > a {
-            border-left: 3px solid transparent;
-            font-size: 14px;
-            font-weight: 300;
-            font-family: Poppins, Helvetica, "sans-serif";
-            color: @glass-001-text-color;
-            height: 40px;
-            padding-top: 10px;
-        }
-
-        .sidebar-menu > li, .sidebar-menu .treeview-menu > li {
-            /*border-top: 1px solid rgba(69, 74, 84, 0.4);*/
-        }
-
-        .sidebar-menu .treeview-menu > li > a {
-            font-size: 13.4px;
-            font-weight: 300;
-            font-family: Poppins, Helvetica, "sans-serif";
-            color: @glass-001-text-color;
-            height: 34px;
-            margin-left: 16px;
-            padding-top: 8px;
-        }
-
-        .sidebar-menu .treeview-menu > li > a.active:last-child {
-            color: @glass-001-link-color;
-        }
-
-        .sidebar-menu > li > a:hover, .sidebar-menu .treeview-menu > li > a:hover {
-            color: @glass-001-link-hover-active-color;
-            /*text-shadow: 0 0 5px @glass-001-link-shadow-color;*/
-        }
-
-        .sidebar-menu > li > a {
-            background-color: @glass-001-main-sidebar-color;
-        }
-
-        .sidebar-menu > li.active > a, .sidebar-menu > li:hover > a {
-            border-left-color: @glass-001-link-hover-active-color;
-            font-weight: if((@glass-001-is-dark-style), unset, 400);
-        }
-
-        .sidebar-menu > li > .treeview-menu, .sidebar-menu > li > .treeview-menu li {
-            background: @glass-001-main-sidebar-color;
-        }
-
-        .sidebar-menu .treeview-menu > li.active > a {
-            color: @glass-001-link-color;
-            text-shadow: 0 0 5px @glass-001-link-shadow-color;
-            font-weight: if((@glass-001-is-dark-style), unset, 400);
-        }
-
-        .sidebar-form div.input-group, .sidebar-form .s-SidebarSearch, .sidebar-form button {
-            background-color: @glass-001-input-bg-color
-        }
-
-        .sidebar-form div.input-group {
-            border-radius: @glass-001-border-radius;
-        }
-
-        .sidebar-form .s-SidebarSearch {
-            border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius !important;
-        }
-
-        .sidebar-form .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group {
-            border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0 !important;
-        }
 
         button {
             height: 34px;
@@ -1110,18 +1104,6 @@
 
         button:hover {
             text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-        }
-
-        .sidebar-form button i {
-            color: @glass-001-text-color;
-        }
-
-        .sidebar-form input.s-SidebarSearch:focus {
-            color: floralwhite;
-        }
-
-        .sidebar-form input[type="text"] {
-            padding: 16px 12px;
         }
 
         .nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus, .main-header .sidebar-toggle:hover {
@@ -1138,27 +1120,152 @@
             -webkit-box-shadow: 0px 5px 15px #00000096;
             box-shadow: 0px 5px 15px #00000096;
         }
-        /*.control-sidebar-bg, .control-sidebar {
-            top: 50px;
-        }*/
+
+        .main-sidebar {
+            background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
+            background-color: @glass-001-theme-color;
+        }
+
+        .sidebar-form {
+            margin: 10px;
+
+            div.input-group {
+                background-color: @glass-001-input-bg-color;
+                border-radius: @glass-001-border-radius;
+            }
+
+            .s-SidebarSearch {
+                background-color: @glass-001-input-bg-color;
+                border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius !important;
+            }
+
+            button {
+                background-color: @glass-001-input-bg-color;
+
+                i {
+                    color: @glass-001-text-color;
+                }
+            }
+
+            .input-group-btn {
+                &:last-child {
+                    > .btn {
+                        border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0 !important;
+                    }
+                }
+            }
+
+            input.s-SidebarSearch {
+                &:focus {
+                    color: floralwhite;
+                }
+            }
+
+            input[type="text"] {
+                padding: 16px 12px;
+            }
+        }
+
+        .sidebar-menu {
+            > li {
+                > a {
+                    border-left: 3px solid transparent;
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    color: @glass-001-text-color;
+                    height: 40px;
+                    padding-top: 10px;
+                    background-color: @glass-001-main-sidebar-color;
+
+                    &:hover {
+                        color: @glass-001-link-hover-active-color;
+                    }
+                }
+
+                &:hover {
+                    > a {
+                        border-left-color: @glass-001-link-hover-active-color;
+                        font-weight: if((@glass-001-is-dark-style), unset, 400);
+                    }
+                }
+
+                > .treeview-menu {
+                    background: @glass-001-main-sidebar-color;
+
+                    li {
+                        background: @glass-001-main-sidebar-color;
+                    }
+                }
+            }
+
+            .treeview-menu {
+                > li {
+                    > a {
+                        font-size: 13.4px;
+                        font-weight: 300;
+                        font-family: Poppins, Helvetica, "sans-serif";
+                        color: @glass-001-text-color;
+                        height: 34px;
+                        margin-left: 16px;
+                        padding-top: 8px;
+
+                        &:hover {
+                            color: @glass-001-link-hover-active-color;
+                        }
+                    }
+
+                    > a.active {
+                        &:last-child {
+                            color: @glass-001-link-color;
+                        }
+                    }
+                }
+
+                > li.active {
+                    > a {
+                        color: @glass-001-link-color;
+                        text-shadow: 0 0 5px @glass-001-link-shadow-color;
+                        font-weight: if((@glass-001-is-dark-style), unset, 400);
+                    }
+                }
+            }
+
+            > li.active {
+                > a {
+                    border-left-color: @glass-001-link-hover-active-color;
+                    font-weight: if((@glass-001-is-dark-style), unset, 400);
+                }
+            }
+        }
+
+        .input-group-btn {
+            &:last-child {
+                > .btn-group {
+                    border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0 !important;
+                }
+            }
+        }
+
         .control-sidebar {
             -webkit-box-shadow: unset;
             box-shadow: unset;
-            /*padding-top: 0px;*/
         }
 
-        .control-sidebar-dark .control-sidebar-heading {
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-weight: 100;
-            font-size: 17px;
-            margin: 5px 0 15px 0;
-        }
+        .control-sidebar-dark {
+            .control-sidebar-heading {
+                font-family: Poppins, Helvetica, "sans-serif";
+                font-weight: 100;
+                font-size: 17px;
+                margin: 5px 0 15px 0;
+            }
 
-        .control-sidebar-dark .control-sidebar-subheading {
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-weight: 100;
-            font-size: 14px;
-            margin-bottom: 5px;
+            .control-sidebar-subheading {
+                font-family: Poppins, Helvetica, "sans-serif";
+                font-weight: 100;
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
         }
 
         .main-header {
@@ -1245,15 +1352,38 @@
             color: @glass-001-link-color;
         }
 
+        section.content {
+            > .s-DataGrid {
+                background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
+                background-color: @glass-001-theme-color;
+                border-radius: @glass-001-border-radius;
+                box-shadow: 0 0 20px #0000003d;
+                -webkit-box-shadow: 0 0 20px #0000003d;
+                border: unset;
+            }
+        }
 
-        section.content > .s-DataGrid {
-            border-top: unset;
+        .flex-layout.s-Panel {
+            box-shadow: 0 0 20px #0000003d;
+            -webkit-box-shadow: 0 0 20px #0000003d;
             background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
             background-color: @glass-001-theme-color;
+            border: unset;
             border-radius: @glass-001-border-radius;
         }
 
-        section.content > .s-DataGrid, .flex-layout.s-Panel {
+        section.content {
+            > .s-DataGrid {
+                background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
+                background-color: @glass-001-theme-color;
+                border-radius: @glass-001-border-radius;
+                box-shadow: 0 0 20px #0000003d;
+                -webkit-box-shadow: 0 0 20px #0000003d;
+                border: unset;
+            }
+        }
+
+        .flex-layout.s-Panel {
             box-shadow: 0 0 20px #0000003d;
             -webkit-box-shadow: 0 0 20px #0000003d;
             background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
@@ -1287,64 +1417,79 @@
             text-shadow: 1px 1px 1px @glass-001-text-shadow-color;
         }
 
-        .panel-titlebar-close, .ui-dialog.mobile-layout .ui-dialog-titlebar-close, .ui-dialog.mobile-layout .ui-dialog-titlebar-close:hover {
+        .panel-titlebar-close {
             background: none;
+
+            &::before {
+                content: "\f060";
+                font-family: "FontAwesome";
+                color: @glass-001-link-color;
+            }
         }
 
-        .panel-titlebar-close::before, .ui-dialog.mobile-layout .ui-dialog-titlebar-close::before {
-            content: "\f060";
-            font-family: "FontAwesome";
-            color: @glass-001-link-color;
+        .ui-dialog.mobile-layout {
+            .ui-dialog-titlebar-close {
+                background: none;
+
+                &:hover {
+                    background: none;
+                }
+
+                &::before {
+                    content: "\f060";
+                    font-family: "FontAwesome";
+                    color: @glass-001-link-color;
+
+                    &:hover {
+                        content: "\f060";
+                        font-family: "FontAwesome";
+                        color: @glass-001-link-color;
+                    }
+                }
+            }
         }
 
-        .ui-dialog.mobile-layout .ui-dialog-titlebar-close::before {
-            content: "\f060";
-            font-family: "FontAwesome";
-            color: @glass-001-link-color;
+        .panel-titlebar {
+            .panel-titlebar-text {
+                padding-top: 3px;
+            }
         }
 
-        .ui-dialog.mobile-layout .ui-dialog-titlebar-close::before:hover {
-            content: "\f060";
-            font-family: "FontAwesome";
-            color: @glass-001-link-color;
+        .s-PropertyGrid {
+            .category-links {
+                background-color: @glass-001-panel-bg-color;
+
+                a.category-link {
+                    color: @glass-001-link-color;
+                    text-shadow: 1px 1px 1px @glass-001-link-shadow-color;
+                    font-weight: 300;
+                    font-size: 13px;
+                    font-family: Poppins, Helvetica, "sans-serif";
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-link-shadow-color;
+                    }
+                }
+            }
+
+            .category-title {
+                border-bottom: 1px solid @glass-001-panel-bg-color;
+
+                a {
+                    color: @glass-001-link-color;
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-weight: 300;
+                    text-shadow: 1px 1px 1px @glass-001-link-shadow-color;
+                }
+            }
         }
 
-        .panel-titlebar .panel-titlebar-text {
-            padding-top: 3px;
-        }
-
-        .s-PropertyGrid .category-links {
-            background-color: @glass-001-panel-bg-color;
-        }
-
-        .s-PropertyGrid .category-title {
-            border-bottom: 1px solid @glass-001-panel-bg-color;
-        }
-
-        .s-PropertyGrid .category-title a {
-            color: @glass-001-link-color;
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-weight: 300;
-            text-shadow: 1px 1px 1px @glass-001-link-shadow-color;
-        }
-
-        .s-PropertyGrid .category-links a.category-link {
-            color: @glass-001-link-color;
-            text-shadow: 1px 1px 1px @glass-001-link-shadow-color;
-            font-weight: 300;
-            font-size: 13px;
-            font-family: Poppins, Helvetica, "sans-serif";
-        }
-
-        .s-PropertyGrid .category-links a.category-link:hover {
-            text-shadow: 0 0 5px @glass-001-link-shadow-color;
-        }
-
-        .flex-layout .s-Form .editor, .flex-layout .s-Form .widget-wrapper {
-        }
-
-        .flex-layout .s-Form input.editor[type=checkbox] {
-            height: 17px;
+        .flex-layout {
+            .s-Form {
+                input.editor[type=checkbox] {
+                    height: 17px;
+                }
+            }
         }
 
         .s-Form input[type="text"], .s-Form input[type="email"], .s-Form input[type="tel"], .s-Form input[type="search"], .s-Form input[type="url"], .s-Form input[type="password"], .s-Form select {
@@ -1373,109 +1518,111 @@
             background-color: @glass-001-panel-bg-color;
             margin-bottom: 6px;
             border-radius: @glass-001-border-radius;
-        }
-        /*.quick-filters-bar .quick-filter-item .ui-datepicker-trigger {
-            top: -4px;
-        }*/
-        .quick-filters-bar .quick-filter-label {
-            font-family: Poppins, Helvetica, "sans-serif";
-            color: @glass-001-text-color;
-        }
 
-        .quick-filters-bar .inplace-button {
-            height: 32px;
-            padding: 2px 2px 0 2px;
-            width: 28px;
-            margin-top: 2px;
-            border-right: 0px;
-        }
+            .quick-filter-label {
+                font-family: Poppins, Helvetica, "sans-serif";
+                color: @glass-001-text-color;
+            }
 
-        .quick-filters-bar .inplace-button:hover {
-            text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+            .inplace-button {
+                height: 32px;
+                padding: 2px 2px 0 2px;
+                width: 28px;
+                margin-top: 2px;
+                border-right: 0px;
+
+                &:hover {
+                    text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                }
+            }
         }
 
         .flex-layout .s-Form .caption {
             padding-top: 6px;
             color: @glass-001-text-color;
         }
-        /*    .flex-layout .s-Form .caption + input[type="checkbox"], .flex-layout .s-Form .caption + input[type="radio"] {
-        padding-top: 14px;
-    }*/
+
         .select2-drop {
             border-radius: 0 0 @glass-001-border-radius @glass-001-border-radius;
         }
 
-        .select2-container .select2-choice {
-            height: 30px;
-            line-height: 28px;
-            background: transparent;
-            color: @glass-001-text-color !important;
-            border-color: @glass-001-input-border-color;
-            border-radius: @glass-001-border-radius;
-        }
+        .select2-container {
+            .select2-choice {
+                height: 30px;
+                line-height: 28px;
+                background: transparent;
+                color: @glass-001-text-color !important;
+                border-color: @glass-001-input-border-color;
+                border-radius: @glass-001-border-radius;
 
-        .select2-container .select2-choice abbr.select2-search-choice-close {
-            right: 32px;
-        }
+                abbr.select2-search-choice-close {
+                    right: 32px;
+                }
 
-        .select2-container .select2-choice .select2-arrow {
-            padding: 0 3px;
-            background-image: unset;
-            background-color: unset;
-            border-color: @glass-001-input-border-color;
+                .select2-arrow {
+                    padding: 0 3px;
+                    background-image: unset;
+                    background-color: unset;
+                    border-color: @glass-001-input-border-color;
+                }
+            }
         }
 
         .select2-results {
             color: @glass-001-text-color;
+
+            li {
+                line-height: 24px;
+            }
         }
 
-        .select2-results li {
-            /*height: 32px;*/
-            line-height: 24px;
+        .select2-container-multi {
+            .select2-choices {
+                background: transparent;
+                border-radius: @glass-001-border-radius;
+                border-color: @glass-001-input-border-color;
+
+                .select2-search-choice {
+                    padding: 4px 5px 4px 18px;
+                    background: transparent;
+                    border-color: @glass-001-input-border-color;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+                    color: @glass-001-text-color;
+                }
+
+                .select2-search-field {
+                    background: transparent;
+
+                    input {
+                        height: 30px;
+                        line-height: 30px;
+                        padding: 0px 3px;
+                        margin: 0px;
+                        top: 0px;
+                        position: relative;
+                        background: transparent;
+                        border-color: @glass-001-input-border-color;
+                    }
+                }
+            }
         }
 
-        .select2-container-multi .select2-choices {
-            background: transparent;
-            border-radius: @glass-001-border-radius;
-            border-color: @glass-001-input-border-color;
-        }
-
-        .select2-container-multi .select2-choices .select2-search-choice {
-            padding: 4px 5px 4px 18px;
-            background: transparent;
-            border-color: @glass-001-input-border-color;
-            box-shadow: unset;
-            -webkit-box-shadow: unset;
-            color: @glass-001-text-color;
-        }
-
-        .select2-container-multi .select2-choices .select2-search-field {
-            background: transparent;
-        }
-
-        .select2-container-multi .select2-choices .select2-search-field input {
-            height: 30px;
-            line-height: 30px;
-            padding: 0px 3px;
-            margin: 0px;
-            top: 0px;
-            position: relative;
-            background: transparent;
-            border-color: @glass-001-input-border-color;
-        }
-
-        .select2-search input[type=text] {
-            color: @glass-001-text-color;
+        .select2-search {
+            input[type=text] {
+                color: @glass-001-text-color;
+                margin-bottom: 4px;
+                margin-top: 4px;
+                height: 34px !important;
+            }
         }
 
         .select2-no-results {
             background: transparent;
         }
 
-        .select2-search input[type=text] {
-            margin-bottom: 4px;
-            margin-top: 4px;
-            height: 34px !important;
+        .select2-drop-active {
+            border-color: @glass-001-input-border-color;
         }
 
         .property-tabs > li > a, .property-tabs > li.active > a {
@@ -1516,64 +1663,129 @@
             border-radius: unset;
         }
 
-        .s-Form .inplace-button {
-            height: 32px;
-            padding: 2px 3px;
-            width: 32px;
-            margin-left: 2px;
-            background: @glass-001-input-bg-color;
-            border: solid 1px @glass-001-input-border-color;
-            border-radius: @glass-001-border-radius;
+        .s-Form {
+            .inplace-button {
+                height: 32px;
+                padding: 2px 3px;
+                width: 32px;
+                margin-left: 2px;
+                background: @glass-001-input-bg-color;
+                border: solid 1px @glass-001-input-border-color;
+                border-radius: @glass-001-border-radius;
+
+                &:hover {
+                    text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                }
+            }
         }
 
-        .s-Form .inplace-button:hover {
-            text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-        }
+        .tool-buttons {
+            .add-button,
+            .save-and-close-button,
+            .delete-button,
+            .refresh-button,
+            .column-picker-button,
+            .export-xlsx-button,
+            .export-pdf-button,
+            .apply-changes-button,
+            .localization-button {
 
-        .tool-buttons .add-button span.button-inner,
-        .tool-buttons .refresh-button span.button-inner,
-        .tool-buttons .column-picker-button span.button-inner,
-        .tool-buttons .export-xlsx-button span.button-inner,
-        .tool-buttons .export-pdf-button span.button-inner,
-        .tool-buttons .save-and-close-button span.button-inner,
-        .tool-buttons .apply-changes-button span.button-inner,
-        .tool-buttons .delete-button span.button-inner,
-        .tool-buttons .localization-button span.button-inner {
-            background: none;
-        }
+                span.button-inner {
+                    background: none;
 
-        .tool-buttons .add-button span.button-inner::before,
-        .tool-buttons .save-and-close-button span.button-inner::before,
-        .tool-buttons .delete-button span.button-inner::before,
-        .tool-buttons .refresh-button span.button-inner::before,
-        .tool-buttons .column-picker-button span.button-inner::before,
-        .tool-buttons .export-xlsx-button span.button-inner::before,
-        .tool-buttons .export-pdf-button span.button-inner::before,
-        .tool-buttons .apply-changes-button span.button-inner::before,
-        .tool-buttons .localization-button span.button-inner::before {
-            font-family: 'FontAwesome';
-            margin-right: 4px;
-            font-size: 15px;
-            margin-left: -14px;
-            color: @glass-001-text-color;
-            line-height: 22px;
-        }
+                    &::before {
+                        font-family: 'FontAwesome';
+                        margin-right: 4px;
+                        font-size: 15px;
+                        margin-left: -14px;
+                        color: @glass-001-text-color;
+                        line-height: 22px;
+                    }
+                }
 
-        .tool-buttons .add-button.no-text span.button-inner::before,
-        .tool-buttons .save-and-close-button.no-text span.button-inner::before,
-        .tool-buttons .delete-button.no-text span.button-inner::before,
-        .tool-buttons .refresh-button.no-text span.button-inner::before,
-        .tool-buttons .column-picker-button.no-text span.button-inner::before,
-        .tool-buttons .export-xlsx-button.no-text span.button-inner::before,
-        .tool-buttons .export-pdf-button.no-text span.button-inner::before,
-        .tool-buttons .apply-changes-button.no-text span.button-inner::before,
-        .tool-buttons .localization-button.no-text span.button-inner::before {
-            font-family: 'FontAwesome';
-            font-size: 15px;
-            color: @glass-001-text-color;
-            margin-left: 0px;
-            margin-right: 0px;
-            line-height: 22px;
+                &.no-text {
+                    span.button-inner::before {
+                        font-family: 'FontAwesome';
+                        font-size: 15px;
+                        color: @glass-001-text-color;
+                        margin-left: 0px;
+                        margin-right: 0px;
+                        line-height: 22px;
+                    }
+                }
+            }
+
+            .add-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f067";
+                    }
+                }
+            }
+
+            .refresh-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f021";
+                    }
+                }
+            }
+
+            .column-picker-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f00b";
+                    }
+                }
+            }
+
+            .export-xlsx-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f1c3";
+                    }
+                }
+            }
+
+            .export-pdf-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f1c1";
+                    }
+                }
+            }
+
+            .save-and-close-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f0c7";
+                    }
+                }
+            }
+
+            .apply-changes-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f058";
+                    }
+                }
+            }
+
+            .delete-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f1f8";
+                    }
+                }
+            }
+
+            .localization-button {
+                span.button-inner {
+                    &::before {
+                        content: "\f1ab";
+                    }
+                }
+            }
         }
 
         .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
@@ -1586,47 +1798,6 @@
             text-shadow: 0 0 5px @glass-001-link-shadow-color;
         }
 
-
-        .tool-buttons .add-button span.button-inner::before {
-            content: "\f067";
-        }
-
-        .tool-buttons .refresh-button span.button-inner::before {
-            content: "\f021";
-        }
-
-        .tool-buttons .column-picker-button span.button-inner::before {
-            content: "\f00b";
-        }
-
-        .tool-buttons .export-xlsx-button span.button-inner::before {
-            content: "\f1c3";
-        }
-
-        .tool-buttons .export-pdf-button span.button-inner::before {
-            content: "\f1c1";
-        }
-
-        .tool-buttons .save-and-close-button span.button-inner::before {
-            content: "\f0c7";
-        }
-
-        .tool-buttons .apply-changes-button span.button-inner::before {
-            content: "\f058";
-        }
-
-        .tool-buttons .delete-button span.button-inner::before {
-            content: "\f1f8";
-        }
-
-        .tool-buttons .localization-button span.button-inner::before {
-            content: "\f1ab";
-        }
-
-        span .button-inner::before, .s-Toolbar .tool-button:not(.disabled).hover span.button-inner::before {
-            color: @glass-001-link-color;
-        }
-
         .inplace-create.edit b {
             /*margin: 2px 0px 0px 0px;*/
         }
@@ -1634,23 +1805,21 @@
         .s-QuickSearchBar {
             border-right: 0;
             border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0;
-        }
 
-        .s-QuickSearchBar .quick-search-icon, .s-QuickSearchBar input.s-QuickSearchInput {
-            height: 32px;
-        }
+            .quick-search-icon {
+                height: 32px;
+                background: @glass-001-input-border-color;
+                border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius;
+            }
 
-        .s-QuickSearchBar .quick-search-icon {
-            background: @glass-001-input-border-color;
-            border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius;
-        }
-
-        .s-QuickSearchBar input.s-QuickSearchInput {
-            border-color: @glass-001-input-border-color;
-            border-right: 1px solid @glass-001-input-border-color;
-            background: @glass-001-input-bg-color;
-            color: @glass-001-text-color;
-            border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0;
+            input.s-QuickSearchInput {
+                height: 32px;
+                border-color: @glass-001-input-border-color;
+                border-right: 1px solid @glass-001-input-border-color;
+                background: @glass-001-input-bg-color;
+                color: @glass-001-text-color;
+                border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0;
+            }
         }
 
         .ui-tabs .ui-tabs-nav .ui-state-default, .ui-tabs .ui-tabs-nav .ui-widget-content .ui-state-default, .ui-tabs .ui-tabs-nav .ui-widget-header .ui-state-default {
@@ -1806,38 +1975,37 @@
             height: 34px;
             border: unset;
             margin-top: 4px;
-        }
 
-        .s-FilterDisplayBar .edit {
-            background: @glass-001-input-bg-color;
-            border: solid 1px if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
-            color: @glass-001-link-color;
-            font-weight: 400;
-            padding: 3px 10px;
-            line-height: 15px;
-            border-radius: @glass-001-border-radius;
-            margin: 4px;
-        }
+            .edit {
+                background: @glass-001-input-bg-color;
+                border: solid 1px if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+                color: @glass-001-link-color;
+                font-weight: 400;
+                padding: 3px 10px;
+                line-height: 15px;
+                border-radius: @glass-001-border-radius;
+                margin: 4px;
 
-        .s-FilterDisplayBar .edit::before {
-            font-family: 'FontAwesome';
-            content: "\";
-            padding-right: 5px;
-            margin: 2px 0 0 -2px;
-        }
+                &::before {
+                    font-family: 'FontAwesome';
+                    content: "\";
+                    padding-right: 5px;
+                    margin: 2px 0 0 -2px;
+                }
 
-        .s-FilterDisplayBar .cap {
-            color: @glass-001-link-color;
-        }
+                &:hover {
+                    text-shadow: 0 0 5px @glass-001-link-shadow-color;
+                }
+            }
 
+            .cap {
+                color: @glass-001-link-color;
+            }
 
-        .s-FilterDisplayBar .edit:hover {
-            text-shadow: 0 0 5px @glass-001-link-shadow-color;
-        }
-
-        .s-FilterDisplayBar .txt {
-            color: @glass-001-text-color;
-            font-weight: 300;
+            .txt {
+                color: @glass-001-text-color;
+                font-weight: 300;
+            }
         }
 
         .s-SlickPager {
@@ -1847,51 +2015,60 @@
             padding: 3px;
             height: 34px;
             color: @glass-001-text-color;
-        }
 
-        .s-SlickPager select, .s-SlickPager input {
-            background: transparent;
-            border-radius: @glass-001-border-radius;
+            select, input {
+                background: transparent;
+                border-radius: @glass-001-border-radius;
+            }
         }
 
         .ui-datepicker {
             //background: url('/Content/skins/glass001/assets/bg.jpg') fixed;
             background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 /cover;
             background-color: @glass-001-dialog-bg-color;
-        }
 
-        .ui-datepicker .ui-datepicker-calendar th {
-            color: @glass-001-link-color;
-        }
+            .ui-datepicker-calendar {
+                th {
+                    color: @glass-001-link-color;
+                }
 
-        .ui-datepicker .ui-datepicker-calendar td > a.ui-state-highlight {
-        }
+                td {
+                    > a {
+                        color: @glass-001-text-color;
+                        border-color: @glass-001-text-color;
+                    }
+                }
+            }
 
-        .ui-datepicker .ui-datepicker-header, .ui-datepicker .ui-datepicker-calendar td > a {
-            color: @glass-001-text-color;
-            border-color: @glass-001-text-color;
-        }
+            .ui-datepicker-header {
+                color: @glass-001-text-color;
+                border-color: @glass-001-text-color;
+            }
 
+            .ui-datepicker-buttonpane {
+                button {
+                    height: 32px;
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 13px;
+                    background: @glass-001-input-bg-color;
+                    border: unset;
+                    color: @glass-001-text-color;
+                    box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;
+                    -webkit-box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;
+                    padding: 2px 5px;
+                    border-radius: @glass-001-border-radius;
 
-        .ui-datepicker .ui-datepicker-buttonpane button {
-            height: 32px;
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-size: 13px;
-            background: @glass-001-input-bg-color;
-            border: unset;
-            color: @glass-001-text-color;
-            box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;
-            -webkit-box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;
-            padding: 2px 5px;
-            border-radius: @glass-001-border-radius;
-        }
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }
 
-        .ui-datepicker .ui-datepicker-buttonpane button:hover {
-            text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-        }
-
-        .ui-datepicker .ui-datepicker-title select {
-            background: transparent;
+            .ui-datepicker-title {
+                select {
+                    background: transparent;
+                }
+            }
         }
 
         button.ui-datepicker-trigger {
@@ -1903,10 +2080,6 @@
             height: 22px;
             padding-left: 2px;
         }
-
-        img.img.ui-datepicker-trigger {
-        }
-
 
         button.btn-primary {
             color: if((@glass-001-is-dark-style), @glass-001-text-color, #fff) !important;
@@ -1929,15 +2102,30 @@
             width: 26px;
             text-align: center;
             border: solid 1px transparent;
-        }
 
-        .slick-pg-btn > span:before {
-            font-size: 15px;
-            color: @glass-001-text-color;
-            font-family: "FontAwesome";
-            font-style: normal;
-            font-weight: normal;
-            -webkit-font-smoothing: antialiased;
+            > span {
+                &:before {
+                    font-size: 15px;
+                    color: @glass-001-text-color;
+                    font-family: "FontAwesome";
+                    font-style: normal;
+                    font-weight: normal;
+                    -webkit-font-smoothing: antialiased;
+                }
+            }
+
+            &:hover {
+                border: unset;
+                border: solid 1px @glass-001-input-border-color;
+
+                > .slick-pg-btn-span {
+                    border: unset;
+
+                    &::before {
+                        color: @glass-001-link-color;
+                    }
+                }
+            }
         }
 
         .slick-pg-btn-span {
@@ -1945,36 +2133,44 @@
             border: unset;
         }
 
-        .slick-pg-btn:hover, .slick-pg-btn:hover > .slick-pg-btn-span {
-            border: unset;
+        .slick-pg-first {
+            > span {
+                &:before {
+                    content: "\f049";
+                }
+            }
         }
 
-        .slick-pg-btn:hover > .slick-pg-btn-span::before {
-            color: @glass-001-link-color;
+        .slick-pg-prev {
+            > span {
+                &:before {
+                    content: "\f04a";
+                }
+            }
         }
 
-        .slick-pg-btn:hover {
-            border: solid 1px @glass-001-input-border-color;
+        .slick-pg-next {
+            > span {
+                &:before {
+                    content: "\f04e";
+                }
+            }
         }
 
-        .slick-pg-first > span:before {
-            content: "\f049";
+        .slick-pg-last {
+            > span {
+                &:before {
+                    content: "\f050";
+                }
+            }
         }
 
-        .slick-pg-prev > span:before {
-            content: "\f04a";
-        }
-
-        .slick-pg-next > span:before {
-            content: "\f04e";
-        }
-
-        .slick-pg-last > span:before {
-            content: "\f050";
-        }
-
-        .slick-pg-reload > span:before {
-            content: "\f021";
+        .slick-pg-reload {
+            > span {
+                &:before {
+                    content: "\f021";
+                }
+            }
         }
 
         .slick-pg-current {
