@@ -33,7 +33,7 @@
                 $.datepicker.setDefaults({
                     buttonImage: null,
                     buttonImageOnly: false,
-                    buttonText: '<i class="fa fa-calendar text-white"></i>'
+                    buttonText: '<i class="fa fa-calendar j-skin-text-color"></i>'
                 });
 
                 Serenity.DataGrid.defaultRowHeight = 30;
