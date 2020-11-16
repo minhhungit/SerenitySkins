@@ -639,6 +639,7 @@
         background: @glass-001-theme-background;
         background-size: @glass-001-theme-background-size;
         background-color: @glass-001-theme-color;
+        color: @glass-001-text-color;
     }
 
     .skin-glass-001-style-@{index} {
@@ -665,16 +666,24 @@
         ::placeholder {
             color: fade(@glass-001-text-color, 50%);
         }
-
-        input {
+        /*        input {
             height: 32px;
-        }
-
-        input[type="text"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], input[type="password"], textarea {
+        }*/
+        input[type="text"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], input[type="password"] {
             height: 32px;
             line-height: 32px;
             background: transparent;
             border-radius: @glass-001-border-radius;
+        }
+
+        textarea {
+            background: transparent;
+            border-radius: @glass-001-border-radius;
+            color: @glass-001-text-color;
+        }
+
+        h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+            color: @glass-001-text-color;
         }
 
         .info-box {
@@ -686,23 +695,134 @@
             }
         }
 
+        .box {
+            background: @glass-001-dialog-bg-color;
+            color: @glass-001-text-color;
+
+            .box-header {
+                background: transparent; //if((@glass-001-is-dark-style), lighten(@glass-001-dialog-bg-color, 12%), darken(@glass-001-dialog-bg-color, 10%));
+                color: @glass-001-text-color;
+
+                .box-title {
+                    color: @glass-001-link-color;
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-weight: 300;
+                    font-size: 18px;
+                    text-shadow: 1px 1px 1px @glass-001-link-shadow-color;
+                }
+
+                &.with-border {
+                    color: @glass-001-text-color;
+                    text-shadow: @glass-001-text-shadow-color;
+                    border-bottom: 1px solid @glass-001-panel-bg-color;
+                }
+            }
+
+            .box-footer {
+                background: transparent;
+                border: unset;
+                color: @glass-001-text-color;
+            }
+
+            label {
+                color: @glass-001-text-color;
+            }
+        }
+
         .small-box {
             border-radius: @glass-001-border-radius;
+        }
+
+        .help-block {
+            color: fade(@glass-001-text-color, 50%);
+        }
+
+        .btn {
+            padding: 5px 12px;
+        }
+
+        table {
+
+            &.table {
+                color: @glass-001-text-color;
+
+                &.table-striped {
+                    > tbody > tr:nth-of-type(odd) {
+                        background: rgba(0,0,0,.05);
+                    }
+                }
+
+                &.table-hover {
+                    > tbody > tr:hover {
+                        background-color: rgba(0,0,0,.05);
+                    }
+                }
+            }
+        }
+
+        .list-group-item {
+            background: transparent;
+            color: @glass-001-text-color;
+            border-color: @glass-001-input-border-color;
+        }
+
+        .text-muted {
+            color: fade(@glass-001-text-color, 50%);
         }
 
         .content-header > h1 {
             color: @glass-001-link-color;
         }
 
-        .form-control {
-            height: 32px;
-            padding: 3px 12px;
+        .icheckbox_minimal-blue.disabled,
+        .icheckbox_minimal-red.disabled,
+        /*        .iradio_minimal-blue.disabled,
+        .iradio_minimal-red.disabled,*/
+        .icheckbox_flat-green.disabled,
+        .iradio_flat-green.disabled {
+            background-color: if((@glass-001-is-dark-style), #ffffff12, #00000008);
+            background-image: url('/Content/skins/glass001/assets/az-subtle.png');
         }
 
-        select.form-control {
-            background: transparent;
-            color: @glass-001-text-color;
+        .form-control {
+            /*height: 32px;*/
+            /*padding: 3px 12px;*/
+        }
+
+        .form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+            background-color: if((@glass-001-is-dark-style), #ffffff12, #00000008);
+            background-image: url('/Content/skins/glass001/assets/az-subtle.png');
             border-radius: @glass-001-border-radius;
+            border-color: fade(@glass-001-input-border-color, 10%);
+            color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;
+        }
+
+        select {
+
+            &.form-control {
+                background: transparent;
+                color: @glass-001-text-color !important;
+                border-radius: @glass-001-border-radius;
+
+                &[disabled] {
+                    option {
+                        color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;
+                    }
+                }
+
+                option {
+                    color: @glass-001-text-color;
+                    background: url(/Content/skins/glass001/assets/boxlight_ltr.png) 0 0 / cover;
+                    background-color: @glass-001-dialog-bg-color;
+                    padding: 5px 0;
+                }
+            }
+
+            &[multiple] {
+                option {
+                    background: transparent;
+                }
+            }
         }
 
         .main-footer {
@@ -779,7 +899,7 @@
             .ui-dialog-content {
                 button {
                     background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);
-                    border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+                    /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
                     border-style: solid;
                     border-width: 1px;
                     border-radius: @glass-001-border-radius;
@@ -1112,12 +1232,9 @@
                 color: #fff;
             }
         }
-
-
-        button {
+        /*button {
             height: 34px;
-        }
-
+        }*/
         button:hover {
             text-shadow: 0 0 5px @glass-001-text-hover-active-color;
         }
@@ -1125,6 +1242,30 @@
         .nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus, .main-header .sidebar-toggle:hover {
             color: @glass-001-link-hover-active-color;
             text-shadow: 0 0 2px @glass-001-link-shadow-color;
+        }
+
+        .nav-stacked {
+            > li {
+                border-color: @glass-001-input-border-color;
+
+                a {
+                    color: @glass-001-text-color;
+
+                    &:hover {
+                        background: @glass-001-panel-bg-color;
+                    }
+                }
+
+                &.active {
+                    a {
+                        color: @glass-001-link-color;
+
+                        &:hover {
+                            color: @glass-001-link-hover-active-color;
+                        }
+                    }
+                }
+            }
         }
 
         .control-sidebar-glass, .control-sidebar-glass + .control-sidebar-bg {
@@ -1262,6 +1403,18 @@
                 }
             }
         }
+
+        .input-group {
+            .input-group-addon {
+                background: @glass-001-panel-bg-color;
+                color: @glass-001-text-color;
+                border-color: @glass-001-input-border-color;
+            }
+        }
+
+/*        .input-group-sm{
+            height: unset;
+        }*/
 
         .control-sidebar {
             -webkit-box-shadow: unset;
@@ -1508,9 +1661,21 @@
             }
         }
 
-        .s-Form input[type="text"], .s-Form input[type="email"], .s-Form input[type="tel"], .s-Form input[type="search"], .s-Form input[type="url"], .s-Form input[type="password"], .s-Form select {
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="search"],
+        input[type="url"],
+        input[type="password"] {
             height: 32px;
             line-height: 32px;
+            background: transparent;
+            color: @glass-001-text-color;
+            border-color: @glass-001-input-border-color;
+            border-radius: @glass-001-border-radius;
+        }
+
+        select {
             background: transparent;
             color: @glass-001-text-color;
             border-color: @glass-001-input-border-color;
@@ -1563,9 +1728,29 @@
         }
 
         .select2-container {
+            background: transparent;
+
             .select2-choice {
                 height: 30px;
                 line-height: 28px;
+                background: transparent;
+                color: @glass-001-text-color !important;
+                border-color: @glass-001-input-border-color;
+                border-radius: @glass-001-border-radius;
+
+                abbr.select2-search-choice-close {
+                    right: 32px;
+                }
+
+                .select2-arrow {
+                    padding: 0 3px;
+                    background-image: unset;
+                    background-color: unset;
+                    border-color: @glass-001-input-border-color;
+                }
+            }
+
+            .select2-choices {
                 background: transparent;
                 color: @glass-001-text-color !important;
                 border-color: @glass-001-input-border-color;
@@ -1591,8 +1776,8 @@
                 .select2-choice {
                     cursor: default;
                     border-radius: @glass-001-border-radius;
-                    border-color: #ffffff0d;
-                    color: #98989880 !important;
+                    border-color: fade(@glass-001-input-border-color, 10%);
+                    color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;
 
                     .select2-arrow {
                         border-left: 0;
@@ -1693,6 +1878,79 @@
         .nav-tabs {
             border: unset;
             margin-bottom: 1px;
+        }
+
+        .nav-tabs-custom {
+            background: transparent;
+            color: @glass-001-text-color;
+
+            > .nav-tabs {
+                > li {
+                    > a {
+                        color: @glass-001-text-color;
+
+                        &:hover {
+                            color: @glass-001-link-hover-active-color;
+                        }
+                    }
+
+                    &.active {
+                        color: @glass-001-link-color;
+                        background: @glass-001-panel-bg-color;
+
+                        a {
+                            background: @glass-001-panel-bg-color;
+                            color: @glass-001-link-color;
+                            border-color: transparent;
+
+                            &:hover {
+                                color: @glass-001-link-hover-active-color;
+                                background: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+
+
+            > .tab-content {
+                background: @glass-001-dialog-bg-color;
+                color: @glass-001-text-color;
+            }
+        }
+
+        .post {
+            color: @glass-001-text-color;
+        }
+
+        .link-black {
+            color: @glass-001-link-color;
+        }
+
+        blockquote footer, blockquote small, blockquote .small {
+            color: fade(@glass-001-text-color, 50%);
+        }
+
+        .timeline {
+            > li {
+                > .timeline-item {
+                    background: @glass-001-dialog-bg-color;
+                    color: @glass-001-text-color;
+                    border-radius: @glass-001-border-radius;
+
+                    > .timeline-header {
+                        color: @glass-001-text-color;
+                    }
+
+                    .time {
+                        color: fade(@glass-001-text-color, 50%);
+                    }
+                }
+            }
+        }
+
+        .modal-dialog {
+            color: #444;
         }
 
         .tab-content {
@@ -1925,32 +2183,47 @@
             border: unset;
         }
 
-        .editor .slick-cell {
-            color: @glass-001-text-color;
-            padding: 4px 4px 0 4px;
-            border-style: none solid solid none;
-            border-right-color: @glass-001-input-border-color;
-            border-bottom-color: @glass-001-input-border-color;
-            border-width: 1px;
-        }
+        .editor {
+            &.readonly {
+                background-color: #ffffff12;
+                background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+                border-color: fade(@glass-001-input-border-color, 50%);
+            }
 
-        .editor .slick-header-column {
-            border-right: solid 1px @glass-001-input-border-color;
-            border-style: none solid solid none;
-        }
+            .slick-cell {
+                color: @glass-001-text-color;
+                padding: 4px 4px 0 4px;
+                border-style: none solid solid none;
+                border-right-color: @glass-001-input-border-color;
+                border-bottom-color: @glass-001-input-border-color;
+                border-width: 1px;
+            }
 
-        .s-DataGrid.editor .slick-cell > a {
-            text-shadow: 0 0 5px @glass-001-link-shadow-color;
-        }
+            .slick-header-column {
+                border-right: solid 1px @glass-001-input-border-color;
+                border-style: none solid solid none;
+                font-family: Poppins, Helvetica, "sans-serif";
+                font-weight: 500;
+                font-size: 13px;
+                color: @glass-001-text-color;
+                background: if((@glass-001-is-dark-style),lighten(@glass-001-panel-bg-color, 50%), darken(@glass-001-panel-bg-color, 15%));
+                border-top: solid 1px @glass-001-input-border-color;
+                border-bottom-color: @glass-001-input-border-color;
+            }
 
-        .editor .slick-header-column, .editor .slick-header-column.ui-state-default {
-            font-family: Poppins, Helvetica, "sans-serif";
-            font-weight: 500;
-            font-size: 13px;
-            color: @glass-001-text-color;
-            background: if((@glass-001-is-dark-style),lighten(@glass-001-panel-bg-color, 50%), darken(@glass-001-panel-bg-color, 15%));
-            border-top: solid 1px @glass-001-input-border-color;
-            border-bottom-color: @glass-001-input-border-color;
+            .slick-header-column.ui-state-default {
+                font-family: Poppins, Helvetica, "sans-serif";
+                font-weight: 500;
+                font-size: 13px;
+                color: @glass-001-text-color;
+                background: if((@glass-001-is-dark-style),lighten(@glass-001-panel-bg-color, 50%), darken(@glass-001-panel-bg-color, 15%));
+                border-top: solid 1px @glass-001-input-border-color;
+                border-bottom-color: @glass-001-input-border-color;
+            }
+
+            .slick-cell > a {
+                text-shadow: 0 0 5px @glass-001-link-shadow-color;
+            }
         }
 
         .slick-cell > a {
@@ -1967,7 +2240,6 @@
             border-color: @glass-001-input-border-color;
         }
 
-        select.form-control option,
         .slick-cell select option,
         .slick-cell select.dirty option,
         .s-SlickPager select option,
@@ -1994,6 +2266,18 @@
 
         input.slick-pg-current {
             height: 20px;
+        }
+
+        input {
+            &.readonly {
+                background-color: #ffffff12;
+                background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+                border-color: fade(@glass-001-input-border-color, 50%);
+            }
+
+            background: @glass-001-input-bg-color;
+            border: @glass-001-input-border-color;
+            border-radius: @glass-001-border-radius;
         }
 
         .slick-cell select {
@@ -2227,6 +2511,23 @@
             box-shadow: 3px 3px 6px #6d6d6d;
             -webkit-box-shadow: 3px 3px 6px #6d6d6d;
             margin-bottom: 5px;
+        }
+
+        .todo-list > li {
+            background: transparent;
+            color: @glass-001-text-color;
+            //border-color: @glass-001-input-border-color;
+            border: solid 1px @glass-001-input-border-color;
+            border-left-width: 3px;
+            border-radius: @glass-001-border-radius;
+
+            &:nth-child(odd) {
+                background: rgba(0,0,0,.05);
+            }
+
+            :nth-child(even) {
+                background-color: transparent;
+            }
         }
     }
 

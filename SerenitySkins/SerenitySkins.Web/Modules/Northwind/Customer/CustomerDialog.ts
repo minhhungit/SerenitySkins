@@ -60,6 +60,10 @@
             if (this.isNew()) {
                 // demo disable select2 control
                 Serenity.EditorUtils.setReadOnly(this.form.City, true);
+                Serenity.EditorUtils.setReadOnly(this.form.SendBulletin, true);
+                Serenity.EditorUtils.setReadOnly(this.form.ContactName, true);
+                Serenity.EditorUtils.setReadOnly(this.form.LastContactDate, true);
+                Serenity.EditorUtils.setReadOnly(this.form.Email, true);
             }
         }
     }
