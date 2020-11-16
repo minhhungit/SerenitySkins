@@ -54,7 +54,7 @@
             Q.reloadLookup('Northwind.Customer');
         }
 
-        afterLoadEntity() {
+        protected afterLoadEntity() {
             super.afterLoadEntity();
 
             if (this.isNew()) {
