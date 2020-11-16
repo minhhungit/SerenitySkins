@@ -5585,7 +5585,7 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .sidebar-menu > li:hover > a {
   border-left-color: #56c1ff;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-1 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -7127,7 +7127,7 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .sidebar-menu > li:hover > a {
   border-left-color: #56c1ff;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-2 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -8669,7 +8669,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .sidebar-menu > li:hover > a {
   border-left-color: #56c1ff;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-3 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -10211,7 +10211,7 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .sidebar-menu > li:hover > a {
   border-left-color: #56c1ff;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-4 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -11753,7 +11753,7 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .sidebar-menu > li:hover > a {
   border-left-color: #dab155;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-5 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -13295,7 +13295,7 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .sidebar-menu > li:hover > a {
   border-left-color: #e2b143;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-6 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -14837,7 +14837,7 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .sidebar-menu > li:hover > a {
   border-left-color: #a2de10;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-7 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -16379,7 +16379,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .sidebar-menu > li:hover > a {
   border-left-color: #e6b84f;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-8 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -17921,7 +17921,7 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .sidebar-menu > li:hover > a {
   border-left-color: #e3fd95;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-9 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -19463,7 +19463,7 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .sidebar-menu > li:hover > a {
   border-left-color: #a4fff2;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-10 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -21005,7 +21005,7 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .sidebar-menu > li:hover > a {
   border-left-color: #a4fff2;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-11 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -22547,7 +22547,7 @@ body.skin-glass-001-style-12 {
 }
 .skin-glass-001-style-12 .sidebar-menu > li:hover > a {
   border-left-color: #56ecec;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-12 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -24089,7 +24089,7 @@ body.skin-glass-001-style-13 {
 }
 .skin-glass-001-style-13 .sidebar-menu > li:hover > a {
   border-left-color: #56ecec;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-13 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -25631,7 +25631,7 @@ body.skin-glass-001-style-14 {
 }
 .skin-glass-001-style-14 .sidebar-menu > li:hover > a {
   border-left-color: #56ecec;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-14 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -27173,7 +27173,7 @@ body.skin-glass-001-style-15 {
 }
 .skin-glass-001-style-15 .sidebar-menu > li:hover > a {
   border-left-color: #56ecec;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-15 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -28715,7 +28715,7 @@ body.skin-glass-001-style-16 {
 }
 .skin-glass-001-style-16 .sidebar-menu > li:hover > a {
   border-left-color: #56ecec;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-16 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -30257,7 +30257,7 @@ body.skin-glass-001-style-17 {
 }
 .skin-glass-001-style-17 .sidebar-menu > li:hover > a {
   border-left-color: #e0d445;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-17 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -31799,7 +31799,7 @@ body.skin-glass-001-style-18 {
 }
 .skin-glass-001-style-18 .sidebar-menu > li:hover > a {
   border-left-color: #6ef2ff;
-  font-weight: unset;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-18 .sidebar-menu > li > .treeview-menu {
   background: rgba(0, 0, 0, 0.2);
@@ -33341,7 +33341,7 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .sidebar-menu > li:hover > a {
   border-left-color: #5baaff;
-  font-weight: 400;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-19 .sidebar-menu > li > .treeview-menu {
   background: transparent;
@@ -34883,7 +34883,7 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .sidebar-menu > li:hover > a {
   border-left-color: #000000;
-  font-weight: 400;
+  /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-20 .sidebar-menu > li > .treeview-menu {
   background: #a2a2a224;

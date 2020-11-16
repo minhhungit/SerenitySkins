@@ -115,12 +115,14 @@ Add a helper function for navigation in `/Views/Shared/LeftNavigation.cshtml` to
 </script>
 ```
 
-Add new font into `/Views/Shared/_LayoutHead.cshtml`:
+Copy file `Content\font-poppins.css` and modify `Content\site\CssBundles.json` to add font to `Base` element:
 
-```c#
-<link rel="home" id="ApplicationPath" href="~/" />
-<link rel="icon" type="image/x-icon" href="~/favicon.ico" />	
-@Html.StyleBundle("Base")
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"> @* <========== add this line*@
-@Html.StyleBundle("Site")
+```json
+{
+  "Base": [
+    "~/Content/font-open-sans-base64.css",
+    "~/Content/font-awesome.css",
+    "~/Content/font-poppins.css", <==================
+    "~/Content/bootstrap.css",
+    "~/Content/css/select2.css",
 ```

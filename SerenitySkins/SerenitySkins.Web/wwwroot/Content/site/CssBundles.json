@@ -2,6 +2,7 @@
   "Base": [
     "~/Content/font-open-sans-base64.css",
     "~/Content/font-awesome.css",
+    "~/Content/font-poppins.css",
     "~/Content/bootstrap.css",
     "~/Content/css/select2.css",
     "~/Content/pace.css",
