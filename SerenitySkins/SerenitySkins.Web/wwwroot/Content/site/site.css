@@ -5082,7 +5082,7 @@ body.skin-glass-001-style-1 {
   color: #fff;
 }
 .skin-glass-001-style-1 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 .info-box .info-box-icon {
@@ -5133,7 +5133,7 @@ body.skin-glass-001-style-1 {
   background: #ffffff26;
 }
 .skin-glass-001-style-1 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-1 table.table {
   color: #fff;
@@ -5193,7 +5193,7 @@ body.skin-glass-001-style-1 {
   background: transparent;
 }
 .skin-glass-001-style-1 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -5292,7 +5292,7 @@ body.skin-glass-001-style-1 {
   border: solid 1px #c19bcc;
 }
 .skin-glass-001-style-1 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 .s-ColumnPickerDialog .column-list h5 {
@@ -5300,7 +5300,7 @@ body.skin-glass-001-style-1 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-1 .s-ColumnPickerDialog li {
@@ -5325,7 +5325,7 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-1 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-1 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -5525,7 +5525,7 @@ body.skin-glass-001-style-1 {
   color: #fff;
 }
 .skin-glass-001-style-1 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-1 .nav-stacked > li.active a {
   color: #56c1ff;
@@ -5621,7 +5621,7 @@ body.skin-glass-001-style-1 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-1 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #c19bcc;
 }
@@ -5631,13 +5631,13 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-1 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -6018,10 +6018,10 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56c1ff;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-1 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56c1ff;
   border-color: transparent;
 }
@@ -6169,7 +6169,7 @@ body.skin-glass-001-style-1 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-1 .inplace-create.edit b {
   background: none;
@@ -6205,7 +6205,7 @@ body.skin-glass-001-style-1 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #c19bcc;
   border-bottom-color: #c19bcc;
@@ -6239,7 +6239,7 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .slick-footerrow-column,
 .skin-glass-001-style-1 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56c1ff;
 }
 .skin-glass-001-style-1 .s-DataGrid.editor,
@@ -6271,7 +6271,7 @@ body.skin-glass-001-style-1 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #c19bcc;
   border-bottom-color: #c19bcc;
 }
@@ -6280,7 +6280,7 @@ body.skin-glass-001-style-1 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #c19bcc;
   border-bottom-color: #c19bcc;
 }
@@ -6375,7 +6375,7 @@ body.skin-glass-001-style-1 {
   font-weight: 300;
 }
 .skin-glass-001-style-1 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -6533,7 +6533,7 @@ body.skin-glass-001-style-1 {
   color: #fff;
 }
 .skin-glass-001-style-1 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -6624,7 +6624,7 @@ body.skin-glass-001-style-2 {
   color: #fff;
 }
 .skin-glass-001-style-2 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 .info-box .info-box-icon {
@@ -6675,7 +6675,7 @@ body.skin-glass-001-style-2 {
   background: #ffffff26;
 }
 .skin-glass-001-style-2 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-2 table.table {
   color: #fff;
@@ -6735,7 +6735,7 @@ body.skin-glass-001-style-2 {
   background: transparent;
 }
 .skin-glass-001-style-2 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -6834,7 +6834,7 @@ body.skin-glass-001-style-2 {
   border: solid 1px #7c95a9;
 }
 .skin-glass-001-style-2 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 .s-ColumnPickerDialog .column-list h5 {
@@ -6842,7 +6842,7 @@ body.skin-glass-001-style-2 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-2 .s-ColumnPickerDialog li {
@@ -6867,7 +6867,7 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-2 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-2 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -7067,7 +7067,7 @@ body.skin-glass-001-style-2 {
   color: #fff;
 }
 .skin-glass-001-style-2 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-2 .nav-stacked > li.active a {
   color: #56c1ff;
@@ -7163,7 +7163,7 @@ body.skin-glass-001-style-2 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-2 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #7c95a9;
 }
@@ -7173,13 +7173,13 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-2 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -7560,10 +7560,10 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56c1ff;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-2 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56c1ff;
   border-color: transparent;
 }
@@ -7711,7 +7711,7 @@ body.skin-glass-001-style-2 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-2 .inplace-create.edit b {
   background: none;
@@ -7747,7 +7747,7 @@ body.skin-glass-001-style-2 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #7c95a9;
   border-bottom-color: #7c95a9;
@@ -7781,7 +7781,7 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .slick-footerrow-column,
 .skin-glass-001-style-2 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56c1ff;
 }
 .skin-glass-001-style-2 .s-DataGrid.editor,
@@ -7813,7 +7813,7 @@ body.skin-glass-001-style-2 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #7c95a9;
   border-bottom-color: #7c95a9;
 }
@@ -7822,7 +7822,7 @@ body.skin-glass-001-style-2 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #7c95a9;
   border-bottom-color: #7c95a9;
 }
@@ -7917,7 +7917,7 @@ body.skin-glass-001-style-2 {
   font-weight: 300;
 }
 .skin-glass-001-style-2 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -8075,7 +8075,7 @@ body.skin-glass-001-style-2 {
   color: #fff;
 }
 .skin-glass-001-style-2 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -8166,7 +8166,7 @@ body.skin-glass-001-style-3 {
   color: #fff;
 }
 .skin-glass-001-style-3 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .info-box .info-box-icon {
@@ -8217,7 +8217,7 @@ body.skin-glass-001-style-3 {
   background: #ffffff26;
 }
 .skin-glass-001-style-3 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-3 table.table {
   color: #fff;
@@ -8277,7 +8277,7 @@ body.skin-glass-001-style-3 {
   background: transparent;
 }
 .skin-glass-001-style-3 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -8376,7 +8376,7 @@ body.skin-glass-001-style-3 {
   border: solid 1px #a29aa7;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .column-list h5 {
@@ -8384,7 +8384,7 @@ body.skin-glass-001-style-3 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog li {
@@ -8409,7 +8409,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-3 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-3 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -8609,7 +8609,7 @@ body.skin-glass-001-style-3 {
   color: #fff;
 }
 .skin-glass-001-style-3 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-3 .nav-stacked > li.active a {
   color: #56c1ff;
@@ -8705,7 +8705,7 @@ body.skin-glass-001-style-3 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-3 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #a29aa7;
 }
@@ -8715,13 +8715,13 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-3 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -9102,10 +9102,10 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56c1ff;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-3 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56c1ff;
   border-color: transparent;
 }
@@ -9253,7 +9253,7 @@ body.skin-glass-001-style-3 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-3 .inplace-create.edit b {
   background: none;
@@ -9289,7 +9289,7 @@ body.skin-glass-001-style-3 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #a29aa7;
   border-bottom-color: #a29aa7;
@@ -9323,7 +9323,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .slick-footerrow-column,
 .skin-glass-001-style-3 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56c1ff;
 }
 .skin-glass-001-style-3 .s-DataGrid.editor,
@@ -9355,7 +9355,7 @@ body.skin-glass-001-style-3 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #a29aa7;
   border-bottom-color: #a29aa7;
 }
@@ -9364,7 +9364,7 @@ body.skin-glass-001-style-3 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #a29aa7;
   border-bottom-color: #a29aa7;
 }
@@ -9459,7 +9459,7 @@ body.skin-glass-001-style-3 {
   font-weight: 300;
 }
 .skin-glass-001-style-3 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -9617,7 +9617,7 @@ body.skin-glass-001-style-3 {
   color: #fff;
 }
 .skin-glass-001-style-3 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -9708,7 +9708,7 @@ body.skin-glass-001-style-4 {
   color: #fff;
 }
 .skin-glass-001-style-4 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 .info-box .info-box-icon {
@@ -9759,7 +9759,7 @@ body.skin-glass-001-style-4 {
   background: #ffffff26;
 }
 .skin-glass-001-style-4 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-4 table.table {
   color: #fff;
@@ -9819,7 +9819,7 @@ body.skin-glass-001-style-4 {
   background: transparent;
 }
 .skin-glass-001-style-4 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -9918,7 +9918,7 @@ body.skin-glass-001-style-4 {
   border: solid 1px #92889a;
 }
 .skin-glass-001-style-4 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 .s-ColumnPickerDialog .column-list h5 {
@@ -9926,7 +9926,7 @@ body.skin-glass-001-style-4 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-4 .s-ColumnPickerDialog li {
@@ -9951,7 +9951,7 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-4 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-4 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -10151,7 +10151,7 @@ body.skin-glass-001-style-4 {
   color: #fff;
 }
 .skin-glass-001-style-4 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-4 .nav-stacked > li.active a {
   color: #56c1ff;
@@ -10247,7 +10247,7 @@ body.skin-glass-001-style-4 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-4 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #92889a;
 }
@@ -10257,13 +10257,13 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-4 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -10644,10 +10644,10 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56c1ff;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-4 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56c1ff;
   border-color: transparent;
 }
@@ -10795,7 +10795,7 @@ body.skin-glass-001-style-4 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-4 .inplace-create.edit b {
   background: none;
@@ -10831,7 +10831,7 @@ body.skin-glass-001-style-4 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #92889a;
   border-bottom-color: #92889a;
@@ -10865,7 +10865,7 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .slick-footerrow-column,
 .skin-glass-001-style-4 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56c1ff;
 }
 .skin-glass-001-style-4 .s-DataGrid.editor,
@@ -10897,7 +10897,7 @@ body.skin-glass-001-style-4 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #92889a;
   border-bottom-color: #92889a;
 }
@@ -10906,7 +10906,7 @@ body.skin-glass-001-style-4 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #92889a;
   border-bottom-color: #92889a;
 }
@@ -11001,7 +11001,7 @@ body.skin-glass-001-style-4 {
   font-weight: 300;
 }
 .skin-glass-001-style-4 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -11159,7 +11159,7 @@ body.skin-glass-001-style-4 {
   color: #fff;
 }
 .skin-glass-001-style-4 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -11250,7 +11250,7 @@ body.skin-glass-001-style-5 {
   color: #fff;
 }
 .skin-glass-001-style-5 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .info-box .info-box-icon {
@@ -11301,7 +11301,7 @@ body.skin-glass-001-style-5 {
   background: #ffffff26;
 }
 .skin-glass-001-style-5 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-5 table.table {
   color: #fff;
@@ -11361,7 +11361,7 @@ body.skin-glass-001-style-5 {
   background: transparent;
 }
 .skin-glass-001-style-5 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -11460,7 +11460,7 @@ body.skin-glass-001-style-5 {
   border: solid 1px #929292;
 }
 .skin-glass-001-style-5 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .s-ColumnPickerDialog .column-list h5 {
@@ -11468,7 +11468,7 @@ body.skin-glass-001-style-5 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-5 .s-ColumnPickerDialog li {
@@ -11493,7 +11493,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-5 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-5 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -11693,7 +11693,7 @@ body.skin-glass-001-style-5 {
   color: #fff;
 }
 .skin-glass-001-style-5 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-5 .nav-stacked > li.active a {
   color: #dab155;
@@ -11789,7 +11789,7 @@ body.skin-glass-001-style-5 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-5 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #929292;
 }
@@ -11799,13 +11799,13 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-5 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -12186,10 +12186,10 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .nav-tabs-custom > .nav-tabs > li.active {
   color: #dab155;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-5 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #dab155;
   border-color: transparent;
 }
@@ -12337,7 +12337,7 @@ body.skin-glass-001-style-5 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-5 .inplace-create.edit b {
   background: none;
@@ -12373,7 +12373,7 @@ body.skin-glass-001-style-5 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #929292;
   border-bottom-color: #929292;
@@ -12407,7 +12407,7 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .slick-footerrow-column,
 .skin-glass-001-style-5 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #dab155;
 }
 .skin-glass-001-style-5 .s-DataGrid.editor,
@@ -12439,7 +12439,7 @@ body.skin-glass-001-style-5 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #929292;
   border-bottom-color: #929292;
 }
@@ -12448,7 +12448,7 @@ body.skin-glass-001-style-5 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #929292;
   border-bottom-color: #929292;
 }
@@ -12543,7 +12543,7 @@ body.skin-glass-001-style-5 {
   font-weight: 300;
 }
 .skin-glass-001-style-5 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -12701,7 +12701,7 @@ body.skin-glass-001-style-5 {
   color: #fff;
 }
 .skin-glass-001-style-5 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -12792,7 +12792,7 @@ body.skin-glass-001-style-6 {
   color: #fff;
 }
 .skin-glass-001-style-6 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 .info-box .info-box-icon {
@@ -12843,7 +12843,7 @@ body.skin-glass-001-style-6 {
   background: #ffffff26;
 }
 .skin-glass-001-style-6 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-6 table.table {
   color: #fff;
@@ -12903,7 +12903,7 @@ body.skin-glass-001-style-6 {
   background: transparent;
 }
 .skin-glass-001-style-6 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -13002,7 +13002,7 @@ body.skin-glass-001-style-6 {
   border: solid 1px #9b8192;
 }
 .skin-glass-001-style-6 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 .s-ColumnPickerDialog .column-list h5 {
@@ -13010,7 +13010,7 @@ body.skin-glass-001-style-6 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-6 .s-ColumnPickerDialog li {
@@ -13035,7 +13035,7 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-6 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-6 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -13235,7 +13235,7 @@ body.skin-glass-001-style-6 {
   color: #fff;
 }
 .skin-glass-001-style-6 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-6 .nav-stacked > li.active a {
   color: #e2b143;
@@ -13331,7 +13331,7 @@ body.skin-glass-001-style-6 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-6 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #9b8192;
 }
@@ -13341,13 +13341,13 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-6 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -13728,10 +13728,10 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .nav-tabs-custom > .nav-tabs > li.active {
   color: #e2b143;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-6 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #e2b143;
   border-color: transparent;
 }
@@ -13879,7 +13879,7 @@ body.skin-glass-001-style-6 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-6 .inplace-create.edit b {
   background: none;
@@ -13915,7 +13915,7 @@ body.skin-glass-001-style-6 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #9b8192;
   border-bottom-color: #9b8192;
@@ -13949,7 +13949,7 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .slick-footerrow-column,
 .skin-glass-001-style-6 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #e2b143;
 }
 .skin-glass-001-style-6 .s-DataGrid.editor,
@@ -13981,7 +13981,7 @@ body.skin-glass-001-style-6 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9b8192;
   border-bottom-color: #9b8192;
 }
@@ -13990,7 +13990,7 @@ body.skin-glass-001-style-6 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9b8192;
   border-bottom-color: #9b8192;
 }
@@ -14085,7 +14085,7 @@ body.skin-glass-001-style-6 {
   font-weight: 300;
 }
 .skin-glass-001-style-6 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -14243,7 +14243,7 @@ body.skin-glass-001-style-6 {
   color: #fff;
 }
 .skin-glass-001-style-6 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -14334,7 +14334,7 @@ body.skin-glass-001-style-7 {
   color: #fff;
 }
 .skin-glass-001-style-7 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-7 .info-box .info-box-icon {
@@ -14385,7 +14385,7 @@ body.skin-glass-001-style-7 {
   background: #ffffff26;
 }
 .skin-glass-001-style-7 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-7 table.table {
   color: #fff;
@@ -14445,7 +14445,7 @@ body.skin-glass-001-style-7 {
   background: transparent;
 }
 .skin-glass-001-style-7 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -14544,7 +14544,7 @@ body.skin-glass-001-style-7 {
   border: solid 1px #b995b8;
 }
 .skin-glass-001-style-7 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-7 .s-ColumnPickerDialog .column-list h5 {
@@ -14552,7 +14552,7 @@ body.skin-glass-001-style-7 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-7 .s-ColumnPickerDialog li {
@@ -14577,7 +14577,7 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-7 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-7 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -14777,7 +14777,7 @@ body.skin-glass-001-style-7 {
   color: #fff;
 }
 .skin-glass-001-style-7 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-7 .nav-stacked > li.active a {
   color: #a2de10;
@@ -14873,7 +14873,7 @@ body.skin-glass-001-style-7 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-7 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #b995b8;
 }
@@ -14883,13 +14883,13 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-7 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -15270,10 +15270,10 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .nav-tabs-custom > .nav-tabs > li.active {
   color: #a2de10;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-7 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #a2de10;
   border-color: transparent;
 }
@@ -15421,7 +15421,7 @@ body.skin-glass-001-style-7 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-7 .inplace-create.edit b {
   background: none;
@@ -15457,7 +15457,7 @@ body.skin-glass-001-style-7 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #b995b8;
   border-bottom-color: #b995b8;
@@ -15491,7 +15491,7 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .slick-footerrow-column,
 .skin-glass-001-style-7 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #a2de10;
 }
 .skin-glass-001-style-7 .s-DataGrid.editor,
@@ -15523,7 +15523,7 @@ body.skin-glass-001-style-7 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #b995b8;
   border-bottom-color: #b995b8;
 }
@@ -15532,7 +15532,7 @@ body.skin-glass-001-style-7 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #b995b8;
   border-bottom-color: #b995b8;
 }
@@ -15627,7 +15627,7 @@ body.skin-glass-001-style-7 {
   font-weight: 300;
 }
 .skin-glass-001-style-7 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -15785,7 +15785,7 @@ body.skin-glass-001-style-7 {
   color: #fff;
 }
 .skin-glass-001-style-7 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -15876,7 +15876,7 @@ body.skin-glass-001-style-8 {
   color: #fff;
 }
 .skin-glass-001-style-8 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 .info-box .info-box-icon {
@@ -15927,7 +15927,7 @@ body.skin-glass-001-style-8 {
   background: #ffffff26;
 }
 .skin-glass-001-style-8 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-8 table.table {
   color: #fff;
@@ -15987,7 +15987,7 @@ body.skin-glass-001-style-8 {
   background: transparent;
 }
 .skin-glass-001-style-8 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -16086,7 +16086,7 @@ body.skin-glass-001-style-8 {
   border: solid 1px #9da79f;
 }
 .skin-glass-001-style-8 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 .s-ColumnPickerDialog .column-list h5 {
@@ -16094,7 +16094,7 @@ body.skin-glass-001-style-8 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-8 .s-ColumnPickerDialog li {
@@ -16119,7 +16119,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-8 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-8 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -16319,7 +16319,7 @@ body.skin-glass-001-style-8 {
   color: #fff;
 }
 .skin-glass-001-style-8 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-8 .nav-stacked > li.active a {
   color: #e6b84f;
@@ -16415,7 +16415,7 @@ body.skin-glass-001-style-8 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-8 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #9da79f;
 }
@@ -16425,13 +16425,13 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-8 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -16812,10 +16812,10 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .nav-tabs-custom > .nav-tabs > li.active {
   color: #e6b84f;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-8 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #e6b84f;
   border-color: transparent;
 }
@@ -16963,7 +16963,7 @@ body.skin-glass-001-style-8 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-8 .inplace-create.edit b {
   background: none;
@@ -16999,7 +16999,7 @@ body.skin-glass-001-style-8 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #9da79f;
   border-bottom-color: #9da79f;
@@ -17033,7 +17033,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .slick-footerrow-column,
 .skin-glass-001-style-8 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #e6b84f;
 }
 .skin-glass-001-style-8 .s-DataGrid.editor,
@@ -17065,7 +17065,7 @@ body.skin-glass-001-style-8 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9da79f;
   border-bottom-color: #9da79f;
 }
@@ -17074,7 +17074,7 @@ body.skin-glass-001-style-8 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9da79f;
   border-bottom-color: #9da79f;
 }
@@ -17169,7 +17169,7 @@ body.skin-glass-001-style-8 {
   font-weight: 300;
 }
 .skin-glass-001-style-8 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -17327,7 +17327,7 @@ body.skin-glass-001-style-8 {
   color: #fff;
 }
 .skin-glass-001-style-8 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -17418,7 +17418,7 @@ body.skin-glass-001-style-9 {
   color: #fff;
 }
 .skin-glass-001-style-9 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 .info-box .info-box-icon {
@@ -17469,7 +17469,7 @@ body.skin-glass-001-style-9 {
   background: #ffffff26;
 }
 .skin-glass-001-style-9 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-9 table.table {
   color: #fff;
@@ -17529,7 +17529,7 @@ body.skin-glass-001-style-9 {
   background: transparent;
 }
 .skin-glass-001-style-9 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -17628,7 +17628,7 @@ body.skin-glass-001-style-9 {
   border: solid 1px #ced5da;
 }
 .skin-glass-001-style-9 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 .s-ColumnPickerDialog .column-list h5 {
@@ -17636,7 +17636,7 @@ body.skin-glass-001-style-9 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-9 .s-ColumnPickerDialog li {
@@ -17661,7 +17661,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-9 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-9 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -17861,7 +17861,7 @@ body.skin-glass-001-style-9 {
   color: #fff;
 }
 .skin-glass-001-style-9 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-9 .nav-stacked > li.active a {
   color: #e3fd95;
@@ -17957,7 +17957,7 @@ body.skin-glass-001-style-9 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-9 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #ced5da;
 }
@@ -17967,13 +17967,13 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-9 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -18354,10 +18354,10 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .nav-tabs-custom > .nav-tabs > li.active {
   color: #e3fd95;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-9 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #e3fd95;
   border-color: transparent;
 }
@@ -18505,7 +18505,7 @@ body.skin-glass-001-style-9 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-9 .inplace-create.edit b {
   background: none;
@@ -18541,7 +18541,7 @@ body.skin-glass-001-style-9 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #ced5da;
   border-bottom-color: #ced5da;
@@ -18575,7 +18575,7 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .slick-footerrow-column,
 .skin-glass-001-style-9 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #e3fd95;
 }
 .skin-glass-001-style-9 .s-DataGrid.editor,
@@ -18607,7 +18607,7 @@ body.skin-glass-001-style-9 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #ced5da;
   border-bottom-color: #ced5da;
 }
@@ -18616,7 +18616,7 @@ body.skin-glass-001-style-9 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #ced5da;
   border-bottom-color: #ced5da;
 }
@@ -18711,7 +18711,7 @@ body.skin-glass-001-style-9 {
   font-weight: 300;
 }
 .skin-glass-001-style-9 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -18869,7 +18869,7 @@ body.skin-glass-001-style-9 {
   color: #fff;
 }
 .skin-glass-001-style-9 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -18960,7 +18960,7 @@ body.skin-glass-001-style-10 {
   color: #fff;
 }
 .skin-glass-001-style-10 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 .info-box .info-box-icon {
@@ -19011,7 +19011,7 @@ body.skin-glass-001-style-10 {
   background: #ffffff26;
 }
 .skin-glass-001-style-10 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-10 table.table {
   color: #fff;
@@ -19071,7 +19071,7 @@ body.skin-glass-001-style-10 {
   background: transparent;
 }
 .skin-glass-001-style-10 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -19170,7 +19170,7 @@ body.skin-glass-001-style-10 {
   border: solid 1px #9aaab5;
 }
 .skin-glass-001-style-10 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 .s-ColumnPickerDialog .column-list h5 {
@@ -19178,7 +19178,7 @@ body.skin-glass-001-style-10 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-10 .s-ColumnPickerDialog li {
@@ -19203,7 +19203,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-10 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-10 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -19403,7 +19403,7 @@ body.skin-glass-001-style-10 {
   color: #fff;
 }
 .skin-glass-001-style-10 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-10 .nav-stacked > li.active a {
   color: #a4fff2;
@@ -19499,7 +19499,7 @@ body.skin-glass-001-style-10 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-10 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #9aaab5;
 }
@@ -19509,13 +19509,13 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-10 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -19896,10 +19896,10 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .nav-tabs-custom > .nav-tabs > li.active {
   color: #a4fff2;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-10 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #a4fff2;
   border-color: transparent;
 }
@@ -20047,7 +20047,7 @@ body.skin-glass-001-style-10 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-10 .inplace-create.edit b {
   background: none;
@@ -20083,7 +20083,7 @@ body.skin-glass-001-style-10 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #9aaab5;
   border-bottom-color: #9aaab5;
@@ -20117,7 +20117,7 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .slick-footerrow-column,
 .skin-glass-001-style-10 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #a4fff2;
 }
 .skin-glass-001-style-10 .s-DataGrid.editor,
@@ -20149,7 +20149,7 @@ body.skin-glass-001-style-10 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9aaab5;
   border-bottom-color: #9aaab5;
 }
@@ -20158,7 +20158,7 @@ body.skin-glass-001-style-10 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9aaab5;
   border-bottom-color: #9aaab5;
 }
@@ -20253,7 +20253,7 @@ body.skin-glass-001-style-10 {
   font-weight: 300;
 }
 .skin-glass-001-style-10 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -20411,7 +20411,7 @@ body.skin-glass-001-style-10 {
   color: #fff;
 }
 .skin-glass-001-style-10 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -20502,7 +20502,7 @@ body.skin-glass-001-style-11 {
   color: #fff;
 }
 .skin-glass-001-style-11 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-11 .info-box .info-box-icon {
@@ -20553,7 +20553,7 @@ body.skin-glass-001-style-11 {
   background: #ffffff26;
 }
 .skin-glass-001-style-11 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-11 table.table {
   color: #fff;
@@ -20613,7 +20613,7 @@ body.skin-glass-001-style-11 {
   background: transparent;
 }
 .skin-glass-001-style-11 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -20712,7 +20712,7 @@ body.skin-glass-001-style-11 {
   border: solid 1px #9aaab5;
 }
 .skin-glass-001-style-11 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-11 .s-ColumnPickerDialog .column-list h5 {
@@ -20720,7 +20720,7 @@ body.skin-glass-001-style-11 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-11 .s-ColumnPickerDialog li {
@@ -20745,7 +20745,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-11 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-11 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -20945,7 +20945,7 @@ body.skin-glass-001-style-11 {
   color: #fff;
 }
 .skin-glass-001-style-11 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-11 .nav-stacked > li.active a {
   color: #a4fff2;
@@ -21041,7 +21041,7 @@ body.skin-glass-001-style-11 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-11 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #9aaab5;
 }
@@ -21051,13 +21051,13 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-11 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -21438,10 +21438,10 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .nav-tabs-custom > .nav-tabs > li.active {
   color: #a4fff2;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-11 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #a4fff2;
   border-color: transparent;
 }
@@ -21589,7 +21589,7 @@ body.skin-glass-001-style-11 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-11 .inplace-create.edit b {
   background: none;
@@ -21625,7 +21625,7 @@ body.skin-glass-001-style-11 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #9aaab5;
   border-bottom-color: #9aaab5;
@@ -21659,7 +21659,7 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .slick-footerrow-column,
 .skin-glass-001-style-11 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #a4fff2;
 }
 .skin-glass-001-style-11 .s-DataGrid.editor,
@@ -21691,7 +21691,7 @@ body.skin-glass-001-style-11 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9aaab5;
   border-bottom-color: #9aaab5;
 }
@@ -21700,7 +21700,7 @@ body.skin-glass-001-style-11 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9aaab5;
   border-bottom-color: #9aaab5;
 }
@@ -21795,7 +21795,7 @@ body.skin-glass-001-style-11 {
   font-weight: 300;
 }
 .skin-glass-001-style-11 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -21953,7 +21953,7 @@ body.skin-glass-001-style-11 {
   color: #fff;
 }
 .skin-glass-001-style-11 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -22044,7 +22044,7 @@ body.skin-glass-001-style-12 {
   color: #fff;
 }
 .skin-glass-001-style-12 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-12 .info-box .info-box-icon {
@@ -22095,7 +22095,7 @@ body.skin-glass-001-style-12 {
   background: #ffffff26;
 }
 .skin-glass-001-style-12 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-12 table.table {
   color: #fff;
@@ -22155,7 +22155,7 @@ body.skin-glass-001-style-12 {
   background: transparent;
 }
 .skin-glass-001-style-12 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -22254,7 +22254,7 @@ body.skin-glass-001-style-12 {
   border: solid 1px #9fa6a9;
 }
 .skin-glass-001-style-12 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-12 .s-ColumnPickerDialog .column-list h5 {
@@ -22262,7 +22262,7 @@ body.skin-glass-001-style-12 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-12 .s-ColumnPickerDialog li {
@@ -22287,7 +22287,7 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-12 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-12 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -22487,7 +22487,7 @@ body.skin-glass-001-style-12 {
   color: #fff;
 }
 .skin-glass-001-style-12 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-12 .nav-stacked > li.active a {
   color: #56ecec;
@@ -22583,7 +22583,7 @@ body.skin-glass-001-style-12 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-12 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #9fa6a9;
 }
@@ -22593,13 +22593,13 @@ body.skin-glass-001-style-12 {
 }
 .skin-glass-001-style-12 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-12 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -22980,10 +22980,10 @@ body.skin-glass-001-style-12 {
 }
 .skin-glass-001-style-12 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56ecec;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-12 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
   border-color: transparent;
 }
@@ -23131,7 +23131,7 @@ body.skin-glass-001-style-12 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-12 .inplace-create.edit b {
   background: none;
@@ -23167,7 +23167,7 @@ body.skin-glass-001-style-12 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #9fa6a9;
   border-bottom-color: #9fa6a9;
@@ -23201,7 +23201,7 @@ body.skin-glass-001-style-12 {
 }
 .skin-glass-001-style-12 .slick-footerrow-column,
 .skin-glass-001-style-12 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
 }
 .skin-glass-001-style-12 .s-DataGrid.editor,
@@ -23233,7 +23233,7 @@ body.skin-glass-001-style-12 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9fa6a9;
   border-bottom-color: #9fa6a9;
 }
@@ -23242,7 +23242,7 @@ body.skin-glass-001-style-12 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9fa6a9;
   border-bottom-color: #9fa6a9;
 }
@@ -23337,7 +23337,7 @@ body.skin-glass-001-style-12 {
   font-weight: 300;
 }
 .skin-glass-001-style-12 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -23495,7 +23495,7 @@ body.skin-glass-001-style-12 {
   color: #fff;
 }
 .skin-glass-001-style-12 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -23586,7 +23586,7 @@ body.skin-glass-001-style-13 {
   color: #fff;
 }
 .skin-glass-001-style-13 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-13 .info-box .info-box-icon {
@@ -23637,7 +23637,7 @@ body.skin-glass-001-style-13 {
   background: #ffffff26;
 }
 .skin-glass-001-style-13 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-13 table.table {
   color: #fff;
@@ -23697,7 +23697,7 @@ body.skin-glass-001-style-13 {
   background: transparent;
 }
 .skin-glass-001-style-13 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -23796,7 +23796,7 @@ body.skin-glass-001-style-13 {
   border: solid 1px #8a95a7;
 }
 .skin-glass-001-style-13 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-13 .s-ColumnPickerDialog .column-list h5 {
@@ -23804,7 +23804,7 @@ body.skin-glass-001-style-13 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-13 .s-ColumnPickerDialog li {
@@ -23829,7 +23829,7 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-13 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-13 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -24029,7 +24029,7 @@ body.skin-glass-001-style-13 {
   color: #fff;
 }
 .skin-glass-001-style-13 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-13 .nav-stacked > li.active a {
   color: #56ecec;
@@ -24125,7 +24125,7 @@ body.skin-glass-001-style-13 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-13 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #8a95a7;
 }
@@ -24135,13 +24135,13 @@ body.skin-glass-001-style-13 {
 }
 .skin-glass-001-style-13 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-13 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -24522,10 +24522,10 @@ body.skin-glass-001-style-13 {
 }
 .skin-glass-001-style-13 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56ecec;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-13 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
   border-color: transparent;
 }
@@ -24673,7 +24673,7 @@ body.skin-glass-001-style-13 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-13 .inplace-create.edit b {
   background: none;
@@ -24709,7 +24709,7 @@ body.skin-glass-001-style-13 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #8a95a7;
   border-bottom-color: #8a95a7;
@@ -24743,7 +24743,7 @@ body.skin-glass-001-style-13 {
 }
 .skin-glass-001-style-13 .slick-footerrow-column,
 .skin-glass-001-style-13 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
 }
 .skin-glass-001-style-13 .s-DataGrid.editor,
@@ -24775,7 +24775,7 @@ body.skin-glass-001-style-13 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #8a95a7;
   border-bottom-color: #8a95a7;
 }
@@ -24784,7 +24784,7 @@ body.skin-glass-001-style-13 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #8a95a7;
   border-bottom-color: #8a95a7;
 }
@@ -24879,7 +24879,7 @@ body.skin-glass-001-style-13 {
   font-weight: 300;
 }
 .skin-glass-001-style-13 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -25037,7 +25037,7 @@ body.skin-glass-001-style-13 {
   color: #fff;
 }
 .skin-glass-001-style-13 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -25128,7 +25128,7 @@ body.skin-glass-001-style-14 {
   color: #fff;
 }
 .skin-glass-001-style-14 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-14 .info-box .info-box-icon {
@@ -25179,7 +25179,7 @@ body.skin-glass-001-style-14 {
   background: #ffffff26;
 }
 .skin-glass-001-style-14 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-14 table.table {
   color: #fff;
@@ -25239,7 +25239,7 @@ body.skin-glass-001-style-14 {
   background: transparent;
 }
 .skin-glass-001-style-14 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -25338,7 +25338,7 @@ body.skin-glass-001-style-14 {
   border: solid 1px #9c97a2;
 }
 .skin-glass-001-style-14 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-14 .s-ColumnPickerDialog .column-list h5 {
@@ -25346,7 +25346,7 @@ body.skin-glass-001-style-14 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-14 .s-ColumnPickerDialog li {
@@ -25371,7 +25371,7 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-14 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-14 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -25571,7 +25571,7 @@ body.skin-glass-001-style-14 {
   color: #fff;
 }
 .skin-glass-001-style-14 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-14 .nav-stacked > li.active a {
   color: #56ecec;
@@ -25667,7 +25667,7 @@ body.skin-glass-001-style-14 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-14 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #9c97a2;
 }
@@ -25677,13 +25677,13 @@ body.skin-glass-001-style-14 {
 }
 .skin-glass-001-style-14 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-14 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -26064,10 +26064,10 @@ body.skin-glass-001-style-14 {
 }
 .skin-glass-001-style-14 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56ecec;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-14 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
   border-color: transparent;
 }
@@ -26215,7 +26215,7 @@ body.skin-glass-001-style-14 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-14 .inplace-create.edit b {
   background: none;
@@ -26251,7 +26251,7 @@ body.skin-glass-001-style-14 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #9c97a2;
   border-bottom-color: #9c97a2;
@@ -26285,7 +26285,7 @@ body.skin-glass-001-style-14 {
 }
 .skin-glass-001-style-14 .slick-footerrow-column,
 .skin-glass-001-style-14 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
 }
 .skin-glass-001-style-14 .s-DataGrid.editor,
@@ -26317,7 +26317,7 @@ body.skin-glass-001-style-14 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9c97a2;
   border-bottom-color: #9c97a2;
 }
@@ -26326,7 +26326,7 @@ body.skin-glass-001-style-14 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #9c97a2;
   border-bottom-color: #9c97a2;
 }
@@ -26421,7 +26421,7 @@ body.skin-glass-001-style-14 {
   font-weight: 300;
 }
 .skin-glass-001-style-14 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -26579,7 +26579,7 @@ body.skin-glass-001-style-14 {
   color: #fff;
 }
 .skin-glass-001-style-14 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -26670,7 +26670,7 @@ body.skin-glass-001-style-15 {
   color: #fff;
 }
 .skin-glass-001-style-15 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-15 .info-box .info-box-icon {
@@ -26721,7 +26721,7 @@ body.skin-glass-001-style-15 {
   background: #ffffff26;
 }
 .skin-glass-001-style-15 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-15 table.table {
   color: #fff;
@@ -26781,7 +26781,7 @@ body.skin-glass-001-style-15 {
   background: transparent;
 }
 .skin-glass-001-style-15 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -26880,7 +26880,7 @@ body.skin-glass-001-style-15 {
   border: solid 1px #8b969c;
 }
 .skin-glass-001-style-15 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-15 .s-ColumnPickerDialog .column-list h5 {
@@ -26888,7 +26888,7 @@ body.skin-glass-001-style-15 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-15 .s-ColumnPickerDialog li {
@@ -26913,7 +26913,7 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-15 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-15 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -27113,7 +27113,7 @@ body.skin-glass-001-style-15 {
   color: #fff;
 }
 .skin-glass-001-style-15 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-15 .nav-stacked > li.active a {
   color: #56ecec;
@@ -27209,7 +27209,7 @@ body.skin-glass-001-style-15 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-15 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #8b969c;
 }
@@ -27219,13 +27219,13 @@ body.skin-glass-001-style-15 {
 }
 .skin-glass-001-style-15 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-15 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -27606,10 +27606,10 @@ body.skin-glass-001-style-15 {
 }
 .skin-glass-001-style-15 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56ecec;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-15 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
   border-color: transparent;
 }
@@ -27757,7 +27757,7 @@ body.skin-glass-001-style-15 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-15 .inplace-create.edit b {
   background: none;
@@ -27793,7 +27793,7 @@ body.skin-glass-001-style-15 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #8b969c;
   border-bottom-color: #8b969c;
@@ -27827,7 +27827,7 @@ body.skin-glass-001-style-15 {
 }
 .skin-glass-001-style-15 .slick-footerrow-column,
 .skin-glass-001-style-15 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
 }
 .skin-glass-001-style-15 .s-DataGrid.editor,
@@ -27859,7 +27859,7 @@ body.skin-glass-001-style-15 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #8b969c;
   border-bottom-color: #8b969c;
 }
@@ -27868,7 +27868,7 @@ body.skin-glass-001-style-15 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #8b969c;
   border-bottom-color: #8b969c;
 }
@@ -27963,7 +27963,7 @@ body.skin-glass-001-style-15 {
   font-weight: 300;
 }
 .skin-glass-001-style-15 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -28121,7 +28121,7 @@ body.skin-glass-001-style-15 {
   color: #fff;
 }
 .skin-glass-001-style-15 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -28212,7 +28212,7 @@ body.skin-glass-001-style-16 {
   color: #fff;
 }
 .skin-glass-001-style-16 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-16 .info-box .info-box-icon {
@@ -28263,7 +28263,7 @@ body.skin-glass-001-style-16 {
   background: #ffffff26;
 }
 .skin-glass-001-style-16 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-16 table.table {
   color: #fff;
@@ -28323,7 +28323,7 @@ body.skin-glass-001-style-16 {
   background: transparent;
 }
 .skin-glass-001-style-16 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -28422,7 +28422,7 @@ body.skin-glass-001-style-16 {
   border: solid 1px #86959c;
 }
 .skin-glass-001-style-16 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-16 .s-ColumnPickerDialog .column-list h5 {
@@ -28430,7 +28430,7 @@ body.skin-glass-001-style-16 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-16 .s-ColumnPickerDialog li {
@@ -28455,7 +28455,7 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-16 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-16 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -28655,7 +28655,7 @@ body.skin-glass-001-style-16 {
   color: #fff;
 }
 .skin-glass-001-style-16 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-16 .nav-stacked > li.active a {
   color: #56ecec;
@@ -28751,7 +28751,7 @@ body.skin-glass-001-style-16 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-16 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #86959c;
 }
@@ -28761,13 +28761,13 @@ body.skin-glass-001-style-16 {
 }
 .skin-glass-001-style-16 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-16 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -29148,10 +29148,10 @@ body.skin-glass-001-style-16 {
 }
 .skin-glass-001-style-16 .nav-tabs-custom > .nav-tabs > li.active {
   color: #56ecec;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-16 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
   border-color: transparent;
 }
@@ -29299,7 +29299,7 @@ body.skin-glass-001-style-16 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-16 .inplace-create.edit b {
   background: none;
@@ -29335,7 +29335,7 @@ body.skin-glass-001-style-16 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #86959c;
   border-bottom-color: #86959c;
@@ -29369,7 +29369,7 @@ body.skin-glass-001-style-16 {
 }
 .skin-glass-001-style-16 .slick-footerrow-column,
 .skin-glass-001-style-16 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #56ecec;
 }
 .skin-glass-001-style-16 .s-DataGrid.editor,
@@ -29401,7 +29401,7 @@ body.skin-glass-001-style-16 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #86959c;
   border-bottom-color: #86959c;
 }
@@ -29410,7 +29410,7 @@ body.skin-glass-001-style-16 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #86959c;
   border-bottom-color: #86959c;
 }
@@ -29505,7 +29505,7 @@ body.skin-glass-001-style-16 {
   font-weight: 300;
 }
 .skin-glass-001-style-16 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -29663,7 +29663,7 @@ body.skin-glass-001-style-16 {
   color: #fff;
 }
 .skin-glass-001-style-16 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -29754,7 +29754,7 @@ body.skin-glass-001-style-17 {
   color: #fff;
 }
 .skin-glass-001-style-17 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-17 .info-box .info-box-icon {
@@ -29805,7 +29805,7 @@ body.skin-glass-001-style-17 {
   background: #ffffff26;
 }
 .skin-glass-001-style-17 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-17 table.table {
   color: #fff;
@@ -29865,7 +29865,7 @@ body.skin-glass-001-style-17 {
   background: transparent;
 }
 .skin-glass-001-style-17 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -29964,7 +29964,7 @@ body.skin-glass-001-style-17 {
   border: solid 1px #b39a9e;
 }
 .skin-glass-001-style-17 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-17 .s-ColumnPickerDialog .column-list h5 {
@@ -29972,7 +29972,7 @@ body.skin-glass-001-style-17 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-17 .s-ColumnPickerDialog li {
@@ -29997,7 +29997,7 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-17 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-17 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -30197,7 +30197,7 @@ body.skin-glass-001-style-17 {
   color: #fff;
 }
 .skin-glass-001-style-17 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-17 .nav-stacked > li.active a {
   color: #e0d445;
@@ -30293,7 +30293,7 @@ body.skin-glass-001-style-17 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-17 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #b39a9e;
 }
@@ -30303,13 +30303,13 @@ body.skin-glass-001-style-17 {
 }
 .skin-glass-001-style-17 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-17 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -30690,10 +30690,10 @@ body.skin-glass-001-style-17 {
 }
 .skin-glass-001-style-17 .nav-tabs-custom > .nav-tabs > li.active {
   color: #e0d445;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-17 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #e0d445;
   border-color: transparent;
 }
@@ -30841,7 +30841,7 @@ body.skin-glass-001-style-17 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-17 .inplace-create.edit b {
   background: none;
@@ -30877,7 +30877,7 @@ body.skin-glass-001-style-17 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #b39a9e;
   border-bottom-color: #b39a9e;
@@ -30911,7 +30911,7 @@ body.skin-glass-001-style-17 {
 }
 .skin-glass-001-style-17 .slick-footerrow-column,
 .skin-glass-001-style-17 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #e0d445;
 }
 .skin-glass-001-style-17 .s-DataGrid.editor,
@@ -30943,7 +30943,7 @@ body.skin-glass-001-style-17 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #b39a9e;
   border-bottom-color: #b39a9e;
 }
@@ -30952,7 +30952,7 @@ body.skin-glass-001-style-17 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #b39a9e;
   border-bottom-color: #b39a9e;
 }
@@ -31047,7 +31047,7 @@ body.skin-glass-001-style-17 {
   font-weight: 300;
 }
 .skin-glass-001-style-17 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -31205,7 +31205,7 @@ body.skin-glass-001-style-17 {
   color: #fff;
 }
 .skin-glass-001-style-17 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -31296,7 +31296,7 @@ body.skin-glass-001-style-18 {
   color: #fff;
 }
 .skin-glass-001-style-18 .info-box {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-18 .info-box .info-box-icon {
@@ -31347,7 +31347,7 @@ body.skin-glass-001-style-18 {
   background: #ffffff26;
 }
 .skin-glass-001-style-18 .btn.btn-social:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-18 table.table {
   color: #fff;
@@ -31407,7 +31407,7 @@ body.skin-glass-001-style-18 {
   background: transparent;
 }
 .skin-glass-001-style-18 .main-footer {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-top: unset;
   color: #fff;
 }
@@ -31506,7 +31506,7 @@ body.skin-glass-001-style-18 {
   border: solid 1px #769da0;
 }
 .skin-glass-001-style-18 .s-ColumnPickerDialog .column-list {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border-radius: 2px;
 }
 .skin-glass-001-style-18 .s-ColumnPickerDialog .column-list h5 {
@@ -31514,7 +31514,7 @@ body.skin-glass-001-style-18 {
   font-weight: 300;
   color: #fff;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-18 .s-ColumnPickerDialog li {
@@ -31539,7 +31539,7 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-18 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-18 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -31739,7 +31739,7 @@ body.skin-glass-001-style-18 {
   color: #fff;
 }
 .skin-glass-001-style-18 .nav-stacked > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-18 .nav-stacked > li.active a {
   color: #6ef2ff;
@@ -31835,7 +31835,7 @@ body.skin-glass-001-style-18 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-18 .input-group .input-group-addon {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #fff;
   border-color: #769da0;
 }
@@ -31845,13 +31845,13 @@ body.skin-glass-001-style-18 {
 }
 .skin-glass-001-style-18 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-18 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -32232,10 +32232,10 @@ body.skin-glass-001-style-18 {
 }
 .skin-glass-001-style-18 .nav-tabs-custom > .nav-tabs > li.active {
   color: #6ef2ff;
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-18 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #6ef2ff;
   border-color: transparent;
 }
@@ -32383,7 +32383,7 @@ body.skin-glass-001-style-18 {
   font-family: 'FontAwesome';
   content: "";
   color: #fff;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-18 .inplace-create.edit b {
   background: none;
@@ -32419,7 +32419,7 @@ body.skin-glass-001-style-18 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   color: #fff;
   border-top: solid 1px #769da0;
   border-bottom-color: #769da0;
@@ -32453,7 +32453,7 @@ body.skin-glass-001-style-18 {
 }
 .skin-glass-001-style-18 .slick-footerrow-column,
 .skin-glass-001-style-18 .slick-footerrow-column.ui-state-default {
-  background: #ffffff26;
+  background-color: #ffffff26;
   color: #6ef2ff;
 }
 .skin-glass-001-style-18 .s-DataGrid.editor,
@@ -32485,7 +32485,7 @@ body.skin-glass-001-style-18 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #769da0;
   border-bottom-color: #769da0;
 }
@@ -32494,7 +32494,7 @@ body.skin-glass-001-style-18 {
   font-weight: 500;
   font-size: 13px;
   color: #fff;
-  background: rgba(255, 255, 255, 0.14901961);
+  background-color: rgba(255, 255, 255, 0.14901961);
   border-top: solid 1px #769da0;
   border-bottom-color: #769da0;
 }
@@ -32589,7 +32589,7 @@ body.skin-glass-001-style-18 {
   font-weight: 300;
 }
 .skin-glass-001-style-18 .s-SlickPager {
-  background: #ffffff26;
+  background-color: #ffffff26;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -32747,7 +32747,7 @@ body.skin-glass-001-style-18 {
   color: #fff;
 }
 .skin-glass-001-style-18 .dropdown-menu > li a:hover {
-  background: #ffffff26;
+  background-color: #ffffff26;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -32838,7 +32838,7 @@ body.skin-glass-001-style-19 {
   color: #777;
 }
 .skin-glass-001-style-19 .info-box {
-  background: #cacaca47;
+  background-color: #cacaca47;
   border-radius: 2px;
 }
 .skin-glass-001-style-19 .info-box .info-box-icon {
@@ -32889,7 +32889,7 @@ body.skin-glass-001-style-19 {
   background: #ffffff4d;
 }
 .skin-glass-001-style-19 .btn.btn-social:hover {
-  background: #cacaca47;
+  background-color: #cacaca47;
 }
 .skin-glass-001-style-19 table.table {
   color: #777;
@@ -32949,7 +32949,7 @@ body.skin-glass-001-style-19 {
   background: transparent;
 }
 .skin-glass-001-style-19 .main-footer {
-  background: #cacaca47;
+  background-color: #cacaca47;
   border-top: unset;
   color: #777;
 }
@@ -33048,7 +33048,7 @@ body.skin-glass-001-style-19 {
   border: solid 1px #3e9bff;
 }
 .skin-glass-001-style-19 .s-ColumnPickerDialog .column-list {
-  background: #cacaca47;
+  background-color: #cacaca47;
   border-radius: 2px;
 }
 .skin-glass-001-style-19 .s-ColumnPickerDialog .column-list h5 {
@@ -33056,7 +33056,7 @@ body.skin-glass-001-style-19 {
   font-weight: 300;
   color: #777;
   font-size: 13px;
-  background: rgba(177, 177, 177, 0.27843137);
+  background-color: rgba(177, 177, 177, 0.27843137);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-19 .s-ColumnPickerDialog li {
@@ -33081,7 +33081,7 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #cacaca47;
+  background-color: #cacaca47;
 }
 .skin-glass-001-style-19 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-19 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -33281,7 +33281,7 @@ body.skin-glass-001-style-19 {
   color: #777;
 }
 .skin-glass-001-style-19 .nav-stacked > li a:hover {
-  background: #cacaca47;
+  background-color: #cacaca47;
 }
 .skin-glass-001-style-19 .nav-stacked > li.active a {
   color: #007bff;
@@ -33377,7 +33377,7 @@ body.skin-glass-001-style-19 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-19 .input-group .input-group-addon {
-  background: #cacaca47;
+  background-color: #cacaca47;
   color: #777;
   border-color: #3e9bff;
 }
@@ -33387,13 +33387,13 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-19 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -33774,10 +33774,10 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .nav-tabs-custom > .nav-tabs > li.active {
   color: #007bff;
-  background: #cacaca47;
+  background-color: #cacaca47;
 }
 .skin-glass-001-style-19 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #cacaca47;
+  background-color: #cacaca47;
   color: #007bff;
   border-color: transparent;
 }
@@ -33925,7 +33925,7 @@ body.skin-glass-001-style-19 {
   font-family: 'FontAwesome';
   content: "";
   color: #777;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-19 .inplace-create.edit b {
   background: none;
@@ -33961,7 +33961,7 @@ body.skin-glass-001-style-19 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(164, 164, 164, 0.27843137);
+  background-color: rgba(164, 164, 164, 0.27843137);
   color: #777;
   border-top: solid 1px #3e9bff;
   border-bottom-color: #3e9bff;
@@ -33995,7 +33995,7 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .slick-footerrow-column,
 .skin-glass-001-style-19 .slick-footerrow-column.ui-state-default {
-  background: #cacaca47;
+  background-color: #cacaca47;
   color: #007bff;
 }
 .skin-glass-001-style-19 .s-DataGrid.editor,
@@ -34027,7 +34027,7 @@ body.skin-glass-001-style-19 {
   font-weight: 500;
   font-size: 13px;
   color: #777;
-  background: rgba(164, 164, 164, 0.27843137);
+  background-color: rgba(164, 164, 164, 0.27843137);
   border-top: solid 1px #3e9bff;
   border-bottom-color: #3e9bff;
 }
@@ -34036,7 +34036,7 @@ body.skin-glass-001-style-19 {
   font-weight: 500;
   font-size: 13px;
   color: #777;
-  background: rgba(164, 164, 164, 0.27843137);
+  background-color: rgba(164, 164, 164, 0.27843137);
   border-top: solid 1px #3e9bff;
   border-bottom-color: #3e9bff;
 }
@@ -34131,7 +34131,7 @@ body.skin-glass-001-style-19 {
   font-weight: 300;
 }
 .skin-glass-001-style-19 .s-SlickPager {
-  background: #cacaca47;
+  background-color: #cacaca47;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -34289,7 +34289,7 @@ body.skin-glass-001-style-19 {
   color: #777;
 }
 .skin-glass-001-style-19 .dropdown-menu > li a:hover {
-  background: #cacaca47;
+  background-color: #cacaca47;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -34380,7 +34380,7 @@ body.skin-glass-001-style-20 {
   color: #777;
 }
 .skin-glass-001-style-20 .info-box {
-  background: #9494941a;
+  background-color: #9494941a;
   border-radius: 2px;
 }
 .skin-glass-001-style-20 .info-box .info-box-icon {
@@ -34431,7 +34431,7 @@ body.skin-glass-001-style-20 {
   background: #9696961a;
 }
 .skin-glass-001-style-20 .btn.btn-social:hover {
-  background: #9494941a;
+  background-color: #9494941a;
 }
 .skin-glass-001-style-20 table.table {
   color: #777;
@@ -34491,7 +34491,7 @@ body.skin-glass-001-style-20 {
   background: transparent;
 }
 .skin-glass-001-style-20 .main-footer {
-  background: #9494941a;
+  background-color: #9494941a;
   border-top: unset;
   color: #777;
 }
@@ -34590,7 +34590,7 @@ body.skin-glass-001-style-20 {
   border: solid 1px #a9a9a9;
 }
 .skin-glass-001-style-20 .s-ColumnPickerDialog .column-list {
-  background: #9494941a;
+  background-color: #9494941a;
   border-radius: 2px;
 }
 .skin-glass-001-style-20 .s-ColumnPickerDialog .column-list h5 {
@@ -34598,7 +34598,7 @@ body.skin-glass-001-style-20 {
   font-weight: 300;
   color: #777;
   font-size: 13px;
-  background: rgba(123, 123, 123, 0.10196078);
+  background-color: rgba(123, 123, 123, 0.10196078);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-20 .s-ColumnPickerDialog li {
@@ -34623,7 +34623,7 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background: #9494941a;
+  background-color: #9494941a;
 }
 .skin-glass-001-style-20 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-20 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -34823,7 +34823,7 @@ body.skin-glass-001-style-20 {
   color: #777;
 }
 .skin-glass-001-style-20 .nav-stacked > li a:hover {
-  background: #9494941a;
+  background-color: #9494941a;
 }
 .skin-glass-001-style-20 .nav-stacked > li.active a {
   color: #000000;
@@ -34919,7 +34919,7 @@ body.skin-glass-001-style-20 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-20 .input-group .input-group-addon {
-  background: #9494941a;
+  background-color: #9494941a;
   color: #777;
   border-color: #a9a9a9;
 }
@@ -34929,13 +34929,13 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .control-sidebar-dark .control-sidebar-heading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
 }
 .skin-glass-001-style-20 .control-sidebar-dark .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
 }
@@ -35316,10 +35316,10 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .nav-tabs-custom > .nav-tabs > li.active {
   color: #000000;
-  background: #9494941a;
+  background-color: #9494941a;
 }
 .skin-glass-001-style-20 .nav-tabs-custom > .nav-tabs > li.active a {
-  background: #9494941a;
+  background-color: #9494941a;
   color: #000000;
   border-color: transparent;
 }
@@ -35467,7 +35467,7 @@ body.skin-glass-001-style-20 {
   font-family: 'FontAwesome';
   content: "";
   color: #777;
-  font-weight: 100;
+  font-weight: 300;
 }
 .skin-glass-001-style-20 .inplace-create.edit b {
   background: none;
@@ -35503,7 +35503,7 @@ body.skin-glass-001-style-20 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background: rgba(110, 110, 110, 0.10196078);
+  background-color: rgba(110, 110, 110, 0.10196078);
   color: #777;
   border-top: solid 1px #a9a9a9;
   border-bottom-color: #a9a9a9;
@@ -35537,7 +35537,7 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .slick-footerrow-column,
 .skin-glass-001-style-20 .slick-footerrow-column.ui-state-default {
-  background: #9494941a;
+  background-color: #9494941a;
   color: #000000;
 }
 .skin-glass-001-style-20 .s-DataGrid.editor,
@@ -35569,7 +35569,7 @@ body.skin-glass-001-style-20 {
   font-weight: 500;
   font-size: 13px;
   color: #777;
-  background: rgba(110, 110, 110, 0.10196078);
+  background-color: rgba(110, 110, 110, 0.10196078);
   border-top: solid 1px #a9a9a9;
   border-bottom-color: #a9a9a9;
 }
@@ -35578,7 +35578,7 @@ body.skin-glass-001-style-20 {
   font-weight: 500;
   font-size: 13px;
   color: #777;
-  background: rgba(110, 110, 110, 0.10196078);
+  background-color: rgba(110, 110, 110, 0.10196078);
   border-top: solid 1px #a9a9a9;
   border-bottom-color: #a9a9a9;
 }
@@ -35673,7 +35673,7 @@ body.skin-glass-001-style-20 {
   font-weight: 300;
 }
 .skin-glass-001-style-20 .s-SlickPager {
-  background: #9494941a;
+  background-color: #9494941a;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -35831,7 +35831,7 @@ body.skin-glass-001-style-20 {
   color: #777;
 }
 .skin-glass-001-style-20 .dropdown-menu > li a:hover {
-  background: #9494941a;
+  background-color: #9494941a;
 }
 @media (max-width: 767px) {
   .main-header {
