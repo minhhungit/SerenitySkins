@@ -41,7 +41,7 @@ Copy `skins` folder from `/wwwroot/Content/` to your project (keep same path)
 Copy `J.initSkins.ts` file from `Modules/Common/Helper/` to your project (keep same path)
 
 Modify file `/wwwroot/Content/site/site.theme.less`, import `theme.less` like bellow
-```css
+```json
 @import "../adminlte/social-widgets.less";
 @import "../adminlte/skins/_all-skins.less";
 @import "../skins/dark001/theme.less"; /* <======================== */
@@ -67,13 +67,12 @@ Then add `window.location.reload();` at end of `this.change` function to page ca
 
 Modify file `Modules/Common/ScriptInitialization.ts`, add this line:
 ```javascript
-J.initSkins();
 J.initSkins('ThemePreference');
 ```
 
 Remember to add `/// <reference path="Helpers/J.initSkins.ts" />` to top of file, your `ScriptInitialization.ts` should be like this
 
-```javascript
+```json
 /// <reference path="../Common/Helpers/LanguageList.ts" />
 /// <reference path="Helpers/J.initSkins.ts" />
 
@@ -87,7 +86,6 @@ namespace SerenitySkins.ScriptInitialization {
         $.fn['colorbox'].settings.maxHeight = "95%";
     }
 
-    J.initSkins(); // <==============
     J.initSkins('ThemePreference'); // <==============
 
     window.onerror = Q.ErrorHandling.runtimeErrorHandler;
