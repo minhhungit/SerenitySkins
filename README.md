@@ -41,7 +41,7 @@ Copy `skins` folder from `/wwwroot/Content/` to your project (keep same path)
 Copy `J.initSkins.ts` file from `Modules/Common/Helper/` to your project (keep same path)
 
 Modify file `/wwwroot/Content/site/site.theme.less`, import `theme.less` like bellow
-```json
+```javascript
 @import "../adminlte/social-widgets.less";
 @import "../adminlte/skins/_all-skins.less";
 @import "../skins/dark001/theme.less"; /* <======================== */
@@ -72,7 +72,7 @@ J.initSkins('ThemePreference');
 
 Remember to add `/// <reference path="Helpers/J.initSkins.ts" />` to top of file, your `ScriptInitialization.ts` should be like this
 
-```json
+```javascript
 /// <reference path="../Common/Helpers/LanguageList.ts" />
 /// <reference path="Helpers/J.initSkins.ts" />
 
