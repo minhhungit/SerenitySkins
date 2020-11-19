@@ -5962,7 +5962,7 @@ body.skin-glass-001-style-1 {
   border-color: #c19bcc;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-1 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -7529,7 +7529,7 @@ body.skin-glass-001-style-2 {
   border-color: #7c95a9;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-2 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -9096,7 +9096,7 @@ body.skin-glass-001-style-3 {
   border-color: #a29aa7;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-3 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -10663,7 +10663,7 @@ body.skin-glass-001-style-4 {
   border-color: #92889a;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-4 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -12230,7 +12230,7 @@ body.skin-glass-001-style-5 {
   border-color: #929292;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-5 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -13797,7 +13797,7 @@ body.skin-glass-001-style-6 {
   border-color: #9b8192;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-6 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -15364,7 +15364,7 @@ body.skin-glass-001-style-7 {
   border-color: #b995b8;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-7 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -16931,7 +16931,7 @@ body.skin-glass-001-style-8 {
   border-color: #9da79f;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-8 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -18498,7 +18498,7 @@ body.skin-glass-001-style-9 {
   border-color: #ced5da;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-9 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -20065,7 +20065,7 @@ body.skin-glass-001-style-10 {
   border-color: #9aaab5;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-10 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -21632,7 +21632,7 @@ body.skin-glass-001-style-11 {
   border-color: #9aaab5;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-11 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -23199,7 +23199,7 @@ body.skin-glass-001-style-12 {
   border-color: #9fa6a9;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-12 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -24766,7 +24766,7 @@ body.skin-glass-001-style-13 {
   border-color: #8a95a7;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-13 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -26333,7 +26333,7 @@ body.skin-glass-001-style-14 {
   border-color: #9c97a2;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-14 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -27900,7 +27900,7 @@ body.skin-glass-001-style-15 {
   border-color: #8b969c;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-15 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -29467,7 +29467,7 @@ body.skin-glass-001-style-16 {
   border-color: #86959c;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-16 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -31034,7 +31034,7 @@ body.skin-glass-001-style-17 {
   border-color: #b39a9e;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-17 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -32601,7 +32601,7 @@ body.skin-glass-001-style-18 {
   border-color: #769da0;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff;
+  color: #fff !important;
 }
 .skin-glass-001-style-18 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -34168,7 +34168,7 @@ body.skin-glass-001-style-19 {
   border-color: #3e9bff;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #777;
+  color: #777 !important;
 }
 .skin-glass-001-style-19 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -35735,7 +35735,7 @@ body.skin-glass-001-style-20 {
   border-color: #a9a9a9;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #777;
+  color: #777 !important;
 }
 .skin-glass-001-style-20 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
