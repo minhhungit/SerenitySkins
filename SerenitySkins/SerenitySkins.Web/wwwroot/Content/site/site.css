@@ -5159,8 +5159,9 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-1 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-1 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-1 .form-control {
   /*height: 32px;*/
@@ -5169,11 +5170,11 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .form-control[disabled],
 .skin-glass-001-style-1 .form-control[readonly],
 .skin-glass-001-style-1 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(193, 155, 204, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-1 select.form-control {
   background: transparent;
@@ -5206,6 +5207,26 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-1 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -5251,23 +5272,6 @@ body.skin-glass-001-style-1 {
   text-shadow: unset;
 }
 .skin-glass-001-style-1 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-1 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-1 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-1 .s-Dialog {
@@ -5418,6 +5422,7 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-1 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -5875,6 +5880,8 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-1 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -5915,15 +5922,17 @@ body.skin-glass-001-style-1 {
   border-color: #c19bcc;
 }
 .skin-glass-001-style-1 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(193, 155, 204, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-1 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -5932,8 +5941,9 @@ body.skin-glass-001-style-1 {
   display: none;
 }
 .skin-glass-001-style-1 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-1 .select2-results {
   color: #fff;
@@ -5987,10 +5997,11 @@ body.skin-glass-001-style-1 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-1 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-1 .property-tabs > li.active a {
   color: #56c1ff;
@@ -6154,6 +6165,17 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-1 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-1 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-1 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-1 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -6253,8 +6275,9 @@ body.skin-glass-001-style-1 {
   border: unset;
 }
 .skin-glass-001-style-1 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(193, 155, 204, 0.5);
 }
 .skin-glass-001-style-1 .editor .slick-cell {
@@ -6329,8 +6352,9 @@ body.skin-glass-001-style-1 {
   border-radius: 2px;
 }
 .skin-glass-001-style-1 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(193, 155, 204, 0.5);
 }
 .skin-glass-001-style-1 .ui-widget-overlay {
@@ -6702,8 +6726,9 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-2 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-2 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-2 .form-control {
   /*height: 32px;*/
@@ -6712,11 +6737,11 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .form-control[disabled],
 .skin-glass-001-style-2 .form-control[readonly],
 .skin-glass-001-style-2 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(124, 149, 169, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-2 select.form-control {
   background: transparent;
@@ -6749,6 +6774,26 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-2 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -6794,23 +6839,6 @@ body.skin-glass-001-style-2 {
   text-shadow: unset;
 }
 .skin-glass-001-style-2 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-2 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-2 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-2 .s-Dialog {
@@ -6961,6 +6989,7 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-2 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -7418,6 +7447,8 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-2 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -7458,15 +7489,17 @@ body.skin-glass-001-style-2 {
   border-color: #7c95a9;
 }
 .skin-glass-001-style-2 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(124, 149, 169, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-2 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -7475,8 +7508,9 @@ body.skin-glass-001-style-2 {
   display: none;
 }
 .skin-glass-001-style-2 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-2 .select2-results {
   color: #fff;
@@ -7530,10 +7564,11 @@ body.skin-glass-001-style-2 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-2 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-2 .property-tabs > li.active a {
   color: #56c1ff;
@@ -7697,6 +7732,17 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-2 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-2 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-2 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-2 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -7796,8 +7842,9 @@ body.skin-glass-001-style-2 {
   border: unset;
 }
 .skin-glass-001-style-2 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(124, 149, 169, 0.5);
 }
 .skin-glass-001-style-2 .editor .slick-cell {
@@ -7872,8 +7919,9 @@ body.skin-glass-001-style-2 {
   border-radius: 2px;
 }
 .skin-glass-001-style-2 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(124, 149, 169, 0.5);
 }
 .skin-glass-001-style-2 .ui-widget-overlay {
@@ -8245,8 +8293,9 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-3 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-3 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-3 .form-control {
   /*height: 32px;*/
@@ -8255,11 +8304,11 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .form-control[disabled],
 .skin-glass-001-style-3 .form-control[readonly],
 .skin-glass-001-style-3 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(162, 154, 167, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-3 select.form-control {
   background: transparent;
@@ -8292,6 +8341,26 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-3 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -8337,23 +8406,6 @@ body.skin-glass-001-style-3 {
   text-shadow: unset;
 }
 .skin-glass-001-style-3 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-3 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-3 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-3 .s-Dialog {
@@ -8504,6 +8556,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-3 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -8961,6 +9014,8 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-3 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -9001,15 +9056,17 @@ body.skin-glass-001-style-3 {
   border-color: #a29aa7;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(162, 154, 167, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -9018,8 +9075,9 @@ body.skin-glass-001-style-3 {
   display: none;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-3 .select2-results {
   color: #fff;
@@ -9073,10 +9131,11 @@ body.skin-glass-001-style-3 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-3 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-3 .property-tabs > li.active a {
   color: #56c1ff;
@@ -9240,6 +9299,17 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-3 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-3 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -9339,8 +9409,9 @@ body.skin-glass-001-style-3 {
   border: unset;
 }
 .skin-glass-001-style-3 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(162, 154, 167, 0.5);
 }
 .skin-glass-001-style-3 .editor .slick-cell {
@@ -9415,8 +9486,9 @@ body.skin-glass-001-style-3 {
   border-radius: 2px;
 }
 .skin-glass-001-style-3 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(162, 154, 167, 0.5);
 }
 .skin-glass-001-style-3 .ui-widget-overlay {
@@ -9788,8 +9860,9 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-4 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-4 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-4 .form-control {
   /*height: 32px;*/
@@ -9798,11 +9871,11 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .form-control[disabled],
 .skin-glass-001-style-4 .form-control[readonly],
 .skin-glass-001-style-4 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(146, 136, 154, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-4 select.form-control {
   background: transparent;
@@ -9835,6 +9908,26 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-4 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -9880,23 +9973,6 @@ body.skin-glass-001-style-4 {
   text-shadow: unset;
 }
 .skin-glass-001-style-4 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-4 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-4 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-4 .s-Dialog {
@@ -10047,6 +10123,7 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-4 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -10504,6 +10581,8 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-4 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -10544,15 +10623,17 @@ body.skin-glass-001-style-4 {
   border-color: #92889a;
 }
 .skin-glass-001-style-4 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(146, 136, 154, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-4 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -10561,8 +10642,9 @@ body.skin-glass-001-style-4 {
   display: none;
 }
 .skin-glass-001-style-4 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-4 .select2-results {
   color: #fff;
@@ -10616,10 +10698,11 @@ body.skin-glass-001-style-4 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-4 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-4 .property-tabs > li.active a {
   color: #56c1ff;
@@ -10783,6 +10866,17 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-4 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-4 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-4 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-4 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -10882,8 +10976,9 @@ body.skin-glass-001-style-4 {
   border: unset;
 }
 .skin-glass-001-style-4 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(146, 136, 154, 0.5);
 }
 .skin-glass-001-style-4 .editor .slick-cell {
@@ -10958,8 +11053,9 @@ body.skin-glass-001-style-4 {
   border-radius: 2px;
 }
 .skin-glass-001-style-4 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(146, 136, 154, 0.5);
 }
 .skin-glass-001-style-4 .ui-widget-overlay {
@@ -11331,8 +11427,9 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-5 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-5 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-5 .form-control {
   /*height: 32px;*/
@@ -11341,11 +11438,11 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .form-control[disabled],
 .skin-glass-001-style-5 .form-control[readonly],
 .skin-glass-001-style-5 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(146, 146, 146, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-5 select.form-control {
   background: transparent;
@@ -11378,6 +11475,26 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-5 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -11423,23 +11540,6 @@ body.skin-glass-001-style-5 {
   text-shadow: unset;
 }
 .skin-glass-001-style-5 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-5 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-5 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-5 .s-Dialog {
@@ -11590,6 +11690,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-5 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -12047,6 +12148,8 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-5 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -12087,15 +12190,17 @@ body.skin-glass-001-style-5 {
   border-color: #929292;
 }
 .skin-glass-001-style-5 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(146, 146, 146, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-5 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -12104,8 +12209,9 @@ body.skin-glass-001-style-5 {
   display: none;
 }
 .skin-glass-001-style-5 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-5 .select2-results {
   color: #fff;
@@ -12159,10 +12265,11 @@ body.skin-glass-001-style-5 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-5 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-5 .property-tabs > li.active a {
   color: #dab155;
@@ -12326,6 +12433,17 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-5 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-5 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-5 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-5 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -12425,8 +12543,9 @@ body.skin-glass-001-style-5 {
   border: unset;
 }
 .skin-glass-001-style-5 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(146, 146, 146, 0.5);
 }
 .skin-glass-001-style-5 .editor .slick-cell {
@@ -12501,8 +12620,9 @@ body.skin-glass-001-style-5 {
   border-radius: 2px;
 }
 .skin-glass-001-style-5 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(146, 146, 146, 0.5);
 }
 .skin-glass-001-style-5 .ui-widget-overlay {
@@ -12874,8 +12994,9 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-6 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-6 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-6 .form-control {
   /*height: 32px;*/
@@ -12884,11 +13005,11 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .form-control[disabled],
 .skin-glass-001-style-6 .form-control[readonly],
 .skin-glass-001-style-6 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(155, 129, 146, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-6 select.form-control {
   background: transparent;
@@ -12921,6 +13042,26 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-6 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -12966,23 +13107,6 @@ body.skin-glass-001-style-6 {
   text-shadow: unset;
 }
 .skin-glass-001-style-6 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-6 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-6 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-6 .s-Dialog {
@@ -13133,6 +13257,7 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-6 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -13590,6 +13715,8 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-6 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -13630,15 +13757,17 @@ body.skin-glass-001-style-6 {
   border-color: #9b8192;
 }
 .skin-glass-001-style-6 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(155, 129, 146, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-6 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -13647,8 +13776,9 @@ body.skin-glass-001-style-6 {
   display: none;
 }
 .skin-glass-001-style-6 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-6 .select2-results {
   color: #fff;
@@ -13702,10 +13832,11 @@ body.skin-glass-001-style-6 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-6 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-6 .property-tabs > li.active a {
   color: #e2b143;
@@ -13869,6 +14000,17 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-6 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-6 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-6 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-6 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -13968,8 +14110,9 @@ body.skin-glass-001-style-6 {
   border: unset;
 }
 .skin-glass-001-style-6 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(155, 129, 146, 0.5);
 }
 .skin-glass-001-style-6 .editor .slick-cell {
@@ -14044,8 +14187,9 @@ body.skin-glass-001-style-6 {
   border-radius: 2px;
 }
 .skin-glass-001-style-6 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(155, 129, 146, 0.5);
 }
 .skin-glass-001-style-6 .ui-widget-overlay {
@@ -14417,8 +14561,9 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-7 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-7 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-7 .form-control {
   /*height: 32px;*/
@@ -14427,11 +14572,11 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .form-control[disabled],
 .skin-glass-001-style-7 .form-control[readonly],
 .skin-glass-001-style-7 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(185, 149, 184, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-7 select.form-control {
   background: transparent;
@@ -14464,6 +14609,26 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-7 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -14509,23 +14674,6 @@ body.skin-glass-001-style-7 {
   text-shadow: unset;
 }
 .skin-glass-001-style-7 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-7 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-7 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-7 .s-Dialog {
@@ -14676,6 +14824,7 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-7 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -15133,6 +15282,8 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-7 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -15173,15 +15324,17 @@ body.skin-glass-001-style-7 {
   border-color: #b995b8;
 }
 .skin-glass-001-style-7 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-7 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(185, 149, 184, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-7 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -15190,8 +15343,9 @@ body.skin-glass-001-style-7 {
   display: none;
 }
 .skin-glass-001-style-7 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-7 .select2-results {
   color: #fff;
@@ -15245,10 +15399,11 @@ body.skin-glass-001-style-7 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-7 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-7 .property-tabs > li.active a {
   color: #a2de10;
@@ -15412,6 +15567,17 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-7 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-7 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-7 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-7 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -15511,8 +15677,9 @@ body.skin-glass-001-style-7 {
   border: unset;
 }
 .skin-glass-001-style-7 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(185, 149, 184, 0.5);
 }
 .skin-glass-001-style-7 .editor .slick-cell {
@@ -15587,8 +15754,9 @@ body.skin-glass-001-style-7 {
   border-radius: 2px;
 }
 .skin-glass-001-style-7 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(185, 149, 184, 0.5);
 }
 .skin-glass-001-style-7 .ui-widget-overlay {
@@ -15960,8 +16128,9 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-8 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-8 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-8 .form-control {
   /*height: 32px;*/
@@ -15970,11 +16139,11 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .form-control[disabled],
 .skin-glass-001-style-8 .form-control[readonly],
 .skin-glass-001-style-8 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(157, 167, 159, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-8 select.form-control {
   background: transparent;
@@ -16007,6 +16176,26 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-8 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -16052,23 +16241,6 @@ body.skin-glass-001-style-8 {
   text-shadow: unset;
 }
 .skin-glass-001-style-8 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-8 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-8 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-8 .s-Dialog {
@@ -16219,6 +16391,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-8 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -16676,6 +16849,8 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-8 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -16716,15 +16891,17 @@ body.skin-glass-001-style-8 {
   border-color: #9da79f;
 }
 .skin-glass-001-style-8 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(157, 167, 159, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-8 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -16733,8 +16910,9 @@ body.skin-glass-001-style-8 {
   display: none;
 }
 .skin-glass-001-style-8 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-8 .select2-results {
   color: #fff;
@@ -16788,10 +16966,11 @@ body.skin-glass-001-style-8 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-8 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-8 .property-tabs > li.active a {
   color: #e6b84f;
@@ -16955,6 +17134,17 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-8 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-8 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -17054,8 +17244,9 @@ body.skin-glass-001-style-8 {
   border: unset;
 }
 .skin-glass-001-style-8 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(157, 167, 159, 0.5);
 }
 .skin-glass-001-style-8 .editor .slick-cell {
@@ -17130,8 +17321,9 @@ body.skin-glass-001-style-8 {
   border-radius: 2px;
 }
 .skin-glass-001-style-8 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(157, 167, 159, 0.5);
 }
 .skin-glass-001-style-8 .ui-widget-overlay {
@@ -17503,8 +17695,9 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-9 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-9 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-9 .form-control {
   /*height: 32px;*/
@@ -17513,11 +17706,11 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .form-control[disabled],
 .skin-glass-001-style-9 .form-control[readonly],
 .skin-glass-001-style-9 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(206, 213, 218, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-9 select.form-control {
   background: transparent;
@@ -17550,6 +17743,26 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-9 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -17595,23 +17808,6 @@ body.skin-glass-001-style-9 {
   text-shadow: unset;
 }
 .skin-glass-001-style-9 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-9 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-9 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-9 .s-Dialog {
@@ -17762,6 +17958,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-9 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -18219,6 +18416,8 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-9 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -18259,15 +18458,17 @@ body.skin-glass-001-style-9 {
   border-color: #ced5da;
 }
 .skin-glass-001-style-9 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(206, 213, 218, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-9 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -18276,8 +18477,9 @@ body.skin-glass-001-style-9 {
   display: none;
 }
 .skin-glass-001-style-9 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-9 .select2-results {
   color: #fff;
@@ -18331,10 +18533,11 @@ body.skin-glass-001-style-9 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-9 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-9 .property-tabs > li.active a {
   color: #e3fd95;
@@ -18498,6 +18701,17 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-9 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-9 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-9 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-9 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -18597,8 +18811,9 @@ body.skin-glass-001-style-9 {
   border: unset;
 }
 .skin-glass-001-style-9 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(206, 213, 218, 0.5);
 }
 .skin-glass-001-style-9 .editor .slick-cell {
@@ -18673,8 +18888,9 @@ body.skin-glass-001-style-9 {
   border-radius: 2px;
 }
 .skin-glass-001-style-9 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(206, 213, 218, 0.5);
 }
 .skin-glass-001-style-9 .ui-widget-overlay {
@@ -19046,8 +19262,9 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-10 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-10 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-10 .form-control {
   /*height: 32px;*/
@@ -19056,11 +19273,11 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .form-control[disabled],
 .skin-glass-001-style-10 .form-control[readonly],
 .skin-glass-001-style-10 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(154, 170, 181, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-10 select.form-control {
   background: transparent;
@@ -19093,6 +19310,26 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-10 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -19138,23 +19375,6 @@ body.skin-glass-001-style-10 {
   text-shadow: unset;
 }
 .skin-glass-001-style-10 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-10 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-10 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-10 .s-Dialog {
@@ -19305,6 +19525,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-10 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -19762,6 +19983,8 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-10 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -19802,15 +20025,17 @@ body.skin-glass-001-style-10 {
   border-color: #9aaab5;
 }
 .skin-glass-001-style-10 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(154, 170, 181, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-10 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -19819,8 +20044,9 @@ body.skin-glass-001-style-10 {
   display: none;
 }
 .skin-glass-001-style-10 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-10 .select2-results {
   color: #fff;
@@ -19874,10 +20100,11 @@ body.skin-glass-001-style-10 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-10 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-10 .property-tabs > li.active a {
   color: #a4fff2;
@@ -20041,6 +20268,17 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-10 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-10 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-10 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-10 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -20140,8 +20378,9 @@ body.skin-glass-001-style-10 {
   border: unset;
 }
 .skin-glass-001-style-10 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(154, 170, 181, 0.5);
 }
 .skin-glass-001-style-10 .editor .slick-cell {
@@ -20216,8 +20455,9 @@ body.skin-glass-001-style-10 {
   border-radius: 2px;
 }
 .skin-glass-001-style-10 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(154, 170, 181, 0.5);
 }
 .skin-glass-001-style-10 .ui-widget-overlay {
@@ -20589,8 +20829,9 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-11 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-11 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-11 .form-control {
   /*height: 32px;*/
@@ -20599,11 +20840,11 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .form-control[disabled],
 .skin-glass-001-style-11 .form-control[readonly],
 .skin-glass-001-style-11 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(154, 170, 181, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-11 select.form-control {
   background: transparent;
@@ -20636,6 +20877,26 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-11 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -20681,23 +20942,6 @@ body.skin-glass-001-style-11 {
   text-shadow: unset;
 }
 .skin-glass-001-style-11 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-11 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-11 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-11 .s-Dialog {
@@ -20848,6 +21092,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-11 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -21305,6 +21550,8 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-11 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -21345,15 +21592,17 @@ body.skin-glass-001-style-11 {
   border-color: #9aaab5;
 }
 .skin-glass-001-style-11 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-11 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(154, 170, 181, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-11 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -21362,8 +21611,9 @@ body.skin-glass-001-style-11 {
   display: none;
 }
 .skin-glass-001-style-11 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-11 .select2-results {
   color: #fff;
@@ -21417,10 +21667,11 @@ body.skin-glass-001-style-11 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-11 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-11 .property-tabs > li.active a {
   color: #a4fff2;
@@ -21584,6 +21835,17 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-11 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-11 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-11 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-11 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -21683,8 +21945,9 @@ body.skin-glass-001-style-11 {
   border: unset;
 }
 .skin-glass-001-style-11 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(154, 170, 181, 0.5);
 }
 .skin-glass-001-style-11 .editor .slick-cell {
@@ -21759,8 +22022,9 @@ body.skin-glass-001-style-11 {
   border-radius: 2px;
 }
 .skin-glass-001-style-11 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(154, 170, 181, 0.5);
 }
 .skin-glass-001-style-11 .ui-widget-overlay {
@@ -22132,8 +22396,9 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-12 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-12 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-12 .form-control {
   /*height: 32px;*/
@@ -22142,11 +22407,11 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .form-control[disabled],
 .skin-glass-001-style-12 .form-control[readonly],
 .skin-glass-001-style-12 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(159, 166, 169, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-12 select.form-control {
   background: transparent;
@@ -22179,6 +22444,26 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-12 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -22224,23 +22509,6 @@ body.skin-glass-001-style-12 {
   text-shadow: unset;
 }
 .skin-glass-001-style-12 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-12 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-12 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-12 .s-Dialog {
@@ -22391,6 +22659,7 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-12 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -22848,6 +23117,8 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-12 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -22888,15 +23159,17 @@ body.skin-glass-001-style-12 {
   border-color: #9fa6a9;
 }
 .skin-glass-001-style-12 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-12 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(159, 166, 169, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-12 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -22905,8 +23178,9 @@ body.skin-glass-001-style-12 {
   display: none;
 }
 .skin-glass-001-style-12 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-12 .select2-results {
   color: #fff;
@@ -22960,10 +23234,11 @@ body.skin-glass-001-style-12 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-12 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-12 .property-tabs > li.active a {
   color: #56ecec;
@@ -23127,6 +23402,17 @@ body.skin-glass-001-style-12 {
 .skin-glass-001-style-12 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-12 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-12 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-12 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-12 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -23226,8 +23512,9 @@ body.skin-glass-001-style-12 {
   border: unset;
 }
 .skin-glass-001-style-12 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(159, 166, 169, 0.5);
 }
 .skin-glass-001-style-12 .editor .slick-cell {
@@ -23302,8 +23589,9 @@ body.skin-glass-001-style-12 {
   border-radius: 2px;
 }
 .skin-glass-001-style-12 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(159, 166, 169, 0.5);
 }
 .skin-glass-001-style-12 .ui-widget-overlay {
@@ -23675,8 +23963,9 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-13 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-13 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-13 .form-control {
   /*height: 32px;*/
@@ -23685,11 +23974,11 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .form-control[disabled],
 .skin-glass-001-style-13 .form-control[readonly],
 .skin-glass-001-style-13 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(138, 149, 167, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-13 select.form-control {
   background: transparent;
@@ -23722,6 +24011,26 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-13 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -23767,23 +24076,6 @@ body.skin-glass-001-style-13 {
   text-shadow: unset;
 }
 .skin-glass-001-style-13 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-13 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-13 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-13 .s-Dialog {
@@ -23934,6 +24226,7 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-13 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -24391,6 +24684,8 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-13 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -24431,15 +24726,17 @@ body.skin-glass-001-style-13 {
   border-color: #8a95a7;
 }
 .skin-glass-001-style-13 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-13 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(138, 149, 167, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-13 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -24448,8 +24745,9 @@ body.skin-glass-001-style-13 {
   display: none;
 }
 .skin-glass-001-style-13 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-13 .select2-results {
   color: #fff;
@@ -24503,10 +24801,11 @@ body.skin-glass-001-style-13 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-13 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-13 .property-tabs > li.active a {
   color: #56ecec;
@@ -24670,6 +24969,17 @@ body.skin-glass-001-style-13 {
 .skin-glass-001-style-13 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-13 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-13 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-13 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-13 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -24769,8 +25079,9 @@ body.skin-glass-001-style-13 {
   border: unset;
 }
 .skin-glass-001-style-13 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(138, 149, 167, 0.5);
 }
 .skin-glass-001-style-13 .editor .slick-cell {
@@ -24845,8 +25156,9 @@ body.skin-glass-001-style-13 {
   border-radius: 2px;
 }
 .skin-glass-001-style-13 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(138, 149, 167, 0.5);
 }
 .skin-glass-001-style-13 .ui-widget-overlay {
@@ -25218,8 +25530,9 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-14 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-14 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-14 .form-control {
   /*height: 32px;*/
@@ -25228,11 +25541,11 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .form-control[disabled],
 .skin-glass-001-style-14 .form-control[readonly],
 .skin-glass-001-style-14 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(156, 151, 162, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-14 select.form-control {
   background: transparent;
@@ -25265,6 +25578,26 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-14 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -25310,23 +25643,6 @@ body.skin-glass-001-style-14 {
   text-shadow: unset;
 }
 .skin-glass-001-style-14 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-14 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-14 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-14 .s-Dialog {
@@ -25477,6 +25793,7 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-14 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -25934,6 +26251,8 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-14 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -25974,15 +26293,17 @@ body.skin-glass-001-style-14 {
   border-color: #9c97a2;
 }
 .skin-glass-001-style-14 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-14 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(156, 151, 162, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-14 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -25991,8 +26312,9 @@ body.skin-glass-001-style-14 {
   display: none;
 }
 .skin-glass-001-style-14 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-14 .select2-results {
   color: #fff;
@@ -26046,10 +26368,11 @@ body.skin-glass-001-style-14 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-14 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-14 .property-tabs > li.active a {
   color: #56ecec;
@@ -26213,6 +26536,17 @@ body.skin-glass-001-style-14 {
 .skin-glass-001-style-14 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-14 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-14 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-14 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-14 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -26312,8 +26646,9 @@ body.skin-glass-001-style-14 {
   border: unset;
 }
 .skin-glass-001-style-14 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(156, 151, 162, 0.5);
 }
 .skin-glass-001-style-14 .editor .slick-cell {
@@ -26388,8 +26723,9 @@ body.skin-glass-001-style-14 {
   border-radius: 2px;
 }
 .skin-glass-001-style-14 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(156, 151, 162, 0.5);
 }
 .skin-glass-001-style-14 .ui-widget-overlay {
@@ -26761,8 +27097,9 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-15 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-15 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-15 .form-control {
   /*height: 32px;*/
@@ -26771,11 +27108,11 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .form-control[disabled],
 .skin-glass-001-style-15 .form-control[readonly],
 .skin-glass-001-style-15 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(139, 150, 156, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-15 select.form-control {
   background: transparent;
@@ -26808,6 +27145,26 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-15 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -26853,23 +27210,6 @@ body.skin-glass-001-style-15 {
   text-shadow: unset;
 }
 .skin-glass-001-style-15 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-15 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-15 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-15 .s-Dialog {
@@ -27020,6 +27360,7 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-15 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -27477,6 +27818,8 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-15 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -27517,15 +27860,17 @@ body.skin-glass-001-style-15 {
   border-color: #8b969c;
 }
 .skin-glass-001-style-15 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-15 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(139, 150, 156, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-15 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -27534,8 +27879,9 @@ body.skin-glass-001-style-15 {
   display: none;
 }
 .skin-glass-001-style-15 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-15 .select2-results {
   color: #fff;
@@ -27589,10 +27935,11 @@ body.skin-glass-001-style-15 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-15 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-15 .property-tabs > li.active a {
   color: #56ecec;
@@ -27756,6 +28103,17 @@ body.skin-glass-001-style-15 {
 .skin-glass-001-style-15 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-15 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-15 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-15 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-15 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -27855,8 +28213,9 @@ body.skin-glass-001-style-15 {
   border: unset;
 }
 .skin-glass-001-style-15 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(139, 150, 156, 0.5);
 }
 .skin-glass-001-style-15 .editor .slick-cell {
@@ -27931,8 +28290,9 @@ body.skin-glass-001-style-15 {
   border-radius: 2px;
 }
 .skin-glass-001-style-15 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(139, 150, 156, 0.5);
 }
 .skin-glass-001-style-15 .ui-widget-overlay {
@@ -28304,8 +28664,9 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-16 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-16 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-16 .form-control {
   /*height: 32px;*/
@@ -28314,11 +28675,11 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .form-control[disabled],
 .skin-glass-001-style-16 .form-control[readonly],
 .skin-glass-001-style-16 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(134, 149, 156, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-16 select.form-control {
   background: transparent;
@@ -28351,6 +28712,26 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-16 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -28396,23 +28777,6 @@ body.skin-glass-001-style-16 {
   text-shadow: unset;
 }
 .skin-glass-001-style-16 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-16 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-16 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-16 .s-Dialog {
@@ -28563,6 +28927,7 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-16 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -29020,6 +29385,8 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-16 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -29060,15 +29427,17 @@ body.skin-glass-001-style-16 {
   border-color: #86959c;
 }
 .skin-glass-001-style-16 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-16 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(134, 149, 156, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-16 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -29077,8 +29446,9 @@ body.skin-glass-001-style-16 {
   display: none;
 }
 .skin-glass-001-style-16 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-16 .select2-results {
   color: #fff;
@@ -29132,10 +29502,11 @@ body.skin-glass-001-style-16 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-16 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-16 .property-tabs > li.active a {
   color: #56ecec;
@@ -29299,6 +29670,17 @@ body.skin-glass-001-style-16 {
 .skin-glass-001-style-16 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-16 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-16 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-16 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-16 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -29398,8 +29780,9 @@ body.skin-glass-001-style-16 {
   border: unset;
 }
 .skin-glass-001-style-16 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(134, 149, 156, 0.5);
 }
 .skin-glass-001-style-16 .editor .slick-cell {
@@ -29474,8 +29857,9 @@ body.skin-glass-001-style-16 {
   border-radius: 2px;
 }
 .skin-glass-001-style-16 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(134, 149, 156, 0.5);
 }
 .skin-glass-001-style-16 .ui-widget-overlay {
@@ -29847,8 +30231,9 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-17 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-17 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-17 .form-control {
   /*height: 32px;*/
@@ -29857,11 +30242,11 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .form-control[disabled],
 .skin-glass-001-style-17 .form-control[readonly],
 .skin-glass-001-style-17 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(179, 154, 158, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-17 select.form-control {
   background: transparent;
@@ -29894,6 +30279,26 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-17 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -29939,23 +30344,6 @@ body.skin-glass-001-style-17 {
   text-shadow: unset;
 }
 .skin-glass-001-style-17 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-17 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-17 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-17 .s-Dialog {
@@ -30106,6 +30494,7 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-17 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -30563,6 +30952,8 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-17 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -30603,15 +30994,17 @@ body.skin-glass-001-style-17 {
   border-color: #b39a9e;
 }
 .skin-glass-001-style-17 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-17 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(179, 154, 158, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-17 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -30620,8 +31013,9 @@ body.skin-glass-001-style-17 {
   display: none;
 }
 .skin-glass-001-style-17 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-17 .select2-results {
   color: #fff;
@@ -30675,10 +31069,11 @@ body.skin-glass-001-style-17 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-17 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-17 .property-tabs > li.active a {
   color: #e0d445;
@@ -30842,6 +31237,17 @@ body.skin-glass-001-style-17 {
 .skin-glass-001-style-17 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-17 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-17 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-17 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-17 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -30941,8 +31347,9 @@ body.skin-glass-001-style-17 {
   border: unset;
 }
 .skin-glass-001-style-17 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(179, 154, 158, 0.5);
 }
 .skin-glass-001-style-17 .editor .slick-cell {
@@ -31017,8 +31424,9 @@ body.skin-glass-001-style-17 {
   border-radius: 2px;
 }
 .skin-glass-001-style-17 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(179, 154, 158, 0.5);
 }
 .skin-glass-001-style-17 .ui-widget-overlay {
@@ -31390,8 +31798,9 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-18 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-18 .iradio_flat-green.disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-18 .form-control {
   /*height: 32px;*/
@@ -31400,11 +31809,11 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .form-control[disabled],
 .skin-glass-001-style-18 .form-control[readonly],
 .skin-glass-001-style-18 fieldset[disabled] .form-control {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
   border-radius: 2px;
   border-color: rgba(118, 157, 160, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #f5f5f599;
 }
 .skin-glass-001-style-18 select.form-control {
   background: transparent;
@@ -31437,6 +31846,26 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-18 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -31482,23 +31911,6 @@ body.skin-glass-001-style-18 {
   text-shadow: unset;
 }
 .skin-glass-001-style-18 .ui-dialog .ui-dialog-buttonpane button:hover {
-  text-shadow: 0 0 5px #fff;
-}
-.skin-glass-001-style-18 .ui-dialog .ui-dialog-content button {
-  background: #ffffff26;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #fff;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-18 .ui-dialog .ui-dialog-content button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-18 .s-Dialog {
@@ -31649,6 +32061,7 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
   background: #ffffff26;
+  border-radius: 2px;
 }
 .skin-glass-001-style-18 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -32106,6 +32519,8 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #fff;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-18 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -32146,15 +32561,17 @@ body.skin-glass-001-style-18 {
   border-color: #769da0;
 }
 .skin-glass-001-style-18 .select2-container.select2-container-disabled {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-18 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(118, 157, 160, 0.1);
-  color: rgba(255, 255, 255, 0.3) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-18 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -32163,8 +32580,9 @@ body.skin-glass-001-style-18 {
   display: none;
 }
 .skin-glass-001-style-18 .select2-container.select2-container-disabled.readonly {
-  background-color: #ffffff12;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599 !important;
 }
 .skin-glass-001-style-18 .select2-results {
   color: #fff;
@@ -32218,10 +32636,11 @@ body.skin-glass-001-style-18 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #ffffff26;
 }
 .skin-glass-001-style-18 .property-tabs > li > a {
   color: #fff;
+  background: transparent;
 }
 .skin-glass-001-style-18 .property-tabs > li.active a {
   color: #6ef2ff;
@@ -32385,6 +32804,17 @@ body.skin-glass-001-style-18 {
 .skin-glass-001-style-18 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-18 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-18 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #fff;
+}
 .skin-glass-001-style-18 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-18 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -32484,8 +32914,9 @@ body.skin-glass-001-style-18 {
   border: unset;
 }
 .skin-glass-001-style-18 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(118, 157, 160, 0.5);
 }
 .skin-glass-001-style-18 .editor .slick-cell {
@@ -32560,8 +32991,9 @@ body.skin-glass-001-style-18 {
   border-radius: 2px;
 }
 .skin-glass-001-style-18 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background-color: transparent;
+  color: #f5f5f599;
   border-color: rgba(118, 157, 160, 0.5);
 }
 .skin-glass-001-style-18 .ui-widget-overlay {
@@ -32775,7 +33207,7 @@ body.skin-glass-001-style-18 {
 body.skin-glass-001-style-19 {
   background: url('/Content/skins/glass001/assets/bg019.jpg') fixed;
   background-size: auto;
-  background-color: transparent;
+  background-color: #ffffffa8;
   color: #777;
 }
 .skin-glass-001-style-19 {
@@ -32800,7 +33232,7 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .content-wrapper {
   background: url('/Content/skins/glass001/assets/bg019.jpg') fixed;
   background-size: auto;
-  background-color: transparent;
+  background-color: #ffffffa8;
 }
 .skin-glass-001-style-19 ::-webkit-input-placeholder {
   /* Edge */
@@ -32856,7 +33288,7 @@ body.skin-glass-001-style-19 {
   color: #777;
 }
 .skin-glass-001-style-19 .info-box {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
   border-radius: 2px;
 }
 .skin-glass-001-style-19 .info-box .info-box-icon {
@@ -32880,7 +33312,7 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .box .box-header.with-border {
   color: #777;
   text-shadow: #a5a5a5;
-  border-bottom: 1px solid #cacaca47;
+  border-bottom: 1px solid #e4e4e4a6;
   background: transparent;
 }
 .skin-glass-001-style-19 .box .box-footer {
@@ -32907,7 +33339,7 @@ body.skin-glass-001-style-19 {
   background: #ffffff4d;
 }
 .skin-glass-001-style-19 .btn.btn-social:hover {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
 }
 .skin-glass-001-style-19 table.table {
   color: #777;
@@ -32933,8 +33365,9 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-19 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-19 .iradio_flat-green.disabled {
-  background-color: #00000008;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #fdfdfd61;
+  color: #35353599;
 }
 .skin-glass-001-style-19 .form-control {
   /*height: 32px;*/
@@ -32943,11 +33376,11 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .form-control[disabled],
 .skin-glass-001-style-19 .form-control[readonly],
 .skin-glass-001-style-19 fieldset[disabled] .form-control {
-  background-color: #00000008;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #fdfdfd61;
   border-radius: 2px;
   border-color: rgba(62, 155, 255, 0.1);
-  color: rgba(119, 119, 119, 0.6) !important;
+  color: #35353599;
 }
 .skin-glass-001-style-19 select.form-control {
   background: transparent;
@@ -32967,7 +33400,7 @@ body.skin-glass-001-style-19 {
   background: transparent;
 }
 .skin-glass-001-style-19 .main-footer {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
   border-top: unset;
   color: #777;
 }
@@ -32980,6 +33413,26 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-19 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -33027,23 +33480,6 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .ui-dialog .ui-dialog-buttonpane button:hover {
   text-shadow: 0 0 5px #ccc;
 }
-.skin-glass-001-style-19 .ui-dialog .ui-dialog-content button {
-  background: #ffffff3d;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #777;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-19 .ui-dialog .ui-dialog-content button:hover {
-  text-shadow: 0 0 5px #ccc;
-}
 .skin-glass-001-style-19 .s-Dialog {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #fff;
@@ -33067,7 +33503,7 @@ body.skin-glass-001-style-19 {
   border: solid 1px #3e9bff;
 }
 .skin-glass-001-style-19 .s-ColumnPickerDialog .column-list {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
   border-radius: 2px;
 }
 .skin-glass-001-style-19 .s-ColumnPickerDialog .column-list h5 {
@@ -33075,7 +33511,7 @@ body.skin-glass-001-style-19 {
   font-weight: 300;
   color: #777;
   font-size: 13px;
-  background-color: rgba(177, 177, 177, 0.27843137);
+  background-color: rgba(203, 203, 203, 0.65098039);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-19 .s-ColumnPickerDialog li {
@@ -33100,7 +33536,7 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
 }
 .skin-glass-001-style-19 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-19 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -33191,7 +33627,8 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
-  background: #cacaca47;
+  background: #d6d6d647;
+  border-radius: 2px;
 }
 .skin-glass-001-style-19 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -33208,7 +33645,7 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
   border: unset;
-  background: #cacaca47;
+  background: #d6d6d647;
   border-top: 3px solid #007bff;
 }
 .skin-glass-001-style-19 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
@@ -33300,7 +33737,7 @@ body.skin-glass-001-style-19 {
   color: #777;
 }
 .skin-glass-001-style-19 .nav-stacked > li a:hover {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
 }
 .skin-glass-001-style-19 .nav-stacked > li.active a {
   color: #007bff;
@@ -33317,7 +33754,7 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .main-sidebar {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: transparent;
+  background-color: #ffffffa8;
 }
 .skin-glass-001-style-19 .sidebar-form {
   margin: 10px;
@@ -33353,7 +33790,7 @@ body.skin-glass-001-style-19 {
   color: #777;
   height: 40px;
   padding-top: 10px;
-  background-color: transparent;
+  background-color: #d6d6d68a;
 }
 .skin-glass-001-style-19 .sidebar-menu > li > a:hover {
   color: #5baaff;
@@ -33363,10 +33800,10 @@ body.skin-glass-001-style-19 {
   /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-19 .sidebar-menu > li > .treeview-menu {
-  background: transparent;
+  background: #d6d6d68a;
 }
 .skin-glass-001-style-19 .sidebar-menu > li > .treeview-menu li {
-  background: transparent;
+  background: #d6d6d68a;
 }
 .skin-glass-001-style-19 .sidebar-menu .treeview-menu > li > a {
   font-size: 13.4px;
@@ -33396,7 +33833,7 @@ body.skin-glass-001-style-19 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-19 .input-group .input-group-addon {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
   color: #777;
   border-color: #3e9bff;
 }
@@ -33492,7 +33929,7 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 section.content > .s-DataGrid {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: transparent;
+  background-color: #ffffffa8;
   border-radius: 2px;
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
@@ -33502,13 +33939,13 @@ body.skin-glass-001-style-19 {
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: transparent;
+  background-color: #ffffffa8;
   border: unset;
   border-radius: 2px;
 }
 .skin-glass-001-style-19 section.content > .s-DataGrid {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: transparent;
+  background-color: #ffffffa8;
   border-radius: 2px;
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
@@ -33518,7 +33955,7 @@ body.skin-glass-001-style-19 {
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: transparent;
+  background-color: #ffffffa8;
   border: unset;
   border-radius: 2px;
 }
@@ -33573,7 +34010,7 @@ body.skin-glass-001-style-19 {
   padding-top: 3px;
 }
 .skin-glass-001-style-19 .s-PropertyGrid .category-links {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
 }
 .skin-glass-001-style-19 .s-PropertyGrid .category-links a.category-link {
   color: #007bff;
@@ -33586,7 +34023,7 @@ body.skin-glass-001-style-19 {
   text-shadow: 0 0 5px #a09d9d;
 }
 .skin-glass-001-style-19 .s-PropertyGrid .category-title {
-  border-bottom: 1px solid #cacaca47;
+  border-bottom: 1px solid #e4e4e4a6;
 }
 .skin-glass-001-style-19 .s-PropertyGrid .category-title a {
   color: #007bff;
@@ -33628,7 +34065,7 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .quick-filters-bar {
   border: unset;
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
   margin-bottom: 6px;
   border-radius: 2px;
 }
@@ -33649,6 +34086,8 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #777;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-19 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -33689,15 +34128,17 @@ body.skin-glass-001-style-19 {
   border-color: #3e9bff;
 }
 .skin-glass-001-style-19 .select2-container.select2-container-disabled {
-  background-color: #00000008;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #fdfdfd61;
+  color: #35353599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-19 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(62, 155, 255, 0.1);
-  color: rgba(119, 119, 119, 0.6) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #35353599 !important;
 }
 .skin-glass-001-style-19 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -33706,8 +34147,9 @@ body.skin-glass-001-style-19 {
   display: none;
 }
 .skin-glass-001-style-19 .select2-container.select2-container-disabled.readonly {
-  background-color: #00000008;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #fdfdfd61;
+  color: #35353599 !important;
 }
 .skin-glass-001-style-19 .select2-results {
   color: #777;
@@ -33761,14 +34203,15 @@ body.skin-glass-001-style-19 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #e4e4e4a6;
 }
 .skin-glass-001-style-19 .property-tabs > li > a {
   color: #777;
+  background: transparent;
 }
 .skin-glass-001-style-19 .property-tabs > li.active a {
   color: #007bff;
-  background: #cacaca47;
+  background: #d6d6d647;
 }
 .skin-glass-001-style-19 .property-tabs > li.active > a:hover,
 .skin-glass-001-style-19 .property-tabs > li.active > a:focus {
@@ -33793,10 +34236,10 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .nav-tabs-custom > .nav-tabs > li.active {
   color: #007bff;
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
 }
 .skin-glass-001-style-19 .nav-tabs-custom > .nav-tabs > li.active a {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
   color: #007bff;
   border-color: transparent;
 }
@@ -33839,7 +34282,7 @@ body.skin-glass-001-style-19 {
   color: #444;
 }
 .skin-glass-001-style-19 .tab-content {
-  border: solid 1px #cacaca47;
+  border: solid 1px #e4e4e4a6;
   border-radius: 2px;
 }
 .skin-glass-001-style-19 .control-sidebar .tab-content {
@@ -33928,6 +34371,17 @@ body.skin-glass-001-style-19 {
 .skin-glass-001-style-19 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-19 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-19 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #777;
+}
 .skin-glass-001-style-19 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-19 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -33980,7 +34434,7 @@ body.skin-glass-001-style-19 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background-color: rgba(164, 164, 164, 0.27843137);
+  background-color: rgba(190, 190, 190, 0.65098039);
   color: #777;
   border-top: solid 1px #3e9bff;
   border-bottom-color: #3e9bff;
@@ -34014,7 +34468,7 @@ body.skin-glass-001-style-19 {
 }
 .skin-glass-001-style-19 .slick-footerrow-column,
 .skin-glass-001-style-19 .slick-footerrow-column.ui-state-default {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
   color: #007bff;
 }
 .skin-glass-001-style-19 .s-DataGrid.editor,
@@ -34027,8 +34481,9 @@ body.skin-glass-001-style-19 {
   border: unset;
 }
 .skin-glass-001-style-19 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #fdfdfd61;
+  color: #35353599;
   border-color: rgba(62, 155, 255, 0.5);
 }
 .skin-glass-001-style-19 .editor .slick-cell {
@@ -34046,7 +34501,7 @@ body.skin-glass-001-style-19 {
   font-weight: 500;
   font-size: 13px;
   color: #777;
-  background-color: rgba(164, 164, 164, 0.27843137);
+  background-color: rgba(190, 190, 190, 0.65098039);
   border-top: solid 1px #3e9bff;
   border-bottom-color: #3e9bff;
 }
@@ -34055,7 +34510,7 @@ body.skin-glass-001-style-19 {
   font-weight: 500;
   font-size: 13px;
   color: #777;
-  background-color: rgba(164, 164, 164, 0.27843137);
+  background-color: rgba(190, 190, 190, 0.65098039);
   border-top: solid 1px #3e9bff;
   border-bottom-color: #3e9bff;
 }
@@ -34103,8 +34558,9 @@ body.skin-glass-001-style-19 {
   border-radius: 2px;
 }
 .skin-glass-001-style-19 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #fdfdfd61;
+  color: #35353599;
   border-color: rgba(62, 155, 255, 0.5);
 }
 .skin-glass-001-style-19 .ui-widget-overlay {
@@ -34150,7 +34606,7 @@ body.skin-glass-001-style-19 {
   font-weight: 300;
 }
 .skin-glass-001-style-19 .s-SlickPager {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -34308,7 +34764,7 @@ body.skin-glass-001-style-19 {
   color: #777;
 }
 .skin-glass-001-style-19 .dropdown-menu > li a:hover {
-  background-color: #cacaca47;
+  background-color: #e4e4e4a6;
 }
 @media (max-width: 767px) {
   .main-header {
@@ -34318,7 +34774,7 @@ body.skin-glass-001-style-19 {
 body.skin-glass-001-style-20 {
   background: url('/Content/skins/glass001/assets/bg020.jpg') repeat;
   background-size: auto;
-  background-color: #84848424;
+  background-color: transparent;
   color: #777;
 }
 .skin-glass-001-style-20 {
@@ -34343,7 +34799,7 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .content-wrapper {
   background: url('/Content/skins/glass001/assets/bg020.jpg') repeat;
   background-size: auto;
-  background-color: #84848424;
+  background-color: transparent;
 }
 .skin-glass-001-style-20 ::-webkit-input-placeholder {
   /* Edge */
@@ -34399,7 +34855,7 @@ body.skin-glass-001-style-20 {
   color: #777;
 }
 .skin-glass-001-style-20 .info-box {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
   border-radius: 2px;
 }
 .skin-glass-001-style-20 .info-box .info-box-icon {
@@ -34423,7 +34879,7 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .box .box-header.with-border {
   color: #777;
   text-shadow: #a5a5a5;
-  border-bottom: 1px solid #9494941a;
+  border-bottom: 1px solid #c3c3c347;
   background: transparent;
 }
 .skin-glass-001-style-20 .box .box-footer {
@@ -34450,7 +34906,7 @@ body.skin-glass-001-style-20 {
   background: #9696961a;
 }
 .skin-glass-001-style-20 .btn.btn-social:hover {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
 }
 .skin-glass-001-style-20 table.table {
   color: #777;
@@ -34476,8 +34932,9 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .icheckbox_minimal-red.disabled,
 .skin-glass-001-style-20 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-20 .iradio_flat-green.disabled {
-  background-color: #00000008;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #ffffff;
+  color: #35353599;
 }
 .skin-glass-001-style-20 .form-control {
   /*height: 32px;*/
@@ -34486,11 +34943,11 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .form-control[disabled],
 .skin-glass-001-style-20 .form-control[readonly],
 .skin-glass-001-style-20 fieldset[disabled] .form-control {
-  background-color: #00000008;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #ffffff;
   border-radius: 2px;
   border-color: rgba(169, 169, 169, 0.1);
-  color: rgba(119, 119, 119, 0.6) !important;
+  color: #35353599;
 }
 .skin-glass-001-style-20 select.form-control {
   background: transparent;
@@ -34510,7 +34967,7 @@ body.skin-glass-001-style-20 {
   background: transparent;
 }
 .skin-glass-001-style-20 .main-footer {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
   border-top: unset;
   color: #777;
 }
@@ -34523,6 +34980,26 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .ui-dialog {
   box-shadow: 0 0 20px #00000096;
   -webkit-box-shadow: 0 0 20px #00000096;
+  /*.ui-dialog-content {
+                button {
+                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
+  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
+  /*border-style: solid;
+                    border-width: 1px;
+                    border-radius: @glass-001-border-radius;
+                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    font-family: Poppins, Helvetica, "sans-serif";
+                    font-size: 14px;
+                    height: 32px;
+                    font-weight: 300;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
+
+                    &:hover {
+                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
+                    }
+                }
+            }*/
 }
 .skin-glass-001-style-20 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -34570,23 +35047,6 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .ui-dialog .ui-dialog-buttonpane button:hover {
   text-shadow: 0 0 5px #ccc;
 }
-.skin-glass-001-style-20 .ui-dialog .ui-dialog-content button {
-  background: #ffffff3d;
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 2px;
-  color: #777;
-  font-family: Poppins, Helvetica, "sans-serif";
-  font-size: 14px;
-  height: 32px;
-  font-weight: 300;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-.skin-glass-001-style-20 .ui-dialog .ui-dialog-content button:hover {
-  text-shadow: 0 0 5px #ccc;
-}
 .skin-glass-001-style-20 .s-Dialog {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
   background-color: #fff;
@@ -34610,7 +35070,7 @@ body.skin-glass-001-style-20 {
   border: solid 1px #a9a9a9;
 }
 .skin-glass-001-style-20 .s-ColumnPickerDialog .column-list {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
   border-radius: 2px;
 }
 .skin-glass-001-style-20 .s-ColumnPickerDialog .column-list h5 {
@@ -34618,7 +35078,7 @@ body.skin-glass-001-style-20 {
   font-weight: 300;
   color: #777;
   font-size: 13px;
-  background-color: rgba(123, 123, 123, 0.10196078);
+  background-color: rgba(170, 170, 170, 0.27843137);
   border-radius: 2px 2px 0 0;
 }
 .skin-glass-001-style-20 .s-ColumnPickerDialog li {
@@ -34643,7 +35103,7 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .s-MultipleImageUploadEditor ul {
   border: unset;
   border-radius: 2px;
-  background-color: #9494941a;
+  background-color: #c3c3c347;
 }
 .skin-glass-001-style-20 .s-ImageUploadEditor .s-Toolbar,
 .skin-glass-001-style-20 .s-MultipleImageUploadEditor .s-Toolbar {
@@ -34734,7 +35194,8 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .ui-tabs .ui-tabs-panel {
   /*border-top: solid 1px @glass-001-tab-active-bg-color;*/
-  background: #0000001a;
+  background: #d2d2d245;
+  border-radius: 2px;
 }
 .skin-glass-001-style-20 .s-TemplatedDialog.s-Panel .s-DialogToolbar {
   margin: 0 10px 10px 10px;
@@ -34751,7 +35212,7 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
   border: unset;
-  background: #0000001a;
+  background: #d2d2d245;
   border-top: 3px solid #000000;
 }
 .skin-glass-001-style-20 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
@@ -34843,7 +35304,7 @@ body.skin-glass-001-style-20 {
   color: #777;
 }
 .skin-glass-001-style-20 .nav-stacked > li a:hover {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
 }
 .skin-glass-001-style-20 .nav-stacked > li.active a {
   color: #000000;
@@ -34860,7 +35321,7 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .main-sidebar {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: #84848424;
+  background-color: transparent;
 }
 .skin-glass-001-style-20 .sidebar-form {
   margin: 10px;
@@ -34896,7 +35357,7 @@ body.skin-glass-001-style-20 {
   color: #777;
   height: 40px;
   padding-top: 10px;
-  background-color: #a2a2a224;
+  background-color: #c1c1c13b;
 }
 .skin-glass-001-style-20 .sidebar-menu > li > a:hover {
   color: #000000;
@@ -34906,10 +35367,10 @@ body.skin-glass-001-style-20 {
   /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-20 .sidebar-menu > li > .treeview-menu {
-  background: #a2a2a224;
+  background: #c1c1c13b;
 }
 .skin-glass-001-style-20 .sidebar-menu > li > .treeview-menu li {
-  background: #a2a2a224;
+  background: #c1c1c13b;
 }
 .skin-glass-001-style-20 .sidebar-menu .treeview-menu > li > a {
   font-size: 13.4px;
@@ -34939,7 +35400,7 @@ body.skin-glass-001-style-20 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-20 .input-group .input-group-addon {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
   color: #777;
   border-color: #a9a9a9;
 }
@@ -34962,7 +35423,7 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .main-header {
   background: url('/Content/skins/glass001/assets/bg020.jpg') repeat;
   background-size: auto;
-  background-color: #fff;
+  background-color: #ffffff;
   box-shadow: 0px 0 20px #404040a8;
   -webkit-box-shadow: 0px 0 20px #404040a8;
 }
@@ -35035,7 +35496,7 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 section.content > .s-DataGrid {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: #84848424;
+  background-color: transparent;
   border-radius: 2px;
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
@@ -35045,13 +35506,13 @@ body.skin-glass-001-style-20 {
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: #84848424;
+  background-color: transparent;
   border: unset;
   border-radius: 2px;
 }
 .skin-glass-001-style-20 section.content > .s-DataGrid {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: #84848424;
+  background-color: transparent;
   border-radius: 2px;
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
@@ -35061,7 +35522,7 @@ body.skin-glass-001-style-20 {
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') 0 0 / cover;
-  background-color: #84848424;
+  background-color: transparent;
   border: unset;
   border-radius: 2px;
 }
@@ -35116,7 +35577,7 @@ body.skin-glass-001-style-20 {
   padding-top: 3px;
 }
 .skin-glass-001-style-20 .s-PropertyGrid .category-links {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
 }
 .skin-glass-001-style-20 .s-PropertyGrid .category-links a.category-link {
   color: #000000;
@@ -35129,7 +35590,7 @@ body.skin-glass-001-style-20 {
   text-shadow: 0 0 5px #a0a0a0;
 }
 .skin-glass-001-style-20 .s-PropertyGrid .category-title {
-  border-bottom: 1px solid #9494941a;
+  border-bottom: 1px solid #c3c3c347;
 }
 .skin-glass-001-style-20 .s-PropertyGrid .category-title a {
   color: #000000;
@@ -35171,7 +35632,7 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .quick-filters-bar {
   border: unset;
-  background-color: #9494941a;
+  background-color: #c3c3c347;
   margin-bottom: 6px;
   border-radius: 2px;
 }
@@ -35192,6 +35653,8 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .flex-layout .s-Form .caption {
   padding-top: 6px;
   color: #777;
+  font-family: Poppins, Helvetica, "sans-serif";
+  font-weight: 300;
 }
 .skin-glass-001-style-20 .select2-drop {
   border-radius: 0 0 2px 2px;
@@ -35232,15 +35695,17 @@ body.skin-glass-001-style-20 {
   border-color: #a9a9a9;
 }
 .skin-glass-001-style-20 .select2-container.select2-container-disabled {
-  background-color: #00000008;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #ffffff;
+  color: #35353599 !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-20 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
   border-color: rgba(169, 169, 169, 0.1);
-  color: rgba(119, 119, 119, 0.6) !important;
+  /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
+  color: #35353599 !important;
 }
 .skin-glass-001-style-20 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -35249,8 +35714,9 @@ body.skin-glass-001-style-20 {
   display: none;
 }
 .skin-glass-001-style-20 .select2-container.select2-container-disabled.readonly {
-  background-color: #00000008;
-  background-image: url('/Content/skins/glass001/assets/az-subtle.png');
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #ffffff;
+  color: #35353599 !important;
 }
 .skin-glass-001-style-20 .select2-results {
   color: #777;
@@ -35304,14 +35770,15 @@ body.skin-glass-001-style-20 {
   font-weight: 500;
   border: unset;
   border-radius: 2px 2px 0 0;
-  background: transparent;
+  background: #c3c3c347;
 }
 .skin-glass-001-style-20 .property-tabs > li > a {
   color: #777;
+  background: transparent;
 }
 .skin-glass-001-style-20 .property-tabs > li.active a {
   color: #000000;
-  background: #0000001a;
+  background: #d2d2d245;
 }
 .skin-glass-001-style-20 .property-tabs > li.active > a:hover,
 .skin-glass-001-style-20 .property-tabs > li.active > a:focus {
@@ -35336,10 +35803,10 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .nav-tabs-custom > .nav-tabs > li.active {
   color: #000000;
-  background-color: #9494941a;
+  background-color: #c3c3c347;
 }
 .skin-glass-001-style-20 .nav-tabs-custom > .nav-tabs > li.active a {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
   color: #000000;
   border-color: transparent;
 }
@@ -35382,7 +35849,7 @@ body.skin-glass-001-style-20 {
   color: #444;
 }
 .skin-glass-001-style-20 .tab-content {
-  border: solid 1px #9494941a;
+  border: solid 1px #c3c3c347;
   border-radius: 2px;
 }
 .skin-glass-001-style-20 .control-sidebar .tab-content {
@@ -35471,6 +35938,17 @@ body.skin-glass-001-style-20 {
 .skin-glass-001-style-20 .tool-buttons .localization-button span.button-inner::before {
   content: "\f1ab";
 }
+.skin-glass-001-style-20 .tool-buttons .add-file-button span.button-inner {
+  background: unset;
+}
+.skin-glass-001-style-20 .tool-buttons .add-file-button span.button-inner::before {
+  content: "\f0c6";
+  font-family: "FontAwesome";
+  margin-left: -14px;
+  margin-right: 6px;
+  font-size: 15px;
+  color: #777;
+}
 .skin-glass-001-style-20 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before,
 .skin-glass-001-style-20 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
@@ -35523,7 +36001,7 @@ body.skin-glass-001-style-20 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 400;
   font-size: 13px;
-  background-color: rgba(110, 110, 110, 0.10196078);
+  background-color: rgba(157, 157, 157, 0.27843137);
   color: #777;
   border-top: solid 1px #a9a9a9;
   border-bottom-color: #a9a9a9;
@@ -35557,7 +36035,7 @@ body.skin-glass-001-style-20 {
 }
 .skin-glass-001-style-20 .slick-footerrow-column,
 .skin-glass-001-style-20 .slick-footerrow-column.ui-state-default {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
   color: #000000;
 }
 .skin-glass-001-style-20 .s-DataGrid.editor,
@@ -35570,8 +36048,9 @@ body.skin-glass-001-style-20 {
   border: unset;
 }
 .skin-glass-001-style-20 .editor.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #ffffff;
+  color: #35353599;
   border-color: rgba(169, 169, 169, 0.5);
 }
 .skin-glass-001-style-20 .editor .slick-cell {
@@ -35589,7 +36068,7 @@ body.skin-glass-001-style-20 {
   font-weight: 500;
   font-size: 13px;
   color: #777;
-  background-color: rgba(110, 110, 110, 0.10196078);
+  background-color: rgba(157, 157, 157, 0.27843137);
   border-top: solid 1px #a9a9a9;
   border-bottom-color: #a9a9a9;
 }
@@ -35598,7 +36077,7 @@ body.skin-glass-001-style-20 {
   font-weight: 500;
   font-size: 13px;
   color: #777;
-  background-color: rgba(110, 110, 110, 0.10196078);
+  background-color: rgba(157, 157, 157, 0.27843137);
   border-top: solid 1px #a9a9a9;
   border-bottom-color: #a9a9a9;
 }
@@ -35646,8 +36125,9 @@ body.skin-glass-001-style-20 {
   border-radius: 2px;
 }
 .skin-glass-001-style-20 input.readonly {
-  background-color: #ffffff12;
-  background-image: url(/Content/skins/glass001/assets/az-subtle.png);
+  background: url(/Content/skins/glass001/assets/dark-stripes.png);
+  background-color: #ffffff;
+  color: #35353599;
   border-color: rgba(169, 169, 169, 0.5);
 }
 .skin-glass-001-style-20 .ui-widget-overlay {
@@ -35693,7 +36173,7 @@ body.skin-glass-001-style-20 {
   font-weight: 300;
 }
 .skin-glass-001-style-20 .s-SlickPager {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
   border: unset;
   border-radius: 2px;
   padding: 3px;
@@ -35851,7 +36331,7 @@ body.skin-glass-001-style-20 {
   color: #777;
 }
 .skin-glass-001-style-20 .dropdown-menu > li a:hover {
-  background-color: #9494941a;
+  background-color: #c3c3c347;
 }
 @media (max-width: 767px) {
   .main-header {
