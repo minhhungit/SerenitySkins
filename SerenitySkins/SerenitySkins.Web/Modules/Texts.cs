@@ -180,7 +180,6 @@ namespace SerenitySkins
                 public static LocalText ThemeYellowLight = "Yellow Light";
 
                 // custom skins
-                public static LocalText Dark001 = "Dark 001";
                 public static LocalText Glass001Style1 = "Glass 001 Style 001";
                 public static LocalText Glass001Style2 = "Glass 001 Style 002";
                 public static LocalText Glass001Style3 = "Glass 001 Style 003";
@@ -192,15 +191,6 @@ namespace SerenitySkins
                 public static LocalText Glass001Style9 = "Glass 001 Style 009";
                 public static LocalText Glass001Style10 = "Glass 001 Style 010";
                 public static LocalText Glass001Style11 = "Glass 001 Style 011";
-                public static LocalText Glass001Style12 = "Glass 001 Style 012";
-                public static LocalText Glass001Style13 = "Glass 001 Style 013";
-                public static LocalText Glass001Style14 = "Glass 001 Style 014";
-                public static LocalText Glass001Style15 = "Glass 001 Style 015";
-                public static LocalText Glass001Style16 = "Glass 001 Style 016";
-                public static LocalText Glass001Style17 = "Glass 001 Style 017";
-                public static LocalText Glass001Style18 = "Glass 001 Style 018";
-                public static LocalText Glass001Style19 = "Glass 001 Style 019";
-                public static LocalText Glass001Style20 = "Glass 001 Style 020";
             }
 
             public static class ValidationError
