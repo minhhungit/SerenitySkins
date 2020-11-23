@@ -721,6 +721,45 @@
     @glass-001-read-only-text-color: #35353599;
 }
 
+.overwriteByIndex (@idx) when (@idx = 1) {
+    .themeDefs(@idx);
+
+    body.skin-glass-001-style-@{idx} {
+        section.content {
+            padding-bottom: 0;
+            margin-bottom: 0;
+
+            > .s-DataGrid, .s-Panel {
+                border-radius: unset !important;
+                margin-left: -15px !important;
+                box-shadow: unset !important;
+                -webkit-box-shadow: unset !important;
+            }
+        }
+
+        .sidebar-form {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+            padding: 0 10px 9px 10px;
+            margin: 10px 0;
+        }
+
+        .grid-title, .panel-titlebar {
+            padding: 14px 10px;
+            margin-top: -25px;
+            background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
+            background-size: cover;
+            background-color: #190c21;
+            border-radius: unset !important;
+        }
+
+        .panel-titlebar {
+            padding: 10px 10px 13px 10px;
+        }
+    }
+}
+
 .overwriteByIndex (@idx) when (@idx = 3) {
     .themeDefs(@idx);
 
@@ -745,7 +784,7 @@
             margin: 10px 0;
         }
 
-        .grid-title {
+        .grid-title, .panel-titlebar {
             padding: 15px 10px 14px 10px;
             margin-top: -25px;
             background: @glass-001-content-wrapper-bg;
@@ -784,7 +823,7 @@
             margin: 10px 0;
         }
 
-        .grid-title {
+        .grid-title, .panel-titlebar {
             padding: 15px 10px 14px 10px;
             margin-top: -25px;
             background: @glass-001-content-wrapper-bg;
@@ -827,7 +866,7 @@
             margin: 10px 0;*/
         }
 
-        .grid-title {
+        .grid-title, .panel-titlebar {
             padding: 15px 10px 14px 10px;
             margin-top: -25px;
             background: @glass-001-content-wrapper-bg;

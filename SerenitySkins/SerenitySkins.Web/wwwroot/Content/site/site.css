@@ -6354,6 +6354,36 @@ body.skin-glass-001-style-1 {
     background-color: #303641;
   }
 }
+body.skin-glass-001-style-1 section.content {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+body.skin-glass-001-style-1 section.content > .s-DataGrid,
+body.skin-glass-001-style-1 section.content .s-Panel {
+  border-radius: unset !important;
+  margin-left: -15px !important;
+  box-shadow: unset !important;
+  -webkit-box-shadow: unset !important;
+}
+body.skin-glass-001-style-1 .sidebar-form {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+  -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+  padding: 0 10px 9px 10px;
+  margin: 10px 0;
+}
+body.skin-glass-001-style-1 .grid-title,
+body.skin-glass-001-style-1 .panel-titlebar {
+  padding: 14px 10px;
+  margin-top: -25px;
+  background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
+  background-size: cover;
+  background-color: #190c21;
+  border-radius: unset !important;
+}
+body.skin-glass-001-style-1 .panel-titlebar {
+  padding: 10px 10px 13px 10px;
+}
 body.skin-glass-001-style-2 {
   background: url('/Content/skins/glass001/assets/bg002.png') fixed;
   background-size: cover;
@@ -9978,7 +10008,8 @@ body.skin-glass-001-style-3 .sidebar-form {
   padding: 0 10px 10px 10px;
   margin: 10px 0;
 }
-body.skin-glass-001-style-3 .grid-title {
+body.skin-glass-001-style-3 .grid-title,
+body.skin-glass-001-style-3 .panel-titlebar {
   padding: 15px 10px 14px 10px;
   margin-top: -25px;
   background: url('/Content/skins/glass001/assets/bg003-blurred.jpg') fixed;
@@ -17219,7 +17250,8 @@ body.skin-glass-001-style-7 .sidebar-form {
   padding: 0 10px 10px 10px;
   margin: 10px 0;
 }
-body.skin-glass-001-style-7 .grid-title {
+body.skin-glass-001-style-7 .grid-title,
+body.skin-glass-001-style-7 .panel-titlebar {
   padding: 15px 10px 14px 10px;
   margin-top: -25px;
   background: url('/Content/skins/glass001/assets/bg007-blurred.jpg') fixed;
@@ -20857,7 +20889,8 @@ body.skin-glass-001-style-9 .sidebar-form {
             padding: 0 10px 9px 10px;
             margin: 10px 0;*/
 }
-body.skin-glass-001-style-9 .grid-title {
+body.skin-glass-001-style-9 .grid-title,
+body.skin-glass-001-style-9 .panel-titlebar {
   padding: 15px 10px 14px 10px;
   margin-top: -25px;
   background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
