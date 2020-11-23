@@ -663,7 +663,7 @@
     @glass-001-main-header-navbar-bg: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
     @glass-001-main-header-navbar-bg-size: cover;
     @glass-001-main-header-navbar-bg-color: transparent;
-    @glass-001-main-header-navbar-box-shadow: 6px 4px 10px 1px #e8e8e8;
+    @glass-001-main-header-navbar-box-shadow: 0 0 1px #bdbdbd;
 
     @glass-001-main-header-box-shadow: unset;
 
@@ -877,6 +877,26 @@
 
         .panel-titlebar {
             padding: 12px 10px;
+        }
+
+        ::-webkit-input-placeholder { /* Edge */
+            color: gray;
+        }
+
+        :-ms-input-placeholder { /* Internet Explorer 10-11 */
+            color: gray;
+        }
+
+        ::placeholder {
+            color: gray;
+        }
+    }
+
+    @media (min-width: 768px) {
+    }
+
+    @media (max-width: 767px) {
+        .skin-glass-001-style-@{idx} {
         }
     }
 }
@@ -2015,6 +2035,16 @@
         }
 
         .ui-dialog.mobile-layout {
+            .ui-dialog-titlebar {
+                .ui-dialog-titlebar-close {
+                    background: none;
+
+                    &:hover {
+                        background: none;
+                    }
+                }
+            }
+
             .ui-dialog-titlebar-close {
                 background: none;
 
@@ -3170,8 +3200,29 @@
     }
 
     @media (max-width: 767px) {
-        .skin-glass-001-style-@{index}.main-header {
-            background-color: @glass-001-header-bg-color;
+        .skin-glass-001-style-@{index} {
+            
+            .main-header {
+                background-color: @glass-001-header-bg-color;
+
+                a.logo {
+                    display: none;
+                }
+            }
+
+            .control-sidebar {
+                padding-top: 50px;
+            }
+
+            .main-sidebar, .left-side {
+                padding-top: 50px;
+            }
+        }
+
+        .skin-glass-001-style-@{index}.fixed {
+            .content-wrapper, .right-side {
+                padding-top: 50px;
+            }
         }
     }
 
