@@ -1,6 +1,8 @@
 # SerenitySkins
 
-**!!! RIGHT NOW THESE SKINS ARE JUST FOR SERENE VERSION (FREE VERSION), STARTSHARP HAS NOT SUPPORTED YET**
+**!!! RIGHT NOW THESE SKINS ARE JUST FOR SERENE VERSION (FREE VERSION)**
+
+**!!! STARTSHARP HAS NOT SUPPORTED YET**
 
 **!!! STILL DEVELOPING, DON'T USE IT ON PRODUCTION**
 
@@ -10,27 +12,27 @@
 
 **Glass 001 Style 001 Grid**             |  **Glass 001 Style 001 Dialog**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 001 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-1.jpg?raw=true)  |  ![Glass 001 Style 001 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-2.jpg?raw=true)
+![Glass 001 Style 001 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-001.jpg?raw=true)  |  ![Glass 001 Style 001 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-002.jpg?raw=true)
 
 **Glass 001 Style 002 Grid**             |  **Glass 001 Style 002 Dialog**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 002 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-3.jpg?raw=true)  |  ![Glass 001 Style 002 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-4.jpg?raw=true)
+![Glass 001 Style 002 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-003.jpg?raw=true)  |  ![Glass 001 Style 002 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-004.jpg?raw=true)
 
 **Glass 001 Style 005 Grid**             |  **Glass 001 Style 005 Dialog**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 005 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-5.jpg?raw=true)  |  ![Glass 001 Style 005 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-6.jpg?raw=true)
+![Glass 001 Style 005 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-005.jpg?raw=true)  |  ![Glass 001 Style 005 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-006.jpg?raw=true)
 
 **Glass 001 Style 006 Grid**             |  **Glass 001 Style 006 Dialog**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 006 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-7.jpg?raw=true)  |  ![Glass 001 Style 006 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-8.jpg?raw=true)
+![Glass 001 Style 006 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-007.jpg?raw=true)  |  ![Glass 001 Style 006 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-008.jpg?raw=true)
 
 **Glass 001 Style 007 Grid**             |  **Glass 001 Style 007 Dialog**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 007 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-9.jpg?raw=true)  |  ![Glass 001 Style 007 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-10.jpg?raw=true)
+![Glass 001 Style 007 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-009.jpg?raw=true)  |  ![Glass 001 Style 007 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-010.jpg?raw=true)
 
 **Glass 001 Style 009 Grid**             |  **Glass 001 Style 009 Dialog**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 009 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-11.jpg?raw=true)  |  ![Glass 001 Style 009 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-12.jpg?raw=true)
+![Glass 001 Style 009 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-011.jpg?raw=true)  |  ![Glass 001 Style 009 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-012.jpg?raw=true)
 
 
 ## HOW TO SETUP
