@@ -36,6 +36,7 @@
     "~/Scripts/mousetrap.js",
     "~/Scripts/vue.js",
     "~/Scripts/adminlte/app.js",
+    "~/Scripts/jquery.vide.js",
     "~/Scripts/site/SerenitySkins.Web.js",
     "dynamic://ColumnsBundle",
     "dynamic://FormBundle",

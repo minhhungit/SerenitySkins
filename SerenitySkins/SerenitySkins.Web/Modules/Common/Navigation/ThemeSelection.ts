@@ -20,7 +20,7 @@
                     .toggleClass('dark-sidebar', darkSidebar)
                     .toggleClass('light-sidebar', !darkSidebar);
 
-                //window.location.reload();
+                window.location.reload();
             });
 
             Q.addOption(select, 'blue', Q.text('Site.Layout.ThemeBlue'));

@@ -452,45 +452,45 @@
     @glass-001-main-header-navbar-bg-color: unset;
     @glass-001-main-header-navbar-box-shadow: unset;
 
-    @glass-001-main-header-box-shadow: 0px 0 20px #404040a8;
+    @glass-001-main-header-box-shadow: 0px 0 20px #1d2848;
 
-    @glass-001-main-sidebar-bg: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
-    @glass-001-main-sidebar-bg-size: cover;
-    @glass-001-main-sidebar-bg-color: rgba(0,0,0,0.2);
+    @glass-001-main-sidebar-bg: none;
+    @glass-001-main-sidebar-bg-size: auto;
+    @glass-001-main-sidebar-bg-color: #533d807a;
 
     @glass-001-main-sidebar-nav-item-bg: none;
     @glass-001-main-sidebar-nav-item-bg-size: auto;
     @glass-001-main-sidebar-nav-item-bg-color: rgba(0, 0, 0, 0.2);
     @glass-001-main-sidebar-nav-item-color: #fff;
-    @glass-001-main-sidebar-nav-item-hover-active-color: #35b2fe;
+    @glass-001-main-sidebar-nav-item-hover-active-color: #69eaf7;
     @glass-001-main-sidebar-nav-item-text-shadow-color: #0088da;
 
-    @glass-001-content-wrapper-bg: url('/Content/skins/glass001/assets/bg006.jpg') fixed;
-    @glass-001-content-wrapper-bg-size: cover;
-    @glass-001-content-wrapper-bg-color: #221a35c7;
+    @glass-001-content-wrapper-bg: none;
+    @glass-001-content-wrapper-bg-size: auto;
+    @glass-001-content-wrapper-bg-color: #533d807a;
 
-    @glass-001-content-data-grid-bg: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
-    @glass-001-content-data-grid-bg-size: cover;
-    @glass-001-content-data-grid-bg-color: #2929296b;
+    @glass-001-content-data-grid-bg: none;
+    @glass-001-content-data-grid-bg-size: auto;
+    @glass-001-content-data-grid-bg-color: transparent;
 
-    @glass-001-content-box-shadow: 0 0 20px #0000003d;
+    @glass-001-content-box-shadow: 0 0 20px #664042;
 
     @glass-001-text-color: #fff;
     @glass-001-text-hover-active-color: #fff;
     @glass-001-text-shadow-color: #333;
 
-    @glass-001-link-color: #56ecec;
+    @glass-001-link-color: #69eaf7;
     @glass-001-link-hover-active-color: #56ecec;
     @glass-001-link-shadow-color: #3a3a3a;
 
-    @glass-001-theme-background: url('/Content/skins/glass001/assets/bg006.jpg') fixed;
-    @glass-001-theme-background-size: cover;
-    @glass-001-theme-color: #221a35c7;
-    @glass-001-theme-color-without-opacity: #221a35;
+    @glass-001-theme-background: url('/Content/skins/glass001/assets/navy.png') fixed;
+    @glass-001-theme-background-size: auto;
+    @glass-001-theme-color: #584382d6;
+    @glass-001-theme-color-without-opacity: #624f87;
 
     @glass-001-dialog-bg: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
     @glass-001-dialog-bg-size: cover;
-    @glass-001-dialog-bg-color: #1b3767;
+    @glass-001-dialog-bg-color: #7e56ca;
 
     @glass-001-box-bg: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
     @glass-001-box-bg-size: cover;
@@ -500,10 +500,10 @@
     @glass-001-input-bg-color: #ffffff26;
     @glass-001-input-box-shadow: rgba(0, 0, 0, 0.25);
 
-    @glass-001-tab-active-bg-color: #00000014;
-    @glass-001-panel-bg-color: #00000014;
+    @glass-001-tab-active-bg-color: #4f397533;
+    @glass-001-panel-bg-color: #4f397533;
 
-    @glass-001-read-only-bg: url(/Content/skins/glass001/assets/reticular-tissue.png);
+    @glass-001-read-only-bg: url(/Content/skins/glass001/assets/navy.png);
     @glass-001-read-only-bg-color: transparent;
     @glass-001-read-only-text-color: #f5f5f599;
 }
@@ -721,6 +721,36 @@
     @glass-001-read-only-text-color: #35353599;
 }
 
+
+#video-background-container {
+    .video-background-wrapper {
+        position: fixed !important;
+        background-position: unset !important;
+    }
+
+    video {
+        position: fixed !important;
+        z-index: -1 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        min-width: 100% !important;
+        min-height: 100% !important;
+        transform: unset !important;
+        top: unset !important;
+        left: unset !important;
+        /*width: unset !important;
+        height: unset !important;*/
+        overflow: hidden !important;
+        -webkit-box-sizing: content-box !important;
+        -moz-box-sizing: content-box !important;
+        box-sizing: content-box !important;
+        /*-webkit-background-size: cover !important;
+        -moz-background-size: cover !important;
+        -o-background-size: cover !important;
+        background-size: cover !important;*/
+    }
+}
+
 .overwriteByIndex (@idx) when (@idx = 1) {
     .themeDefs(@idx);
 
@@ -761,6 +791,45 @@
 }
 
 .overwriteByIndex (@idx) when (@idx = 3) {
+    .themeDefs(@idx);
+
+    body.skin-glass-001-style-@{idx} {
+        section.content {
+            padding-bottom: 0;
+            margin-bottom: 0;
+
+            > .s-DataGrid, .flex-layout.s-Panel {
+                border-radius: unset;
+                margin-left: -15px;
+                box-shadow: unset;
+                -webkit-box-shadow: unset;
+            }
+        }
+
+        .sidebar-form {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+            padding: 0 10px 10px 10px;
+            margin: 10px 0;
+        }
+
+        .grid-title, .panel-titlebar {
+            padding: 15px 10px 14px 10px;
+            margin-top: -25px;
+            background: @glass-001-content-wrapper-bg;
+            background-size: @glass-001-content-wrapper-bg-size;
+            background-color: @glass-001-content-wrapper-bg-color;
+            border-radius: unset !important;
+        }
+
+        .panel-titlebar {
+            padding: 12px 10px;
+        }
+    }
+}
+
+.overwriteByIndex (@idx) when (@idx = 6) {
     .themeDefs(@idx);
 
     body.skin-glass-001-style-@{idx} {
@@ -900,7 +969,6 @@
         }
     }
 }
-
 
 .buildThemes(@index) when (@index < @glass-001-number-of-themes + 1) {
     .themeDefs(@index);
@@ -1888,7 +1956,7 @@
             //background: url('/Content/skins/glass001/assets/bg_dot.png') left top repeat;
             background: @glass-001-theme-background;
             background-size: @glass-001-theme-background-size;
-            background-color: @glass-001-theme-color-without-opacity;
+            background-color: @glass-001-theme-color;
             box-shadow: @glass-001-main-header-box-shadow;
             -webkit-box-shadow: @glass-001-main-header-box-shadow;
 
@@ -3201,7 +3269,7 @@
 
     @media (max-width: 767px) {
         .skin-glass-001-style-@{index} {
-            
+
             .main-header {
                 background-color: @glass-001-header-bg-color;
 
