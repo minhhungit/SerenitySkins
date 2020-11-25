@@ -10,29 +10,21 @@
 
 # SKINS: GLASS 001
 
-**Glass 001 Style 001 Grid**             |  **Glass 001 Style 001 Dialog**
+**Style 001 Css Background Animation**             |  **Style 002 Image Background**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 001 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-001.jpg?raw=true)  |  ![Glass 001 Style 001 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-002.jpg?raw=true)
+![Style 001 Css Background Animation](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/style01.gif?raw=true)  |  ![Style 002 Image Background](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-003.jpg?raw=true)
 
-**Glass 001 Style 002 Grid**             |  **Glass 001 Style 002 Dialog**
+**Style 004 Css Background Animation**             |  **Style 005 Image Background**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 002 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-003.jpg?raw=true)  |  ![Glass 001 Style 002 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-004.jpg?raw=true)
+![Style 004 Css Background Animation](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/style04.gif?raw=true)  |  ![Style 005 Image Background](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-005.jpg?raw=true)
 
-**Glass 001 Style 005 Grid**             |  **Glass 001 Style 005 Dialog**
+**Style 006 Video Background**             |  **Style 007 Image Background**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 005 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-005.jpg?raw=true)  |  ![Glass 001 Style 005 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-006.jpg?raw=true)
+![Style 006 Video Background](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/style06.gif?raw=true)  |  ![Style 007 Image Background](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-009.jpg?raw=true)
 
-**Glass 001 Style 006 GIF**             |  **Glass 001 Style 006 GIF**
+**Style 009 Image Background**             |  
 :-------------------------:|:-------------------------:
-![Glass 001 Style 006 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/style06.gif?raw=true)  |  ![Glass 001 Style 006 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/style06.gif?raw=true)
-
-**Glass 001 Style 007 Grid**             |  **Glass 001 Style 007 Dialog**
-:-------------------------:|:-------------------------:
-![Glass 001 Style 007 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-009.jpg?raw=true)  |  ![Glass 001 Style 007 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-010.jpg?raw=true)
-
-**Glass 001 Style 009 Grid**             |  **Glass 001 Style 009 Dialog**
-:-------------------------:|:-------------------------:
-![Glass 001 Style 009 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-011.jpg?raw=true)  |  ![Glass 001 Style 009 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-012.jpg?raw=true)
+![Style 009 Image Background](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-011.jpg?raw=true)  |  
 
 
 ## HOW TO SETUP
