@@ -62,5 +62,33 @@
                 };
             });
         }
+
+        if (curSkinClass.toLowerCase().trim() == "glass-001-style-1") {
+            $(document).ready(function () {
+                $("body").append(`<div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>
+                    <div class="bg-animation-firefly"></div>`);
+            });
+        }
+
+        if (curSkinClass.toLowerCase().trim() == "glass-001-style-4") {
+            $(document).ready(function () {
+                $("body").append(`<ul class="bg-animation-box"><li class="circle-box"></li><li class="corners-box-20"></li><li class="circle-box"></li><li class="corners-box-20"></li><li></li><li class="corners-box-35"></li><li class="circle-box"></li><li></li></ul>`);
+            });
+        }
+
+        
     }    
 }
