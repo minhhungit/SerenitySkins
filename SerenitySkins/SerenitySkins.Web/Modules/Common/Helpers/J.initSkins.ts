@@ -16,6 +16,7 @@
             case "glass-001-style-7":
             case "glass-001-style-8":
             case "glass-001-style-9":
+            case "glass-001-style-10":
 
                 $.datepicker.setDefaults({
                     buttonImage: null,
