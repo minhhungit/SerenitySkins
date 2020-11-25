@@ -20,9 +20,9 @@
 :-------------------------:|:-------------------------:
 ![Glass 001 Style 005 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-5.jpg?raw=true)  |  ![Glass 001 Style 005 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-6.jpg?raw=true)
 
-**Glass 001 Style 006 Grid**             |  **Glass 001 Style 006 Dialog**
+**Glass 001 Style 006 Gif**             |  **Glass 001 Style 006 Gif**
 :-------------------------:|:-------------------------:
-![Glass 001 Style 006 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-7.jpg?raw=true)  |  ![Glass 001 Style 006 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-8.jpg?raw=true)
+![Glass 001 Style 006 Grid](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/style06.gif?raw=true)  |  ![Glass 001 Style 006 Dialog](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/style06.gif?raw=true)
 
 **Glass 001 Style 007 Grid**             |  **Glass 001 Style 007 Dialog**
 :-------------------------:|:-------------------------:
