@@ -91,7 +91,7 @@ namespace SerenitySkins.ScriptInitialization {
 }
 ```
 
-In `/Modules/Texts.cs`, inside Site class > Layout class, add this line
+In `/Modules/Texts.cs`, inside Site class > Layout class, add these lines
 ```csharp
 public static LocalText Glass001Style1 = "Glass 001 Style 001";
 public static LocalText Glass001Style2 = "Glass 001 Style 002";
