@@ -37,7 +37,7 @@
             Q.addOption(select, 'black-light', Q.text('Site.Layout.ThemeBlackLight'));
 
             let glassStyleIdx = 1;
-            while (glassStyleIdx <= 10) {
+            while (glassStyleIdx <= 11) {
                 Q.addOption(select, `glass-001-style-${glassStyleIdx}`, Q.text(`Site.Layout.Glass001Style${glassStyleIdx}`));
                 glassStyleIdx++;
             }
