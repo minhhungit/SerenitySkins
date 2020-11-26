@@ -4786,9 +4786,6 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .btn.btn-social:hover {
   background-color: #00000014;
 }
-.skin-glass-001-style-1 .btn.btn-social-icon {
-  color: #fff;
-}
 .skin-glass-001-style-1 .btn-default {
   background-color: #ffffff26;
   color: #fff;
@@ -5386,7 +5383,6 @@ body.skin-glass-001-style-1 {
   background-color: unset;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  padding-right: 10px;
 }
 .skin-glass-001-style-1 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -5421,7 +5417,7 @@ body.skin-glass-001-style-1 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-1 .main-header .navbar-nav > li > a:hover {
@@ -6436,8 +6432,10 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .page-header > small {
   color: #fff;
 }
-.skin-glass-001-style-1 .alert a {
-  color: #fff;
+.skin-glass-001-style-1 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-1 .alert .close {
   color: #fff;
@@ -6744,9 +6742,6 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .btn.btn-social:hover {
   background-color: #00000014;
-}
-.skin-glass-001-style-2 .btn.btn-social-icon {
-  color: #fff;
 }
 .skin-glass-001-style-2 .btn-default {
   background-color: #ffffff26;
@@ -7345,7 +7340,6 @@ body.skin-glass-001-style-2 {
   background-color: unset;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  padding-right: 10px;
 }
 .skin-glass-001-style-2 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -7380,7 +7374,7 @@ body.skin-glass-001-style-2 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-2 .main-header .navbar-nav > li > a:hover {
@@ -8395,8 +8389,10 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .page-header > small {
   color: #fff;
 }
-.skin-glass-001-style-2 .alert a {
-  color: #fff;
+.skin-glass-001-style-2 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-2 .alert .close {
   color: #fff;
@@ -8673,9 +8669,6 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .btn.btn-social:hover {
   background-color: #00000014;
-}
-.skin-glass-001-style-3 .btn.btn-social-icon {
-  color: #fff;
 }
 .skin-glass-001-style-3 .btn-default {
   background-color: #ffffff26;
@@ -9274,7 +9267,6 @@ body.skin-glass-001-style-3 {
   background-color: #5d0b6563;
   box-shadow: blue;
   -webkit-box-shadow: blue;
-  padding-right: 10px;
 }
 .skin-glass-001-style-3 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -9309,7 +9301,7 @@ body.skin-glass-001-style-3 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-3 .main-header .navbar-nav > li > a:hover {
@@ -10324,8 +10316,10 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .page-header > small {
   color: #fff;
 }
-.skin-glass-001-style-3 .alert a {
-  color: #fff;
+.skin-glass-001-style-3 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-3 .alert .close {
   color: #fff;
@@ -10632,9 +10626,6 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .btn.btn-social:hover {
   background-color: #00000014;
-}
-.skin-glass-001-style-4 .btn.btn-social-icon {
-  color: #fff;
 }
 .skin-glass-001-style-4 .btn-default {
   background-color: #ffffff26;
@@ -11233,7 +11224,6 @@ body.skin-glass-001-style-4 {
   background-color: transparent;
   box-shadow: blue;
   -webkit-box-shadow: blue;
-  padding-right: 10px;
 }
 .skin-glass-001-style-4 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -11268,7 +11258,7 @@ body.skin-glass-001-style-4 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-4 .main-header .navbar-nav > li > a:hover {
@@ -12283,8 +12273,10 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .page-header > small {
   color: #fff;
 }
-.skin-glass-001-style-4 .alert a {
-  color: #fff;
+.skin-glass-001-style-4 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-4 .alert .close {
   color: #fff;
@@ -12561,9 +12553,6 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .btn.btn-social:hover {
   background-color: #00000014;
-}
-.skin-glass-001-style-5 .btn.btn-social-icon {
-  color: #fff;
 }
 .skin-glass-001-style-5 .btn-default {
   background-color: #ffffff26;
@@ -13162,7 +13151,6 @@ body.skin-glass-001-style-5 {
   background-color: transparent;
   box-shadow: blue;
   -webkit-box-shadow: blue;
-  padding-right: 10px;
 }
 .skin-glass-001-style-5 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -13197,7 +13185,7 @@ body.skin-glass-001-style-5 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-5 .main-header .navbar-nav > li > a:hover {
@@ -14212,8 +14200,10 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .page-header > small {
   color: #fff;
 }
-.skin-glass-001-style-5 .alert a {
-  color: #fff;
+.skin-glass-001-style-5 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-5 .alert .close {
   color: #fff;
@@ -14490,9 +14480,6 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .btn.btn-social:hover {
   background-color: #4f397533;
-}
-.skin-glass-001-style-6 .btn.btn-social-icon {
-  color: #fff;
 }
 .skin-glass-001-style-6 .btn-default {
   background-color: #ffffff26;
@@ -15091,7 +15078,6 @@ body.skin-glass-001-style-6 {
   background-color: unset;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  padding-right: 10px;
 }
 .skin-glass-001-style-6 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -15126,7 +15112,7 @@ body.skin-glass-001-style-6 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-6 .main-header .navbar-nav > li > a:hover {
@@ -16141,8 +16127,10 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .page-header > small {
   color: #fff;
 }
-.skin-glass-001-style-6 .alert a {
-  color: #fff;
+.skin-glass-001-style-6 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-6 .alert .close {
   color: #fff;
@@ -16449,9 +16437,6 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .btn.btn-social:hover {
   background-color: #ffffff14;
-}
-.skin-glass-001-style-7 .btn.btn-social-icon {
-  color: #fff;
 }
 .skin-glass-001-style-7 .btn-default {
   background-color: #ffffff26;
@@ -17050,7 +17035,6 @@ body.skin-glass-001-style-7 {
   background-color: unset;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  padding-right: 10px;
 }
 .skin-glass-001-style-7 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -17085,7 +17069,7 @@ body.skin-glass-001-style-7 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-7 .main-header .navbar-nav > li > a:hover {
@@ -18100,8 +18084,10 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .page-header > small {
   color: #fff;
 }
-.skin-glass-001-style-7 .alert a {
-  color: #fff;
+.skin-glass-001-style-7 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-7 .alert .close {
   color: #fff;
@@ -18412,9 +18398,6 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .btn.btn-social:hover {
   background-color: #e4e4e4a6;
 }
-.skin-glass-001-style-8 .btn.btn-social-icon {
-  color: #fff;
-}
 .skin-glass-001-style-8 .btn-default {
   background-color: #ffffff4d;
   color: #777;
@@ -18452,7 +18435,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-8 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
-  background: #b5b5b5;
+  background: #596475;
 }
 .skin-glass-001-style-8 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-8 .iradio_minimal-red.disabled input {
@@ -19011,7 +18994,6 @@ body.skin-glass-001-style-8 {
   background-color: unset;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  padding-right: 10px;
 }
 .skin-glass-001-style-8 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -19046,7 +19028,7 @@ body.skin-glass-001-style-8 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-8 .main-header .navbar-nav > li > a:hover {
@@ -20061,8 +20043,10 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .page-header > small {
   color: #777;
 }
-.skin-glass-001-style-8 .alert a {
-  color: #fff;
+.skin-glass-001-style-8 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-8 .alert .close {
   color: #fff;
@@ -20340,9 +20324,6 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .btn.btn-social:hover {
   background-color: #c3c3c347;
 }
-.skin-glass-001-style-9 .btn.btn-social-icon {
-  color: #fff;
-}
 .skin-glass-001-style-9 .btn-default {
   background-color: #9696961a;
   color: #444;
@@ -20380,7 +20361,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-9 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
-  background: #b5b5b5;
+  background: #596475;
 }
 .skin-glass-001-style-9 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-9 .iradio_minimal-red.disabled input {
@@ -20939,7 +20920,6 @@ body.skin-glass-001-style-9 {
   background-color: transparent;
   box-shadow: 0 0 1px #bdbdbd;
   -webkit-box-shadow: 0 0 1px #bdbdbd;
-  padding-right: 10px;
 }
 .skin-glass-001-style-9 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -20974,7 +20954,7 @@ body.skin-glass-001-style-9 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-9 .main-header .navbar-nav > li > a:hover {
@@ -21989,8 +21969,10 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .page-header > small {
   color: #444;
 }
-.skin-glass-001-style-9 .alert a {
-  color: #fff;
+.skin-glass-001-style-9 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-9 .alert .close {
   color: #fff;
@@ -22132,7 +22114,7 @@ body.skin-glass-001-style-9 .tool-buttons .tool-button.localization-button span.
   color: #9743e4 !important;
 }
 body.skin-glass-001-style-9 .tool-buttons .tool-button.clone-button span.button-inner::before {
-  color: #83ca60 !important;
+  color: #333 !important;
 }
 body.skin-glass-001-style-9 .slick-pg-btn > span:before {
   color: #5b5bb5;
@@ -22347,9 +22329,6 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .btn.btn-social:hover {
   background-color: #c3c3c347;
 }
-.skin-glass-001-style-10 .btn.btn-social-icon {
-  color: #fff;
-}
 .skin-glass-001-style-10 .btn-default {
   background-color: #9696961a;
   color: #444;
@@ -22387,7 +22366,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-10 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
-  background: #b5b5b5;
+  background: #596475;
 }
 .skin-glass-001-style-10 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-10 .iradio_minimal-red.disabled input {
@@ -22946,7 +22925,6 @@ body.skin-glass-001-style-10 {
   background-color: transparent;
   box-shadow: 0 0 1px #bdbdbd;
   -webkit-box-shadow: 0 0 1px #bdbdbd;
-  padding-right: 10px;
 }
 .skin-glass-001-style-10 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -22981,7 +22959,7 @@ body.skin-glass-001-style-10 {
   line-height: 60px;
   height: 60px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-10 .main-header .navbar-nav > li > a:hover {
@@ -23996,8 +23974,10 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .page-header > small {
   color: #444;
 }
-.skin-glass-001-style-10 .alert a {
-  color: #fff;
+.skin-glass-001-style-10 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-10 .alert .close {
   color: #fff;
@@ -24139,7 +24119,7 @@ body.skin-glass-001-style-10 .tool-buttons .tool-button.localization-button span
   color: #9743e4 !important;
 }
 body.skin-glass-001-style-10 .tool-buttons .tool-button.clone-button span.button-inner::before {
-  color: #83ca60 !important;
+  color: #333 !important;
 }
 body.skin-glass-001-style-10 .slick-pg-btn > span:before {
   color: #5b5bb5;
@@ -24159,7 +24139,7 @@ body.skin-glass-001-style-10 .sidebar-form button i {
   color: #ddd;
 }
 body.skin-glass-001-style-10 .s-SidebarSearch,
-body.skin-glass-001-style-10 .s-SidebarSearch + button {
+body.skin-glass-001-style-10 button {
   background: #ffffff1a !important;
 }
 body.skin-glass-001-style-11 {
@@ -24372,9 +24352,6 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .btn.btn-social:hover {
   background-color: #fff;
 }
-.skin-glass-001-style-11 .btn.btn-social-icon {
-  color: #fff;
-}
 .skin-glass-001-style-11 .btn-default {
   background-color: #9696961a;
   color: #3e4b5b;
@@ -24412,7 +24389,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .icheckbox_flat-green.disabled,
 .skin-glass-001-style-11 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
-  background: #b5b5b5;
+  background: #596475;
 }
 .skin-glass-001-style-11 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-11 .iradio_minimal-red.disabled input {
@@ -24971,7 +24948,6 @@ body.skin-glass-001-style-11 {
   background-color: #fff;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  padding-right: 10px;
 }
 .skin-glass-001-style-11 .main-header .logo .logo-lg b {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -25006,7 +24982,7 @@ body.skin-glass-001-style-11 {
   line-height: 75px;
   height: 75px;
   margin: 0;
-  padding: 0 10px 0 10px;
+  padding: 0 20px 0 0;
   font-size: 14px;
 }
 .skin-glass-001-style-11 .main-header .navbar-nav > li > a:hover {
@@ -26021,8 +25997,10 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .page-header > small {
   color: #3e4b5b;
 }
-.skin-glass-001-style-11 .alert a {
-  color: #fff;
+.skin-glass-001-style-11 .alert {
+  /*a{
+                color: #fff;
+            }*/
 }
 .skin-glass-001-style-11 .alert .close {
   color: #fff;
@@ -26103,16 +26081,13 @@ body.skin-glass-001-style-11 .sidebar-form button i {
   color: #b5b5b5;
 }
 body.skin-glass-001-style-11 .s-SidebarSearch,
-body.skin-glass-001-style-11 .s-SidebarSearch + button {
+body.skin-glass-001-style-11 button {
   background: #fff !important;
   color: #b5b5b5;
 }
 body.skin-glass-001-style-11 .main-header .logo i {
   background-color: #c0abd6;
   border-radius: 50%;
-  height: 65px;
-  width: 65px;
-  margin-top: 5px;
 }
 body.skin-glass-001-style-11 .main-header .logo .logo-lg {
   color: #b66dff;
@@ -26121,10 +26096,9 @@ body.skin-glass-001-style-11 .main-header .logo .logo-lg {
 body.skin-glass-001-style-11 .main-header .logo .logo-lg b {
   background: #c0abd6;
   color: #fff;
-  padding: 8px;
+  padding: 10px;
   border-radius: 0 10px 10px 0;
-  margin-left: -60px;
-  padding-left: 15px;
+  margin-left: -50px;
 }
 body.skin-glass-001-style-11 .sidebar-menu > li > a i.nav-icon {
   margin-right: 10px;
@@ -30942,7 +30916,7 @@ section.content > .s-DataGrid {
   background-image: url(../serenity/images/store.png);
 }
 .s-BasicSamples-EntityDialogAsPanel {
-  /*background-color: #fff;*/
+  background-color: #fff;
   padding: 10px;
   border-radius: 6px;
 }
