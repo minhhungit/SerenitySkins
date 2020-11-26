@@ -862,7 +862,7 @@
 .themeDefs(11) {
     @sidebar-width: 280px;
     @glass-001-is-dark-style: false;
-    @glass-001-border-radius: 2px;
+    @glass-001-border-radius: 4px;
 
     @glass-001-main-header-height: 75px;
     @glass-001-main-header-bg: unset;
@@ -1543,6 +1543,10 @@
             label {
                 color: @glass-001-text-color;
             }
+
+            .border-right {
+                border-color: #ffffff1a;
+            }
         }
 
         .small-box {
@@ -1570,11 +1574,15 @@
             &.btn-social-icon {
                 color: #fff;
             }
+
+            &.btn.btn-flat {
+                height: 32px;
+            }
         }
 
         .btn-default {
-            background-color: @glass-001-input-bg-color;
-            color: @glass-001-text-color;
+            background-color: #fff;
+            color: #3e4b5b;
         }
 
         table {
@@ -2263,24 +2271,6 @@
             }
         }
 
-        .input-group-btn {
-            &:last-child {
-                > .btn-group {
-                    border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0 !important;
-                }
-            }
-        }
-
-        .input-group {
-            .input-group-addon {
-                background-color: @glass-001-panel-bg-color;
-                color: @glass-001-text-color;
-                border-color: @glass-001-input-border-color;
-            }
-        }
-        /*        .input-group-sm{
-            height: unset;
-        }*/
         .control-sidebar {
             -webkit-box-shadow: unset;
             box-shadow: unset;
@@ -3771,6 +3761,10 @@
                 color: #fff;
                 opacity: 0.9;
             }
+
+            h4 {
+                color: inherit;
+            }
         }
 
         .dropdown-menu {
@@ -3800,6 +3794,73 @@
 
         .mailbox-attachment-icon {
             color: @glass-001-text-color;
+        }
+
+        .widget-user-username, .widget-user-desc {
+            color: inherit;
+        }
+
+        .callout {
+            h4 {
+                color: #fff;
+            }
+        }
+
+        .btn-app {
+            background: transparent;
+        }
+
+        .input-group-btn {
+            &:last-child {
+                > .btn-group {
+                    border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0 !important;
+                }
+            }
+        }
+
+        .input-group {
+            .input-group-addon {
+                background-color: @glass-001-panel-bg-color;
+                color: @glass-001-text-color;
+                border-color: @glass-001-input-border-color;
+            }
+
+            input {
+                /*height: 34px;
+                line-height: 34px;*/
+            }
+        }
+
+        .input-group-lg {
+            input {
+                height: 46px;
+                line-height: 46px;
+            }
+        }
+
+        .input-group-sm {
+            .input-group-btn {
+                button {
+                    height: 32px;
+                    line-height: 14px;
+                }
+            }
+        }
+
+        .input-lg {
+            height: 46px;
+        }
+
+        .input-sm {
+            height: 30px;
+        }
+
+        .comment-text {
+            color: @glass-001-text-color;
+
+            .username {
+                color: @glass-001-text-color;
+            }
         }
     }
 
