@@ -83,8 +83,19 @@ namespace SerenitySkins.ScriptInitialization {
 }
 ```
 
-In `/Modules/Texts.cs`, inside Site class > Layout class, add this line
->public static LocalText Dark001 = "Dark 001";
+In `/Modules/Texts.cs`, inside Site class > Layout class, add these lines
+```csharp
+public static LocalText Glass001Style1 = "Glass 001 Style 001";
+public static LocalText Glass001Style2 = "Glass 001 Style 002";
+public static LocalText Glass001Style3 = "Glass 001 Style 003";
+public static LocalText Glass001Style4 = "Glass 001 Style 004";
+public static LocalText Glass001Style5 = "Glass 001 Style 005";
+public static LocalText Glass001Style6 = "Glass 001 Style 006";
+public static LocalText Glass001Style7 = "Glass 001 Style 007";
+public static LocalText Glass001Style8 = "Glass 001 Style 008";
+public static LocalText Glass001Style9 = "Glass 001 Style 009";
+public static LocalText Glass001Style10 = "Glass 001 Style 010";
+```
 
 
 Add a helper function for navigation in `/Views/Shared/LeftNavigation.cshtml` to make slimScrollBar bigger => easy for dragging, like this:
