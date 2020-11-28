@@ -22,9 +22,9 @@
 :-------------------------:|:-------------------------:
 ![Style 006 Video Background](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/style06.gif?raw=true)  |  ![Style 007 Image Background](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-009.jpg?raw=true)
 
-**Style 009 Image Background**             |  
+**Style 009 White**             |  **Style 011 Purple**
 :-------------------------:|:-------------------------:
-![Style 009 Image Background](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-011.jpg?raw=true)  |  
+![Style 009 White](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-011.jpg?raw=true)  |  ![Style 011 Purple](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-013.jpg?raw=true)
 
 
 ## HOW TO SETUP
@@ -114,6 +114,16 @@ Add a helper function for navigation in `/Views/Shared/LeftNavigation.cshtml` to
 		}, 10);
 	})();
 </script>
+```
+
+Copy file `jquery.vide.js` from `wwwroot\Scripts` and modify `ScriptBundles.json` in `wwwroot\Scripts\site`
+
+```json
+"~/Scripts/adminlte/app.js",
+"~/Scripts/jquery.vide.js", <==============
+"~/Scripts/site/SerenitySkins.Web.js",
+"dynamic://ColumnsBundle",
+"dynamic://FormBundle",
 ```
 
 Copy file `Content\font-poppins.css` and modify `Content\site\CssBundles.json` to add font to `Base` element:
