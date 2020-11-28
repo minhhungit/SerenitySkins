@@ -7788,7 +7788,7 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-1 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-1 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-1 .users-list-name {
@@ -7919,6 +7919,57 @@ body.skin-glass-001-style-1 {
   .skin-glass-001-style-1.fixed .right-side {
     padding-top: 60px;
   }
+}
+body.skin-glass-001-style-1 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
+body.skin-glass-001-style-1 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before {
+  text-shadow: 0 0 5px #3a3a3a;
+}
+body.skin-glass-001-style-1 .tool-buttons .tool-button.delete-button span.button-inner::before,
+body.skin-glass-001-style-1 .tool-buttons .tool-button.export-pdf-button span.button-inner::before {
+  color: #dd4b39 !important;
+}
+body.skin-glass-001-style-1 .tool-buttons .tool-button.save-and-close-button span.button-inner::before,
+body.skin-glass-001-style-1 .tool-buttons .tool-button.apply-changes-button span.button-inner::before {
+  color: #9d98ff !important;
+}
+body.skin-glass-001-style-1 .tool-buttons .tool-button.export-xlsx-button span.button-inner::before {
+  color: #01a02a !important;
+}
+body.skin-glass-001-style-1 .tool-buttons .tool-button.add-button span.button-inner::before {
+  color: #00a65a !important;
+}
+body.skin-glass-001-style-1 .tool-buttons .tool-button.refresh-button span.button-inner::before,
+body.skin-glass-001-style-1 .tool-buttons .tool-button.column-picker-button span.button-inner::before {
+  color: #01a1ff !important;
+}
+body.skin-glass-001-style-1 .tool-buttons .tool-button.localization-button span.button-inner::before {
+  color: #fdff63 !important;
+}
+body.skin-glass-001-style-1 .tool-buttons .tool-button.clone-button span.button-inner::before {
+  color: #83ca60 !important;
+}
+body.skin-glass-001-style-1 section.content {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+body.skin-glass-001-style-1 section.content > .s-DataGrid,
+body.skin-glass-001-style-1 section.content .flex-layout.s-Panel {
+  border-radius: unset;
+  margin-left: -15px;
+  box-shadow: unset;
+  -webkit-box-shadow: unset;
+}
+body.skin-glass-001-style-1 .grid-title,
+body.skin-glass-001-style-1 .panel-titlebar {
+  padding: 15px 10px 14px 10px;
+  margin-top: -25px;
+  background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
+  background-size: cover;
+  background-color: #1a12232e;
+  border-radius: unset !important;
+}
+body.skin-glass-001-style-1 .panel-titlebar {
+  padding: 12px 10px;
 }
 body.skin-glass-001-style-1 section.content {
   padding-bottom: 0;
@@ -9791,7 +9842,7 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-2 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-2 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-2 .users-list-name {
@@ -9924,10 +9975,10 @@ body.skin-glass-001-style-2 {
   }
 }
 body.skin-glass-001-style-3 {
-  background: url('/Content/skins/glass001/assets/bg003-blurred.jpg') fixed;
+  background: none;
   background-size: cover;
-  background-color: #1107179e;
-  color: #fff;
+  background-color: #1e1e2f;
+  color: #cccccc;
 }
 .skin-glass-001-style-3.fixed .content-wrapper,
 .skin-glass-001-style-3.fixed .right-side {
@@ -9945,11 +9996,11 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 #PageBackground {
   display: block !important;
-  background: url('/Content/skins/glass001/assets/bg003-blurred.jpg') fixed;
+  background: none;
   background-size: cover;
 }
 .skin-glass-001-style-3 .j-skin-text-color {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .btn-default.disabled:hover,
 .skin-glass-001-style-3 .btn-default[disabled]:hover,
@@ -9963,23 +10014,23 @@ body.skin-glass-001-style-3 {
   background-color: unset;
 }
 .skin-glass-001-style-3 .content-wrapper {
-  background: url('/Content/skins/glass001/assets/bg003-blurred.jpg') fixed;
+  background: none;
   background-size: cover;
-  background-color: #1107179e;
+  background-color: #1e1e2f;
 }
 .skin-glass-001-style-3 ::-webkit-input-placeholder {
   /* Edge */
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(204, 204, 204, 0.5);
 }
 .skin-glass-001-style-3 :-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(204, 204, 204, 0.5);
 }
 .skin-glass-001-style-3 ::placeholder {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(204, 204, 204, 0.5);
 }
 .skin-glass-001-style-3 input {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .table > thead > tr > th,
 .skin-glass-001-style-3 .table > tbody > tr > th,
@@ -9990,13 +10041,13 @@ body.skin-glass-001-style-3 {
   border-top: 1px solid #ffffff14;
 }
 .skin-glass-001-style-3 a {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 a.btn.btn-primary,
 .skin-glass-001-style-3 a.btn.btn-success,
 .skin-glass-001-style-3 a.btn.btn-info,
 .skin-glass-001-style-3 a.btn.btn-danger {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 a.btn.btn-primary:hover,
 .skin-glass-001-style-3 a.btn.btn-success:hover,
@@ -10005,7 +10056,7 @@ body.skin-glass-001-style-3 {
   color: #fff;
 }
 .skin-glass-001-style-3 a.btn:hover {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 a:hover,
 .skin-glass-001-style-3 a:active,
@@ -10026,7 +10077,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 textarea {
   background: transparent;
   border-radius: 2px;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 h1,
 .skin-glass-001-style-3 h2,
@@ -10041,7 +10092,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .h5,
 .skin-glass-001-style-3 .h6 {
   font-family: Poppins, Helvetica, "sans-serif";
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 h1 small,
 .skin-glass-001-style-3 h2 small,
@@ -10067,7 +10118,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .h4 .small,
 .skin-glass-001-style-3 .h5 .small,
 .skin-glass-001-style-3 .h6 .small {
-  color: #fff;
+  color: #cccccc;
   font-family: Poppins, Helvetica, "sans-serif";
 }
 .skin-glass-001-style-3 .info-box {
@@ -10078,38 +10129,38 @@ body.skin-glass-001-style-3 {
   border-radius: 2px 0 0 2px;
 }
 .skin-glass-001-style-3 .box {
-  background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
+  background: none;
   background-size: cover;
-  background-color: transparent;
-  color: #fff;
+  background-color: #26293b;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .box .box-header {
   background: transparent;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .box .box-header .box-title {
-  color: #e2b143;
+  color: #5f97ff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
-  text-shadow: 1px 1px 1px #3a3a3a;
+  text-shadow: 1px 1px 1px #151515;
 }
 .skin-glass-001-style-3 .box .box-header.with-border {
-  color: #fff;
+  color: #cccccc;
   text-shadow: #333;
   border-bottom: 1px solid #00000014;
   background: transparent;
 }
 .skin-glass-001-style-3 .box .box-header > .box-tools .btn {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .box .box-footer {
   background: transparent;
   border: unset;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .box label {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .box .border-right {
   border-color: #ffffff1a;
@@ -10118,7 +10169,7 @@ body.skin-glass-001-style-3 {
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .help-block {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(204, 204, 204, 0.5);
 }
 .skin-glass-001-style-3 .btn {
   /*padding: 5px 12px;*/
@@ -10126,7 +10177,7 @@ body.skin-glass-001-style-3 {
   /*background: @glass-001-input-bg-color;*/
 }
 .skin-glass-001-style-3 .btn.btn-social {
-  color: #fff;
+  color: #cccccc;
   padding-left: 40px;
   background: #ffffff26;
 }
@@ -10144,7 +10195,7 @@ body.skin-glass-001-style-3 {
   color: #3e4b5b;
 }
 .skin-glass-001-style-3 table.table {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 table.table.table-striped > tbody > tr:nth-of-type(odd) {
   background: rgba(0, 0, 0, 0.05);
@@ -10154,22 +10205,22 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .list-group-item {
   background: transparent;
-  color: #fff;
-  border-color: #a2a2a2;
+  color: #cccccc;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .text-muted {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(204, 204, 204, 0.5);
 }
 .skin-glass-001-style-3 .content-header > h1 {
-  color: #e2b143;
+  color: #5f97ff;
   font-weight: 300;
   font-family: Poppins, Helvetica, "sans-serif";
 }
 .skin-glass-001-style-3 .content-header > h1 > .breadcrumb > li > a {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .navbar-toggle {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .icheckbox_minimal-blue.disabled,
 .skin-glass-001-style-3 .icheckbox_minimal-red.disabled,
@@ -10187,7 +10238,7 @@ body.skin-glass-001-style-3 {
   padding: 0;
 }
 .skin-glass-001-style-3 .daterangepicker .ranges .input-mini {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .form-control,
 .skin-glass-001-style-3 input.editor {
@@ -10196,7 +10247,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .form-control:focus,
 .skin-glass-001-style-3 input.editor:focus {
-  border-color: #a2a2a2;
+  border-color: #525467;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
@@ -10206,22 +10257,22 @@ body.skin-glass-001-style-3 {
   background: url(/Content/skins/glass001/assets/reticular-tissue.png);
   background-color: transparent;
   border-radius: 2px;
-  border-color: rgba(162, 162, 162, 0.1);
+  border-color: rgba(82, 84, 103, 0.1);
   color: #f5f5f599;
 }
 .skin-glass-001-style-3 select.form-control {
   background: transparent;
-  color: #fff !important;
+  color: #cccccc !important;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 select.form-control[disabled] option {
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: rgba(204, 204, 204, 0.3) !important;
 }
 .skin-glass-001-style-3 select.form-control option {
-  color: #fff;
+  color: #cccccc;
   background: none;
   background-size: cover;
-  background-color: #5d436d;
+  background-color: #34374a;
   padding: 5px 0;
 }
 .skin-glass-001-style-3 select[multiple] option {
@@ -10230,13 +10281,13 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .main-footer {
   background-color: transparent;
   border-top: unset;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .inline-action {
   opacity: 0.8;
 }
 .skin-glass-001-style-3 .emailat {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .ui-dialog {
   box-shadow: 0 0 20px #0e0e0e96;
@@ -10273,7 +10324,7 @@ body.skin-glass-001-style-3 {
   border: unset;
   border-radius: 2px;
   background: unset;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .ui-dialog .ui-dialog-titlebar button i {
   -webkit-transform: translateZ(0);
@@ -10294,7 +10345,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .ui-dialog .ui-dialog-title {
   font-family: Poppins, Helvetica, "sans-serif";
-  color: #e2b143;
+  color: #5f97ff;
   margin: 5px 4px 0 0;
   font-weight: 300;
   text-shadow: 1px 1px 1px #333;
@@ -10310,7 +10361,7 @@ body.skin-glass-001-style-3 {
   border-style: solid;
   border-width: 1px;
   border-radius: 2px;
-  color: #fff;
+  color: #cccccc;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 14px;
   height: 32px;
@@ -10325,7 +10376,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .s-Dialog {
   background: none;
   background-size: cover;
-  background-color: #5d436d;
+  background-color: #34374a;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .s-Dialog .ui-dialog-content {
@@ -10340,10 +10391,10 @@ body.skin-glass-001-style-3 {
   background: transparent;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .search {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .search input {
-  border: solid 1px #a2a2a2;
+  border: solid 1px #525467;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -10355,7 +10406,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .s-ColumnPickerDialog .column-list h5 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
-  color: #fff;
+  color: #cccccc;
   font-size: 13px;
   background-color: rgba(31, 31, 31, 0.07843137);
   border-radius: 2px 2px 0 0;
@@ -10364,19 +10415,19 @@ body.skin-glass-001-style-3 {
   background: transparent;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .visible-list li {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .hidden-list li {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(204, 204, 204, 0.6);
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog h5 {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog h5 i {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .drag-handle {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .s-ImageUploadEditor ul,
 .skin-glass-001-style-3 .s-MultipleImageUploadEditor ul {
@@ -10425,10 +10476,10 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
   border: unset;
   background: #00000014;
-  border-top: 3px solid #e2b143;
+  border-top: 3px solid #5f97ff;
 }
 .skin-glass-001-style-3 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
-  color: #fff;
+  color: #cccccc;
   text-shadow: unset;
 }
 .skin-glass-001-style-3 .ui-tabs .ui-tabs-nav li.ui-state-disabled a:hover {
@@ -10441,7 +10492,7 @@ body.skin-glass-001-style-3 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   text-shadow: unset;
-  color: #fff;
+  color: #cccccc;
   border: unset;
 }
 .skin-glass-001-style-3 .s-Dialog .ui-tabs .ui-tabs-nav li:hover a,
@@ -10464,7 +10515,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .s-MessageDialog .ui-dialog-content {
   background: transparent;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .s-MessageDialog .ui-dialog-content button {
   border-width: 0;
@@ -10475,8 +10526,8 @@ body.skin-glass-001-style-3 {
   color: #fff;
 }
 .skin-glass-001-style-3 .s-MessageDialog .ui-dialog-content a {
-  color: #e2b143;
-  text-shadow: 0 2px 2px #3a3a3a;
+  color: #5f97ff;
+  text-shadow: 0 2px 2px #151515;
 }
 .skin-glass-001-style-3 .s-MessageDialog .ui-dialog-buttonpane {
   background: transparent;
@@ -10520,24 +10571,24 @@ body.skin-glass-001-style-3 {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-3 .nav-stacked > li {
-  border-color: rgba(162, 162, 162, 0.2);
+  border-color: rgba(82, 84, 103, 0.2);
 }
 .skin-glass-001-style-3 .nav-stacked > li a {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .nav-stacked > li a:hover {
   background-color: #00000014;
 }
 .skin-glass-001-style-3 .nav-stacked > li.active a {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .nav-stacked > li.active a:hover {
   color: #e2b143;
 }
 .skin-glass-001-style-3 .main-sidebar {
-  background: url('/Content/skins/glass001/assets/bg003-blurred.jpg') fixed;
+  background: none;
   background-size: cover;
-  background-color: #000000b5;
+  background-color: #26293b;
 }
 .skin-glass-001-style-3 .sidebar-form {
   margin: 10px;
@@ -10555,13 +10606,13 @@ body.skin-glass-001-style-3 {
   height: 34px !important;
 }
 .skin-glass-001-style-3 .sidebar-form button i {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .sidebar-form .input-group-btn:last-child > .btn {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-3 .sidebar-form input.s-SidebarSearch:focus {
-  color: #fff;
+  color: #8c909a;
 }
 .skin-glass-001-style-3 .sidebar-form input[type="text"] {
   padding: 16px 12px;
@@ -10577,32 +10628,32 @@ body.skin-glass-001-style-3 {
   background: none;
   background-size: auto;
   background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #8c909a;
 }
 .skin-glass-001-style-3 .sidebar-menu > li > a:hover {
-  color: #e2b143;
+  color: #4d83ff;
 }
 .skin-glass-001-style-3 .sidebar-menu > li:hover > a {
-  border-left-color: #fff;
+  border-left-color: #8c909a;
   /*font-weight: if((@glass-001-is-dark-style), unset, 400);*/
 }
 .skin-glass-001-style-3 .sidebar-menu > li.active a {
-  color: #e2b143;
+  color: #4d83ff;
   font-weight: 300;
-  border-left-color: #fff;
+  border-left-color: #8c909a;
   font-weight: unset;
 }
 .skin-glass-001-style-3 .sidebar-menu > li > .treeview-menu {
   background: none;
   background-size: auto;
   background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #8c909a;
 }
 .skin-glass-001-style-3 .sidebar-menu > li > .treeview-menu li {
   background: none;
   background-size: auto;
   background-color: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #8c909a;
 }
 .skin-glass-001-style-3 .sidebar-menu > li > .treeview-menu li:first-child {
   border-radius: 6px 0 0 0;
@@ -10631,24 +10682,24 @@ body.skin-glass-001-style-3 {
   /*font-size: 13.4px;*/
   font-weight: 300;
   font-family: Poppins, Helvetica, "sans-serif";
-  color: #fff;
+  color: #8c909a;
   height: 34px;
   margin-left: 16px;
   padding-top: 8px;
 }
 .skin-glass-001-style-3 .sidebar-menu .treeview-menu > li > a:hover {
-  color: #e2b143;
+  color: #4d83ff;
 }
 .skin-glass-001-style-3 .sidebar-menu .treeview-menu > li > a.active:last-child {
-  color: #e2b143;
+  color: #4d83ff;
 }
 .skin-glass-001-style-3 .sidebar-menu .treeview-menu > li.active > a {
-  color: #e2b143;
-  text-shadow: 0 0 5px #e2b143;
+  color: #4d83ff;
+  text-shadow: 0 0 5px #4d83ff;
   font-weight: unset;
 }
 .skin-glass-001-style-3 .sidebar-menu .treeview-menu > li.active > a:hover {
-  color: #e2b143;
+  color: #4d83ff;
 }
 .skin-glass-001-style-3 .control-sidebar {
   -webkit-box-shadow: unset;
@@ -10661,14 +10712,14 @@ body.skin-glass-001-style-3 {
   font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .control-sidebar .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .control-sidebar,
 .skin-glass-001-style-3 .control-sidebar + .control-sidebar-bg {
@@ -10677,7 +10728,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .control-sidebar + .control-sidebar-bg {
   background: none;
   background-size: cover;
-  background-color: #5d436d;
+  background-color: #34374a;
   -webkit-box-shadow: 0px 5px 15px #00000096;
   box-shadow: 0px 5px 15px #00000096;
 }
@@ -10692,7 +10743,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .main-header {
   background: unset;
   background-size: cover;
-  background-color: #303641;
+  background-color: #26293b;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   /*.navbar-nav > li:hover > a, .navbar-nav > li > a:active, .navbar-nav > li.open > a {
@@ -10700,10 +10751,10 @@ body.skin-glass-001-style-3 {
             }*/
 }
 .skin-glass-001-style-3 .main-header a.logo {
-  color: #fff;
+  color: #8c909a;
   background: unset;
   background-size: cover;
-  background-color: #5d0b6563;
+  background-color: transparent;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   height: 60px;
@@ -10726,7 +10777,7 @@ body.skin-glass-001-style-3 {
   font-size: 13px;
   background: none;
   background-size: cover;
-  background-color: #5d0b6563;
+  background-color: transparent;
   box-shadow: blue;
   -webkit-box-shadow: blue;
   padding-right: 10px;
@@ -10743,7 +10794,7 @@ body.skin-glass-001-style-3 {
   box-shadow: 0px 5px 10px #00000096;
   background: none;
   background-size: cover;
-  background-color: #5d436d;
+  background-color: #34374a;
   border-radius: 0 0 2px 2px;
 }
 .skin-glass-001-style-3 .main-header .navbar-custom-menu > .navbar-nav > li > .dropdown-menu .user-footer {
@@ -10752,7 +10803,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .main-header .navbar-nav > .user-menu > .dropdown-menu > .user-footer .btn-default {
   background: rgba(255, 255, 255, 0.2);
   border: unset;
-  color: #fff;
+  color: #cccccc;
   margin: 2px;
   border-radius: 2px;
 }
@@ -10768,7 +10819,7 @@ body.skin-glass-001-style-3 {
   font-size: 14px;
 }
 .skin-glass-001-style-3 .main-header .navbar-nav > li > a:hover {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .main-header .navbar-nav > .user-menu .user-image {
   height: 40px;
@@ -10783,7 +10834,7 @@ body.skin-glass-001-style-3 {
   padding: 0 15px;
 }
 .skin-glass-001-style-3 .main-header .sidebar-toggle:hover {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .main-header .sidebar-toggle::before {
   font-weight: 300;
@@ -10798,25 +10849,25 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .navbar-nav .open > a:hover,
 .skin-glass-001-style-3 .navbar-nav .open > a:focus {
   background: unset !important;
-  color: #e2b143;
-  border-color: #303641 !important;
+  color: #5f97ff;
+  border-color: #26293b !important;
 }
 .skin-glass-001-style-3 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .flex-layout.s-Panel {
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
-  background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
+  background: none;
   background-size: cover;
-  background-color: #2929296b;
+  background-color: #26293b;
   border: unset;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 section.content > .s-DataGrid {
-  background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
+  background: none;
   background-size: cover;
-  background-color: #2929296b;
+  background-color: #26293b;
   border-radius: 2px;
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
@@ -10839,7 +10890,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .grid-title .title-text,
 .skin-glass-001-style-3 .panel-titlebar {
-  color: #e2b143;
+  color: #5f97ff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
@@ -10864,7 +10915,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .panel-titlebar-close::before {
   content: "\f060";
   font-family: "FontAwesome";
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .ui-dialog.mobile-layout .ui-dialog-titlebar .ui-dialog-titlebar-close {
   background: none;
@@ -10881,12 +10932,12 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .ui-dialog.mobile-layout .ui-dialog-titlebar-close::before {
   content: "\f060";
   font-family: "FontAwesome";
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .ui-dialog.mobile-layout .ui-dialog-titlebar-close::before:hover {
   content: "\f060";
   font-family: "FontAwesome";
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .panel-titlebar .panel-titlebar-text {
   padding-top: 3px;
@@ -10895,23 +10946,23 @@ body.skin-glass-001-style-3 {
   background-color: #00000014;
 }
 .skin-glass-001-style-3 .s-PropertyGrid .category-links a.category-link {
-  color: #e2b143;
-  text-shadow: 1px 1px 1px #3a3a3a;
+  color: #5f97ff;
+  text-shadow: 1px 1px 1px #151515;
   font-weight: 300;
   font-size: 13px;
   font-family: Poppins, Helvetica, "sans-serif";
 }
 .skin-glass-001-style-3 .s-PropertyGrid .category-links a.category-link:hover {
-  text-shadow: 0 0 5px #3a3a3a;
+  text-shadow: 0 0 5px #151515;
 }
 .skin-glass-001-style-3 .s-PropertyGrid .category-title {
   border-bottom: 1px solid #00000014;
 }
 .skin-glass-001-style-3 .s-PropertyGrid .category-title a {
-  color: #e2b143;
+  color: #5f97ff;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
-  text-shadow: 1px 1px 1px #3a3a3a;
+  text-shadow: 1px 1px 1px #151515;
 }
 .skin-glass-001-style-3 .flex-layout .s-Form input.editor[type=checkbox] {
   height: 17px;
@@ -10928,24 +10979,24 @@ body.skin-glass-001-style-3 {
   height: 32px;
   line-height: 32px;
   background: transparent;
-  color: #fff;
-  border-color: #a2a2a2;
+  color: #cccccc;
+  border-color: #525467;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 select {
   background: transparent;
-  color: #fff;
-  border-color: #a2a2a2;
+  color: #cccccc;
+  border-color: #525467;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #a2a2a2;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .quick-filter-item input {
   background: transparent;
-  border: 1px solid #a2a2a2;
-  color: #fff;
+  border: 1px solid #525467;
+  color: #cccccc;
   border-radius: 2px;
   /*outline: 0;*/
 }
@@ -10957,7 +11008,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .quick-filters-bar .quick-filter-label {
   font-family: Poppins, Helvetica, "sans-serif";
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .quick-filters-bar .inplace-button {
   height: 32px;
@@ -10965,20 +11016,20 @@ body.skin-glass-001-style-3 {
   width: 28px;
   margin-top: 2px;
   border-right: 0px;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .quick-filters-bar .inplace-button b::before {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .quick-filters-bar .inplace-button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-3 .quick-filters-bar .inplace-button:hover b::before {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .flex-layout .s-Form .caption {
   padding-top: 6px;
-  color: #fff;
+  color: #cccccc;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
 }
@@ -10992,8 +11043,8 @@ body.skin-glass-001-style-3 {
   height: 30px;
   line-height: 28px;
   background: transparent;
-  color: #fff !important;
-  border-color: #a2a2a2;
+  color: #cccccc !important;
+  border-color: #525467;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -11003,12 +11054,12 @@ body.skin-glass-001-style-3 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a2a2a2;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .select2-container .select2-choices {
   background: transparent;
-  color: #fff !important;
-  border-color: #a2a2a2;
+  color: #cccccc !important;
+  border-color: #525467;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -11018,7 +11069,7 @@ body.skin-glass-001-style-3 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a2a2a2;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled {
   background: url(/Content/skins/glass001/assets/reticular-tissue.png);
@@ -11029,7 +11080,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(162, 162, 162, 0.1);
+  border-color: rgba(82, 84, 103, 0.1);
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #f5f5f599 !important;
 }
@@ -11045,7 +11096,7 @@ body.skin-glass-001-style-3 {
   color: #f5f5f599 !important;
 }
 .skin-glass-001-style-3 .select2-results {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .select2-results li {
   line-height: 24px;
@@ -11053,15 +11104,15 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .select2-container-multi .select2-choices {
   background: transparent;
   border-radius: 2px;
-  border-color: #a2a2a2;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #a2a2a2;
+  border-color: #525467;
   box-shadow: unset;
   -webkit-box-shadow: unset;
-  color: #fff !important;
+  color: #cccccc !important;
 }
 .skin-glass-001-style-3 .select2-container-multi .select2-choices .select2-search-field {
   background: transparent;
@@ -11074,10 +11125,10 @@ body.skin-glass-001-style-3 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #a2a2a2;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .select2-search input[type=text] {
-  color: #fff;
+  color: #cccccc;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
@@ -11086,7 +11137,7 @@ body.skin-glass-001-style-3 {
   background: transparent;
 }
 .skin-glass-001-style-3 .select2-drop-active {
-  border-color: #a2a2a2;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .property-tabs {
   padding-top: 10px;
@@ -11102,16 +11153,16 @@ body.skin-glass-001-style-3 {
   background: #00000014;
 }
 .skin-glass-001-style-3 .property-tabs > li > a {
-  color: #fff;
+  color: #cccccc;
   background: transparent;
 }
 .skin-glass-001-style-3 .property-tabs > li.active a {
-  color: #e2b143;
+  color: #5f97ff;
   background: #00000014;
 }
 .skin-glass-001-style-3 .property-tabs > li.active > a:hover,
 .skin-glass-001-style-3 .property-tabs > li.active > a:focus {
-  text-shadow: 0 0 2px #3a3a3a;
+  text-shadow: 0 0 2px #151515;
 }
 .skin-glass-001-style-3 .nav-tabs {
   border: unset;
@@ -11119,10 +11170,10 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .nav-tabs-custom {
   background: transparent;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .nav-tabs-custom > .nav-tabs > li > a {
-  color: #fff;
+  color: #cccccc;
   border-right: 0 !important;
   border-left: 0 !important;
   border-bottom: 0 !important;
@@ -11131,12 +11182,12 @@ body.skin-glass-001-style-3 {
   color: #e2b143;
 }
 .skin-glass-001-style-3 .nav-tabs-custom > .nav-tabs > li.active {
-  color: #e2b143;
+  color: #5f97ff;
   background-color: #00000014;
 }
 .skin-glass-001-style-3 .nav-tabs-custom > .nav-tabs > li.active a {
   background-color: #00000014;
-  color: #e2b143;
+  color: #5f97ff;
   border-color: transparent;
 }
 .skin-glass-001-style-3 .nav-tabs-custom > .nav-tabs > li.active a:hover {
@@ -11144,39 +11195,39 @@ body.skin-glass-001-style-3 {
   background: transparent;
 }
 .skin-glass-001-style-3 .nav-tabs-custom > .nav-tabs > li.header {
-  color: #fff;
+  color: #cccccc;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
 }
 .skin-glass-001-style-3 .nav-tabs-custom > .tab-content {
-  background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
+  background: none;
   background-size: cover;
-  background-color: transparent;
-  color: #fff;
+  background-color: #26293b;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .post {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .link-black {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 blockquote footer,
 .skin-glass-001-style-3 blockquote small,
 .skin-glass-001-style-3 blockquote .small {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(204, 204, 204, 0.5);
 }
 .skin-glass-001-style-3 .timeline > li > .timeline-item {
   background: none;
   background-size: cover;
-  background-color: #5d436d;
-  color: #fff;
+  background-color: #34374a;
+  color: #cccccc;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .timeline > li > .timeline-item > .timeline-header {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .timeline > li > .timeline-item .time {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(204, 204, 204, 0.5);
   padding: 0 10px;
   float: right;
 }
@@ -11196,15 +11247,15 @@ body.skin-glass-001-style-3 {
   width: 32px;
   margin-left: 2px;
   background: #ffffff26;
-  border: solid 1px #a2a2a2;
+  border: solid 1px #525467;
   border-radius: 2px;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .inplace-button:hover {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-3 .inplace-button:hover b::before {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 div.s-Toolbar {
   background: transparent !important;
@@ -11212,19 +11263,19 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 div.s-Toolbar .separator {
   margin: 5px 6px 0 3px;
-  border-left: 1px solid rgba(162, 162, 162, 0.35);
+  border-left: 1px solid rgba(82, 84, 103, 0.35);
 }
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner i,
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled):hover span.button-inner,
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner {
-  color: #e2b143;
-  text-shadow: 0 0 5px #3a3a3a;
+  color: #5f97ff;
+  text-shadow: 0 0 5px #151515;
 }
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before {
-  color: #e2b143;
-  text-shadow: 0 0 5px #3a3a3a;
+  color: #5f97ff;
+  text-shadow: 0 0 5px #151515;
 }
 .skin-glass-001-style-3 .tool-buttons .tool-button {
   height: 32px;
@@ -11232,7 +11283,7 @@ body.skin-glass-001-style-3 {
   font-size: 13px;
   background: #ffffff26;
   border: solid 1px #ffffff26;
-  color: #fff;
+  color: #cccccc;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .tool-buttons .tool-button span.button-inner {
@@ -11245,7 +11296,7 @@ body.skin-glass-001-style-3 {
   font-size: 16px;
   margin-left: -14px;
   line-height: 22px;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .tool-buttons .tool-button div.button-outer {
   margin: 0;
@@ -11262,7 +11313,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .tool-buttons .tool-button.no-text span.button-inner::before {
   font-family: 'FontAwesome';
   font-size: 16px;
-  color: #fff;
+  color: #cccccc;
   margin-left: 0px;
   margin-right: 0px;
   line-height: 22px;
@@ -11281,7 +11332,7 @@ body.skin-glass-001-style-3 {
   text-shadow: unset;
 }
 .skin-glass-001-style-3 .tool-buttons .tool-button:not(.disabled).hover span.button-inner::before {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .tool-buttons .tool-button:hover div.button-outer {
   background-color: unset;
@@ -11358,7 +11409,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .s-QuickSearchBar .quick-search-icon {
   height: 32px;
-  background: #a2a2a2;
+  background: #525467;
   border-radius: 2px 0 0 2px;
 }
 .skin-glass-001-style-3 .s-QuickSearchBar .quick-search-icon i {
@@ -11367,7 +11418,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .s-QuickSearchBar .quick-search-icon i::before {
   font-family: 'FontAwesome';
   content: "\f002";
-  color: #fff;
+  color: #cccccc;
   font-weight: 300;
   font-size: 16px;
   font-style: normal;
@@ -11376,10 +11427,10 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #a2a2a2;
-  border-right: 1px solid #a2a2a2;
+  border-color: #525467;
+  border-right: 1px solid #525467;
   background: #ffffff26;
-  color: #fff;
+  color: #cccccc;
   border-radius: 0 2px 2px 0;
 }
 .skin-glass-001-style-3 .slick-pg-stat {
@@ -11391,18 +11442,18 @@ body.skin-glass-001-style-3 {
   font-weight: 400;
   font-size: 13px;
   background-color: rgba(128, 128, 128, 0.07843137);
-  color: #fff;
-  border-top: solid 1px #a2a2a2;
-  border-bottom-color: #a2a2a2;
+  color: #cccccc;
+  border-top: solid 1px #525467;
+  border-bottom-color: #525467;
 }
 .skin-glass-001-style-3 .slick-header-column-sorted,
 .skin-glass-001-style-3 .slick-header-column-sorted.ui-state-default {
-  border-bottom-color: #d29b20;
+  border-bottom-color: #2c76ff;
 }
 .skin-glass-001-style-3 .slick-sort-indicator-asc,
 .skin-glass-001-style-3 .slick-sort-indicator-desc {
-  border-bottom-color: #e2b143;
-  border-top-color: #e2b143;
+  border-bottom-color: #5f97ff;
+  border-top-color: #5f97ff;
 }
 .skin-glass-001-style-3 .slick-row {
   background: transparent;
@@ -11430,20 +11481,20 @@ body.skin-glass-001-style-3 {
   border: unset;
 }
 .skin-glass-001-style-3 .slick-cell {
-  color: #fff;
+  color: #cccccc;
   padding-top: 2px;
 }
 .skin-glass-001-style-3 .slick-cell > a {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .slick-footerrow-column,
 .skin-glass-001-style-3 .slick-footerrow-column.ui-state-default {
   background-color: #00000014;
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .s-DataGrid.editor,
 .skin-glass-001-style-3 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #a2a2a2;
+  border: 1px solid #525467;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .s-DataGrid.editor .grid-toolbar,
@@ -11455,50 +11506,50 @@ body.skin-glass-001-style-3 {
   background: url(/Content/skins/glass001/assets/reticular-tissue.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(162, 162, 162, 0.5);
+  border-color: rgba(82, 84, 103, 0.5);
 }
 .skin-glass-001-style-3 .editor .slick-cell {
-  color: #fff;
+  color: #cccccc;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #a2a2a2;
-  border-bottom-color: #a2a2a2;
+  border-right-color: #525467;
+  border-bottom-color: #525467;
   border-width: 1px;
 }
 .skin-glass-001-style-3 .editor .slick-header-column {
-  border-right: solid 1px #a2a2a2;
+  border-right: solid 1px #525467;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
-  color: #fff;
+  color: #cccccc;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #a2a2a2;
-  border-bottom-color: #a2a2a2;
+  border-top: solid 1px #525467;
+  border-bottom-color: #525467;
 }
 .skin-glass-001-style-3 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
-  color: #fff;
+  color: #cccccc;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #a2a2a2;
-  border-bottom-color: #a2a2a2;
+  border-top: solid 1px #525467;
+  border-bottom-color: #525467;
 }
 .skin-glass-001-style-3 .editor .slick-cell > a {
-  text-shadow: 0 0 5px #3a3a3a;
+  text-shadow: 0 0 5px #151515;
 }
 .skin-glass-001-style-3 .slick-cell > a {
-  text-shadow: 1px 1px 1px #3a3a3a;
+  text-shadow: 1px 1px 1px #151515;
 }
 .skin-glass-001-style-3 .slick-cell > a:hover {
-  text-shadow: 1px 1px 3px #3a3a3a;
+  text-shadow: 1px 1px 3px #151515;
 }
 .skin-glass-001-style-3 .slick-cell input[type='text'],
 .skin-glass-001-style-3 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #a2a2a2;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .slick-cell select option,
 .skin-glass-001-style-3 .slick-cell select.dirty option,
@@ -11508,14 +11559,14 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .select2-drop-active {
   background: none;
   background-size: cover;
-  background-color: #5d436d;
+  background-color: #34374a;
 }
 .skin-glass-001-style-3 .slick-cell .dirty {
   background-color: unset;
   color: #ff9595;
 }
 .skin-glass-001-style-3 .slick-cell input[type='text'] {
-  border: solid 1px #a2a2a2;
+  border: solid 1px #525467;
 }
 .skin-glass-001-style-3 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -11526,14 +11577,14 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 input {
   background: #ffffff26;
-  border: #a2a2a2;
+  border: #525467;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 input.readonly {
   background: url(/Content/skins/glass001/assets/reticular-tissue.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(162, 162, 162, 0.5);
+  border-color: rgba(82, 84, 103, 0.5);
 }
 .skin-glass-001-style-3 .ui-widget-overlay {
   opacity: 1;
@@ -11547,7 +11598,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .check-box::before {
   content: "\f0c8";
   font-family: 'FontAwesome';
-  color: #fff;
+  color: #cccccc;
   font-size: 15px;
 }
 .skin-glass-001-style-3 .s-Form .check-box.readonly::before {
@@ -11564,7 +11615,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .check-box.checked::before {
   content: "\f14a";
-  color: #e2b143;
+  color: #5f97ff;
   font-size: 15px;
 }
 .skin-glass-001-style-3 .check-box.checked.disabled {
@@ -11578,7 +11629,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .check-box.partial::before {
   content: "\f0c8";
-  color: #e2b143;
+  color: #5f97ff;
   font-size: 15px;
 }
 .skin-glass-001-style-3 .check-box.partial.disabled {
@@ -11607,7 +11658,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .s-FilterDisplayBar .edit {
   background: #ffffff26;
   border: solid 1px #ffffff26;
-  color: #e2b143;
+  color: #5f97ff;
   font-weight: 400;
   padding: 3px 10px;
   line-height: 15px;
@@ -11621,13 +11672,13 @@ body.skin-glass-001-style-3 {
   margin: 2px 0 0 -2px;
 }
 .skin-glass-001-style-3 .s-FilterDisplayBar .edit:hover {
-  text-shadow: 0 0 5px #3a3a3a;
+  text-shadow: 0 0 5px #151515;
 }
 .skin-glass-001-style-3 .s-FilterDisplayBar .cap {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .s-FilterDisplayBar .txt {
-  color: #fff;
+  color: #cccccc;
   font-weight: 300;
 }
 .skin-glass-001-style-3 .s-SlickPager {
@@ -11636,7 +11687,7 @@ body.skin-glass-001-style-3 {
   border-radius: 2px;
   padding: 3px;
   height: 34px;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .s-SlickPager select,
 .skin-glass-001-style-3 .s-SlickPager input {
@@ -11650,18 +11701,18 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .ui-datepicker {
   background: none;
   background-size: cover;
-  background-color: #5d436d;
+  background-color: #34374a;
 }
 .skin-glass-001-style-3 .ui-datepicker .ui-datepicker-calendar th {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .ui-datepicker .ui-datepicker-calendar td > a {
-  color: #fff;
-  border-color: #fff;
+  color: #cccccc;
+  border-color: #cccccc;
 }
 .skin-glass-001-style-3 .ui-datepicker .ui-datepicker-header {
-  color: #fff;
-  border-color: #fff;
+  color: #cccccc;
+  border-color: #cccccc;
 }
 .skin-glass-001-style-3 .ui-datepicker .ui-datepicker-buttonpane button {
   height: 32px;
@@ -11669,7 +11720,7 @@ body.skin-glass-001-style-3 {
   font-size: 13px;
   background: #ffffff26;
   border: unset;
-  color: #fff;
+  color: #cccccc;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
   padding: 2px 5px;
@@ -11683,7 +11734,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 button.ui-datepicker-trigger {
   background: none;
-  color: #fff;
+  color: #cccccc;
   font-size: 16px;
   padding: 0;
   border: none;
@@ -11691,11 +11742,11 @@ body.skin-glass-001-style-3 {
   padding-left: 2px;
 }
 .skin-glass-001-style-3 button.btn-primary {
-  color: #fff !important;
+  color: #cccccc !important;
   background: #0088CC !important;
 }
 .skin-glass-001-style-3 button.btn-danger {
-  color: #fff !important;
+  color: #cccccc !important;
   background: #E36159 !important;
 }
 .skin-glass-001-style-3 .slick-pg-btn {
@@ -11707,7 +11758,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .slick-pg-btn > span:before {
   font-size: 15px;
-  color: #fff;
+  color: #cccccc;
   font-family: "FontAwesome";
   font-style: normal;
   font-weight: normal;
@@ -11721,7 +11772,7 @@ body.skin-glass-001-style-3 {
   border: unset;
 }
 .skin-glass-001-style-3 .slick-pg-btn:hover > .slick-pg-btn-span::before {
-  color: #e2b143;
+  color: #5f97ff;
 }
 .skin-glass-001-style-3 .slick-pg-btn-span {
   width: 24px;
@@ -11756,31 +11807,31 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .todo-list > li {
   background: transparent;
-  color: #fff;
-  border: solid 1px #a2a2a2;
+  color: #cccccc;
+  border: solid 1px #525467;
   border-left-width: 3px;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-3 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-3 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-3 .users-list-name {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .products-list > .item {
   background: transparent;
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .page-header {
-  color: #fff;
+  color: #cccccc;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
 }
 .skin-glass-001-style-3 .page-header > small {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .alert a {
   color: #fff;
@@ -11795,11 +11846,11 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .dropdown-menu {
   background: none;
   background-size: cover;
-  background-color: #5d436d;
-  color: #fff;
+  background-color: #34374a;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .dropdown-menu > li a {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .dropdown-menu > li a:hover {
   background-color: #00000014;
@@ -11812,7 +11863,7 @@ body.skin-glass-001-style-3 {
   background: #00000014;
 }
 .skin-glass-001-style-3 .mailbox-attachment-icon {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .widget-user-username,
 .skin-glass-001-style-3 .widget-user-desc {
@@ -11829,8 +11880,8 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .input-group .input-group-addon {
   background-color: #00000014;
-  color: #fff;
-  border-color: #a2a2a2;
+  color: #cccccc;
+  border-color: #525467;
 }
 .skin-glass-001-style-3 .input-group input {
   /*height: 34px;
@@ -11851,10 +11902,10 @@ body.skin-glass-001-style-3 {
   height: 30px;
 }
 .skin-glass-001-style-3 .comment-text {
-  color: #fff;
+  color: #cccccc;
 }
 .skin-glass-001-style-3 .comment-text .username {
-  color: #fff;
+  color: #cccccc;
 }
 @media (min-width: 768px) {
   .skin-glass-001-style-3.sidebar-mini.sidebar-collapse .main-sidebar {
@@ -11876,7 +11927,7 @@ body.skin-glass-001-style-3 {
   .skin-glass-001-style-3 .main-header {
     background: unset;
     background-size: cover;
-    background-color: #303641;
+    background-color: #26293b;
   }
   .skin-glass-001-style-3 .main-header a.logo {
     display: none;
@@ -11896,35 +11947,20 @@ body.skin-glass-001-style-3 {
     padding-top: 60px;
   }
 }
-body.skin-glass-001-style-3 section.content {
-  padding-bottom: 0;
-  margin-bottom: 0;
+/*.themeDefs-tool-button-color(@idx);*/
+/*.themeDefs-wraper-content-no-space(@idx);*/
+body.skin-glass-001-style-3 .grid-title {
+  padding: 11px 10px;
 }
-body.skin-glass-001-style-3 section.content > .s-DataGrid,
-body.skin-glass-001-style-3 section.content .flex-layout.s-Panel {
-  border-radius: unset;
-  margin-left: -15px;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
+body.skin-glass-001-style-3 .panel-titlebar {
+  padding: 9px 10px 8px 10px;
 }
 body.skin-glass-001-style-3 .sidebar-form {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-  -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+  /*border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
+            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);*/
   padding: 0 10px 10px 10px;
   margin: 10px 0;
-}
-body.skin-glass-001-style-3 .grid-title,
-body.skin-glass-001-style-3 .panel-titlebar {
-  padding: 15px 10px 14px 10px;
-  margin-top: -25px;
-  background: url('/Content/skins/glass001/assets/bg003-blurred.jpg') fixed;
-  background-size: cover;
-  background-color: #1107179e;
-  border-radius: unset !important;
-}
-body.skin-glass-001-style-3 .panel-titlebar {
-  padding: 12px 10px;
 }
 body.skin-glass-001-style-4 {
   background: url('/Content/skins/glass001/assets/bg004.jpg') fixed;
@@ -13767,7 +13803,7 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-4 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-4 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-4 .users-list-name {
@@ -15740,7 +15776,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-5 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-5 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-5 .users-list-name {
@@ -17713,7 +17749,7 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-6 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-6 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-6 .users-list-name {
@@ -17856,24 +17892,24 @@ body.skin-glass-001-style-6 section.content .flex-layout.s-Panel {
   box-shadow: unset;
   -webkit-box-shadow: unset;
 }
+body.skin-glass-001-style-6 .grid-title,
+body.skin-glass-001-style-6 .panel-titlebar {
+  padding: 15px 10px 14px 10px;
+  margin-top: -25px;
+  background: none;
+  background-size: cover;
+  background-color: transparent;
+  border-radius: unset !important;
+}
+body.skin-glass-001-style-6 .panel-titlebar {
+  padding: 12px 10px;
+}
 body.skin-glass-001-style-6 .sidebar-form {
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
   box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
   -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
   padding: 0 10px 10px 10px;
   margin: 10px 0;
-}
-body.skin-glass-001-style-6 .grid-title,
-body.skin-glass-001-style-6 .panel-titlebar {
-  padding: 15px 10px 14px 10px;
-  margin-top: -25px;
-  /*background: @glass-001-content-wrapper-bg;
-            background-size: @glass-001-content-wrapper-bg-size;
-            background-color: @glass-001-content-wrapper-bg-color;*/
-  border-radius: unset !important;
-}
-body.skin-glass-001-style-6 .panel-titlebar {
-  padding: 12px 10px;
 }
 body.skin-glass-001-style-7 {
   background: url('/Content/skins/glass001/assets/bg007.jpg') fixed;
@@ -19716,7 +19752,7 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-7 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-7 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-7 .users-list-name {
@@ -21721,7 +21757,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-8 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-8 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-8 .users-list-name {
@@ -23693,7 +23729,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-9 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-9 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-9 .users-list-name {
@@ -23825,54 +23861,7 @@ body.skin-glass-001-style-9 {
     padding-top: 60px;
   }
 }
-body.skin-glass-001-style-9 section.content {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-body.skin-glass-001-style-9 section.content > .s-DataGrid,
-body.skin-glass-001-style-9 section.content .flex-layout.s-Panel {
-  border-radius: unset;
-  margin-left: -15px;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-body.skin-glass-001-style-9 .sidebar-form {
-  /*border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            padding: 0 10px 9px 10px;
-            margin: 10px 0;*/
-}
-body.skin-glass-001-style-9 .sidebar-form .s-SidebarSearch,
-body.skin-glass-001-style-9 .sidebar-form button {
-  background: #6f6f6f1a;
-}
-body.skin-glass-001-style-9 .sidebar-form button i {
-  color: gray;
-}
-body.skin-glass-001-style-9 .grid-title,
-body.skin-glass-001-style-9 .panel-titlebar {
-  padding: 15px 10px 14px 10px;
-  margin-top: -25px;
-  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
-  background-size: auto;
-  background-color: transparent;
-  border-radius: unset !important;
-}
-body.skin-glass-001-style-9 .panel-titlebar {
-  padding: 12px 10px;
-}
-body.skin-glass-001-style-9 .sidebar-form input[type="text"]::-webkit-input-placeholder {
-  /* Edge */
-  color: gray;
-}
-body.skin-glass-001-style-9 .sidebar-form input[type="text"]:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: gray;
-}
-body.skin-glass-001-style-9 .sidebar-form input[type="text"]::placeholder {
-  color: gray;
-}
+/*, (@idx = 10)*/
 body.skin-glass-001-style-9 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 body.skin-glass-001-style-9 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before {
   text-shadow: 0 0 5px unset;
@@ -23900,6 +23889,47 @@ body.skin-glass-001-style-9 .tool-buttons .tool-button.localization-button span.
 }
 body.skin-glass-001-style-9 .tool-buttons .tool-button.clone-button span.button-inner::before {
   color: #83ca60 !important;
+}
+body.skin-glass-001-style-9 section.content {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+body.skin-glass-001-style-9 section.content > .s-DataGrid,
+body.skin-glass-001-style-9 section.content .flex-layout.s-Panel {
+  border-radius: unset;
+  margin-left: -15px;
+  box-shadow: unset;
+  -webkit-box-shadow: unset;
+}
+body.skin-glass-001-style-9 .grid-title,
+body.skin-glass-001-style-9 .panel-titlebar {
+  padding: 15px 10px 14px 10px;
+  margin-top: -25px;
+  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
+  background-size: auto;
+  background-color: transparent;
+  border-radius: unset !important;
+}
+body.skin-glass-001-style-9 .panel-titlebar {
+  padding: 12px 10px;
+}
+body.skin-glass-001-style-9 .sidebar-form .s-SidebarSearch,
+body.skin-glass-001-style-9 .sidebar-form button {
+  background: #6f6f6f1a;
+}
+body.skin-glass-001-style-9 .sidebar-form button i {
+  color: gray;
+}
+body.skin-glass-001-style-9 .sidebar-form input[type="text"]::-webkit-input-placeholder {
+  /* Edge */
+  color: gray;
+}
+body.skin-glass-001-style-9 .sidebar-form input[type="text"]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: gray;
+}
+body.skin-glass-001-style-9 .sidebar-form input[type="text"]::placeholder {
+  color: gray;
 }
 body.skin-glass-001-style-9 .slick-pg-btn > span:before {
   color: #5b5bb5;
@@ -25744,7 +25774,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-10 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-10 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-10 .users-list-name {
@@ -25876,54 +25906,6 @@ body.skin-glass-001-style-10 {
     padding-top: 60px;
   }
 }
-body.skin-glass-001-style-10 section.content {
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-body.skin-glass-001-style-10 section.content > .s-DataGrid,
-body.skin-glass-001-style-10 section.content .flex-layout.s-Panel {
-  border-radius: unset;
-  margin-left: -15px;
-  box-shadow: unset;
-  -webkit-box-shadow: unset;
-}
-body.skin-glass-001-style-10 .sidebar-form {
-  /*border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            padding: 0 10px 9px 10px;
-            margin: 10px 0;*/
-}
-body.skin-glass-001-style-10 .sidebar-form .s-SidebarSearch,
-body.skin-glass-001-style-10 .sidebar-form button {
-  background: #6f6f6f1a;
-}
-body.skin-glass-001-style-10 .sidebar-form button i {
-  color: gray;
-}
-body.skin-glass-001-style-10 .grid-title,
-body.skin-glass-001-style-10 .panel-titlebar {
-  padding: 15px 10px 14px 10px;
-  margin-top: -25px;
-  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
-  background-size: auto;
-  background-color: transparent;
-  border-radius: unset !important;
-}
-body.skin-glass-001-style-10 .panel-titlebar {
-  padding: 12px 10px;
-}
-body.skin-glass-001-style-10 .sidebar-form input[type="text"]::-webkit-input-placeholder {
-  /* Edge */
-  color: gray;
-}
-body.skin-glass-001-style-10 .sidebar-form input[type="text"]:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: gray;
-}
-body.skin-glass-001-style-10 .sidebar-form input[type="text"]::placeholder {
-  color: gray;
-}
 body.skin-glass-001-style-10 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 body.skin-glass-001-style-10 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before {
   text-shadow: 0 0 5px unset;
@@ -25952,8 +25934,28 @@ body.skin-glass-001-style-10 .tool-buttons .tool-button.localization-button span
 body.skin-glass-001-style-10 .tool-buttons .tool-button.clone-button span.button-inner::before {
   color: #83ca60 !important;
 }
-body.skin-glass-001-style-10 .slick-pg-btn > span:before {
-  color: #5b5bb5;
+body.skin-glass-001-style-10 section.content {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+body.skin-glass-001-style-10 section.content > .s-DataGrid,
+body.skin-glass-001-style-10 section.content .flex-layout.s-Panel {
+  border-radius: unset;
+  margin-left: -15px;
+  box-shadow: unset;
+  -webkit-box-shadow: unset;
+}
+body.skin-glass-001-style-10 .grid-title,
+body.skin-glass-001-style-10 .panel-titlebar {
+  padding: 15px 10px 14px 10px;
+  margin-top: -25px;
+  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
+  background-size: auto;
+  background-color: transparent;
+  border-radius: unset !important;
+}
+body.skin-glass-001-style-10 .panel-titlebar {
+  padding: 12px 10px;
 }
 body.skin-glass-001-style-10 .sidebar-form input[type="text"]::-webkit-input-placeholder {
   /* Edge */
@@ -27816,7 +27818,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .todo-list > li:nth-child(odd) {
   background: rgba(0, 0, 0, 0.05);
 }
-.skin-glass-001-style-11 .todo-list > li :nth-child(even) {
+.skin-glass-001-style-11 .todo-list > li:nth-child(even) {
   background-color: transparent;
 }
 .skin-glass-001-style-11 .users-list-name {

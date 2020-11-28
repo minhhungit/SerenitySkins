@@ -1,0 +1,75 @@
+﻿@import "theme-variables.less";
+
+.themeDefs-tool-button-color(@idx) {
+    .themeDefs(@idx);
+
+    body.skin-glass-001-style-@{idx} {
+        .tool-buttons {
+            .tool-button:not(.disabled):hover span.button-inner::before,
+            .tool-button:not(.disabled).no-text:hover span.button-inner::before {
+                text-shadow: 0 0 5px @glass-001-link-shadow-color;
+            }
+
+            .tool-button {
+                &.delete-button,
+                &.export-pdf-button {
+                    span.button-inner {
+                        &::before {
+                            color: #dd4b39 !important;
+                        }
+                    }
+                }
+
+                &.save-and-close-button,
+                &.apply-changes-button {
+                    span.button-inner {
+                        &::before {
+                            color: if(@glass-001-is-dark-style, #9d98ff, #605ca8) !important;
+                        }
+                    }
+                }
+
+                &.export-xlsx-button {
+                    span.button-inner {
+                        &::before {
+                            color: #01a02a !important;
+                        }
+                    }
+                }
+
+                &.add-button {
+                    span.button-inner {
+                        &::before {
+                            color: #00a65a !important;
+                        }
+                    }
+                }
+
+                &.refresh-button,
+                &.column-picker-button {
+                    span.button-inner {
+                        &::before {
+                            color: if(@glass-001-is-dark-style, #01a1ff, #0073b7) !important
+                        }
+                    }
+                }
+
+                &.localization-button {
+                    span.button-inner {
+                        &::before {
+                            color: if(@glass-001-is-dark-style, #fdff63, #9743e4) !important
+                        }
+                    }
+                }
+
+                &.clone-button {
+                    span.button-inner {
+                        &::before {
+                            color: #83ca60 !important
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+﻿@import "theme-variables.less";
+
+.themeDefs-wraper-content-no-space(@idx) {
+    .themeDefs(@idx);
+
+    body.skin-glass-001-style-@{idx} {
+        section.content {
+            padding-bottom: 0;
+            margin-bottom: 0;
+
+            > .s-DataGrid, .flex-layout.s-Panel {
+                border-radius: unset;
+                margin-left: -15px;
+                box-shadow: unset;
+                -webkit-box-shadow: unset;
+            }
+        }
+
+        .grid-title, .panel-titlebar {
+            padding: 15px 10px 14px 10px;
+            margin-top: -25px;
+            background: @glass-001-content-wrapper-bg;
+            background-size: @glass-001-content-wrapper-bg-size;
+            background-color: @glass-001-content-wrapper-bg-color;
+            border-radius: unset !important;
+        }
+
+        .panel-titlebar {
+            padding: 12px 10px;
+        }
+    }
+}
