@@ -20,12 +20,22 @@
             }
         }
 
+
         .sidebar-form {
-            border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            padding: 0 10px 9px 10px;
-            margin: 10px 0;
+            div.input-group, button {
+                background: transparent;
+            }
+
+            button {
+                i {
+                    color: #b5b5b5;
+                }
+            }
+        }
+
+        .s-SidebarSearch, .s-SidebarSearch + button, button {
+            background: #483d4f !important;
+            color: #b5b5b5;
         }
 
         .grid-title, .panel-titlebar {
@@ -46,7 +56,8 @@
 .overwriteByIndex (@idx) when (@idx = 3) {
     .themeDefs(@idx);
     /*.themeDefs-tool-button-color(@idx);*/
-    /*.themeDefs-wraper-content-no-space(@idx);*/
+    .themeDefs-wraper-content-no-space(@idx);
+
     body.skin-glass-001-style-@{idx} {
 
         .grid-title {
@@ -58,11 +69,28 @@
         }
 
         .sidebar-form {
-            /*border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-            box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);
-            -webkit-box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.12);*/
-            padding: 0 10px 10px 10px;
-            margin: 10px 0;
+            .s-SidebarSearch {
+
+                &:focus {
+                    color: #666;
+                    border-color: transparent;
+                }
+            }
+
+            .s-SidebarSearch, .s-SidebarSearch + button, button {
+                background: transparent !important;
+                color: #b5b5b5;
+            }
+
+            div.input-group, button {
+                background: #0c0c0c26;
+            }
+
+            button {
+                i {
+                    color: #b5b5b5;
+                }
+            }
         }
     }
 }
@@ -134,14 +162,26 @@
     body.skin-glass-001-style-@{idx} {
 
         .sidebar-form {
+            .s-SidebarSearch {
 
-            .s-SidebarSearch, button {
-                background: #6f6f6f1a;
+                &:focus {
+                    color: #666;
+                    border-color: transparent;
+                }
+            }
+
+            .s-SidebarSearch, .s-SidebarSearch + button, button {
+                background: transparent !important;
+                color: #b5b5b5;
+            }
+
+            div.input-group, button {
+                background: transparent;
             }
 
             button {
                 i {
-                    color: gray;
+                    color: #b5b5b5;
                 }
             }
         }
@@ -183,30 +223,30 @@
 
     body.skin-glass-001-style-@{idx} {
 
-        .sidebar-form input[type="text"]::-webkit-input-placeholder { /* Edge */
-            color: #ddd;
+        .sidebar-form input[type="text"]::-webkit-input-placeholder {
+            color: #b5b5b5;
         }
 
-        .sidebar-form input[type="text"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
-            color: #ddd;
+        .sidebar-form input[type="text"]:-ms-input-placeholder {
+            color: #b5b5b5;
         }
 
         .sidebar-form input[type="text"]::placeholder {
-            color: #ddd;
+            color: #b5b5b5;
         }
 
         .sidebar-form {
-            button {
-                background: #ffffff1a;
+            .s-SidebarSearch {
 
-                i {
-                    color: #ddd;
+                &:focus {
+                    color: #666;
                 }
             }
         }
 
-        .s-SidebarSearch, .s-SidebarSearch + button {
-            background: #ffffff1a !important;
+        .s-SidebarSearch, .s-SidebarSearch + button, button {
+            background: #fff !important;
+            color: #b5b5b5;
         }
     }
 }
@@ -228,6 +268,19 @@
         }
 
         .sidebar-form {
+            .s-SidebarSearch {
+
+                &:focus {
+                    color: #666;
+                    border-color: transparent;
+                }
+            }
+
+            .s-SidebarSearch, .s-SidebarSearch + button, button {
+                background: transparent !important;
+                color: #b5b5b5;
+            }
+
             div.input-group, button {
                 background: transparent;
             }
@@ -237,11 +290,6 @@
                     color: #b5b5b5;
                 }
             }
-        }
-
-        .s-SidebarSearch, .s-SidebarSearch + button {
-            background: #fff !important;
-            color: #b5b5b5;
         }
 
         .main-header {
@@ -286,7 +334,7 @@
             margin: 0 6px 10px 6px;
         }
 
-        .property-tabs{
+        .property-tabs {
             background: #fff;
         }
     }

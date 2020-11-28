@@ -2036,8 +2036,6 @@ declare namespace SerenitySkins {
         };
     }
 }
-declare namespace SerenitySkins.Texts {
-}
 declare namespace SerenitySkins.Administration {
     class LanguageDialog extends Serenity.EntityDialog<LanguageRow, any> {
         protected getFormKey(): string;
@@ -3528,4 +3526,6 @@ declare namespace SerenitySkins.Northwind {
         protected getService(): string;
         constructor(container: JQuery);
     }
+}
+declare namespace SerenitySkins.Texts {
 }

@@ -792,11 +792,17 @@
             .s-SidebarSearch {
                 background-color: @glass-001-input-bg-color;
                 border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius !important;
+
+                &:focus {
+                    color: @glass-001-main-sidebar-nav-item-color;
+                    border-color: @glass-001-input-bg-color;
+                }
             }
 
             button {
                 background-color: @glass-001-input-bg-color;
                 height: 34px !important;
+
                 i {
                     color: @glass-001-text-color;
                 }
@@ -807,12 +813,6 @@
                     > .btn {
                         border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0 !important;
                     }
-                }
-            }
-
-            input.s-SidebarSearch {
-                &:focus {
-                    color: @glass-001-main-sidebar-nav-item-color;
                 }
             }
 
@@ -1466,7 +1466,7 @@
             border-color: @glass-001-input-border-color;
         }
 
-        .property-tabs{
+        .property-tabs {
             padding-top: 10px;
         }
 
@@ -2544,6 +2544,10 @@
 
         .skin-glass-001-style-@{index}.sidebar-mini.sidebar-collapse .main-header .logo {
             width: 60px !important;
+        }
+
+        .skin-glass-001-style-@{index}.sidebar-mini.sidebar-collapse .must-show-search-bar{
+            display: inline-flex !important;
         }
     }
 

@@ -2,11 +2,31 @@
 
     export function initSkins(themeCookieName: string) {
 
+        let findSidebarForm = function () {
+            setTimeout(() => {
+                if ($('form.sidebar-form')) {
+                    $('form.sidebar-form').insertAfter("a.sidebar-toggle");
+                    $('form.sidebar-form').addClass("must-show-search-bar").css("display", "inline-flex");
+
+                    let sidebarToggleHeight = $(".sidebar-toggle").height();
+                    $('form.sidebar-form')
+                        .css("padding", "0")
+                        .css("margin", "0")
+                        .css("margin-top", `${sidebarToggleHeight / 2 - 16}px`);
+
+                    $(".sidebar-menu > li > a").first().css("height", "50px").css("line-height", "40px");
+                }
+                else {
+                    findSidebarForm();
+                }
+            }, 10);
+        };
+
         let curSkinClass = $.cookie(themeCookieName) || "blue";
         console.log(curSkinClass);
 
         switch (curSkinClass.toLowerCase().trim()) {
-            
+
             case "glass-001-style-1":
             case "glass-001-style-2":
             case "glass-001-style-3":
@@ -58,7 +78,7 @@
                     try {
                         (player as any).play();
                     } catch{
-                        
+
                     }
                 };
             });
@@ -82,6 +102,14 @@
                     <div class="bg-animation-firefly"></div>
                     <div class="bg-animation-firefly"></div>`);
             });
+        }
+
+        if (curSkinClass.toLowerCase().trim() == "glass-001-style-1" ||
+            curSkinClass.toLowerCase().trim() == "glass-001-style-3" ||
+            curSkinClass.toLowerCase().trim() == "glass-001-style-9" ||
+            curSkinClass.toLowerCase().trim() == "glass-001-style-10" || 
+            curSkinClass.toLowerCase().trim() == "glass-001-style-11") {
+            $(document).ready(function () { findSidebarForm(); });
         }
 
         if (curSkinClass.toLowerCase().trim() == "glass-001-style-4") {
