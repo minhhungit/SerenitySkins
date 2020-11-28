@@ -6576,6 +6576,7 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .sidebar-form button {
   background-color: #ffffff26;
+  height: 34px !important;
 }
 .skin-glass-001-style-1 .sidebar-form button i {
   color: #fff;
@@ -8575,6 +8576,7 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .sidebar-form button {
   background-color: #ffffff26;
+  height: 34px !important;
 }
 .skin-glass-001-style-2 .sidebar-form button i {
   color: #fff;
@@ -10544,6 +10546,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .sidebar-form button {
   background-color: #ffffff26;
+  height: 34px !important;
 }
 .skin-glass-001-style-3 .sidebar-form button i {
   color: #fff;
@@ -12543,6 +12546,7 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .sidebar-form button {
   background-color: #ffffff26;
+  height: 34px !important;
 }
 .skin-glass-001-style-4 .sidebar-form button i {
   color: #fff;
@@ -14512,6 +14516,7 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .sidebar-form button {
   background-color: #ffffff26;
+  height: 34px !important;
 }
 .skin-glass-001-style-5 .sidebar-form button i {
   color: #fff;
@@ -16481,6 +16486,7 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .sidebar-form button {
   background-color: #ffffff26;
+  height: 34px !important;
 }
 .skin-glass-001-style-6 .sidebar-form button i {
   color: #fff;
@@ -18480,6 +18486,7 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .sidebar-form button {
   background-color: #ffffff26;
+  height: 34px !important;
 }
 .skin-glass-001-style-7 .sidebar-form button i {
   color: #fff;
@@ -20482,6 +20489,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .sidebar-form button {
   background-color: #ffffff4d;
+  height: 34px !important;
 }
 .skin-glass-001-style-8 .sidebar-form button i {
   color: #777;
@@ -22450,6 +22458,7 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .sidebar-form button {
   background-color: #9696961a;
+  height: 34px !important;
 }
 .skin-glass-001-style-9 .sidebar-form button i {
   color: #444;
@@ -24482,7 +24491,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .main-sidebar {
   background: none;
   background-size: cover;
-  background-color: #0075da;
+  background-color: #1d7dd0;
 }
 .skin-glass-001-style-10 .sidebar-form {
   margin: 10px;
@@ -24497,6 +24506,7 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .sidebar-form button {
   background-color: #9696961a;
+  height: 34px !important;
 }
 .skin-glass-001-style-10 .sidebar-form button i {
   color: #444;
@@ -24646,7 +24656,7 @@ body.skin-glass-001-style-10 {
   color: #fff;
   background: none;
   background-size: cover;
-  background-color: #0075da;
+  background-color: #1d7dd0;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   height: 60px;
@@ -25926,6 +25936,9 @@ body.skin-glass-001-style-10 .sidebar-form input[type="text"]:-ms-input-placehol
 body.skin-glass-001-style-10 .sidebar-form input[type="text"]::placeholder {
   color: #ddd;
 }
+body.skin-glass-001-style-10 .sidebar-form button {
+  background: #ffffff1a;
+}
 body.skin-glass-001-style-10 .sidebar-form button i {
   color: #ddd;
 }
@@ -26562,6 +26575,7 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .sidebar-form button {
   background-color: #9696961a;
+  height: 34px !important;
 }
 .skin-glass-001-style-11 .sidebar-form button i {
   color: #3e4b5b;
@@ -27909,6 +27923,10 @@ body.skin-glass-001-style-11 .sidebar-form input[type="text"]:-ms-input-placehol
 }
 body.skin-glass-001-style-11 .sidebar-form input[type="text"]::placeholder {
   color: #b5b5b5;
+}
+body.skin-glass-001-style-11 .sidebar-form div.input-group,
+body.skin-glass-001-style-11 .sidebar-form button {
+  background: transparent;
 }
 body.skin-glass-001-style-11 .sidebar-form button i {
   color: #b5b5b5;
