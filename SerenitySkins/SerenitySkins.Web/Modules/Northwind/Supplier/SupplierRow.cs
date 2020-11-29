@@ -57,6 +57,8 @@ namespace SerenitySkins.Northwind.Entities
         }
 
         [DisplayName("Region"), Size(15)]
+        [QuickFilter]
+        [LookupEditor(typeof(RegionRow), InplaceAdd = true)]
         public String Region
         {
             get { return Fields.Region[this]; }

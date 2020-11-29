@@ -1300,8 +1300,7 @@
                 font-family: Poppins, Helvetica, "sans-serif";
                 color: @glass-001-text-color;
             }
-
-            .inplace-button {
+            /*.inplace-button {
                 height: 32px;
                 padding: 2px 2px 0 2px;
                 width: 28px;
@@ -1316,15 +1315,14 @@
                 }
 
                 &:hover {
-                    text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-
+                    //text-shadow: 0 0 5px @glass-001-text-hover-active-color;
                     b {
                         &::before {
                             color: @glass-001-link-color;
                         }
                     }
                 }
-            }
+            }*/
         }
 
         .flex-layout .s-Form .caption {
@@ -1411,6 +1409,13 @@
 
         .select2-results {
             color: @glass-001-text-color;
+
+            .select2-disabled {
+                background: @glass-001-read-only-bg;
+                background-color: @glass-001-read-only-bg-color;
+                color: @glass-001-read-only-text-color;
+                //border-color: fade(@glass-001-input-border-color, 50%);
+            }
 
             li {
                 line-height: 24px;
@@ -1594,27 +1599,6 @@
         .tab-content {
             border: solid 1px @glass-001-panel-bg-color;
             border-radius: 0 0 @glass-001-border-radius @glass-001-border-radius;
-        }
-
-        .inplace-button {
-            height: 32px;
-            padding: 2px 3px;
-            width: 32px;
-            margin-left: 2px;
-            background: @glass-001-input-bg-color;
-            border: solid 1px @glass-001-input-border-color;
-            border-radius: @glass-001-border-radius;
-            color: @glass-001-text-color;
-
-            &:hover {
-                text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-
-                b {
-                    &::before {
-                        color: @glass-001-link-color;
-                    }
-                }
-            }
         }
 
         div.s-Toolbar {
@@ -1835,6 +1819,27 @@
                         &::before {
                             content: "\f24d";
                         }
+                    }
+                }
+            }
+        }
+
+        .inplace-button {
+            height: 32px;
+            padding: 2px 3px;
+            width: 32px;
+            margin-left: 2px;
+            background: @glass-001-input-bg-color;
+            border: solid 1px @glass-001-input-border-color;
+            border-radius: @glass-001-border-radius;
+            color: @glass-001-text-color;
+
+            &:hover {
+                text-shadow: 0 0 5px @glass-001-text-shadow-color;
+
+                b {
+                    &::before {
+                        color: @glass-001-link-color;
                     }
                 }
             }
@@ -2084,7 +2089,7 @@
             opacity: 1;
             -webkit-backdrop-filter: blur(2px);
             backdrop-filter: blur(2px);
-            background-color: #ffffff17;
+            background-color: if(@glass-001-is-dark-style, #00000040, #ffffff17);
         }
 
 
@@ -2546,7 +2551,7 @@
             width: 60px !important;
         }
 
-        .skin-glass-001-style-@{index}.sidebar-mini.sidebar-collapse .must-show-search-bar{
+        .skin-glass-001-style-@{index}.sidebar-mini.sidebar-collapse .must-show-search-bar {
             display: inline-flex !important;
         }
     }

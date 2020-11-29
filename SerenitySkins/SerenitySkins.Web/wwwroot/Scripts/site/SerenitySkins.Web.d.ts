@@ -1896,7 +1896,7 @@ declare namespace SerenitySkins.Northwind {
         ContactName: Serenity.StringEditor;
         ContactTitle: Serenity.StringEditor;
         Address: Serenity.StringEditor;
-        Region: Serenity.StringEditor;
+        Region: Serenity.LookupEditor;
         PostalCode: Serenity.StringEditor;
         Country: Serenity.StringEditor;
         City: Serenity.StringEditor;
@@ -2035,6 +2035,8 @@ declare namespace SerenitySkins {
             [key: string]: boolean;
         };
     }
+}
+declare namespace SerenitySkins.Texts {
 }
 declare namespace SerenitySkins.Administration {
     class LanguageDialog extends Serenity.EntityDialog<LanguageRow, any> {
@@ -3526,6 +3528,4 @@ declare namespace SerenitySkins.Northwind {
         protected getService(): string;
         constructor(container: JQuery);
     }
-}
-declare namespace SerenitySkins.Texts {
 }

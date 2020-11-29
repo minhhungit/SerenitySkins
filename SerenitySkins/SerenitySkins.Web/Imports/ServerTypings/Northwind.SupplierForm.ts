@@ -4,7 +4,7 @@
         ContactName: Serenity.StringEditor;
         ContactTitle: Serenity.StringEditor;
         Address: Serenity.StringEditor;
-        Region: Serenity.StringEditor;
+        Region: Serenity.LookupEditor;
         PostalCode: Serenity.StringEditor;
         Country: Serenity.StringEditor;
         City: Serenity.StringEditor;
@@ -25,13 +25,14 @@
 
                 var s = Serenity;
                 var w0 = s.StringEditor;
+                var w1 = s.LookupEditor;
 
                 Q.initFormType(SupplierForm, [
                     'CompanyName', w0,
                     'ContactName', w0,
                     'ContactTitle', w0,
                     'Address', w0,
-                    'Region', w0,
+                    'Region', w1,
                     'PostalCode', w0,
                     'Country', w0,
                     'City', w0,
