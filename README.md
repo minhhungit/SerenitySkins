@@ -6,6 +6,16 @@
 
 **!!! STILL DEVELOPING, DON'T USE IT ON PRODUCTION**
 
+## Feature
+- Support light/dark skin
+- Support move searchbar on sidebar => header 
+- Ability on/off color for tool-button icon (default buttons like update/delete/add/localization/clone...)
+- Support video background animation
+- Support pure css background animation
+- ...
+
+Skins are used to demo the features, so at this time I don't create too many skins for easier maintaining
+
 ## Demo
 
 # SKINS: GLASS 001
