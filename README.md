@@ -1,4 +1,4 @@
-# Serenity Skins - Themes for [Serenity Framework](https://github.com/volkanceylan/Serenity)
+# Serenity Skins - Skin builder for [Serenity Framework](https://github.com/volkanceylan/Serenity)
 
 **!!! RIGHT NOW THESE SKINS ARE JUST FOR SERENE VERSION (FREE VERSION)**
 
