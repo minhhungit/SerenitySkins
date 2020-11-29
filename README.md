@@ -6,6 +6,16 @@
 
 **!!! STILL DEVELOPING, DON'T USE IT ON PRODUCTION**
 
+## Feature
+- Support light/dark skin
+- Support move searchbar on sidebar => header 
+- Ability on/off color for tool-button icon (default buttons like update/delete/add/localization/clone...)
+- Support video background animation
+- Support pure css background animation
+- ...
+
+Skins are used to demo the features, so at this time I don't create too many skins for easier maintaining
+
 ## Demo
 
 # SKINS: GLASS 001
@@ -48,7 +58,7 @@ In `/Modules/Common/Navigation/ThemeSelection.ts`, add
 ```javascript
 
 let glassStyleIdx = 1;
-while (glassStyleIdx <= 9) {
+while (glassStyleIdx <= 11) {
 	Q.addOption(select, `glass-001-style-${glassStyleIdx}`, Q.text(`Site.Layout.Glass001Style${glassStyleIdx}`));
 	glassStyleIdx++;
 }
@@ -95,6 +105,7 @@ public static LocalText Glass001Style7 = "Glass 001 Style 007";
 public static LocalText Glass001Style8 = "Glass 001 Style 008";
 public static LocalText Glass001Style9 = "Glass 001 Style 009";
 public static LocalText Glass001Style10 = "Glass 001 Style 010";
+public static LocalText Glass001Style11 = "Glass 001 Style 011";
 ```
 
 
