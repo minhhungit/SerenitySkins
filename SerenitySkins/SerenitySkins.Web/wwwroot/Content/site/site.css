@@ -7995,7 +7995,7 @@ body.skin-glass-001-style-1 .sidebar-form button i {
 }
 body.skin-glass-001-style-1 .s-SidebarSearch,
 body.skin-glass-001-style-1 .s-SidebarSearch + button,
-body.skin-glass-001-style-1 button {
+body.skin-glass-001-style-1 .sidebar-form button {
   background: #483d4f !important;
   color: #b5b5b5;
 }
@@ -12001,7 +12001,7 @@ body.skin-glass-001-style-3 .sidebar-form .s-SidebarSearch:focus {
 }
 body.skin-glass-001-style-3 .sidebar-form .s-SidebarSearch,
 body.skin-glass-001-style-3 .sidebar-form .s-SidebarSearch + button,
-body.skin-glass-001-style-3 .sidebar-form button {
+body.skin-glass-001-style-3 .sidebar-form .sidebar-form button {
   background: transparent !important;
   color: #b5b5b5;
 }
@@ -23993,7 +23993,7 @@ body.skin-glass-001-style-9 .sidebar-form .s-SidebarSearch:focus {
 }
 body.skin-glass-001-style-9 .sidebar-form .s-SidebarSearch,
 body.skin-glass-001-style-9 .sidebar-form .s-SidebarSearch + button,
-body.skin-glass-001-style-9 .sidebar-form button {
+body.skin-glass-001-style-9 .sidebar-form .sidebar-form button {
   background: transparent !important;
   color: #b5b5b5;
 }
@@ -26059,7 +26059,7 @@ body.skin-glass-001-style-10 .sidebar-form .s-SidebarSearch:focus {
 }
 body.skin-glass-001-style-10 .s-SidebarSearch,
 body.skin-glass-001-style-10 .s-SidebarSearch + button,
-body.skin-glass-001-style-10 button {
+body.skin-glass-001-style-10 .sidebar-form button {
   background: #fff !important;
   color: #b5b5b5;
 }
@@ -28054,7 +28054,7 @@ body.skin-glass-001-style-11 .sidebar-form .s-SidebarSearch:focus {
 }
 body.skin-glass-001-style-11 .sidebar-form .s-SidebarSearch,
 body.skin-glass-001-style-11 .sidebar-form .s-SidebarSearch + button,
-body.skin-glass-001-style-11 .sidebar-form button {
+body.skin-glass-001-style-11 .sidebar-form .sidebar-form button {
   background: transparent !important;
   color: #b5b5b5;
 }
