@@ -6144,18 +6144,13 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .help-block {
   color: rgba(255, 255, 255, 0.5);
 }
-.skin-glass-001-style-1 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-1 .btn.btn-social {
   color: #fff;
   padding-left: 40px;
   background: #ffffff26;
 }
 .skin-glass-001-style-1 .btn.btn-social:hover {
-  background-color: #00000014;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-1 .btn.btn-social-icon {
   color: #fff;
@@ -6201,6 +6196,7 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #596475;
+  outline: 0;
 }
 .skin-glass-001-style-1 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-1 .iradio_minimal-red.disabled input {
@@ -6220,23 +6216,25 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .form-control:focus,
 .skin-glass-001-style-1 input.editor:focus {
-  border-color: #a29aa7;
+  border-color: #00000012;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
 .skin-glass-001-style-1 .form-control[disabled],
 .skin-glass-001-style-1 .form-control[readonly],
 .skin-glass-001-style-1 fieldset[disabled] .form-control {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   border-radius: 2px;
-  border-color: rgba(162, 154, 167, 0.1);
+  border-color: #48484824;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-1 select.form-control {
-  background: transparent;
+  background: #0000001a;
   color: #fff !important;
   border-radius: 2px;
+  border-color: #00000012;
 }
 .skin-glass-001-style-1 select.form-control[disabled] option {
   color: rgba(255, 255, 255, 0.3) !important;
@@ -6265,26 +6263,6 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .ui-dialog {
   box-shadow: 0 0 20px #0e0e0e96;
   -webkit-box-shadow: 0 0 20px #0e0e0e96;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-1 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -6367,7 +6345,7 @@ body.skin-glass-001-style-1 {
   color: #fff;
 }
 .skin-glass-001-style-1 .s-ColumnPickerDialog .search input {
-  border: solid 1px #a29aa7;
+  border: solid 1px #00000012;
 }
 .skin-glass-001-style-1 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -6544,7 +6522,7 @@ body.skin-glass-001-style-1 {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-1 .nav-stacked > li {
-  border-color: rgba(162, 154, 167, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 .skin-glass-001-style-1 .nav-stacked > li a {
   color: #fff;
@@ -6567,16 +6545,16 @@ body.skin-glass-001-style-1 {
   margin: 10px;
 }
 .skin-glass-001-style-1 .sidebar-form div.input-group {
-  background-color: #ffffff26;
+  background-color: #0000001a;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 .sidebar-form .s-SidebarSearch {
-  background-color: #ffffff26;
+  background-color: #0000001a;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-1 .sidebar-form .s-SidebarSearch:focus {
   color: #fff;
-  border-color: #ffffff26;
+  border-color: #0000001a;
 }
 .skin-glass-001-style-1 .sidebar-form button {
   background-color: #ffffff26;
@@ -6944,6 +6922,10 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-1 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #48484824;
+}
 .skin-glass-001-style-1 input[type="text"],
 .skin-glass-001-style-1 input[type="email"],
 .skin-glass-001-style-1 input[type="tel"],
@@ -6952,24 +6934,24 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #0000001a;
   color: #fff;
-  border-color: #a29aa7;
+  border-color: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 select {
   background: transparent;
   color: #fff;
-  border-color: #a29aa7;
+  border-color: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #a29aa7;
+  border-color: #00000012;
 }
 .skin-glass-001-style-1 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #a29aa7;
+  background: #0000001a;
+  border: 1px solid #00000012;
   color: #fff;
   border-radius: 2px;
   /*outline: 0;*/
@@ -7022,9 +7004,9 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #0000001a;
   color: #fff !important;
-  border-color: #a29aa7;
+  border-color: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -7034,12 +7016,12 @@ body.skin-glass-001-style-1 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a29aa7;
+  border-color: #00000012;
 }
 .skin-glass-001-style-1 .select2-container .select2-choices {
-  background: transparent;
+  background: #0000001a;
   color: #fff !important;
-  border-color: #a29aa7;
+  border-color: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -7049,20 +7031,22 @@ body.skin-glass-001-style-1 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a29aa7;
+  border-color: #00000012;
 }
 .skin-glass-001-style-1 .select2-container.select2-container-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-1 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(162, 154, 167, 0.1);
+  border-color: #48484824;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #f5f5f599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-1 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -7071,30 +7055,33 @@ body.skin-glass-001-style-1 {
   display: none;
 }
 .skin-glass-001-style-1 .select2-container.select2-container-disabled.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-1 .select2-results {
   color: #fff;
 }
 .skin-glass-001-style-1 .select2-results .select2-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-1 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-1 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #0000001a;
   border-radius: 2px;
-  border-color: #a29aa7;
+  border-color: #00000012;
 }
 .skin-glass-001-style-1 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #a29aa7;
+  border-color: #00000012;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #fff !important;
@@ -7110,19 +7097,20 @@ body.skin-glass-001-style-1 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #a29aa7;
+  border-color: #00000012;
 }
 .skin-glass-001-style-1 .select2-search input[type=text] {
   color: #fff;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(128, 128, 128, 0.10196078);
 }
 .skin-glass-001-style-1 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-1 .select2-drop-active {
-  border-color: #a29aa7;
+  border-color: #00000012;
 }
 .skin-glass-001-style-1 .property-tabs {
   padding-top: 10px;
@@ -7412,9 +7400,9 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #a29aa7;
-  border-right: 1px solid #a29aa7;
-  background: #ffffff26;
+  border-color: #00000012;
+  border-right: 1px solid #00000012;
+  background: #0000001a;
   color: #fff;
   border-radius: 0 2px 2px 0;
 }
@@ -7428,8 +7416,8 @@ body.skin-glass-001-style-1 {
   font-size: 13px;
   background-color: rgba(128, 128, 128, 0.07843137);
   color: #fff;
-  border-top: solid 1px #a29aa7;
-  border-bottom-color: #a29aa7;
+  border-top: solid 1px #00000012;
+  border-bottom-color: #00000012;
 }
 .skin-glass-001-style-1 .slick-header-column-sorted,
 .skin-glass-001-style-1 .slick-header-column-sorted.ui-state-default {
@@ -7479,7 +7467,7 @@ body.skin-glass-001-style-1 {
 }
 .skin-glass-001-style-1 .s-DataGrid.editor,
 .skin-glass-001-style-1 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #a29aa7;
+  border: 1px solid #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 .s-DataGrid.editor .grid-toolbar,
@@ -7488,29 +7476,31 @@ body.skin-glass-001-style-1 {
   border: unset;
 }
 .skin-glass-001-style-1 .editor.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(162, 154, 167, 0.5);
+  border-color: #48484824;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-1 .editor .slick-cell {
   color: #fff;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #a29aa7;
-  border-bottom-color: #a29aa7;
+  border-right-color: #00000012;
+  border-bottom-color: #00000012;
   border-width: 1px;
 }
 .skin-glass-001-style-1 .editor .slick-header-column {
-  border-right: solid 1px #a29aa7;
+  border-right: solid 1px #00000012;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #fff;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #a29aa7;
-  border-bottom-color: #a29aa7;
+  border-top: solid 1px #00000012;
+  border-bottom-color: #00000012;
 }
 .skin-glass-001-style-1 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -7518,8 +7508,8 @@ body.skin-glass-001-style-1 {
   font-size: 13px;
   color: #fff;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #a29aa7;
-  border-bottom-color: #a29aa7;
+  border-top: solid 1px #00000012;
+  border-bottom-color: #00000012;
 }
 .skin-glass-001-style-1 .editor .slick-cell > a {
   text-shadow: 0 0 5px #3a3a3a;
@@ -7534,7 +7524,7 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #a29aa7;
+  border-color: #00000012;
 }
 .skin-glass-001-style-1 .slick-cell select option,
 .skin-glass-001-style-1 .slick-cell select.dirty option,
@@ -7551,7 +7541,7 @@ body.skin-glass-001-style-1 {
   color: #ff9595;
 }
 .skin-glass-001-style-1 .slick-cell input[type='text'] {
-  border: solid 1px #a29aa7;
+  border: solid 1px #00000012;
 }
 .skin-glass-001-style-1 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -7561,15 +7551,17 @@ body.skin-glass-001-style-1 {
   height: 20px;
 }
 .skin-glass-001-style-1 input {
-  background: #ffffff26;
-  border: #a29aa7;
+  background: #0000001a;
+  border: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-1 input.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(162, 154, 167, 0.5);
+  border-color: #48484824;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-1 .ui-widget-overlay {
   opacity: 1;
@@ -7793,7 +7785,7 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .todo-list > li {
   background: transparent;
   color: #fff;
-  border: solid 1px #a29aa7;
+  border: solid 1px #00000012;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -8219,18 +8211,13 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .help-block {
   color: rgba(255, 255, 255, 0.5);
 }
-.skin-glass-001-style-2 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-2 .btn.btn-social {
   color: #fff;
   padding-left: 40px;
   background: #ffffff26;
 }
 .skin-glass-001-style-2 .btn.btn-social:hover {
-  background-color: #00000014;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-2 .btn.btn-social-icon {
   color: #fff;
@@ -8276,6 +8263,7 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #596475;
+  outline: 0;
 }
 .skin-glass-001-style-2 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-2 .iradio_minimal-red.disabled input {
@@ -8295,23 +8283,25 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .form-control:focus,
 .skin-glass-001-style-2 input.editor:focus {
-  border-color: #929292;
+  border-color: #00000012;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
 .skin-glass-001-style-2 .form-control[disabled],
 .skin-glass-001-style-2 .form-control[readonly],
 .skin-glass-001-style-2 fieldset[disabled] .form-control {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   border-radius: 2px;
-  border-color: rgba(146, 146, 146, 0.1);
+  border-color: #92929212;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-2 select.form-control {
-  background: transparent;
+  background: #0000001c;
   color: #fff !important;
   border-radius: 2px;
+  border-color: #00000012;
 }
 .skin-glass-001-style-2 select.form-control[disabled] option {
   color: rgba(255, 255, 255, 0.3) !important;
@@ -8340,26 +8330,6 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .ui-dialog {
   box-shadow: 0 0 20px #0e0e0e96;
   -webkit-box-shadow: 0 0 20px #0e0e0e96;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-2 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -8442,7 +8412,7 @@ body.skin-glass-001-style-2 {
   color: #fff;
 }
 .skin-glass-001-style-2 .s-ColumnPickerDialog .search input {
-  border: solid 1px #929292;
+  border: solid 1px #00000012;
 }
 .skin-glass-001-style-2 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -8619,7 +8589,7 @@ body.skin-glass-001-style-2 {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-2 .nav-stacked > li {
-  border-color: rgba(146, 146, 146, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 .skin-glass-001-style-2 .nav-stacked > li a {
   color: #fff;
@@ -8642,16 +8612,16 @@ body.skin-glass-001-style-2 {
   margin: 10px;
 }
 .skin-glass-001-style-2 .sidebar-form div.input-group {
-  background-color: #ffffff26;
+  background-color: #0000001c;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 .sidebar-form .s-SidebarSearch {
-  background-color: #ffffff26;
+  background-color: #0000001c;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-2 .sidebar-form .s-SidebarSearch:focus {
   color: #fff;
-  border-color: #ffffff26;
+  border-color: #0000001c;
 }
 .skin-glass-001-style-2 .sidebar-form button {
   background-color: #ffffff26;
@@ -9019,6 +8989,10 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-2 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #92929212;
+}
 .skin-glass-001-style-2 input[type="text"],
 .skin-glass-001-style-2 input[type="email"],
 .skin-glass-001-style-2 input[type="tel"],
@@ -9027,24 +9001,24 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #0000001c;
   color: #fff;
-  border-color: #929292;
+  border-color: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 select {
   background: transparent;
   color: #fff;
-  border-color: #929292;
+  border-color: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #929292;
+  border-color: #00000012;
 }
 .skin-glass-001-style-2 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #929292;
+  background: #0000001c;
+  border: 1px solid #00000012;
   color: #fff;
   border-radius: 2px;
   /*outline: 0;*/
@@ -9097,9 +9071,9 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #0000001c;
   color: #fff !important;
-  border-color: #929292;
+  border-color: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -9109,12 +9083,12 @@ body.skin-glass-001-style-2 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #929292;
+  border-color: #00000012;
 }
 .skin-glass-001-style-2 .select2-container .select2-choices {
-  background: transparent;
+  background: #0000001c;
   color: #fff !important;
-  border-color: #929292;
+  border-color: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -9124,20 +9098,22 @@ body.skin-glass-001-style-2 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #929292;
+  border-color: #00000012;
 }
 .skin-glass-001-style-2 .select2-container.select2-container-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-2 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(146, 146, 146, 0.1);
+  border-color: #92929212;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #f5f5f599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-2 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -9146,30 +9122,33 @@ body.skin-glass-001-style-2 {
   display: none;
 }
 .skin-glass-001-style-2 .select2-container.select2-container-disabled.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-2 .select2-results {
   color: #fff;
 }
 .skin-glass-001-style-2 .select2-results .select2-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-2 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-2 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #0000001c;
   border-radius: 2px;
-  border-color: #929292;
+  border-color: #00000012;
 }
 .skin-glass-001-style-2 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #929292;
+  border-color: #00000012;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #fff !important;
@@ -9185,19 +9164,20 @@ body.skin-glass-001-style-2 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #929292;
+  border-color: #00000012;
 }
 .skin-glass-001-style-2 .select2-search input[type=text] {
   color: #fff;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(128, 128, 128, 0.10980392);
 }
 .skin-glass-001-style-2 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-2 .select2-drop-active {
-  border-color: #929292;
+  border-color: #00000012;
 }
 .skin-glass-001-style-2 .property-tabs {
   padding-top: 10px;
@@ -9487,9 +9467,9 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #929292;
-  border-right: 1px solid #929292;
-  background: #ffffff26;
+  border-color: #00000012;
+  border-right: 1px solid #00000012;
+  background: #0000001c;
   color: #fff;
   border-radius: 0 2px 2px 0;
 }
@@ -9503,8 +9483,8 @@ body.skin-glass-001-style-2 {
   font-size: 13px;
   background-color: rgba(128, 128, 128, 0.07843137);
   color: #fff;
-  border-top: solid 1px #929292;
-  border-bottom-color: #929292;
+  border-top: solid 1px #00000012;
+  border-bottom-color: #00000012;
 }
 .skin-glass-001-style-2 .slick-header-column-sorted,
 .skin-glass-001-style-2 .slick-header-column-sorted.ui-state-default {
@@ -9554,7 +9534,7 @@ body.skin-glass-001-style-2 {
 }
 .skin-glass-001-style-2 .s-DataGrid.editor,
 .skin-glass-001-style-2 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #929292;
+  border: 1px solid #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 .s-DataGrid.editor .grid-toolbar,
@@ -9563,29 +9543,31 @@ body.skin-glass-001-style-2 {
   border: unset;
 }
 .skin-glass-001-style-2 .editor.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(146, 146, 146, 0.5);
+  border-color: #92929212;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-2 .editor .slick-cell {
   color: #fff;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #929292;
-  border-bottom-color: #929292;
+  border-right-color: #00000012;
+  border-bottom-color: #00000012;
   border-width: 1px;
 }
 .skin-glass-001-style-2 .editor .slick-header-column {
-  border-right: solid 1px #929292;
+  border-right: solid 1px #00000012;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #fff;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #929292;
-  border-bottom-color: #929292;
+  border-top: solid 1px #00000012;
+  border-bottom-color: #00000012;
 }
 .skin-glass-001-style-2 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -9593,8 +9575,8 @@ body.skin-glass-001-style-2 {
   font-size: 13px;
   color: #fff;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #929292;
-  border-bottom-color: #929292;
+  border-top: solid 1px #00000012;
+  border-bottom-color: #00000012;
 }
 .skin-glass-001-style-2 .editor .slick-cell > a {
   text-shadow: 0 0 5px #3a3a3a;
@@ -9609,7 +9591,7 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #929292;
+  border-color: #00000012;
 }
 .skin-glass-001-style-2 .slick-cell select option,
 .skin-glass-001-style-2 .slick-cell select.dirty option,
@@ -9626,7 +9608,7 @@ body.skin-glass-001-style-2 {
   color: #ff9595;
 }
 .skin-glass-001-style-2 .slick-cell input[type='text'] {
-  border: solid 1px #929292;
+  border: solid 1px #00000012;
 }
 .skin-glass-001-style-2 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -9636,15 +9618,17 @@ body.skin-glass-001-style-2 {
   height: 20px;
 }
 .skin-glass-001-style-2 input {
-  background: #ffffff26;
-  border: #929292;
+  background: #0000001c;
+  border: #00000012;
   border-radius: 2px;
 }
 .skin-glass-001-style-2 input.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(146, 146, 146, 0.5);
+  border-color: #92929212;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-2 .ui-widget-overlay {
   opacity: 1;
@@ -9868,7 +9852,7 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .todo-list > li {
   background: transparent;
   color: #fff;
-  border: solid 1px #929292;
+  border: solid 1px #00000012;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -10207,18 +10191,13 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .help-block {
   color: rgba(204, 204, 204, 0.5);
 }
-.skin-glass-001-style-3 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-3 .btn.btn-social {
   color: #cccccc;
   padding-left: 40px;
   background: #ffffff26;
 }
 .skin-glass-001-style-3 .btn.btn-social:hover {
-  background-color: #00000014;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-3 .btn.btn-social-icon {
   color: #fff;
@@ -10264,6 +10243,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #596475;
+  outline: 0;
 }
 .skin-glass-001-style-3 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-3 .iradio_minimal-red.disabled input {
@@ -10283,23 +10263,25 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .form-control:focus,
 .skin-glass-001-style-3 input.editor:focus {
-  border-color: #525467;
+  border-color: #00000017;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
 .skin-glass-001-style-3 .form-control[disabled],
 .skin-glass-001-style-3 .form-control[readonly],
 .skin-glass-001-style-3 fieldset[disabled] .form-control {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   border-radius: 2px;
-  border-color: rgba(82, 84, 103, 0.1);
+  border-color: #92929212;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-3 select.form-control {
-  background: transparent;
+  background: #00000014;
   color: #cccccc !important;
   border-radius: 2px;
+  border-color: #00000017;
 }
 .skin-glass-001-style-3 select.form-control[disabled] option {
   color: rgba(204, 204, 204, 0.3) !important;
@@ -10328,26 +10310,6 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .ui-dialog {
   box-shadow: 0 0 20px #0e0e0e96;
   -webkit-box-shadow: 0 0 20px #0e0e0e96;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-3 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -10430,7 +10392,7 @@ body.skin-glass-001-style-3 {
   color: #cccccc;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .search input {
-  border: solid 1px #525467;
+  border: solid 1px #00000017;
 }
 .skin-glass-001-style-3 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -10607,7 +10569,7 @@ body.skin-glass-001-style-3 {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-3 .nav-stacked > li {
-  border-color: rgba(82, 84, 103, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 .skin-glass-001-style-3 .nav-stacked > li a {
   color: #cccccc;
@@ -10630,16 +10592,16 @@ body.skin-glass-001-style-3 {
   margin: 10px;
 }
 .skin-glass-001-style-3 .sidebar-form div.input-group {
-  background-color: #ffffff26;
+  background-color: #00000014;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .sidebar-form .s-SidebarSearch {
-  background-color: #ffffff26;
+  background-color: #00000014;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-3 .sidebar-form .s-SidebarSearch:focus {
   color: #8c909a;
-  border-color: #ffffff26;
+  border-color: #00000014;
 }
 .skin-glass-001-style-3 .sidebar-form button {
   background-color: #ffffff26;
@@ -11007,6 +10969,10 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-3 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #92929212;
+}
 .skin-glass-001-style-3 input[type="text"],
 .skin-glass-001-style-3 input[type="email"],
 .skin-glass-001-style-3 input[type="tel"],
@@ -11015,24 +10981,24 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #00000014;
   color: #cccccc;
-  border-color: #525467;
+  border-color: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 select {
   background: transparent;
   color: #cccccc;
-  border-color: #525467;
+  border-color: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #525467;
+  border-color: #00000017;
 }
 .skin-glass-001-style-3 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #525467;
+  background: #00000014;
+  border: 1px solid #00000017;
   color: #cccccc;
   border-radius: 2px;
   /*outline: 0;*/
@@ -11085,9 +11051,9 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #00000014;
   color: #cccccc !important;
-  border-color: #525467;
+  border-color: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -11097,12 +11063,12 @@ body.skin-glass-001-style-3 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #525467;
+  border-color: #00000017;
 }
 .skin-glass-001-style-3 .select2-container .select2-choices {
-  background: transparent;
+  background: #00000014;
   color: #cccccc !important;
-  border-color: #525467;
+  border-color: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -11112,20 +11078,22 @@ body.skin-glass-001-style-3 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #525467;
+  border-color: #00000017;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(82, 84, 103, 0.1);
+  border-color: #92929212;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #f5f5f599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -11134,30 +11102,33 @@ body.skin-glass-001-style-3 {
   display: none;
 }
 .skin-glass-001-style-3 .select2-container.select2-container-disabled.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-3 .select2-results {
   color: #cccccc;
 }
 .skin-glass-001-style-3 .select2-results .select2-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-3 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-3 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #00000014;
   border-radius: 2px;
-  border-color: #525467;
+  border-color: #00000017;
 }
 .skin-glass-001-style-3 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #525467;
+  border-color: #00000017;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #cccccc !important;
@@ -11173,19 +11144,20 @@ body.skin-glass-001-style-3 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #525467;
+  border-color: #00000017;
 }
 .skin-glass-001-style-3 .select2-search input[type=text] {
   color: #cccccc;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(128, 128, 128, 0.07843137);
 }
 .skin-glass-001-style-3 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-3 .select2-drop-active {
-  border-color: #525467;
+  border-color: #00000017;
 }
 .skin-glass-001-style-3 .property-tabs {
   padding-top: 10px;
@@ -11475,9 +11447,9 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #525467;
-  border-right: 1px solid #525467;
-  background: #ffffff26;
+  border-color: #00000017;
+  border-right: 1px solid #00000017;
+  background: #00000014;
   color: #cccccc;
   border-radius: 0 2px 2px 0;
 }
@@ -11491,8 +11463,8 @@ body.skin-glass-001-style-3 {
   font-size: 13px;
   background-color: rgba(128, 128, 128, 0.07843137);
   color: #cccccc;
-  border-top: solid 1px #525467;
-  border-bottom-color: #525467;
+  border-top: solid 1px #00000017;
+  border-bottom-color: #00000017;
 }
 .skin-glass-001-style-3 .slick-header-column-sorted,
 .skin-glass-001-style-3 .slick-header-column-sorted.ui-state-default {
@@ -11542,7 +11514,7 @@ body.skin-glass-001-style-3 {
 }
 .skin-glass-001-style-3 .s-DataGrid.editor,
 .skin-glass-001-style-3 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #525467;
+  border: 1px solid #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 .s-DataGrid.editor .grid-toolbar,
@@ -11551,29 +11523,31 @@ body.skin-glass-001-style-3 {
   border: unset;
 }
 .skin-glass-001-style-3 .editor.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(82, 84, 103, 0.5);
+  border-color: #92929212;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-3 .editor .slick-cell {
   color: #cccccc;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #525467;
-  border-bottom-color: #525467;
+  border-right-color: #00000017;
+  border-bottom-color: #00000017;
   border-width: 1px;
 }
 .skin-glass-001-style-3 .editor .slick-header-column {
-  border-right: solid 1px #525467;
+  border-right: solid 1px #00000017;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #cccccc;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #525467;
-  border-bottom-color: #525467;
+  border-top: solid 1px #00000017;
+  border-bottom-color: #00000017;
 }
 .skin-glass-001-style-3 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -11581,8 +11555,8 @@ body.skin-glass-001-style-3 {
   font-size: 13px;
   color: #cccccc;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #525467;
-  border-bottom-color: #525467;
+  border-top: solid 1px #00000017;
+  border-bottom-color: #00000017;
 }
 .skin-glass-001-style-3 .editor .slick-cell > a {
   text-shadow: 0 0 5px #151515;
@@ -11597,7 +11571,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #525467;
+  border-color: #00000017;
 }
 .skin-glass-001-style-3 .slick-cell select option,
 .skin-glass-001-style-3 .slick-cell select.dirty option,
@@ -11614,7 +11588,7 @@ body.skin-glass-001-style-3 {
   color: #ff9595;
 }
 .skin-glass-001-style-3 .slick-cell input[type='text'] {
-  border: solid 1px #525467;
+  border: solid 1px #00000017;
 }
 .skin-glass-001-style-3 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -11624,15 +11598,17 @@ body.skin-glass-001-style-3 {
   height: 20px;
 }
 .skin-glass-001-style-3 input {
-  background: #ffffff26;
-  border: #525467;
+  background: #00000014;
+  border: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-3 input.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(82, 84, 103, 0.5);
+  border-color: #92929212;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-3 .ui-widget-overlay {
   opacity: 1;
@@ -11856,7 +11832,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .todo-list > li {
   background: transparent;
   color: #cccccc;
-  border: solid 1px #525467;
+  border: solid 1px #00000017;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -12242,18 +12218,13 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .help-block {
   color: rgba(255, 255, 255, 0.5);
 }
-.skin-glass-001-style-4 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-4 .btn.btn-social {
   color: #fff;
   padding-left: 40px;
   background: #ffffff26;
 }
 .skin-glass-001-style-4 .btn.btn-social:hover {
-  background-color: #00000014;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-4 .btn.btn-social-icon {
   color: #fff;
@@ -12299,6 +12270,7 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #596475;
+  outline: 0;
 }
 .skin-glass-001-style-4 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-4 .iradio_minimal-red.disabled input {
@@ -12318,23 +12290,25 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .form-control:focus,
 .skin-glass-001-style-4 input.editor:focus {
-  border-color: #9da79f;
+  border-color: #1235191a;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
 .skin-glass-001-style-4 .form-control[disabled],
 .skin-glass-001-style-4 .form-control[readonly],
 .skin-glass-001-style-4 fieldset[disabled] .form-control {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   border-radius: 2px;
-  border-color: rgba(157, 167, 159, 0.1);
+  border-color: #92929212;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-4 select.form-control {
-  background: transparent;
+  background: #11291526;
   color: #fff !important;
   border-radius: 2px;
+  border-color: #1235191a;
 }
 .skin-glass-001-style-4 select.form-control[disabled] option {
   color: rgba(255, 255, 255, 0.3) !important;
@@ -12363,26 +12337,6 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .ui-dialog {
   box-shadow: 0 0 20px #0e0e0e96;
   -webkit-box-shadow: 0 0 20px #0e0e0e96;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-4 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -12465,7 +12419,7 @@ body.skin-glass-001-style-4 {
   color: #fff;
 }
 .skin-glass-001-style-4 .s-ColumnPickerDialog .search input {
-  border: solid 1px #9da79f;
+  border: solid 1px #1235191a;
 }
 .skin-glass-001-style-4 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -12642,7 +12596,7 @@ body.skin-glass-001-style-4 {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-4 .nav-stacked > li {
-  border-color: rgba(157, 167, 159, 0.2);
+  border-color: rgba(18, 53, 25, 0.2);
 }
 .skin-glass-001-style-4 .nav-stacked > li a {
   color: #fff;
@@ -12665,16 +12619,16 @@ body.skin-glass-001-style-4 {
   margin: 10px;
 }
 .skin-glass-001-style-4 .sidebar-form div.input-group {
-  background-color: #ffffff26;
+  background-color: #11291526;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 .sidebar-form .s-SidebarSearch {
-  background-color: #ffffff26;
+  background-color: #11291526;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-4 .sidebar-form .s-SidebarSearch:focus {
   color: #fff;
-  border-color: #ffffff26;
+  border-color: #11291526;
 }
 .skin-glass-001-style-4 .sidebar-form button {
   background-color: #ffffff26;
@@ -13042,6 +12996,10 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-4 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #92929212;
+}
 .skin-glass-001-style-4 input[type="text"],
 .skin-glass-001-style-4 input[type="email"],
 .skin-glass-001-style-4 input[type="tel"],
@@ -13050,24 +13008,24 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #11291526;
   color: #fff;
-  border-color: #9da79f;
+  border-color: #1235191a;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 select {
   background: transparent;
   color: #fff;
-  border-color: #9da79f;
+  border-color: #1235191a;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #9da79f;
+  border-color: #1235191a;
 }
 .skin-glass-001-style-4 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #9da79f;
+  background: #11291526;
+  border: 1px solid #1235191a;
   color: #fff;
   border-radius: 2px;
   /*outline: 0;*/
@@ -13120,9 +13078,9 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #11291526;
   color: #fff !important;
-  border-color: #9da79f;
+  border-color: #1235191a;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -13132,12 +13090,12 @@ body.skin-glass-001-style-4 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #9da79f;
+  border-color: #1235191a;
 }
 .skin-glass-001-style-4 .select2-container .select2-choices {
-  background: transparent;
+  background: #11291526;
   color: #fff !important;
-  border-color: #9da79f;
+  border-color: #1235191a;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -13147,20 +13105,22 @@ body.skin-glass-001-style-4 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #9da79f;
+  border-color: #1235191a;
 }
 .skin-glass-001-style-4 .select2-container.select2-container-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-4 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(157, 167, 159, 0.1);
+  border-color: #92929212;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #f5f5f599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-4 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -13169,30 +13129,33 @@ body.skin-glass-001-style-4 {
   display: none;
 }
 .skin-glass-001-style-4 .select2-container.select2-container-disabled.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-4 .select2-results {
   color: #fff;
 }
 .skin-glass-001-style-4 .select2-results .select2-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-4 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-4 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #11291526;
   border-radius: 2px;
-  border-color: #9da79f;
+  border-color: #1235191a;
 }
 .skin-glass-001-style-4 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #9da79f;
+  border-color: #1235191a;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #fff !important;
@@ -13208,19 +13171,20 @@ body.skin-glass-001-style-4 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #9da79f;
+  border-color: #1235191a;
 }
 .skin-glass-001-style-4 .select2-search input[type=text] {
   color: #fff;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(116, 197, 129, 0.14901961);
 }
 .skin-glass-001-style-4 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-4 .select2-drop-active {
-  border-color: #9da79f;
+  border-color: #1235191a;
 }
 .skin-glass-001-style-4 .property-tabs {
   padding-top: 10px;
@@ -13510,9 +13474,9 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #9da79f;
-  border-right: 1px solid #9da79f;
-  background: #ffffff26;
+  border-color: #1235191a;
+  border-right: 1px solid #1235191a;
+  background: #11291526;
   color: #fff;
   border-radius: 0 2px 2px 0;
 }
@@ -13526,8 +13490,8 @@ body.skin-glass-001-style-4 {
   font-size: 13px;
   background-color: rgba(128, 128, 128, 0.07843137);
   color: #fff;
-  border-top: solid 1px #9da79f;
-  border-bottom-color: #9da79f;
+  border-top: solid 1px #1235191a;
+  border-bottom-color: #1235191a;
 }
 .skin-glass-001-style-4 .slick-header-column-sorted,
 .skin-glass-001-style-4 .slick-header-column-sorted.ui-state-default {
@@ -13577,7 +13541,7 @@ body.skin-glass-001-style-4 {
 }
 .skin-glass-001-style-4 .s-DataGrid.editor,
 .skin-glass-001-style-4 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #9da79f;
+  border: 1px solid #1235191a;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 .s-DataGrid.editor .grid-toolbar,
@@ -13586,29 +13550,31 @@ body.skin-glass-001-style-4 {
   border: unset;
 }
 .skin-glass-001-style-4 .editor.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(157, 167, 159, 0.5);
+  border-color: #92929212;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-4 .editor .slick-cell {
   color: #fff;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #9da79f;
-  border-bottom-color: #9da79f;
+  border-right-color: #1235191a;
+  border-bottom-color: #1235191a;
   border-width: 1px;
 }
 .skin-glass-001-style-4 .editor .slick-header-column {
-  border-right: solid 1px #9da79f;
+  border-right: solid 1px #1235191a;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #fff;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #9da79f;
-  border-bottom-color: #9da79f;
+  border-top: solid 1px #1235191a;
+  border-bottom-color: #1235191a;
 }
 .skin-glass-001-style-4 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -13616,8 +13582,8 @@ body.skin-glass-001-style-4 {
   font-size: 13px;
   color: #fff;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #9da79f;
-  border-bottom-color: #9da79f;
+  border-top: solid 1px #1235191a;
+  border-bottom-color: #1235191a;
 }
 .skin-glass-001-style-4 .editor .slick-cell > a {
   text-shadow: 0 0 5px #3a3a3a;
@@ -13632,7 +13598,7 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #9da79f;
+  border-color: #1235191a;
 }
 .skin-glass-001-style-4 .slick-cell select option,
 .skin-glass-001-style-4 .slick-cell select.dirty option,
@@ -13649,7 +13615,7 @@ body.skin-glass-001-style-4 {
   color: #ff9595;
 }
 .skin-glass-001-style-4 .slick-cell input[type='text'] {
-  border: solid 1px #9da79f;
+  border: solid 1px #1235191a;
 }
 .skin-glass-001-style-4 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -13659,15 +13625,17 @@ body.skin-glass-001-style-4 {
   height: 20px;
 }
 .skin-glass-001-style-4 input {
-  background: #ffffff26;
-  border: #9da79f;
+  background: #11291526;
+  border: #1235191a;
   border-radius: 2px;
 }
 .skin-glass-001-style-4 input.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(157, 167, 159, 0.5);
+  border-color: #92929212;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-4 .ui-widget-overlay {
   opacity: 1;
@@ -13891,7 +13859,7 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .todo-list > li {
   background: transparent;
   color: #fff;
-  border: solid 1px #9da79f;
+  border: solid 1px #1235191a;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -14230,18 +14198,13 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .help-block {
   color: rgba(255, 255, 255, 0.5);
 }
-.skin-glass-001-style-5 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-5 .btn.btn-social {
   color: #fff;
   padding-left: 40px;
   background: #ffffff26;
 }
 .skin-glass-001-style-5 .btn.btn-social:hover {
-  background-color: #00000014;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-5 .btn.btn-social-icon {
   color: #fff;
@@ -14287,6 +14250,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #596475;
+  outline: 0;
 }
 .skin-glass-001-style-5 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-5 .iradio_minimal-red.disabled input {
@@ -14306,23 +14270,25 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .form-control:focus,
 .skin-glass-001-style-5 input.editor:focus {
-  border-color: #8a95a7;
+  border-color: #00000017;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
 .skin-glass-001-style-5 .form-control[disabled],
 .skin-glass-001-style-5 .form-control[readonly],
 .skin-glass-001-style-5 fieldset[disabled] .form-control {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   border-radius: 2px;
-  border-color: rgba(138, 149, 167, 0.1);
+  border-color: #92929212;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-5 select.form-control {
-  background: transparent;
+  background: #00000014;
   color: #fff !important;
   border-radius: 2px;
+  border-color: #00000017;
 }
 .skin-glass-001-style-5 select.form-control[disabled] option {
   color: rgba(255, 255, 255, 0.3) !important;
@@ -14351,26 +14317,6 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .ui-dialog {
   box-shadow: 0 0 20px #0e0e0e96;
   -webkit-box-shadow: 0 0 20px #0e0e0e96;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-5 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -14453,7 +14399,7 @@ body.skin-glass-001-style-5 {
   color: #fff;
 }
 .skin-glass-001-style-5 .s-ColumnPickerDialog .search input {
-  border: solid 1px #8a95a7;
+  border: solid 1px #00000017;
 }
 .skin-glass-001-style-5 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -14630,7 +14576,7 @@ body.skin-glass-001-style-5 {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-5 .nav-stacked > li {
-  border-color: rgba(138, 149, 167, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 .skin-glass-001-style-5 .nav-stacked > li a {
   color: #fff;
@@ -14653,16 +14599,16 @@ body.skin-glass-001-style-5 {
   margin: 10px;
 }
 .skin-glass-001-style-5 .sidebar-form div.input-group {
-  background-color: #ffffff26;
+  background-color: #00000014;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .sidebar-form .s-SidebarSearch {
-  background-color: #ffffff26;
+  background-color: #00000014;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-5 .sidebar-form .s-SidebarSearch:focus {
   color: #fff;
-  border-color: #ffffff26;
+  border-color: #00000014;
 }
 .skin-glass-001-style-5 .sidebar-form button {
   background-color: #ffffff26;
@@ -15030,6 +14976,10 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-5 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #92929212;
+}
 .skin-glass-001-style-5 input[type="text"],
 .skin-glass-001-style-5 input[type="email"],
 .skin-glass-001-style-5 input[type="tel"],
@@ -15038,24 +14988,24 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #00000014;
   color: #fff;
-  border-color: #8a95a7;
+  border-color: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 select {
   background: transparent;
   color: #fff;
-  border-color: #8a95a7;
+  border-color: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #8a95a7;
+  border-color: #00000017;
 }
 .skin-glass-001-style-5 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #8a95a7;
+  background: #00000014;
+  border: 1px solid #00000017;
   color: #fff;
   border-radius: 2px;
   /*outline: 0;*/
@@ -15108,9 +15058,9 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #00000014;
   color: #fff !important;
-  border-color: #8a95a7;
+  border-color: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -15120,12 +15070,12 @@ body.skin-glass-001-style-5 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #8a95a7;
+  border-color: #00000017;
 }
 .skin-glass-001-style-5 .select2-container .select2-choices {
-  background: transparent;
+  background: #00000014;
   color: #fff !important;
-  border-color: #8a95a7;
+  border-color: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -15135,20 +15085,22 @@ body.skin-glass-001-style-5 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #8a95a7;
+  border-color: #00000017;
 }
 .skin-glass-001-style-5 .select2-container.select2-container-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-5 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(138, 149, 167, 0.1);
+  border-color: #92929212;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #f5f5f599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-5 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -15157,30 +15109,33 @@ body.skin-glass-001-style-5 {
   display: none;
 }
 .skin-glass-001-style-5 .select2-container.select2-container-disabled.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-5 .select2-results {
   color: #fff;
 }
 .skin-glass-001-style-5 .select2-results .select2-disabled {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-5 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-5 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #00000014;
   border-radius: 2px;
-  border-color: #8a95a7;
+  border-color: #00000017;
 }
 .skin-glass-001-style-5 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #8a95a7;
+  border-color: #00000017;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #fff !important;
@@ -15196,19 +15151,20 @@ body.skin-glass-001-style-5 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #8a95a7;
+  border-color: #00000017;
 }
 .skin-glass-001-style-5 .select2-search input[type=text] {
   color: #fff;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(128, 128, 128, 0.07843137);
 }
 .skin-glass-001-style-5 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-5 .select2-drop-active {
-  border-color: #8a95a7;
+  border-color: #00000017;
 }
 .skin-glass-001-style-5 .property-tabs {
   padding-top: 10px;
@@ -15498,9 +15454,9 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #8a95a7;
-  border-right: 1px solid #8a95a7;
-  background: #ffffff26;
+  border-color: #00000017;
+  border-right: 1px solid #00000017;
+  background: #00000014;
   color: #fff;
   border-radius: 0 2px 2px 0;
 }
@@ -15514,8 +15470,8 @@ body.skin-glass-001-style-5 {
   font-size: 13px;
   background-color: rgba(128, 128, 128, 0.07843137);
   color: #fff;
-  border-top: solid 1px #8a95a7;
-  border-bottom-color: #8a95a7;
+  border-top: solid 1px #00000017;
+  border-bottom-color: #00000017;
 }
 .skin-glass-001-style-5 .slick-header-column-sorted,
 .skin-glass-001-style-5 .slick-header-column-sorted.ui-state-default {
@@ -15565,7 +15521,7 @@ body.skin-glass-001-style-5 {
 }
 .skin-glass-001-style-5 .s-DataGrid.editor,
 .skin-glass-001-style-5 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #8a95a7;
+  border: 1px solid #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .s-DataGrid.editor .grid-toolbar,
@@ -15574,29 +15530,31 @@ body.skin-glass-001-style-5 {
   border: unset;
 }
 .skin-glass-001-style-5 .editor.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(138, 149, 167, 0.5);
+  border-color: #92929212;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-5 .editor .slick-cell {
   color: #fff;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #8a95a7;
-  border-bottom-color: #8a95a7;
+  border-right-color: #00000017;
+  border-bottom-color: #00000017;
   border-width: 1px;
 }
 .skin-glass-001-style-5 .editor .slick-header-column {
-  border-right: solid 1px #8a95a7;
+  border-right: solid 1px #00000017;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #fff;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #8a95a7;
-  border-bottom-color: #8a95a7;
+  border-top: solid 1px #00000017;
+  border-bottom-color: #00000017;
 }
 .skin-glass-001-style-5 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -15604,8 +15562,8 @@ body.skin-glass-001-style-5 {
   font-size: 13px;
   color: #fff;
   background-color: rgba(128, 128, 128, 0.07843137);
-  border-top: solid 1px #8a95a7;
-  border-bottom-color: #8a95a7;
+  border-top: solid 1px #00000017;
+  border-bottom-color: #00000017;
 }
 .skin-glass-001-style-5 .editor .slick-cell > a {
   text-shadow: 0 0 5px #3a3a3a;
@@ -15620,7 +15578,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #8a95a7;
+  border-color: #00000017;
 }
 .skin-glass-001-style-5 .slick-cell select option,
 .skin-glass-001-style-5 .slick-cell select.dirty option,
@@ -15637,7 +15595,7 @@ body.skin-glass-001-style-5 {
   color: #ff9595;
 }
 .skin-glass-001-style-5 .slick-cell input[type='text'] {
-  border: solid 1px #8a95a7;
+  border: solid 1px #00000017;
 }
 .skin-glass-001-style-5 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -15647,15 +15605,17 @@ body.skin-glass-001-style-5 {
   height: 20px;
 }
 .skin-glass-001-style-5 input {
-  background: #ffffff26;
-  border: #8a95a7;
+  background: #00000014;
+  border: #00000017;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 input.readonly {
-  background: url(/Content/skins/glass001/assets/reticular-tissue.png);
+  background: url(/Content/skins/glass001/assets/bg_dot.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(138, 149, 167, 0.5);
+  border-color: #92929212;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-5 .ui-widget-overlay {
   opacity: 1;
@@ -15879,7 +15839,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .todo-list > li {
   background: transparent;
   color: #fff;
-  border: solid 1px #8a95a7;
+  border: solid 1px #00000017;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -16218,18 +16178,13 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .help-block {
   color: rgba(255, 255, 255, 0.5);
 }
-.skin-glass-001-style-6 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-6 .btn.btn-social {
   color: #fff;
   padding-left: 40px;
   background: #ffffff26;
 }
 .skin-glass-001-style-6 .btn.btn-social:hover {
-  background-color: #4f397533;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-6 .btn.btn-social-icon {
   color: #fff;
@@ -16275,6 +16230,7 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #596475;
+  outline: 0;
 }
 .skin-glass-001-style-6 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-6 .iradio_minimal-red.disabled input {
@@ -16294,7 +16250,7 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .form-control:focus,
 .skin-glass-001-style-6 input.editor:focus {
-  border-color: #9c97a2;
+  border-color: #00000014;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
@@ -16304,13 +16260,15 @@ body.skin-glass-001-style-6 {
   background: url(/Content/skins/glass001/assets/navy.png);
   background-color: transparent;
   border-radius: 2px;
-  border-color: rgba(156, 151, 162, 0.1);
+  border-color: #00000012;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-6 select.form-control {
-  background: transparent;
+  background: #3f314c47;
   color: #fff !important;
   border-radius: 2px;
+  border-color: #00000014;
 }
 .skin-glass-001-style-6 select.form-control[disabled] option {
   color: rgba(255, 255, 255, 0.3) !important;
@@ -16339,26 +16297,6 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .ui-dialog {
   box-shadow: 0 0 20px #0e0e0e96;
   -webkit-box-shadow: 0 0 20px #0e0e0e96;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-6 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -16441,7 +16379,7 @@ body.skin-glass-001-style-6 {
   color: #fff;
 }
 .skin-glass-001-style-6 .s-ColumnPickerDialog .search input {
-  border: solid 1px #9c97a2;
+  border: solid 1px #00000014;
 }
 .skin-glass-001-style-6 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -16618,7 +16556,7 @@ body.skin-glass-001-style-6 {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-6 .nav-stacked > li {
-  border-color: rgba(156, 151, 162, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 .skin-glass-001-style-6 .nav-stacked > li a {
   color: #fff;
@@ -16641,16 +16579,16 @@ body.skin-glass-001-style-6 {
   margin: 10px;
 }
 .skin-glass-001-style-6 .sidebar-form div.input-group {
-  background-color: #ffffff26;
+  background-color: #3f314c47;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 .sidebar-form .s-SidebarSearch {
-  background-color: #ffffff26;
+  background-color: #3f314c47;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-6 .sidebar-form .s-SidebarSearch:focus {
   color: #fff;
-  border-color: #ffffff26;
+  border-color: #3f314c47;
 }
 .skin-glass-001-style-6 .sidebar-form button {
   background-color: #ffffff26;
@@ -17018,6 +16956,10 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-6 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #00000012;
+}
 .skin-glass-001-style-6 input[type="text"],
 .skin-glass-001-style-6 input[type="email"],
 .skin-glass-001-style-6 input[type="tel"],
@@ -17026,24 +16968,24 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #3f314c47;
   color: #fff;
-  border-color: #9c97a2;
+  border-color: #00000014;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 select {
   background: transparent;
   color: #fff;
-  border-color: #9c97a2;
+  border-color: #00000014;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #9c97a2;
+  border-color: #00000014;
 }
 .skin-glass-001-style-6 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #9c97a2;
+  background: #3f314c47;
+  border: 1px solid #00000014;
   color: #fff;
   border-radius: 2px;
   /*outline: 0;*/
@@ -17096,9 +17038,9 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #3f314c47;
   color: #fff !important;
-  border-color: #9c97a2;
+  border-color: #00000014;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -17108,12 +17050,12 @@ body.skin-glass-001-style-6 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #9c97a2;
+  border-color: #00000014;
 }
 .skin-glass-001-style-6 .select2-container .select2-choices {
-  background: transparent;
+  background: #3f314c47;
   color: #fff !important;
-  border-color: #9c97a2;
+  border-color: #00000014;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -17123,20 +17065,22 @@ body.skin-glass-001-style-6 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #9c97a2;
+  border-color: #00000014;
 }
 .skin-glass-001-style-6 .select2-container.select2-container-disabled {
   background: url(/Content/skins/glass001/assets/navy.png);
   background-color: transparent;
   color: #f5f5f599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-6 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(156, 151, 162, 0.1);
+  border-color: #00000012;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #f5f5f599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-6 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -17148,6 +17092,8 @@ body.skin-glass-001-style-6 {
   background: url(/Content/skins/glass001/assets/navy.png);
   background-color: transparent;
   color: #f5f5f599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-6 .select2-results {
   color: #fff;
@@ -17156,19 +17102,20 @@ body.skin-glass-001-style-6 {
   background: url(/Content/skins/glass001/assets/navy.png);
   background-color: transparent;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-6 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-6 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #3f314c47;
   border-radius: 2px;
-  border-color: #9c97a2;
+  border-color: #00000014;
 }
 .skin-glass-001-style-6 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #9c97a2;
+  border-color: #00000014;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #fff !important;
@@ -17184,19 +17131,20 @@ body.skin-glass-001-style-6 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #9c97a2;
+  border-color: #00000014;
 }
 .skin-glass-001-style-6 .select2-search input[type=text] {
   color: #fff;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(191, 176, 204, 0.27843137);
 }
 .skin-glass-001-style-6 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-6 .select2-drop-active {
-  border-color: #9c97a2;
+  border-color: #00000014;
 }
 .skin-glass-001-style-6 .property-tabs {
   padding-top: 10px;
@@ -17486,9 +17434,9 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #9c97a2;
-  border-right: 1px solid #9c97a2;
-  background: #ffffff26;
+  border-color: #00000014;
+  border-right: 1px solid #00000014;
+  background: #3f314c47;
   color: #fff;
   border-radius: 0 2px 2px 0;
 }
@@ -17502,8 +17450,8 @@ body.skin-glass-001-style-6 {
   font-size: 13px;
   background-color: rgba(211, 201, 228, 0.2);
   color: #fff;
-  border-top: solid 1px #9c97a2;
-  border-bottom-color: #9c97a2;
+  border-top: solid 1px #00000014;
+  border-bottom-color: #00000014;
 }
 .skin-glass-001-style-6 .slick-header-column-sorted,
 .skin-glass-001-style-6 .slick-header-column-sorted.ui-state-default {
@@ -17553,7 +17501,7 @@ body.skin-glass-001-style-6 {
 }
 .skin-glass-001-style-6 .s-DataGrid.editor,
 .skin-glass-001-style-6 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #9c97a2;
+  border: 1px solid #00000014;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 .s-DataGrid.editor .grid-toolbar,
@@ -17565,26 +17513,28 @@ body.skin-glass-001-style-6 {
   background: url(/Content/skins/glass001/assets/navy.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(156, 151, 162, 0.5);
+  border-color: #00000012;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-6 .editor .slick-cell {
   color: #fff;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #9c97a2;
-  border-bottom-color: #9c97a2;
+  border-right-color: #00000014;
+  border-bottom-color: #00000014;
   border-width: 1px;
 }
 .skin-glass-001-style-6 .editor .slick-header-column {
-  border-right: solid 1px #9c97a2;
+  border-right: solid 1px #00000014;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #fff;
   background-color: rgba(211, 201, 228, 0.2);
-  border-top: solid 1px #9c97a2;
-  border-bottom-color: #9c97a2;
+  border-top: solid 1px #00000014;
+  border-bottom-color: #00000014;
 }
 .skin-glass-001-style-6 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -17592,8 +17542,8 @@ body.skin-glass-001-style-6 {
   font-size: 13px;
   color: #fff;
   background-color: rgba(211, 201, 228, 0.2);
-  border-top: solid 1px #9c97a2;
-  border-bottom-color: #9c97a2;
+  border-top: solid 1px #00000014;
+  border-bottom-color: #00000014;
 }
 .skin-glass-001-style-6 .editor .slick-cell > a {
   text-shadow: 0 0 5px #3a3a3a;
@@ -17608,7 +17558,7 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #9c97a2;
+  border-color: #00000014;
 }
 .skin-glass-001-style-6 .slick-cell select option,
 .skin-glass-001-style-6 .slick-cell select.dirty option,
@@ -17625,7 +17575,7 @@ body.skin-glass-001-style-6 {
   color: #ff9595;
 }
 .skin-glass-001-style-6 .slick-cell input[type='text'] {
-  border: solid 1px #9c97a2;
+  border: solid 1px #00000014;
 }
 .skin-glass-001-style-6 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -17635,15 +17585,17 @@ body.skin-glass-001-style-6 {
   height: 20px;
 }
 .skin-glass-001-style-6 input {
-  background: #ffffff26;
-  border: #9c97a2;
+  background: #3f314c47;
+  border: #00000014;
   border-radius: 2px;
 }
 .skin-glass-001-style-6 input.readonly {
   background: url(/Content/skins/glass001/assets/navy.png);
   background-color: transparent;
   color: #f5f5f599;
-  border-color: rgba(156, 151, 162, 0.5);
+  border-color: #00000012;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-6 .ui-widget-overlay {
   opacity: 1;
@@ -17867,7 +17819,7 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .todo-list > li {
   background: transparent;
   color: #fff;
-  border: solid 1px #9c97a2;
+  border: solid 1px #00000014;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -18236,18 +18188,13 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .help-block {
   color: rgba(255, 255, 255, 0.5);
 }
-.skin-glass-001-style-7 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-7 .btn.btn-social {
   color: #fff;
   padding-left: 40px;
   background: #ffffff26;
 }
 .skin-glass-001-style-7 .btn.btn-social:hover {
-  background-color: #ffffff14;
+  background-color: #ffffff26;
 }
 .skin-glass-001-style-7 .btn.btn-social-icon {
   color: #fff;
@@ -18293,6 +18240,7 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #596475;
+  outline: 0;
 }
 .skin-glass-001-style-7 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-7 .iradio_minimal-red.disabled input {
@@ -18312,7 +18260,7 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .form-control:focus,
 .skin-glass-001-style-7 input.editor:focus {
-  border-color: #ffffff;
+  border-color: #0000000d;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
@@ -18322,13 +18270,15 @@ body.skin-glass-001-style-7 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #adadad1f;
   border-radius: 10px;
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: #00000012;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-7 select.form-control {
-  background: transparent;
+  background: #202d312e;
   color: #fff !important;
   border-radius: 10px;
+  border-color: #0000000d;
 }
 .skin-glass-001-style-7 select.form-control[disabled] option {
   color: rgba(255, 255, 255, 0.3) !important;
@@ -18357,26 +18307,6 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .ui-dialog {
   box-shadow: 0 0 20px #0e0e0e96;
   -webkit-box-shadow: 0 0 20px #0e0e0e96;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-7 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -18459,7 +18389,7 @@ body.skin-glass-001-style-7 {
   color: #fff;
 }
 .skin-glass-001-style-7 .s-ColumnPickerDialog .search input {
-  border: solid 1px #ffffff;
+  border: solid 1px #0000000d;
 }
 .skin-glass-001-style-7 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -18636,7 +18566,7 @@ body.skin-glass-001-style-7 {
   text-shadow: 0 0 5px #fff;
 }
 .skin-glass-001-style-7 .nav-stacked > li {
-  border-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(0, 0, 0, 0.2);
 }
 .skin-glass-001-style-7 .nav-stacked > li a {
   color: #fff;
@@ -18659,16 +18589,16 @@ body.skin-glass-001-style-7 {
   margin: 10px;
 }
 .skin-glass-001-style-7 .sidebar-form div.input-group {
-  background-color: #ffffff26;
+  background-color: #202d312e;
   border-radius: 10px;
 }
 .skin-glass-001-style-7 .sidebar-form .s-SidebarSearch {
-  background-color: #ffffff26;
+  background-color: #202d312e;
   border-radius: 10px 0 0 10px !important;
 }
 .skin-glass-001-style-7 .sidebar-form .s-SidebarSearch:focus {
   color: #fff;
-  border-color: #ffffff26;
+  border-color: #202d312e;
 }
 .skin-glass-001-style-7 .sidebar-form button {
   background-color: #ffffff26;
@@ -19036,6 +18966,10 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-7 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #00000012;
+}
 .skin-glass-001-style-7 input[type="text"],
 .skin-glass-001-style-7 input[type="email"],
 .skin-glass-001-style-7 input[type="tel"],
@@ -19044,24 +18978,24 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #202d312e;
   color: #fff;
-  border-color: #ffffff;
+  border-color: #0000000d;
   border-radius: 10px;
 }
 .skin-glass-001-style-7 select {
   background: transparent;
   color: #fff;
-  border-color: #ffffff;
+  border-color: #0000000d;
   border-radius: 10px;
 }
 .skin-glass-001-style-7 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #ffffff;
+  border-color: #0000000d;
 }
 .skin-glass-001-style-7 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #ffffff;
+  background: #202d312e;
+  border: 1px solid #0000000d;
   color: #fff;
   border-radius: 10px;
   /*outline: 0;*/
@@ -19114,9 +19048,9 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #202d312e;
   color: #fff !important;
-  border-color: #ffffff;
+  border-color: #0000000d;
   border-radius: 10px;
 }
 .skin-glass-001-style-7 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -19126,12 +19060,12 @@ body.skin-glass-001-style-7 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #ffffff;
+  border-color: #0000000d;
 }
 .skin-glass-001-style-7 .select2-container .select2-choices {
-  background: transparent;
+  background: #202d312e;
   color: #fff !important;
-  border-color: #ffffff;
+  border-color: #0000000d;
   border-radius: 10px;
 }
 .skin-glass-001-style-7 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -19141,20 +19075,22 @@ body.skin-glass-001-style-7 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #ffffff;
+  border-color: #0000000d;
 }
 .skin-glass-001-style-7 .select2-container.select2-container-disabled {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #adadad1f;
   color: #f5f5f599 !important;
   border-radius: 10px;
+  outline: 0;
 }
 .skin-glass-001-style-7 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 10px;
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: #00000012;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #f5f5f599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-7 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -19166,6 +19102,8 @@ body.skin-glass-001-style-7 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #adadad1f;
   color: #f5f5f599 !important;
+  outline: 0;
+  border-radius: 10px;
 }
 .skin-glass-001-style-7 .select2-results {
   color: #fff;
@@ -19174,19 +19112,20 @@ body.skin-glass-001-style-7 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #adadad1f;
   color: #f5f5f599;
+  outline: 0;
 }
 .skin-glass-001-style-7 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-7 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #202d312e;
   border-radius: 10px;
-  border-color: #ffffff;
+  border-color: #0000000d;
 }
 .skin-glass-001-style-7 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #ffffff;
+  border-color: #0000000d;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #fff !important;
@@ -19202,19 +19141,20 @@ body.skin-glass-001-style-7 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #ffffff;
+  border-color: #0000000d;
 }
 .skin-glass-001-style-7 .select2-search input[type=text] {
   color: #fff;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(150, 178, 186, 0.18039216);
 }
 .skin-glass-001-style-7 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-7 .select2-drop-active {
-  border-color: #ffffff;
+  border-color: #0000000d;
 }
 .skin-glass-001-style-7 .property-tabs {
   padding-top: 10px;
@@ -19504,9 +19444,9 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #ffffff;
-  border-right: 1px solid #ffffff;
-  background: #ffffff26;
+  border-color: #0000000d;
+  border-right: 1px solid #0000000d;
+  background: #202d312e;
   color: #fff;
   border-radius: 0 10px 10px 0;
 }
@@ -19520,8 +19460,8 @@ body.skin-glass-001-style-7 {
   font-size: 13px;
   background-color: rgba(255, 255, 255, 0.07843137);
   color: #fff;
-  border-top: solid 1px #ffffff;
-  border-bottom-color: #ffffff;
+  border-top: solid 1px #0000000d;
+  border-bottom-color: #0000000d;
 }
 .skin-glass-001-style-7 .slick-header-column-sorted,
 .skin-glass-001-style-7 .slick-header-column-sorted.ui-state-default {
@@ -19571,7 +19511,7 @@ body.skin-glass-001-style-7 {
 }
 .skin-glass-001-style-7 .s-DataGrid.editor,
 .skin-glass-001-style-7 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #ffffff;
+  border: 1px solid #0000000d;
   border-radius: 10px;
 }
 .skin-glass-001-style-7 .s-DataGrid.editor .grid-toolbar,
@@ -19583,26 +19523,28 @@ body.skin-glass-001-style-7 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #adadad1f;
   color: #f5f5f599;
-  border-color: rgba(255, 255, 255, 0.5);
+  border-color: #00000012;
+  outline: 0;
+  border-radius: 10px;
 }
 .skin-glass-001-style-7 .editor .slick-cell {
   color: #fff;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #ffffff;
-  border-bottom-color: #ffffff;
+  border-right-color: #0000000d;
+  border-bottom-color: #0000000d;
   border-width: 1px;
 }
 .skin-glass-001-style-7 .editor .slick-header-column {
-  border-right: solid 1px #ffffff;
+  border-right: solid 1px #0000000d;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.07843137);
-  border-top: solid 1px #ffffff;
-  border-bottom-color: #ffffff;
+  border-top: solid 1px #0000000d;
+  border-bottom-color: #0000000d;
 }
 .skin-glass-001-style-7 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -19610,8 +19552,8 @@ body.skin-glass-001-style-7 {
   font-size: 13px;
   color: #fff;
   background-color: rgba(255, 255, 255, 0.07843137);
-  border-top: solid 1px #ffffff;
-  border-bottom-color: #ffffff;
+  border-top: solid 1px #0000000d;
+  border-bottom-color: #0000000d;
 }
 .skin-glass-001-style-7 .editor .slick-cell > a {
   text-shadow: 0 0 5px #3a3a3a;
@@ -19626,7 +19568,7 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #ffffff;
+  border-color: #0000000d;
 }
 .skin-glass-001-style-7 .slick-cell select option,
 .skin-glass-001-style-7 .slick-cell select.dirty option,
@@ -19643,7 +19585,7 @@ body.skin-glass-001-style-7 {
   color: #ff9595;
 }
 .skin-glass-001-style-7 .slick-cell input[type='text'] {
-  border: solid 1px #ffffff;
+  border: solid 1px #0000000d;
 }
 .skin-glass-001-style-7 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -19653,15 +19595,17 @@ body.skin-glass-001-style-7 {
   height: 20px;
 }
 .skin-glass-001-style-7 input {
-  background: #ffffff26;
-  border: #ffffff;
+  background: #202d312e;
+  border: #0000000d;
   border-radius: 10px;
 }
 .skin-glass-001-style-7 input.readonly {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #adadad1f;
   color: #f5f5f599;
-  border-color: rgba(255, 255, 255, 0.5);
+  border-color: #00000012;
+  outline: 0;
+  border-radius: 10px;
 }
 .skin-glass-001-style-7 .ui-widget-overlay {
   opacity: 1;
@@ -19885,7 +19829,7 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .todo-list > li {
   background: transparent;
   color: #fff;
-  border: solid 1px #ffffff;
+  border: solid 1px #0000000d;
   border-left-width: 3px;
   border-radius: 10px;
 }
@@ -20257,18 +20201,13 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .help-block {
   color: rgba(119, 119, 119, 0.5);
 }
-.skin-glass-001-style-8 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-8 .btn.btn-social {
   color: #777;
   padding-left: 40px;
   background: #ffffff4d;
 }
 .skin-glass-001-style-8 .btn.btn-social:hover {
-  background-color: #e4e4e4a6;
+  background-color: #ffffff4d;
 }
 .skin-glass-001-style-8 .btn.btn-social-icon {
   color: #fff;
@@ -20292,7 +20231,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .list-group-item {
   background: transparent;
   color: #777;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .text-muted {
   color: rgba(119, 119, 119, 0.5);
@@ -20314,6 +20253,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #b5b5b5;
+  outline: 0;
 }
 .skin-glass-001-style-8 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-8 .iradio_minimal-red.disabled input {
@@ -20333,7 +20273,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .form-control:focus,
 .skin-glass-001-style-8 input.editor:focus {
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
@@ -20343,13 +20283,15 @@ body.skin-glass-001-style-8 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #fdfdfd61;
   border-radius: 2px;
-  border-color: rgba(62, 155, 255, 0.1);
+  border-color: #6f6f6f21;
   color: #35353599;
+  outline: 0;
 }
 .skin-glass-001-style-8 select.form-control {
-  background: transparent;
+  background: #ffffff4d;
   color: #777 !important;
   border-radius: 2px;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 select.form-control[disabled] option {
   color: rgba(119, 119, 119, 0.6) !important;
@@ -20378,26 +20320,6 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .ui-dialog {
   box-shadow: 0 0 20px #54545496;
   -webkit-box-shadow: 0 0 20px #54545496;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-8 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -20443,7 +20365,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .ui-dialog .ui-dialog-buttonpane button {
   background: #ffffff3d;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
   border-style: solid;
   border-width: 1px;
   border-radius: 2px;
@@ -20480,7 +20402,7 @@ body.skin-glass-001-style-8 {
   color: #777;
 }
 .skin-glass-001-style-8 .s-ColumnPickerDialog .search input {
-  border: solid 1px #3e9bff;
+  border: solid 1px #4aa1ffba;
 }
 .skin-glass-001-style-8 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -20657,7 +20579,7 @@ body.skin-glass-001-style-8 {
   text-shadow: 0 0 5px #ccc;
 }
 .skin-glass-001-style-8 .nav-stacked > li {
-  border-color: rgba(62, 155, 255, 0.2);
+  border-color: rgba(74, 161, 255, 0.2);
 }
 .skin-glass-001-style-8 .nav-stacked > li a {
   color: #777;
@@ -21056,6 +20978,10 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-8 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #6f6f6f21;
+}
 .skin-glass-001-style-8 input[type="text"],
 .skin-glass-001-style-8 input[type="email"],
 .skin-glass-001-style-8 input[type="tel"],
@@ -21064,24 +20990,24 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #ffffff4d;
   color: #777;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 select {
   background: transparent;
   color: #777;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #3e9bff;
+  background: #ffffff4d;
+  border: 1px solid #4aa1ffba;
   color: #777;
   border-radius: 2px;
   /*outline: 0;*/
@@ -21134,9 +21060,9 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #ffffff4d;
   color: #777 !important;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -21146,12 +21072,12 @@ body.skin-glass-001-style-8 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .select2-container .select2-choices {
-  background: transparent;
+  background: #ffffff4d;
   color: #777 !important;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -21161,20 +21087,22 @@ body.skin-glass-001-style-8 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .select2-container.select2-container-disabled {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #fdfdfd61;
   color: #35353599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-8 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(62, 155, 255, 0.1);
+  border-color: #6f6f6f21;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #35353599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-8 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -21186,6 +21114,8 @@ body.skin-glass-001-style-8 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #fdfdfd61;
   color: #35353599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-8 .select2-results {
   color: #777;
@@ -21194,19 +21124,20 @@ body.skin-glass-001-style-8 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #fdfdfd61;
   color: #35353599;
+  outline: 0;
 }
 .skin-glass-001-style-8 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-8 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #ffffff4d;
   border-radius: 2px;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #777 !important;
@@ -21222,19 +21153,20 @@ body.skin-glass-001-style-8 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .select2-search input[type=text] {
   color: #777;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(255, 255, 255, 0.30196078);
 }
 .skin-glass-001-style-8 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-8 .select2-drop-active {
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .property-tabs {
   padding-top: 10px;
@@ -21344,7 +21276,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 div.s-Toolbar .separator {
   margin: 5px 6px 0 3px;
-  border-left: 1px solid rgba(62, 155, 255, 0.35);
+  border-left: 1px solid rgba(74, 161, 255, 0.35);
 }
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled):hover span.button-inner i,
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner i,
@@ -21363,7 +21295,7 @@ body.skin-glass-001-style-8 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 13px;
   background: #ffffff4d;
-  border: solid 1px #3e9bff;
+  border: solid 1px #4aa1ffba;
   color: #777;
   border-radius: 2px;
 }
@@ -21474,7 +21406,7 @@ body.skin-glass-001-style-8 {
   width: 32px;
   margin-left: 2px;
   background: #ffffff4d;
-  border: solid 1px #3e9bff;
+  border: solid 1px #4aa1ffba;
   border-radius: 2px;
   color: #777;
 }
@@ -21506,7 +21438,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .s-QuickSearchBar .quick-search-icon {
   height: 32px;
-  background: #3e9bff;
+  background: #4aa1ffba;
   border-radius: 2px 0 0 2px;
 }
 .skin-glass-001-style-8 .s-QuickSearchBar .quick-search-icon i {
@@ -21524,8 +21456,8 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #3e9bff;
-  border-right: 1px solid #3e9bff;
+  border-color: #4aa1ffba;
+  border-right: 1px solid #4aa1ffba;
   background: #ffffff4d;
   color: #777;
   border-radius: 0 2px 2px 0;
@@ -21540,8 +21472,8 @@ body.skin-glass-001-style-8 {
   font-size: 13px;
   background-color: rgba(190, 190, 190, 0.65098039);
   color: #777;
-  border-top: solid 1px #3e9bff;
-  border-bottom-color: #3e9bff;
+  border-top: solid 1px #4aa1ffba;
+  border-bottom-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .slick-header-column-sorted,
 .skin-glass-001-style-8 .slick-header-column-sorted.ui-state-default {
@@ -21591,7 +21523,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .s-DataGrid.editor,
 .skin-glass-001-style-8 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #3e9bff;
+  border: 1px solid #4aa1ffba;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 .s-DataGrid.editor .grid-toolbar,
@@ -21603,26 +21535,28 @@ body.skin-glass-001-style-8 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #fdfdfd61;
   color: #35353599;
-  border-color: rgba(62, 155, 255, 0.5);
+  border-color: #6f6f6f21;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-8 .editor .slick-cell {
   color: #777;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #3e9bff;
-  border-bottom-color: #3e9bff;
+  border-right-color: #4aa1ffba;
+  border-bottom-color: #4aa1ffba;
   border-width: 1px;
 }
 .skin-glass-001-style-8 .editor .slick-header-column {
-  border-right: solid 1px #3e9bff;
+  border-right: solid 1px #4aa1ffba;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #777;
   background-color: rgba(190, 190, 190, 0.65098039);
-  border-top: solid 1px #3e9bff;
-  border-bottom-color: #3e9bff;
+  border-top: solid 1px #4aa1ffba;
+  border-bottom-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -21630,8 +21564,8 @@ body.skin-glass-001-style-8 {
   font-size: 13px;
   color: #777;
   background-color: rgba(190, 190, 190, 0.65098039);
-  border-top: solid 1px #3e9bff;
-  border-bottom-color: #3e9bff;
+  border-top: solid 1px #4aa1ffba;
+  border-bottom-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .editor .slick-cell > a {
   text-shadow: 0 0 5px #eaeaea;
@@ -21646,7 +21580,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .slick-cell select option,
 .skin-glass-001-style-8 .slick-cell select.dirty option,
@@ -21663,7 +21597,7 @@ body.skin-glass-001-style-8 {
   color: #ff0000;
 }
 .skin-glass-001-style-8 .slick-cell input[type='text'] {
-  border: solid 1px #3e9bff;
+  border: solid 1px #4aa1ffba;
 }
 .skin-glass-001-style-8 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -21674,14 +21608,16 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 input {
   background: #ffffff4d;
-  border: #3e9bff;
+  border: #4aa1ffba;
   border-radius: 2px;
 }
 .skin-glass-001-style-8 input.readonly {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #fdfdfd61;
   color: #35353599;
-  border-color: rgba(62, 155, 255, 0.5);
+  border-color: #6f6f6f21;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-8 .ui-widget-overlay {
   opacity: 1;
@@ -21754,7 +21690,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .s-FilterDisplayBar .edit {
   background: #ffffff4d;
-  border: solid 1px #3e9bff;
+  border: solid 1px #4aa1ffba;
   color: #007bff;
   font-weight: 400;
   padding: 3px 10px;
@@ -21905,7 +21841,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .todo-list > li {
   background: transparent;
   color: #777;
-  border: solid 1px #3e9bff;
+  border: solid 1px #4aa1ffba;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -21978,7 +21914,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .input-group .input-group-addon {
   background-color: #e4e4e4a6;
   color: #777;
-  border-color: #3e9bff;
+  border-color: #4aa1ffba;
 }
 .skin-glass-001-style-8 .input-group input {
   /*height: 34px;
@@ -22244,18 +22180,13 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .help-block {
   color: rgba(68, 68, 68, 0.5);
 }
-.skin-glass-001-style-9 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-9 .btn.btn-social {
   color: #444;
   padding-left: 40px;
-  background: #9696961a;
+  background: #ffffffa1;
 }
 .skin-glass-001-style-9 .btn.btn-social:hover {
-  background-color: #c3c3c347;
+  background-color: #9696961a;
 }
 .skin-glass-001-style-9 .btn.btn-social-icon {
   color: #fff;
@@ -22301,6 +22232,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #b5b5b5;
+  outline: 0;
 }
 .skin-glass-001-style-9 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-9 .iradio_minimal-red.disabled input {
@@ -22320,7 +22252,7 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .form-control:focus,
 .skin-glass-001-style-9 input.editor:focus {
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
@@ -22330,13 +22262,15 @@ body.skin-glass-001-style-9 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   border-radius: 2px;
-  border-color: rgba(169, 169, 169, 0.1);
+  border-color: #6f6f6f21;
   color: #35353599;
+  outline: 0;
 }
 .skin-glass-001-style-9 select.form-control {
-  background: transparent;
+  background: #ffffff87;
   color: #444 !important;
   border-radius: 2px;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-9 select.form-control[disabled] option {
   color: rgba(68, 68, 68, 0.6) !important;
@@ -22365,26 +22299,6 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .ui-dialog {
   box-shadow: 0 0 20px #54545496;
   -webkit-box-shadow: 0 0 20px #54545496;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-9 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -22467,7 +22381,7 @@ body.skin-glass-001-style-9 {
   color: #444;
 }
 .skin-glass-001-style-9 .s-ColumnPickerDialog .search input {
-  border: solid 1px #a9a9a9;
+  border: solid 1px #c7c7c7;
 }
 .skin-glass-001-style-9 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -22644,7 +22558,7 @@ body.skin-glass-001-style-9 {
   text-shadow: 0 0 5px #ccc;
 }
 .skin-glass-001-style-9 .nav-stacked > li {
-  border-color: rgba(169, 169, 169, 0.2);
+  border-color: rgba(199, 199, 199, 0.2);
 }
 .skin-glass-001-style-9 .nav-stacked > li a {
   color: #444;
@@ -22667,19 +22581,19 @@ body.skin-glass-001-style-9 {
   margin: 10px;
 }
 .skin-glass-001-style-9 .sidebar-form div.input-group {
-  background-color: #9696961a;
+  background-color: #ffffff87;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 .sidebar-form .s-SidebarSearch {
-  background-color: #9696961a;
+  background-color: #ffffff87;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-9 .sidebar-form .s-SidebarSearch:focus {
   color: #fff;
-  border-color: #9696961a;
+  border-color: #ffffff87;
 }
 .skin-glass-001-style-9 .sidebar-form button {
-  background-color: #9696961a;
+  background-color: #ffffffa1;
   height: 34px !important;
 }
 .skin-glass-001-style-9 .sidebar-form button i {
@@ -23043,6 +22957,10 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-9 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #6f6f6f21;
+}
 .skin-glass-001-style-9 input[type="text"],
 .skin-glass-001-style-9 input[type="email"],
 .skin-glass-001-style-9 input[type="tel"],
@@ -23051,24 +22969,24 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #ffffff87;
   color: #444;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 select {
   background: transparent;
   color: #444;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #a9a9a9;
+  background: #ffffff87;
+  border: 1px solid #c7c7c7;
   color: #444;
   border-radius: 2px;
   /*outline: 0;*/
@@ -23121,9 +23039,9 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #ffffff87;
   color: #444 !important;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -23133,12 +23051,12 @@ body.skin-glass-001-style-9 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .select2-container .select2-choices {
-  background: transparent;
+  background: #ffffff87;
   color: #444 !important;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -23148,20 +23066,22 @@ body.skin-glass-001-style-9 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .select2-container.select2-container-disabled {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-9 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(169, 169, 169, 0.1);
+  border-color: #6f6f6f21;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #35353599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-9 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -23173,6 +23093,8 @@ body.skin-glass-001-style-9 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-9 .select2-results {
   color: #444;
@@ -23181,19 +23103,20 @@ body.skin-glass-001-style-9 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
+  outline: 0;
 }
 .skin-glass-001-style-9 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-9 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #ffffff87;
   border-radius: 2px;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #444 !important;
@@ -23209,19 +23132,20 @@ body.skin-glass-001-style-9 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .select2-search input[type=text] {
   color: #444;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(255, 255, 255, 0.52941176);
 }
 .skin-glass-001-style-9 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-9 .select2-drop-active {
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .property-tabs {
   padding-top: 10px;
@@ -23349,7 +23273,7 @@ body.skin-glass-001-style-9 {
   height: 32px;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 13px;
-  background: #9696961a;
+  background: #ffffffa1;
   border: solid 1px #a9a9a9;
   color: #444;
   border-radius: 2px;
@@ -23460,7 +23384,7 @@ body.skin-glass-001-style-9 {
   padding: 2px 3px;
   width: 32px;
   margin-left: 2px;
-  background: #9696961a;
+  background: #ffffffa1;
   border: solid 1px #a9a9a9;
   border-radius: 2px;
   color: #444;
@@ -23511,9 +23435,9 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #a9a9a9;
-  border-right: 1px solid #a9a9a9;
-  background: #9696961a;
+  border-color: #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  background: #ffffff87;
   color: #444;
   border-radius: 0 2px 2px 0;
 }
@@ -23527,8 +23451,8 @@ body.skin-glass-001-style-9 {
   font-size: 13px;
   background-color: rgba(157, 157, 157, 0.27843137);
   color: #444;
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #c7c7c7;
+  border-bottom-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .slick-header-column-sorted,
 .skin-glass-001-style-9 .slick-header-column-sorted.ui-state-default {
@@ -23578,7 +23502,7 @@ body.skin-glass-001-style-9 {
 }
 .skin-glass-001-style-9 .s-DataGrid.editor,
 .skin-glass-001-style-9 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #a9a9a9;
+  border: 1px solid #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 .s-DataGrid.editor .grid-toolbar,
@@ -23590,26 +23514,28 @@ body.skin-glass-001-style-9 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
-  border-color: rgba(169, 169, 169, 0.5);
+  border-color: #6f6f6f21;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-9 .editor .slick-cell {
   color: #444;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-right-color: #c7c7c7;
+  border-bottom-color: #c7c7c7;
   border-width: 1px;
 }
 .skin-glass-001-style-9 .editor .slick-header-column {
-  border-right: solid 1px #a9a9a9;
+  border-right: solid 1px #c7c7c7;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #444;
   background-color: rgba(157, 157, 157, 0.27843137);
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #c7c7c7;
+  border-bottom-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -23617,8 +23543,8 @@ body.skin-glass-001-style-9 {
   font-size: 13px;
   color: #444;
   background-color: rgba(157, 157, 157, 0.27843137);
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #c7c7c7;
+  border-bottom-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .editor .slick-cell > a {
   text-shadow: 0 0 5px unset;
@@ -23633,7 +23559,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-9 .slick-cell select option,
 .skin-glass-001-style-9 .slick-cell select.dirty option,
@@ -23650,7 +23576,7 @@ body.skin-glass-001-style-9 {
   color: #ff0000;
 }
 .skin-glass-001-style-9 .slick-cell input[type='text'] {
-  border: solid 1px #a9a9a9;
+  border: solid 1px #c7c7c7;
 }
 .skin-glass-001-style-9 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -23660,15 +23586,17 @@ body.skin-glass-001-style-9 {
   height: 20px;
 }
 .skin-glass-001-style-9 input {
-  background: #9696961a;
-  border: #a9a9a9;
+  background: #ffffff87;
+  border: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-9 input.readonly {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
-  border-color: rgba(169, 169, 169, 0.5);
+  border-color: #6f6f6f21;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-9 .ui-widget-overlay {
   opacity: 1;
@@ -23740,7 +23668,7 @@ body.skin-glass-001-style-9 {
   margin-top: 4px;
 }
 .skin-glass-001-style-9 .s-FilterDisplayBar .edit {
-  background: #9696961a;
+  background: #ffffffa1;
   border: solid 1px #a9a9a9;
   color: #3939ce;
   font-weight: 400;
@@ -23802,7 +23730,7 @@ body.skin-glass-001-style-9 {
   height: 32px;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 13px;
-  background: #9696961a;
+  background: #ffffffa1;
   border: unset;
   color: #444;
   box-shadow: 0 2px 5px 0 #b9b9b9;
@@ -23892,7 +23820,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .todo-list > li {
   background: transparent;
   color: #444;
-  border: solid 1px #a9a9a9;
+  border: solid 1px #c7c7c7;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -24118,7 +24046,7 @@ body.skin-glass-001-style-9 .slick-pg-btn > span:before {
   color: #5b5bb5;
 }
 body.skin-glass-001-style-10 {
-  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
+  background: unset;
   background-size: auto;
   background-color: transparent;
   color: #444;
@@ -24139,7 +24067,7 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 #PageBackground {
   display: block !important;
-  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
+  background: unset;
   background-size: auto;
 }
 .skin-glass-001-style-10 .j-skin-text-color {
@@ -24157,7 +24085,7 @@ body.skin-glass-001-style-10 {
   background-color: unset;
 }
 .skin-glass-001-style-10 .content-wrapper {
-  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
+  background: unset;
   background-size: auto;
   background-color: transparent;
 }
@@ -24314,18 +24242,13 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .help-block {
   color: rgba(68, 68, 68, 0.5);
 }
-.skin-glass-001-style-10 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-10 .btn.btn-social {
   color: #444;
   padding-left: 40px;
-  background: #9696961a;
+  background: #ffffffa1;
 }
 .skin-glass-001-style-10 .btn.btn-social:hover {
-  background-color: #c3c3c347;
+  background-color: #9696961a;
 }
 .skin-glass-001-style-10 .btn.btn-social-icon {
   color: #fff;
@@ -24371,6 +24294,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #b5b5b5;
+  outline: 0;
 }
 .skin-glass-001-style-10 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-10 .iradio_minimal-red.disabled input {
@@ -24390,7 +24314,7 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .form-control:focus,
 .skin-glass-001-style-10 input.editor:focus {
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
@@ -24400,13 +24324,15 @@ body.skin-glass-001-style-10 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   border-radius: 2px;
-  border-color: rgba(169, 169, 169, 0.1);
+  border-color: #6f6f6f21;
   color: #35353599;
+  outline: 0;
 }
 .skin-glass-001-style-10 select.form-control {
-  background: transparent;
+  background: #ffffff87;
   color: #444 !important;
   border-radius: 2px;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-10 select.form-control[disabled] option {
   color: rgba(68, 68, 68, 0.6) !important;
@@ -24435,26 +24361,6 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .ui-dialog {
   box-shadow: 0 0 20px #54545496;
   -webkit-box-shadow: 0 0 20px #54545496;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-10 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -24537,7 +24443,7 @@ body.skin-glass-001-style-10 {
   color: #444;
 }
 .skin-glass-001-style-10 .s-ColumnPickerDialog .search input {
-  border: solid 1px #a9a9a9;
+  border: solid 1px #c7c7c7;
 }
 .skin-glass-001-style-10 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -24714,7 +24620,7 @@ body.skin-glass-001-style-10 {
   text-shadow: 0 0 5px #ccc;
 }
 .skin-glass-001-style-10 .nav-stacked > li {
-  border-color: rgba(169, 169, 169, 0.2);
+  border-color: rgba(199, 199, 199, 0.2);
 }
 .skin-glass-001-style-10 .nav-stacked > li a {
   color: #444;
@@ -24731,25 +24637,25 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .main-sidebar {
   background: none;
   background-size: cover;
-  background-color: #1d7dd0;
+  background-color: #040563ad;
 }
 .skin-glass-001-style-10 .sidebar-form {
   margin: 10px;
 }
 .skin-glass-001-style-10 .sidebar-form div.input-group {
-  background-color: #9696961a;
+  background-color: #ffffff87;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 .sidebar-form .s-SidebarSearch {
-  background-color: #9696961a;
+  background-color: #ffffff87;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-10 .sidebar-form .s-SidebarSearch:focus {
   color: #fff;
-  border-color: #9696961a;
+  border-color: #ffffff87;
 }
 .skin-glass-001-style-10 .sidebar-form button {
-  background-color: #9696961a;
+  background-color: #ffffffa1;
   height: 34px !important;
 }
 .skin-glass-001-style-10 .sidebar-form button i {
@@ -24897,7 +24803,7 @@ body.skin-glass-001-style-10 {
   color: #fff;
   background: none;
   background-size: cover;
-  background-color: #1d7dd0;
+  background-color: transparent;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   height: 60px;
@@ -24918,7 +24824,7 @@ body.skin-glass-001-style-10 {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 13px;
-  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
+  background: unset;
   background-size: auto;
   background-color: transparent;
   box-shadow: 0 0 1px #bdbdbd;
@@ -25113,6 +25019,10 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-10 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #6f6f6f21;
+}
 .skin-glass-001-style-10 input[type="text"],
 .skin-glass-001-style-10 input[type="email"],
 .skin-glass-001-style-10 input[type="tel"],
@@ -25121,24 +25031,24 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #ffffff87;
   color: #444;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 select {
   background: transparent;
   color: #444;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #a9a9a9;
+  background: #ffffff87;
+  border: 1px solid #c7c7c7;
   color: #444;
   border-radius: 2px;
   /*outline: 0;*/
@@ -25191,9 +25101,9 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #ffffff87;
   color: #444 !important;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -25203,12 +25113,12 @@ body.skin-glass-001-style-10 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .select2-container .select2-choices {
-  background: transparent;
+  background: #ffffff87;
   color: #444 !important;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -25218,20 +25128,22 @@ body.skin-glass-001-style-10 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .select2-container.select2-container-disabled {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599 !important;
   border-radius: 2px;
+  outline: 0;
 }
 .skin-glass-001-style-10 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 2px;
-  border-color: rgba(169, 169, 169, 0.1);
+  border-color: #6f6f6f21;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #35353599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-10 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -25243,6 +25155,8 @@ body.skin-glass-001-style-10 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599 !important;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-10 .select2-results {
   color: #444;
@@ -25251,19 +25165,20 @@ body.skin-glass-001-style-10 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
+  outline: 0;
 }
 .skin-glass-001-style-10 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-10 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #ffffff87;
   border-radius: 2px;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #444 !important;
@@ -25279,19 +25194,20 @@ body.skin-glass-001-style-10 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .select2-search input[type=text] {
   color: #444;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(255, 255, 255, 0.52941176);
 }
 .skin-glass-001-style-10 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-10 .select2-drop-active {
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .property-tabs {
   padding-top: 10px;
@@ -25419,7 +25335,7 @@ body.skin-glass-001-style-10 {
   height: 32px;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 13px;
-  background: #9696961a;
+  background: #ffffffa1;
   border: solid 1px #a9a9a9;
   color: #444;
   border-radius: 2px;
@@ -25530,7 +25446,7 @@ body.skin-glass-001-style-10 {
   padding: 2px 3px;
   width: 32px;
   margin-left: 2px;
-  background: #9696961a;
+  background: #ffffffa1;
   border: solid 1px #a9a9a9;
   border-radius: 2px;
   color: #444;
@@ -25581,9 +25497,9 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #a9a9a9;
-  border-right: 1px solid #a9a9a9;
-  background: #9696961a;
+  border-color: #c7c7c7;
+  border-right: 1px solid #c7c7c7;
+  background: #ffffff87;
   color: #444;
   border-radius: 0 2px 2px 0;
 }
@@ -25597,8 +25513,8 @@ body.skin-glass-001-style-10 {
   font-size: 13px;
   background-color: rgba(157, 157, 157, 0.27843137);
   color: #444;
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #c7c7c7;
+  border-bottom-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .slick-header-column-sorted,
 .skin-glass-001-style-10 .slick-header-column-sorted.ui-state-default {
@@ -25648,7 +25564,7 @@ body.skin-glass-001-style-10 {
 }
 .skin-glass-001-style-10 .s-DataGrid.editor,
 .skin-glass-001-style-10 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #a9a9a9;
+  border: 1px solid #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 .s-DataGrid.editor .grid-toolbar,
@@ -25660,26 +25576,28 @@ body.skin-glass-001-style-10 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
-  border-color: rgba(169, 169, 169, 0.5);
+  border-color: #6f6f6f21;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-10 .editor .slick-cell {
   color: #444;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-right-color: #c7c7c7;
+  border-bottom-color: #c7c7c7;
   border-width: 1px;
 }
 .skin-glass-001-style-10 .editor .slick-header-column {
-  border-right: solid 1px #a9a9a9;
+  border-right: solid 1px #c7c7c7;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #444;
   background-color: rgba(157, 157, 157, 0.27843137);
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #c7c7c7;
+  border-bottom-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -25687,8 +25605,8 @@ body.skin-glass-001-style-10 {
   font-size: 13px;
   color: #444;
   background-color: rgba(157, 157, 157, 0.27843137);
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #c7c7c7;
+  border-bottom-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .editor .slick-cell > a {
   text-shadow: 0 0 5px unset;
@@ -25703,7 +25621,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #a9a9a9;
+  border-color: #c7c7c7;
 }
 .skin-glass-001-style-10 .slick-cell select option,
 .skin-glass-001-style-10 .slick-cell select.dirty option,
@@ -25720,7 +25638,7 @@ body.skin-glass-001-style-10 {
   color: #ff0000;
 }
 .skin-glass-001-style-10 .slick-cell input[type='text'] {
-  border: solid 1px #a9a9a9;
+  border: solid 1px #c7c7c7;
 }
 .skin-glass-001-style-10 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -25730,15 +25648,17 @@ body.skin-glass-001-style-10 {
   height: 20px;
 }
 .skin-glass-001-style-10 input {
-  background: #9696961a;
-  border: #a9a9a9;
+  background: #ffffff87;
+  border: #c7c7c7;
   border-radius: 2px;
 }
 .skin-glass-001-style-10 input.readonly {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
-  border-color: rgba(169, 169, 169, 0.5);
+  border-color: #6f6f6f21;
+  outline: 0;
+  border-radius: 2px;
 }
 .skin-glass-001-style-10 .ui-widget-overlay {
   opacity: 1;
@@ -25810,7 +25730,7 @@ body.skin-glass-001-style-10 {
   margin-top: 4px;
 }
 .skin-glass-001-style-10 .s-FilterDisplayBar .edit {
-  background: #9696961a;
+  background: #ffffffa1;
   border: solid 1px #a9a9a9;
   color: #3939ce;
   font-weight: 400;
@@ -25872,7 +25792,7 @@ body.skin-glass-001-style-10 {
   height: 32px;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 13px;
-  background: #9696961a;
+  background: #ffffffa1;
   border: unset;
   color: #444;
   box-shadow: 0 2px 5px 0 #b9b9b9;
@@ -25962,7 +25882,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .todo-list > li {
   background: transparent;
   color: #444;
-  border: solid 1px #a9a9a9;
+  border: solid 1px #c7c7c7;
   border-left-width: 3px;
   border-radius: 2px;
 }
@@ -26147,7 +26067,7 @@ body.skin-glass-001-style-10 .grid-title,
 body.skin-glass-001-style-10 .panel-titlebar {
   padding: 15px 10px 14px 10px;
   margin-top: -25px;
-  background: url('/Content/skins/glass001/assets/bg009.jpg') fixed;
+  background: unset;
   background-size: auto;
   background-color: transparent;
   border-radius: unset !important;
@@ -26370,18 +26290,13 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .help-block {
   color: rgba(62, 75, 91, 0.5);
 }
-.skin-glass-001-style-11 .btn {
-  /*padding: 5px 12px;*/
-  /*color: @glass-001-text-color;*/
-  /*background: @glass-001-input-bg-color;*/
-}
 .skin-glass-001-style-11 .btn.btn-social {
   color: #3e4b5b;
   padding-left: 40px;
-  background: #9696961a;
+  background: #ffffffc4;
 }
 .skin-glass-001-style-11 .btn.btn-social:hover {
-  background-color: #f3f3f3;
+  background-color: #9696961a;
 }
 .skin-glass-001-style-11 .btn.btn-social-icon {
   color: #fff;
@@ -26427,6 +26342,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .iradio_flat-green.disabled {
   opacity: 0.4 !important;
   background: #b5b5b5;
+  outline: 0;
 }
 .skin-glass-001-style-11 .iradio_minimal-blue.disabled input,
 .skin-glass-001-style-11 .iradio_minimal-red.disabled input {
@@ -26446,7 +26362,7 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .form-control:focus,
 .skin-glass-001-style-11 input.editor:focus {
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
   /*outline: 0;*/
   /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
 }
@@ -26456,13 +26372,15 @@ body.skin-glass-001-style-11 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   border-radius: 4px;
-  border-color: rgba(169, 169, 169, 0.1);
+  border-color: #6f6f6f21;
   color: #35353599;
+  outline: 0;
 }
 .skin-glass-001-style-11 select.form-control {
-  background: transparent;
+  background: #ffffff87;
   color: #3e4b5b !important;
   border-radius: 4px;
+  border-color: #e3cbfd;
 }
 .skin-glass-001-style-11 select.form-control[disabled] option {
   color: rgba(62, 75, 91, 0.6) !important;
@@ -26491,26 +26409,6 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .ui-dialog {
   box-shadow: 0 0 20px #54545496;
   -webkit-box-shadow: 0 0 20px #54545496;
-  /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-  /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-  /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
 }
 .skin-glass-001-style-11 .ui-dialog .ui-dialog-titlebar {
   height: 40px;
@@ -26593,7 +26491,7 @@ body.skin-glass-001-style-11 {
   color: #3e4b5b;
 }
 .skin-glass-001-style-11 .s-ColumnPickerDialog .search input {
-  border: solid 1px #a9a9a9;
+  border: solid 1px #e3cbfd;
 }
 .skin-glass-001-style-11 .s-ColumnPickerDialog .search input:focus {
   /*outline: 0;*/
@@ -26770,7 +26668,7 @@ body.skin-glass-001-style-11 {
   text-shadow: 0 0 5px #ccc;
 }
 .skin-glass-001-style-11 .nav-stacked > li {
-  border-color: rgba(169, 169, 169, 0.2);
+  border-color: rgba(227, 203, 253, 0.2);
 }
 .skin-glass-001-style-11 .nav-stacked > li a {
   color: #3e4b5b;
@@ -26793,19 +26691,19 @@ body.skin-glass-001-style-11 {
   margin: 10px;
 }
 .skin-glass-001-style-11 .sidebar-form div.input-group {
-  background-color: #9696961a;
+  background-color: #ffffff87;
   border-radius: 4px;
 }
 .skin-glass-001-style-11 .sidebar-form .s-SidebarSearch {
-  background-color: #9696961a;
+  background-color: #ffffff87;
   border-radius: 4px 0 0 4px !important;
 }
 .skin-glass-001-style-11 .sidebar-form .s-SidebarSearch:focus {
   color: #3e4b5b;
-  border-color: #9696961a;
+  border-color: #ffffff87;
 }
 .skin-glass-001-style-11 .sidebar-form button {
-  background-color: #9696961a;
+  background-color: #ffffffc4;
   height: 34px !important;
 }
 .skin-glass-001-style-11 .sidebar-form button i {
@@ -27169,6 +27067,10 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .flex-layout .s-Form .editor:focus {
   /*outline: 0;*/
 }
+.skin-glass-001-style-11 .flex-layout .s-Form .editor.readonly:focus {
+  outline: 0;
+  border: solid 1px #6f6f6f21;
+}
 .skin-glass-001-style-11 input[type="text"],
 .skin-glass-001-style-11 input[type="email"],
 .skin-glass-001-style-11 input[type="tel"],
@@ -27177,24 +27079,24 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: transparent;
+  background: #ffffff87;
   color: #3e4b5b;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
   border-radius: 4px;
 }
 .skin-glass-001-style-11 select {
   background: transparent;
   color: #3e4b5b;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
   border-radius: 4px;
 }
 .skin-glass-001-style-11 .s-FilterPanel div.v input {
   height: 32px;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .quick-filter-item input {
-  background: transparent;
-  border: 1px solid #a9a9a9;
+  background: #ffffff87;
+  border: 1px solid #e3cbfd;
   color: #3e4b5b;
   border-radius: 4px;
   /*outline: 0;*/
@@ -27247,9 +27149,9 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: transparent;
+  background: #ffffff87;
   color: #3e4b5b !important;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
   border-radius: 4px;
 }
 .skin-glass-001-style-11 .select2-container .select2-choice abbr.select2-search-choice-close {
@@ -27259,12 +27161,12 @@ body.skin-glass-001-style-11 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .select2-container .select2-choices {
-  background: transparent;
+  background: #ffffff87;
   color: #3e4b5b !important;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
   border-radius: 4px;
 }
 .skin-glass-001-style-11 .select2-container .select2-choices abbr.select2-search-choice-close {
@@ -27274,20 +27176,22 @@ body.skin-glass-001-style-11 {
   padding: 0 3px;
   background-image: unset;
   background-color: unset;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .select2-container.select2-container-disabled {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599 !important;
   border-radius: 4px;
+  outline: 0;
 }
 .skin-glass-001-style-11 .select2-container.select2-container-disabled .select2-choice {
   cursor: default;
   border-radius: 4px;
-  border-color: rgba(169, 169, 169, 0.1);
+  border-color: #6f6f6f21;
   /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
   color: #35353599 !important;
+  outline: 0;
 }
 .skin-glass-001-style-11 .select2-container.select2-container-disabled .select2-choice .select2-arrow {
   border-left: 0;
@@ -27299,6 +27203,8 @@ body.skin-glass-001-style-11 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599 !important;
+  outline: 0;
+  border-radius: 4px;
 }
 .skin-glass-001-style-11 .select2-results {
   color: #3e4b5b;
@@ -27307,19 +27213,20 @@ body.skin-glass-001-style-11 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
+  outline: 0;
 }
 .skin-glass-001-style-11 .select2-results li {
   line-height: 24px;
 }
 .skin-glass-001-style-11 .select2-container-multi .select2-choices {
-  background: transparent;
+  background: #ffffff87;
   border-radius: 4px;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .select2-container-multi .select2-choices .select2-search-choice {
   padding: 4px 5px 4px 18px;
   background: transparent;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
   box-shadow: unset;
   -webkit-box-shadow: unset;
   color: #3e4b5b !important;
@@ -27335,19 +27242,20 @@ body.skin-glass-001-style-11 {
   top: 0px;
   position: relative;
   background: transparent;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .select2-search input[type=text] {
   color: #3e4b5b;
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
+  background: rgba(255, 255, 255, 0.52941176);
 }
 .skin-glass-001-style-11 .select2-no-results {
   background: transparent;
 }
 .skin-glass-001-style-11 .select2-drop-active {
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .property-tabs {
   padding-top: 10px;
@@ -27475,7 +27383,7 @@ body.skin-glass-001-style-11 {
   height: 32px;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 13px;
-  background: #9696961a;
+  background: #ffffffc4;
   border: solid 1px #a9a9a9;
   color: #3e4b5b;
   border-radius: 4px;
@@ -27586,7 +27494,7 @@ body.skin-glass-001-style-11 {
   padding: 2px 3px;
   width: 32px;
   margin-left: 2px;
-  background: #9696961a;
+  background: #ffffffc4;
   border: solid 1px #a9a9a9;
   border-radius: 4px;
   color: #3e4b5b;
@@ -27637,9 +27545,9 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .s-QuickSearchBar input.s-QuickSearchInput {
   height: 32px;
-  border-color: #a9a9a9;
-  border-right: 1px solid #a9a9a9;
-  background: #9696961a;
+  border-color: #e3cbfd;
+  border-right: 1px solid #e3cbfd;
+  background: #ffffff87;
   color: #3e4b5b;
   border-radius: 0 4px 4px 0;
 }
@@ -27653,8 +27561,8 @@ body.skin-glass-001-style-11 {
   font-size: 13px;
   background-color: #cdcdcd;
   color: #3e4b5b;
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #e3cbfd;
+  border-bottom-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .slick-header-column-sorted,
 .skin-glass-001-style-11 .slick-header-column-sorted.ui-state-default {
@@ -27704,7 +27612,7 @@ body.skin-glass-001-style-11 {
 }
 .skin-glass-001-style-11 .s-DataGrid.editor,
 .skin-glass-001-style-11 .s-Dialog .s-DataGrid.editor {
-  border: 1px solid #a9a9a9;
+  border: 1px solid #e3cbfd;
   border-radius: 4px;
 }
 .skin-glass-001-style-11 .s-DataGrid.editor .grid-toolbar,
@@ -27716,26 +27624,28 @@ body.skin-glass-001-style-11 {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
-  border-color: rgba(169, 169, 169, 0.5);
+  border-color: #6f6f6f21;
+  outline: 0;
+  border-radius: 4px;
 }
 .skin-glass-001-style-11 .editor .slick-cell {
   color: #3e4b5b;
   padding: 4px 4px 0 4px;
   border-style: none solid solid none;
-  border-right-color: #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-right-color: #e3cbfd;
+  border-bottom-color: #e3cbfd;
   border-width: 1px;
 }
 .skin-glass-001-style-11 .editor .slick-header-column {
-  border-right: solid 1px #a9a9a9;
+  border-right: solid 1px #e3cbfd;
   border-style: none solid solid none;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 500;
   font-size: 13px;
   color: #3e4b5b;
   background-color: #cdcdcd;
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #e3cbfd;
+  border-bottom-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .editor .slick-header-column.ui-state-default {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -27743,8 +27653,8 @@ body.skin-glass-001-style-11 {
   font-size: 13px;
   color: #3e4b5b;
   background-color: #cdcdcd;
-  border-top: solid 1px #a9a9a9;
-  border-bottom-color: #a9a9a9;
+  border-top: solid 1px #e3cbfd;
+  border-bottom-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .editor .slick-cell > a {
   text-shadow: 0 0 5px unset;
@@ -27759,7 +27669,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .slick-cell select {
   height: 25px;
   background: transparent !important;
-  border-color: #a9a9a9;
+  border-color: #e3cbfd;
 }
 .skin-glass-001-style-11 .slick-cell select option,
 .skin-glass-001-style-11 .slick-cell select.dirty option,
@@ -27776,7 +27686,7 @@ body.skin-glass-001-style-11 {
   color: #ff0000;
 }
 .skin-glass-001-style-11 .slick-cell input[type='text'] {
-  border: solid 1px #a9a9a9;
+  border: solid 1px #e3cbfd;
 }
 .skin-glass-001-style-11 .slick-cell {
   font-family: Poppins, Helvetica, "sans-serif";
@@ -27786,15 +27696,17 @@ body.skin-glass-001-style-11 {
   height: 20px;
 }
 .skin-glass-001-style-11 input {
-  background: #9696961a;
-  border: #a9a9a9;
+  background: #ffffff87;
+  border: #e3cbfd;
   border-radius: 4px;
 }
 .skin-glass-001-style-11 input.readonly {
   background: url(/Content/skins/glass001/assets/dark-stripes.png);
   background-color: #ffffff;
   color: #35353599;
-  border-color: rgba(169, 169, 169, 0.5);
+  border-color: #6f6f6f21;
+  outline: 0;
+  border-radius: 4px;
 }
 .skin-glass-001-style-11 .ui-widget-overlay {
   opacity: 1;
@@ -27866,7 +27778,7 @@ body.skin-glass-001-style-11 {
   margin-top: 4px;
 }
 .skin-glass-001-style-11 .s-FilterDisplayBar .edit {
-  background: #9696961a;
+  background: #ffffffc4;
   border: solid 1px #a9a9a9;
   color: #b66dff;
   font-weight: 400;
@@ -27928,7 +27840,7 @@ body.skin-glass-001-style-11 {
   height: 32px;
   font-family: Poppins, Helvetica, "sans-serif";
   font-size: 13px;
-  background: #9696961a;
+  background: #ffffffc4;
   border: unset;
   color: #3e4b5b;
   box-shadow: 0 2px 5px 0 #b9b9b9;
@@ -28018,7 +27930,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .todo-list > li {
   background: transparent;
   color: #3e4b5b;
-  border: solid 1px #a9a9a9;
+  border: solid 1px #e3cbfd;
   border-left-width: 3px;
   border-radius: 4px;
 }

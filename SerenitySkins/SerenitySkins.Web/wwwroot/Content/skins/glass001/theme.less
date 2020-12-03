@@ -217,16 +217,13 @@
         }
 
         .btn {
-            /*padding: 5px 12px;*/
-            /*color: @glass-001-text-color;*/
-            /*background: @glass-001-input-bg-color;*/
             &.btn-social {
                 color: @glass-001-text-color;
                 padding-left: 40px;
-                background: @glass-001-input-bg-color;
+                background: @glass-001-tool-button-bg-color;
 
                 &:hover {
-                    background-color: @glass-001-panel-bg-color;
+                    background-color: @glass-001-tool-button-hover-active-bg-color;
                 }
             }
 
@@ -266,7 +263,7 @@
         .list-group-item {
             background: transparent;
             color: @glass-001-text-color;
-            border-color: @glass-001-input-border-color;
+            border-color: @glass-001-tool-button-border-color;
         }
 
         .text-muted {
@@ -291,11 +288,9 @@
         .icheckbox_minimal-red.disabled,
         .icheckbox_flat-green.disabled,
         .iradio_flat-green.disabled {
-            //background: @glass-001-read-only-bg;
-            //background-color: @glass-001-read-only-bg-color;
-            //color: @glass-001-read-only-text-color;
             opacity: .4 !important;
             background: if(@glass-001-is-dark-style, #596475, #b5b5b5);
+            outline: 0;
         }
 
         .iradio_minimal-blue.disabled,
@@ -327,16 +322,18 @@
             background: @glass-001-read-only-bg;
             background-color: @glass-001-read-only-bg-color;
             border-radius: @glass-001-border-radius;
-            border-color: fade(@glass-001-input-border-color, 10%);
+            border-color: @glass-001-read-only-border-color;
             color: @glass-001-read-only-text-color;
+            outline: 0;
         }
 
         select {
 
             &.form-control {
-                background: transparent;
+                background: @glass-001-input-bg-color;
                 color: @glass-001-text-color !important;
                 border-radius: @glass-001-border-radius;
+                border-color: @glass-001-input-border-color;
 
                 &[disabled] {
                     option {
@@ -428,8 +425,8 @@
                 border: unset;
 
                 button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);
-                    border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+                    background: if((@glass-001-is-dark-style), @glass-001-tool-button-bg-color, #ffffff3d);
+                    border-color: if((@glass-001-is-dark-style), @glass-001-tool-button-bg-color, @glass-001-tool-button-border-color);
                     border-style: solid;
                     border-width: 1px;
                     border-radius: @glass-001-border-radius;
@@ -447,26 +444,6 @@
                     }
                 }
             }
-            /*.ui-dialog-content {
-                button {
-                    background: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #ffffff3d);*/
-            /*border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);*/
-            /*border-style: solid;
-                    border-width: 1px;
-                    border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
-                    font-family: Poppins, Helvetica, "sans-serif";
-                    font-size: 14px;
-                    height: 32px;
-                    font-weight: 300;
-                    box-shadow: unset;
-                    -webkit-box-shadow: unset;
-
-                    &:hover {
-                        text-shadow: 0 0 5px @glass-001-text-hover-active-color;
-                    }
-                }
-            }*/
         }
 
         .s-Dialog {
@@ -676,7 +653,7 @@
                 button {
                     border-width: 0;
                     color: #fff;
-                    background: if((@glass-001-is-dark-style), fade(@glass-001-input-bg-color, 30%), #ffffff4d);
+                    background: if((@glass-001-is-dark-style), fade(@glass-001-tool-button-bg-color, 30%), #ffffff4d);
                 }
 
                 &:before {
@@ -695,7 +672,7 @@
                 button {
                     border-width: 0;
                     color: #fff;
-                    background: if((@glass-001-is-dark-style), fade(@glass-001-input-bg-color, 30%), #ffffff4d);
+                    background: if((@glass-001-is-dark-style), fade(@glass-001-tool-button-bg-color, 30%), #ffffff4d);
                 }
             }
 
@@ -800,7 +777,7 @@
             }
 
             button {
-                background-color: @glass-001-input-bg-color;
+                background-color: @glass-001-tool-button-bg-color;
                 height: 34px !important;
 
                 i {
@@ -1252,6 +1229,13 @@
                     &:focus {
                         /*outline: 0;*/
                     }
+
+                    &.readonly {
+                        &:focus {
+                            outline: 0;
+                            border: solid 1px @glass-001-read-only-border-color;
+                        }
+                    }
                 }
             }
         }
@@ -1264,7 +1248,7 @@
         input[type="password"] {
             height: 32px;
             line-height: 32px;
-            background: transparent;
+            background: @glass-001-input-bg-color;
             color: @glass-001-text-color;
             border-color: @glass-001-input-border-color;
             border-radius: @glass-001-border-radius;
@@ -1283,7 +1267,7 @@
         }
 
         .quick-filter-item input {
-            background: transparent;
+            background: @glass-001-input-bg-color;
             border: 1px solid @glass-001-input-border-color;
             color: @glass-001-text-color;
             border-radius: @glass-001-border-radius;
@@ -1342,7 +1326,7 @@
             .select2-choice {
                 height: 30px;
                 line-height: 28px;
-                background: transparent;
+                background: @glass-001-input-bg-color;
                 color: @glass-001-text-color !important;
                 border-color: @glass-001-input-border-color;
                 border-radius: @glass-001-border-radius;
@@ -1360,7 +1344,7 @@
             }
 
             .select2-choices {
-                background: transparent;
+                background: @glass-001-input-bg-color;
                 color: @glass-001-text-color !important;
                 border-color: @glass-001-input-border-color;
                 border-radius: @glass-001-border-radius;
@@ -1382,13 +1366,15 @@
                 background-color: @glass-001-read-only-bg-color;
                 color: @glass-001-read-only-text-color !important;
                 border-radius: @glass-001-border-radius;
+                outline: 0;
 
                 .select2-choice {
                     cursor: default;
                     border-radius: @glass-001-border-radius;
-                    border-color: fade(@glass-001-input-border-color, 10%);
+                    border-color: @glass-001-read-only-border-color;
                     /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
                     color: @glass-001-read-only-text-color !important;
+                    outline: 0;
 
                     .select2-arrow {
                         border-left: 0;
@@ -1403,6 +1389,8 @@
                     background: @glass-001-read-only-bg;
                     background-color: @glass-001-read-only-bg-color;
                     color: @glass-001-read-only-text-color !important;
+                    outline: 0;
+                    border-radius: @glass-001-border-radius;
                 }
             }
         }
@@ -1415,6 +1403,7 @@
                 background-color: @glass-001-read-only-bg-color;
                 color: @glass-001-read-only-text-color;
                 //border-color: fade(@glass-001-input-border-color, 50%);
+                outline: 0;
             }
 
             li {
@@ -1424,7 +1413,7 @@
 
         .select2-container-multi {
             .select2-choices {
-                background: transparent;
+                background: @glass-001-input-bg-color;
                 border-radius: @glass-001-border-radius;
                 border-color: @glass-001-input-border-color;
 
@@ -1460,6 +1449,7 @@
                 margin-bottom: 4px;
                 margin-top: 4px;
                 height: 34px !important;
+                background: lighten(@glass-001-input-bg-color, 50%);
             }
         }
 
@@ -1607,7 +1597,7 @@
 
             .separator {
                 margin: 5px 6px 0 3px;
-                border-left: 1px solid fade(@glass-001-input-border-color, 35%);
+                border-left: 1px solid fade(@glass-001-tool-button-border-color, 35%);
             }
         }
 
@@ -1631,8 +1621,8 @@
                 height: 32px;
                 font-family: Poppins, Helvetica, "sans-serif";
                 font-size: 13px;
-                background: @glass-001-input-bg-color;
-                border: solid 1px if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+                background: @glass-001-tool-button-bg-color;
+                border: solid 1px if((@glass-001-is-dark-style), @glass-001-tool-button-bg-color, @glass-001-tool-button-border-color);
                 color: @glass-001-text-color;
                 border-radius: @glass-001-border-radius;
 
@@ -1683,7 +1673,7 @@
                 }
 
                 &.disabled {
-                    border-color: if((@glass-001-is-dark-style), @glass-001-input-bg-color, #969696);
+                    border-color: if((@glass-001-is-dark-style), @glass-001-tool-button-bg-color, #969696);
 
                     &:hover {
                         text-shadow: unset;
@@ -1829,8 +1819,8 @@
             padding: 2px 3px;
             width: 32px;
             margin-left: 2px;
-            background: @glass-001-input-bg-color;
-            border: solid 1px @glass-001-input-border-color;
+            background: @glass-001-tool-button-bg-color;
+            border: solid 1px @glass-001-tool-button-border-color;
             border-radius: @glass-001-border-radius;
             color: @glass-001-text-color;
 
@@ -1875,7 +1865,7 @@
 
             .quick-search-icon {
                 height: 32px;
-                background: @glass-001-input-border-color;
+                background: @glass-001-tool-button-border-color;
                 border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius;
 
                 i {
@@ -1987,7 +1977,9 @@
                 background: @glass-001-read-only-bg;
                 background-color: @glass-001-read-only-bg-color;
                 color: @glass-001-read-only-text-color;
-                border-color: fade(@glass-001-input-border-color, 50%);
+                border-color: @glass-001-read-only-border-color;
+                outline: 0;
+                border-radius: @glass-001-border-radius;
             }
 
             .slick-cell {
@@ -2074,7 +2066,9 @@
                 background: @glass-001-read-only-bg;
                 background-color: @glass-001-read-only-bg-color;
                 color: @glass-001-read-only-text-color;
-                border-color: fade(@glass-001-input-border-color, 50%);
+                border-color: @glass-001-read-only-border-color;
+                outline: 0;
+                border-radius: @glass-001-border-radius;
             }
 
             background: @glass-001-input-bg-color;
@@ -2173,8 +2167,8 @@
             margin-top: 4px;
 
             .edit {
-                background: @glass-001-input-bg-color;
-                border: solid 1px if((@glass-001-is-dark-style), @glass-001-input-bg-color, @glass-001-input-border-color);
+                background: @glass-001-tool-button-bg-color;
+                border: solid 1px if((@glass-001-is-dark-style), @glass-001-tool-button-bg-color, @glass-001-tool-button-border-color);
                 color: @glass-001-link-color;
                 font-weight: 400;
                 padding: 3px 10px;
@@ -2250,11 +2244,11 @@
                     height: 32px;
                     font-family: Poppins, Helvetica, "sans-serif";
                     font-size: 13px;
-                    background: @glass-001-input-bg-color;
+                    background: @glass-001-tool-button-bg-color;
                     border: unset;
                     color: @glass-001-text-color;
-                    box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;
-                    -webkit-box-shadow: 0 2px 5px 0 @glass-001-input-box-shadow;
+                    box-shadow: 0 2px 5px 0 @glass-001-tool-button-box-shadow;
+                    -webkit-box-shadow: 0 2px 5px 0 @glass-001-tool-button-box-shadow;
                     padding: 2px 5px;
                     border-radius: @glass-001-border-radius;
 
@@ -2490,7 +2484,7 @@
             .input-group-addon {
                 background-color: @glass-001-panel-bg-color;
                 color: @glass-001-text-color;
-                border-color: @glass-001-input-border-color;
+                border-color: @glass-001-tool-button-border-color;
             }
 
             input {
