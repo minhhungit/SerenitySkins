@@ -154,6 +154,11 @@
     }
 }
 
+.overwriteByIndex (@idx) when (@idx = 8) {
+    .themeDefs(@idx);
+    .themeDefs-wraper-content-no-space(@idx);
+}
+
 .overwriteByIndex (@idx) when (@idx = 9) /*, (@idx = 10)*/ {
     .themeDefs(@idx);
     .themeDefs-tool-button-color(@idx);

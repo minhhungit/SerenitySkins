@@ -56,7 +56,7 @@
 
         if (curSkinClass.toLowerCase().trim() == "glass-001-style-6") {
             $(document).ready(function () {
-
+                
                 $("body").append(`<div id="video-background-container" />`);
 
                 ($('#video-background-container') as any).vide({
@@ -84,35 +84,35 @@
             });
         }
 
-        if (curSkinClass.toLowerCase().trim() == "glass-001-style-10") {
-            $(document).ready(function () {
+        //if (curSkinClass.toLowerCase().trim() == "glass-001-style-10") {
+        //    $(document).ready(function () {
+                
+        //        $("body").append(`<div id="video-background-container" />`);
 
-                $("body").append(`<div id="video-background-container" />`);
+        //        ($('#video-background-container') as any).vide({
+        //            mp4: '/Content/skins/glass001/assets/y-vbg/vbg06.mp4',
+        //            //webm: '/Content/skins/glass001/assets/y-vbg/bg006.webm',
+        //            //ogv: '/Content/skins/glass001/assets/bg006.ogv',
+        //            poster: '/Content/skins/glass001/assets/navy.png'
+        //        }, {
+        //            loop: true,
+        //            muted: true,
+        //            autoplay: true,
+        //            bgColor: 'transparent',
+        //            posterType: 'jpg',
+        //            className: "video-background-wrapper"
+        //        });
 
-                ($('#video-background-container') as any).vide({
-                    mp4: '/Content/skins/glass001/assets/y-vbg/vbg06.mp4',
-                    //webm: '/Content/skins/glass001/assets/y-vbg/bg006.webm',
-                    //ogv: '/Content/skins/glass001/assets/bg006.ogv',
-                    poster: '/Content/skins/glass001/assets/navy.png'
-                }, {
-                    loop: true,
-                    muted: true,
-                    autoplay: true,
-                    bgColor: 'transparent',
-                    posterType: 'jpg',
-                    className: "video-background-wrapper"
-                });
+        //        let player = $('#video-background-container video')[0];
+        //        player.onpause = function () {
+        //            try {
+        //                (player as any).play();
+        //            } catch{
 
-                let player = $('#video-background-container video')[0];
-                player.onpause = function () {
-                    try {
-                        (player as any).play();
-                    } catch{
-
-                    }
-                };
-            });
-        }
+        //            }
+        //        };
+        //    });
+        //}
 
         if (curSkinClass.toLowerCase().trim() == "glass-001-style-1") {
             $(document).ready(function () {

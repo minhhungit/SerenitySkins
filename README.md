@@ -36,6 +36,10 @@ Skins are used to demo the features, so at this time I don't create too many ski
 :-------------------------:|:-------------------------:
 ![Style 009 White](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-011.jpg?raw=true)  |  ![Style 011 Purple](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-013.jpg?raw=true)
 
+**Style 005 Green Leaves**             |  **Style 010 Clean Purple**
+:-------------------------:|:-------------------------:
+![Style 005 Green Leaves](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-style-005.jpg?raw=true)  |  ![Style 010 Clean Purple](https://github.com/minhhungit/SerenitySkins/blob/main/assets/images/glass-001-ver2/img-style-010.jpg?raw=true)
+
 
 ## HOW TO SETUP
 

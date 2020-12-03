@@ -772,23 +772,27 @@
 
                 &:focus {
                     color: @glass-001-main-sidebar-nav-item-color;
-                    border-color: @glass-001-input-bg-color;
-                }
-            }
-
-            button {
-                background-color: @glass-001-tool-button-bg-color;
-                height: 34px !important;
-
-                i {
-                    color: @glass-001-text-color;
+                    border-color: transparent;
                 }
             }
 
             .input-group-btn {
+                background: transparent;
+
                 &:last-child {
                     > .btn {
                         border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0 !important;
+                    }
+                }
+
+                button {
+                    background-color: @glass-001-input-bg-color;
+                    height: 34px !important;
+                    margin-left: 0px;
+
+                    i {
+                        color: @glass-001-text-color;
+                        color: @glass-001-text-color;
                     }
                 }
             }
@@ -1819,8 +1823,8 @@
             padding: 2px 3px;
             width: 32px;
             margin-left: 2px;
-            background: @glass-001-tool-button-bg-color;
-            border: solid 1px @glass-001-tool-button-border-color;
+            background: @glass-001-input-bg-color;
+            border: solid 1px @glass-001-input-border-color;
             border-radius: @glass-001-border-radius;
             color: @glass-001-text-color;
 
