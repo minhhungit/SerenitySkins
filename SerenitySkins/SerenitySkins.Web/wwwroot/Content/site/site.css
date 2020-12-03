@@ -14020,7 +14020,7 @@ body.skin-glass-001-style-4 {
 body.skin-glass-001-style-5 {
   background: url('/Content/skins/glass001/assets/bg005.jpg') fixed;
   background-size: cover;
-  background-color: #06142ba3;
+  background-color: #052d2bdb;
   color: #fff;
 }
 .skin-glass-001-style-5.fixed .content-wrapper,
@@ -14769,7 +14769,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .main-header {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
   background-size: cover;
-  background-color: transparent;
+  background-color: #052d2b;
   box-shadow: 0px 0 20px #0000007a;
   -webkit-box-shadow: 0px 0 20px #0000007a;
   /*.navbar-nav > li:hover > a, .navbar-nav > li > a:active, .navbar-nav > li.open > a {
@@ -14876,7 +14876,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .navbar-nav .open > a:focus {
   background: unset !important;
   color: #76ffd3;
-  border-color: transparent !important;
+  border-color: #052d2b !important;
 }
 .skin-glass-001-style-5 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
   color: #76ffd3;
@@ -14886,14 +14886,14 @@ body.skin-glass-001-style-5 {
   -webkit-box-shadow: 0 0 20px #0000003d;
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
   background-size: cover;
-  background-color: #2929296b;
+  background-color: #052d2bdb;
   border: unset;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 section.content > .s-DataGrid {
   background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
   background-size: cover;
-  background-color: #2929296b;
+  background-color: #052d2bdb;
   border-radius: 2px;
   box-shadow: 0 0 20px #0000003d;
   -webkit-box-shadow: 0 0 20px #0000003d;
@@ -15981,7 +15981,7 @@ body.skin-glass-001-style-5 {
   .skin-glass-001-style-5 .main-header {
     background: url('/Content/skins/glass001/assets/boxlight_ltr.png') fixed;
     background-size: cover;
-    background-color: transparent;
+    background-color: #052d2b;
   }
   .skin-glass-001-style-5 .main-header a.logo {
     display: none;
