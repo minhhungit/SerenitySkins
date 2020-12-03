@@ -14301,7 +14301,7 @@ body.skin-glass-001-style-5 {
   outline: 0;
 }
 .skin-glass-001-style-5 select.form-control {
-  background: #00000014;
+  background: #0000002e;
   color: #fff !important;
   border-radius: 2px;
   border-color: #00000017;
@@ -14615,11 +14615,11 @@ body.skin-glass-001-style-5 {
   margin: 10px;
 }
 .skin-glass-001-style-5 .sidebar-form div.input-group {
-  background-color: #00000014;
+  background-color: #0000002e;
   border-radius: 2px;
 }
 .skin-glass-001-style-5 .sidebar-form .s-SidebarSearch {
-  background-color: #00000014;
+  background-color: #0000002e;
   border-radius: 2px 0 0 2px !important;
 }
 .skin-glass-001-style-5 .sidebar-form .s-SidebarSearch:focus {
@@ -14633,7 +14633,7 @@ body.skin-glass-001-style-5 {
   border-radius: 0 2px 2px 0 !important;
 }
 .skin-glass-001-style-5 .sidebar-form .input-group-btn button {
-  background-color: #00000014;
+  background-color: #0000002e;
   height: 34px !important;
   margin-left: 0px;
 }
@@ -15008,7 +15008,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 input[type="password"] {
   height: 32px;
   line-height: 32px;
-  background: #00000014;
+  background: #0000002e;
   color: #fff;
   border-color: #00000017;
   border-radius: 2px;
@@ -15024,7 +15024,7 @@ body.skin-glass-001-style-5 {
   border-color: #00000017;
 }
 .skin-glass-001-style-5 .quick-filter-item input {
-  background: #00000014;
+  background: #0000002e;
   border: 1px solid #00000017;
   color: #fff;
   border-radius: 2px;
@@ -15078,7 +15078,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .select2-container .select2-choice {
   height: 30px;
   line-height: 28px;
-  background: #00000014;
+  background: #0000002e;
   color: #fff !important;
   border-color: #00000017;
   border-radius: 2px;
@@ -15093,7 +15093,7 @@ body.skin-glass-001-style-5 {
   border-color: #00000017;
 }
 .skin-glass-001-style-5 .select2-container .select2-choices {
-  background: #00000014;
+  background: #0000002e;
   color: #fff !important;
   border-color: #00000017;
   border-radius: 2px;
@@ -15148,7 +15148,7 @@ body.skin-glass-001-style-5 {
   line-height: 24px;
 }
 .skin-glass-001-style-5 .select2-container-multi .select2-choices {
-  background: #00000014;
+  background: #0000002e;
   border-radius: 2px;
   border-color: #00000017;
 }
@@ -15178,7 +15178,7 @@ body.skin-glass-001-style-5 {
   margin-bottom: 4px;
   margin-top: 4px;
   height: 34px !important;
-  background: rgba(128, 128, 128, 0.07843137);
+  background: rgba(128, 128, 128, 0.18039216);
 }
 .skin-glass-001-style-5 .select2-no-results {
   background: transparent;
@@ -15423,7 +15423,7 @@ body.skin-glass-001-style-5 {
   padding: 2px 3px;
   width: 32px;
   margin-left: 2px;
-  background: #00000014;
+  background: #0000002e;
   border: solid 1px #00000017;
   border-radius: 2px;
   color: #fff;
@@ -15476,7 +15476,7 @@ body.skin-glass-001-style-5 {
   height: 32px;
   border-color: #00000017;
   border-right: 1px solid #00000017;
-  background: #00000014;
+  background: #0000002e;
   color: #fff;
   border-radius: 0 2px 2px 0;
 }
@@ -15625,7 +15625,7 @@ body.skin-glass-001-style-5 {
   height: 20px;
 }
 .skin-glass-001-style-5 input {
-  background: #00000014;
+  background: #0000002e;
   border: #00000017;
   border-radius: 2px;
 }
