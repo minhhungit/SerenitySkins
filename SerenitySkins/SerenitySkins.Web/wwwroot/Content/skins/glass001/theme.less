@@ -217,6 +217,8 @@
         }
 
         .btn {
+            height: 32px;
+
             &.btn-social {
                 color: @glass-001-text-color;
                 padding-left: 40px;
@@ -434,6 +436,7 @@
                     font-family: Poppins, Helvetica, "sans-serif";
                     font-size: 14px;
                     height: 32px;
+                    line-height: 20px;
                     font-weight: 300;
                     box-shadow: unset;
                     -webkit-box-shadow: unset;
@@ -1270,12 +1273,19 @@
             border-color: @glass-001-input-border-color;
         }
 
-        .quick-filter-item input {
-            background: @glass-001-input-bg-color;
-            border: 1px solid @glass-001-input-border-color;
-            color: @glass-001-text-color;
-            border-radius: @glass-001-border-radius;
-            /*outline: 0;*/
+        .quick-filter-item {
+            input {
+                background: @glass-001-input-bg-color;
+                border: 1px solid @glass-001-input-border-color;
+                color: @glass-001-text-color;
+                border-radius: @glass-001-border-radius;
+                /*outline: 0;*/
+            }
+
+            .inplace-button {
+                margin-top: 2px !important;
+                margin-right: 2px !important;
+            }
         }
 
         .quick-filters-bar {
@@ -1321,7 +1331,7 @@
         }
 
         .select2-drop {
-            border-radius: 0 0 @glass-001-border-radius @glass-001-border-radius;
+            border-radius: @glass-001-border-radius;
         }
 
         .select2-container {
@@ -1379,6 +1389,8 @@
                     /*color: if((@glass-001-is-dark-style), fade(@glass-001-text-color, 30%), fade(@glass-001-text-color, 60%)) !important;*/
                     color: @glass-001-read-only-text-color !important;
                     outline: 0;
+                    box-shadow: unset;
+                    -webkit-box-shadow: unset;
 
                     .select2-arrow {
                         border-left: 0;
@@ -1396,6 +1408,13 @@
                     outline: 0;
                     border-radius: @glass-001-border-radius;
                 }
+            }
+        }
+
+        .select2-dropdown-open {
+            .select2-choice {
+                box-shadow: 0 1px 0 @glass-001-input-box-shadow inset;
+                -webkit-box-shadow: 0 1px 0 @glass-001-input-box-shadow inset;
             }
         }
 
@@ -1626,7 +1645,7 @@
                 font-family: Poppins, Helvetica, "sans-serif";
                 font-size: 13px;
                 background: @glass-001-tool-button-bg-color;
-                border: solid 1px if((@glass-001-is-dark-style), @glass-001-tool-button-bg-color, @glass-001-tool-button-border-color);
+                border: solid 1px @glass-001-tool-button-border-color;
                 color: @glass-001-text-color;
                 border-radius: @glass-001-border-radius;
 
@@ -1871,6 +1890,7 @@
                 height: 32px;
                 background: @glass-001-tool-button-border-color;
                 border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius;
+                border: solid 1px @glass-001-tool-button-border-color;
 
                 i {
                     background: none;
@@ -1890,9 +1910,9 @@
 
             input.s-QuickSearchInput {
                 height: 32px;
-                border-color: @glass-001-input-border-color;
-                border-right: 1px solid @glass-001-input-border-color;
-                background: @glass-001-input-bg-color;
+                border-color: @glass-001-tool-button-border-color;
+                border-right: 1px solid @glass-001-tool-button-border-color;
+                background: @glass-001-tool-button-bg-color;
                 color: @glass-001-text-color;
                 border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0;
             }
@@ -2486,9 +2506,9 @@
 
         .input-group {
             .input-group-addon {
-                background-color: @glass-001-panel-bg-color;
+                background-color: @glass-001-input-bg-color;
                 color: @glass-001-text-color;
-                border-color: @glass-001-tool-button-border-color;
+                border-color: @glass-001-input-border-color;
             }
 
             input {
@@ -2507,18 +2527,22 @@
         .input-group-sm {
             .input-group-btn {
                 button {
-                    height: 32px;
+                    height: 30px !important;
                     line-height: 14px;
                 }
+            }
+
+            input {
+                height: 30px !important;
             }
         }
 
         .input-lg {
-            height: 46px;
+            height: 46px !important;
         }
 
         .input-sm {
-            height: 30px;
+            height: 30px !important;
         }
 
         .comment-text {
