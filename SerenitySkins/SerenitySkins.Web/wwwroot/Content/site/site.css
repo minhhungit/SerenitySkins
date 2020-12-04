@@ -12681,9 +12681,9 @@ body.skin-glass-001-style-4 {
   color: #e6b84f;
 }
 .skin-glass-001-style-4 .main-sidebar {
-  background: url('/Content/skins/glass001/assets/bg004.jpg') fixed;
+  background: transparent;
   background-size: cover;
-  background-color: transparent;
+  background-color: #0e3613d4;
 }
 .skin-glass-001-style-4 .sidebar-form {
   margin: 10px;
