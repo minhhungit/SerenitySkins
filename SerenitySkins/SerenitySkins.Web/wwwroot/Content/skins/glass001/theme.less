@@ -97,8 +97,8 @@
 
             &.btn {
 
-                &.btn-primary, &.btn-success, &.btn-info, &.btn-danger {
-                    color: @glass-001-text-color;
+                &.btn-primary, &.btn-success, &.btn-info, &.btn-danger, &.btn-warning {
+                    color: #fff;
 
                     &:hover {
                         color: #fff;
@@ -118,16 +118,26 @@
         }
 
         input[type="text"], input[type="email"], input[type="tel"], input[type="search"], input[type="url"], input[type="password"] {
-            height: 32px;
-            line-height: 32px;
+            height: 34px;
+            line-height: 34px;
             background: transparent;
             border-radius: @glass-001-border-radius;
+
+            &:focus {
+                border-color: if(@glass-001-is-dark-style, #77777796, #00000061);
+                outline: 0;
+            }
         }
 
         textarea {
             background: transparent;
             border-radius: @glass-001-border-radius;
             color: @glass-001-text-color;
+
+            &:focus {
+                border-color: if(@glass-001-is-dark-style, #77777796, #00000061);
+                outline: 0;
+            }
         }
 
         h1,
@@ -143,7 +153,7 @@
         .h5,
         .h6 {
             font-family: Poppins, Helvetica, "sans-serif";
-            color: @glass-001-link-color;
+            color: inherit;
         }
 
 
@@ -172,7 +182,7 @@
                 color: @glass-001-text-color;
 
                 .box-title {
-                    color: @glass-001-link-color;
+                    color: inherit;
                     font-family: Poppins, Helvetica, "sans-serif";
                     font-weight: 300;
                     font-size: 18px;
@@ -188,7 +198,7 @@
 
                 > .box-tools {
                     .btn {
-                        color: @glass-001-text-color;
+                        color: @glass-001-tool-button-text-color;
                     }
                 }
             }
@@ -210,6 +220,10 @@
 
         .small-box {
             border-radius: @glass-001-border-radius;
+
+            h3 {
+                color: #fff;
+            }
         }
 
         .help-block {
@@ -217,10 +231,10 @@
         }
 
         .btn {
-            height: 32px;
 
             &.btn-social {
-                color: @glass-001-text-color;
+                color: @glass-001-tool-button-text-color;
+                text-shadow: @glass-001-tool-button-text-shadow;
                 padding-left: 40px;
                 background: @glass-001-tool-button-bg-color;
 
@@ -234,13 +248,25 @@
             }
 
             &.btn.btn-flat {
-                height: 32px;
             }
         }
 
         .btn-default {
             background-color: #fff;
-            color: #3e4b5b;
+            color: inherit;
+            border-color: @glass-001-tool-button-border-color;
+            i{
+                &::before{
+                    color: #ccc; 
+                }
+            }
+        }
+
+        .btn-lg {
+        }
+
+        .btn-xs {
+            height: unset !important;
         }
 
         table {
@@ -311,11 +337,11 @@
         }
 
         .form-control, input.editor {
-            /*height: 32px;*/
+            /*height: 34px;*/
             /*padding: 3px 12px;*/
             &:focus {
-                border-color: @glass-001-input-border-color;
-                /*outline: 0;*/
+                border-color: if(@glass-001-is-dark-style, #77777796, #00000061);
+                outline: 0;
                 /*box-shadow: 0 0 0 0.25rem @glass-001-input-border-color;*/
             }
         }
@@ -388,7 +414,8 @@
                     border: unset;
                     border-radius: @glass-001-border-radius;
                     background: unset;
-                    color: @glass-001-text-color;
+                    color: @glass-001-tool-button-text-color;
+                    text-shadow: @glass-001-tool-button-text-shadow;
 
                     i {
                         -webkit-transform: translateZ(0);
@@ -432,10 +459,10 @@
                     border-style: solid;
                     border-width: 1px;
                     border-radius: @glass-001-border-radius;
-                    color: if((@glass-001-is-dark-style), @glass-001-text-color, @glass-001-text-color);
+                    color: if((@glass-001-is-dark-style), @glass-001-tool-button-text-color, @glass-001-tool-button-text-color);
                     font-family: Poppins, Helvetica, "sans-serif";
                     font-size: 14px;
-                    height: 32px;
+                    height: 34px;
                     line-height: 20px;
                     font-weight: 300;
                     box-shadow: unset;
@@ -610,7 +637,7 @@
                 .ui-tabs-nav {
                     li {
                         a {
-                            height: 32px;
+                            height: 34px;
                             padding: 6px 10px 3px 10px;
                             font-family: Poppins, Helvetica, "sans-serif";
                             font-weight: 500;
@@ -794,8 +821,7 @@
                     margin-left: 0px;
 
                     i {
-                        color: @glass-001-text-color;
-                        color: @glass-001-text-color;
+                        color: @glass-001-tool-button-text-color;
                     }
                 }
             }
@@ -1026,7 +1052,8 @@
             .navbar-nav > .user-menu > .dropdown-menu > .user-footer .btn-default {
                 background: rgba(255, 255, 255, 0.2);
                 border: unset;
-                color: @glass-001-text-color;
+                color: @glass-001-tool-button-text-color;
+                text-shadow: @glass-001-tool-button-text-shadow;
                 margin: 2px;
                 border-radius: @glass-001-border-radius
             }
@@ -1253,8 +1280,8 @@
         input[type="search"],
         input[type="url"],
         input[type="password"] {
-            height: 32px;
-            line-height: 32px;
+            height: 34px;
+            line-height: 34px;
             background: @glass-001-input-bg-color;
             color: @glass-001-text-color;
             border-color: @glass-001-input-border-color;
@@ -1269,7 +1296,7 @@
         }
 
         .s-FilterPanel div.v input {
-            height: 32px;
+            height: 34px;
             border-color: @glass-001-input-border-color;
         }
 
@@ -1299,7 +1326,7 @@
                 color: @glass-001-text-color;
             }
             /*.inplace-button {
-                height: 32px;
+                height: 34px;
                 padding: 2px 2px 0 2px;
                 width: 28px;
                 margin-top: 2px;
@@ -1338,15 +1365,15 @@
             background: transparent;
 
             .select2-choice {
-                height: 30px;
-                line-height: 28px;
+                height: 32px;
+                line-height: 30px;
                 background: @glass-001-input-bg-color;
                 color: @glass-001-text-color !important;
                 border-color: @glass-001-input-border-color;
                 border-radius: @glass-001-border-radius;
 
                 abbr.select2-search-choice-close {
-                    right: 32px;
+                    right: 34px;
                 }
 
                 .select2-arrow {
@@ -1364,7 +1391,7 @@
                 border-radius: @glass-001-border-radius;
 
                 abbr.select2-search-choice-close {
-                    right: 32px;
+                    right: 34px;
                 }
 
                 .select2-arrow {
@@ -1430,7 +1457,7 @@
             }
 
             li {
-                line-height: 24px;
+                line-height: 26px;
             }
         }
 
@@ -1453,8 +1480,8 @@
                     background: transparent;
 
                     input {
-                        height: 30px;
-                        line-height: 30px;
+                        height: 32px;
+                        line-height: 32px;
                         padding: 0px 3px;
                         margin: 0px;
                         top: 0px;
@@ -1489,7 +1516,7 @@
         }
 
         .property-tabs > li > a, .property-tabs > li.active > a {
-            height: 32px;
+            height: 34px;
             line-height: 22px;
             font-family: Poppins, Helvetica, "sans-serif";
             font-weight: 500;
@@ -1499,7 +1526,7 @@
         }
 
         .property-tabs > li > a {
-            color: @glass-001-text-color;
+            color: @glass-001-link-color;
             background: transparent;
         }
 
@@ -1641,16 +1668,17 @@
             }
 
             .tool-button {
-                height: 32px;
+                height: 34px;
                 font-family: Poppins, Helvetica, "sans-serif";
                 font-size: 13px;
                 background: @glass-001-tool-button-bg-color;
                 border: solid 1px @glass-001-tool-button-border-color;
-                color: @glass-001-text-color;
+                color: @glass-001-tool-button-text-color;
+                text-shadow: @glass-001-tool-button-text-shadow;
                 border-radius: @glass-001-border-radius;
 
                 span.button-inner {
-                    line-height: 26px;
+                    line-height: 28px;
                     background: none;
 
                     &::before {
@@ -1659,7 +1687,8 @@
                         font-size: 16px;
                         margin-left: -14px;
                         line-height: 22px;
-                        color: @glass-001-text-color;
+                        color: @glass-001-tool-button-text-color;
+                        text-shadow: @glass-001-tool-button-text-shadow;
                     }
                 }
 
@@ -1667,7 +1696,7 @@
                     margin: 0;
                     border: unset;
                     border-radius: unset;
-                    height: 30px;
+                    height: 32px;
                 }
 
                 &.no-text {
@@ -1680,7 +1709,8 @@
                         &::before {
                             font-family: 'FontAwesome';
                             font-size: 16px;
-                            color: @glass-001-text-color;
+                            color: @glass-001-tool-button-text-color;
+                            text-shadow: @glass-001-tool-button-text-shadow;
                             margin-left: 0px;
                             margin-right: 0px;
                             line-height: 22px;
@@ -1834,21 +1864,446 @@
                         }
                     }
                 }
+
+                &.expand-all-button {
+                    span.button-inner {
+                        &::before {
+                            content: "\f0fe";
+                        }
+                    }
+                }
+
+                &.collapse-all-button {
+                    span.button-inner {
+                        &::before {
+                            content: "\f146";
+                        }
+                    }
+                }
+
+                &.recurrence-button {
+                    span.button-inner {
+                        &::before {
+                            content: "\f110";
+                        }
+                    }
+                }
+
+                &.outlook-button {
+                    span.button-inner {
+                        &::before {
+                            content: "\f0f6";
+                        }
+                    }
+                }
+
+                &.add-note-button {
+                    span.button-inner {
+                        &::before {
+                            content: if(@glass-001-is-dark-style, "\f249", "\f249");
+                        }
+                    }
+                }
+
+                &.undo-delete-button {
+                    span.button-inner {
+                        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAnJJREFUeNqMU01IVFEUPvfdO/NmnPdm3jhqP9jYkJAbA0FiWoSRq4Rw0Q9Bi6AWJS1c1KLaWEEIYRFEUosWWSC0qUUbN0PLKBI1CJmYMkenH518+Mb3e9+73afN+DARD5x777nnux/fOZeDGGPgW29v7/F8Pr+rUCiA4zj+VR33VDgcFiVJcuPxuJVMJk1FUUxZlmcwxq99EIF/NtfWEx97Onr56++VP42SGNlZH2n4qZqzluMhw3aRTT0EwCDdEEuevv/ibvVdjYArQbBNC2KFrQiIgIgUIXIIC2QjgV+670ECIQjCa4+VeyNOp75C9gRJfOxmBDUFjoMbH72sNN96UmmPRVz6/I3ZUifiyLYURMNYfPvBbDp5NFoeuCh9Wlyyydme8Hfdcs0tFXiet6oAIyR0tIW0HSlseAzcm32JCTnuzakqao6JJFrFcvf3/xVULGo0NaD5QtFS+geLHQJCWNNYavKzrniMuRsVkICCGhnBSBwYnlHqE8TpH/zW3rJbNE4dqy8aNrV5OlbFHnk/tvkvUJdZA5fS6q9FI/Tgembq3InUBEXujyD2/Kth6OIEZGMP1s7MbW2JLj2+vf+Lpjtm6UrfPmtyXPZzmhgiV2eL1yRdu8CH4OOmJazGvF7dohr1GCpPjctnDh+Sa8mDnWm+pp+NjKwraJ3JWe9yew8sLy9DnndX13Uol8utlFKIJuMwlMuBgDHwIQJtfn42ZFkLJKhgeno6nM1mQVVVMAwDKPVgYaEClsUgku0BPo2QSCSATyN0d3cMdZVKDzO2va6gVCoZmUzmTvV7uK32BKG11gR2JgjCyiiPb/D4rwADAFSrU1j3i3gqAAAAAElFTkSuQmCC);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+                    }
+                }
+
+                &.multiple-add-button {
+                    span.button-inner {
+                        &::before {
+                            content: "\f0d0";
+                        }
+                    }
+                }
+
+                &.outlook-meeting-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/calendar-blue.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.import-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/folder-import.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.inspect-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/zoom.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.print-preview-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/gtk-print-preview.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.export-csv-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/csv.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.export-docx-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/docx.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.export-mhtml-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/mhtml.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.export-xml-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/xml.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.mail-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/mail.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.table-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/table.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.trash-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/trash.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.users-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/users.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.checkbox-yes-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/checkbox-yes.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.checkbox-no-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/checkbox-no.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.tag-button {
+                    span.button-inner {
+                        &::before {
+                            content: "\f02b";
+                        }
+                    }
+                }
+
+                &.send-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/arrow-step-over.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.lock-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/lock.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.unlock-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/unlock.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.unlock-disable-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/unlock-disable.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.document-check {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/document-task.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.reject {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/slash.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.bomb-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/bomb.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.money-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/money.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.edit-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/edit.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.back-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/arrow-curve-left.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.search-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/magnifier.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.clean-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/eraser.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.approve-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/check2.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.synchronize-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/data-sync.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.select-all-button {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/checkbox-no.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
+
+                &.select-all-button.checked {
+                    span.button-inner {
+                        background-image: url(/Content/serenity/images/checkbox-yes.png);
+                        background-repeat: no-repeat;
+                        background-position: center left;
+
+                        &::before {
+                            content: unset !important;
+                        }
+                    }
+                }
             }
         }
 
         .inplace-button {
-            height: 32px;
+            height: 34px;
             padding: 2px 3px;
-            width: 32px;
+            width: 34px;
             margin-left: 2px;
             background: @glass-001-input-bg-color;
             border: solid 1px @glass-001-input-border-color;
             border-radius: @glass-001-border-radius;
-            color: @glass-001-text-color;
+            color: @glass-001-tool-button-text-color;
+            text-shadow: @glass-001-tool-button-text-shadow;
 
             &:hover {
-                text-shadow: 0 0 5px @glass-001-text-shadow-color;
+                text-shadow: @glass-001-tool-button-hover-active-text-shadow;
 
                 b {
                     &::before {
@@ -1887,7 +2342,7 @@
             border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0;
 
             .quick-search-icon {
-                height: 32px;
+                height: 34px;
                 background: @glass-001-tool-button-border-color;
                 border-radius: @glass-001-border-radius 0 0 @glass-001-border-radius;
                 border: solid 1px @glass-001-tool-button-border-color;
@@ -1909,7 +2364,7 @@
             }
 
             input.s-QuickSearchInput {
-                height: 32px;
+                height: 34px;
                 border-color: @glass-001-tool-button-border-color;
                 border-right: 1px solid @glass-001-tool-button-border-color;
                 background: @glass-001-tool-button-bg-color;
@@ -2096,7 +2551,7 @@
             }
 
             background: @glass-001-input-bg-color;
-            border: @glass-001-input-border-color;
+            border-color: @glass-001-input-border-color;
             border-radius: @glass-001-border-radius;
         }
 
@@ -2265,7 +2720,7 @@
 
             .ui-datepicker-buttonpane {
                 button {
-                    height: 32px;
+                    height: 34px;
                     font-family: Poppins, Helvetica, "sans-serif";
                     font-size: 13px;
                     background: @glass-001-tool-button-bg-color;
@@ -2470,6 +2925,12 @@
             }
         }
 
+        .mailbox-attachments {
+            li {
+                border-color: @glass-001-input-border-color;
+            }
+        }
+
         .mailbox-read-info, .mailbox-controls.with-border {
             border-bottom-color: #f4f4f41c;
         }
@@ -2493,7 +2954,8 @@
         }
 
         .btn-app {
-            background: transparent;
+            background: @glass-001-tool-button-bg-color;
+            color: @glass-001-tool-button-text-color;
         }
 
         .input-group-btn {
@@ -2545,11 +3007,25 @@
             height: 30px !important;
         }
 
+        .input-xs {
+            height: unset !important;
+        }
+
         .comment-text {
             color: @glass-001-text-color;
 
             .username {
                 color: @glass-001-text-color;
+            }
+        }
+
+        .chat {
+            .item {
+                > .attachment {
+                    background: @glass-001-input-bg-color;
+                    border: solid 1px @glass-001-input-border-color;
+                    color: @glass-001-text-color;
+                }
             }
         }
     }
