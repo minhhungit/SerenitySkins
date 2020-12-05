@@ -7656,7 +7656,7 @@ body.skin-glass-001-style-1 {
 .skin-glass-001-style-1 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #0000001a;
   border: solid 1px #00000033;
@@ -10070,7 +10070,7 @@ body.skin-glass-001-style-2 {
 .skin-glass-001-style-2 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #0000001c;
   border: solid 1px #0000001c;
@@ -12376,7 +12376,7 @@ body.skin-glass-001-style-3 {
 .skin-glass-001-style-3 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #0000002b;
   border: solid 1px #00000033;
@@ -13006,6 +13006,9 @@ body.skin-glass-001-style-3 .panel-titlebar {
 body.skin-glass-001-style-3 .sidebar-form .s-SidebarSearch:focus {
   color: #666;
   border-color: transparent;
+}
+body.skin-glass-001-style-3 .sidebar-form .input-group-btn button {
+  background-color: transparent;
 }
 body.skin-glass-001-style-3 .sidebar-form .s-SidebarSearch,
 body.skin-glass-001-style-3 .sidebar-form .s-SidebarSearch + button,
@@ -14729,7 +14732,7 @@ body.skin-glass-001-style-4 {
 .skin-glass-001-style-4 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #11291526;
   border: solid 1px #00000026;
@@ -17035,7 +17038,7 @@ body.skin-glass-001-style-5 {
 .skin-glass-001-style-5 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #0000002e;
   border: solid 1px #00000026;
@@ -19341,7 +19344,7 @@ body.skin-glass-001-style-6 {
 .skin-glass-001-style-6 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #3f314c47;
   border: solid 1px #00000026;
@@ -21677,7 +21680,7 @@ body.skin-glass-001-style-7 {
 .skin-glass-001-style-7 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #202d312e;
   border: solid 1px #00000026;
@@ -22374,7 +22377,7 @@ body.skin-glass-001-style-8 {
   border-top: 1px solid #ffffff14;
 }
 .skin-glass-001-style-8 a {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 a.btn.btn-primary,
 .skin-glass-001-style-8 a.btn.btn-success,
@@ -22391,7 +22394,7 @@ body.skin-glass-001-style-8 {
   color: #fff;
 }
 .skin-glass-001-style-8 a.btn:hover {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 a:hover,
 .skin-glass-001-style-8 a:active,
@@ -22563,12 +22566,12 @@ body.skin-glass-001-style-8 {
   color: rgba(119, 119, 119, 0.5);
 }
 .skin-glass-001-style-8 .content-header > h1 {
-  color: #007bff;
+  color: #0b80fd;
   font-weight: 300;
   font-family: Poppins, Helvetica, "sans-serif";
 }
 .skin-glass-001-style-8 .content-header > h1 > .breadcrumb > li > a {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .navbar-toggle {
   color: #777;
@@ -22680,7 +22683,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .ui-dialog .ui-dialog-title {
   font-family: Poppins, Helvetica, "sans-serif";
-  color: #007bff;
+  color: #0b80fd;
   margin: 5px 4px 0 0;
   font-weight: 300;
   text-shadow: 1px 1px 1px #bdbdbd;
@@ -22757,13 +22760,13 @@ body.skin-glass-001-style-8 {
   color: rgba(119, 119, 119, 0.6);
 }
 .skin-glass-001-style-8 .s-ColumnPickerDialog h5 {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .s-ColumnPickerDialog h5 i {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .s-ColumnPickerDialog .drag-handle {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .s-ImageUploadEditor ul,
 .skin-glass-001-style-8 .s-MultipleImageUploadEditor ul {
@@ -22812,7 +22815,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
   border: unset;
   background: #d6d6d647;
-  border-top: 3px solid #007bff;
+  border-top: 3px solid #0b80fd;
 }
 .skin-glass-001-style-8 .ui-tabs .ui-tabs-nav li.ui-tabs-active a {
   color: #777;
@@ -22862,7 +22865,7 @@ body.skin-glass-001-style-8 {
   color: #fff;
 }
 .skin-glass-001-style-8 .s-MessageDialog .ui-dialog-content a {
-  color: #007bff;
+  color: #0b80fd;
   text-shadow: 0 2px 2px #eaeaea;
 }
 .skin-glass-001-style-8 .s-MessageDialog .ui-dialog-buttonpane {
@@ -22916,7 +22919,7 @@ body.skin-glass-001-style-8 {
   background-color: #e4e4e4a6;
 }
 .skin-glass-001-style-8 .nav-stacked > li.active a {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .nav-stacked > li.active a:hover {
   color: #5baaff;
@@ -23052,14 +23055,14 @@ body.skin-glass-001-style-8 {
   font-weight: 300;
   font-size: 17px;
   margin: 5px 0 15px 0;
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .control-sidebar .control-sidebar-subheading {
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 14px;
   margin-bottom: 5px;
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .control-sidebar,
 .skin-glass-001-style-8 .control-sidebar + .control-sidebar-bg {
@@ -23190,11 +23193,11 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .navbar-nav .open > a:hover,
 .skin-glass-001-style-8 .navbar-nav .open > a:focus {
   background: unset !important;
-  color: #007bff;
+  color: #0b80fd;
   border-color: #303641 !important;
 }
 .skin-glass-001-style-8 .navbar-nav > .user-menu > .dropdown-menu > li.user-header > p {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .flex-layout.s-Panel {
   box-shadow: 0 0 20px #0000003d;
@@ -23231,7 +23234,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .grid-title .title-text,
 .skin-glass-001-style-8 .panel-titlebar {
-  color: #007bff;
+  color: #0b80fd;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   font-size: 18px;
@@ -23256,7 +23259,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .panel-titlebar-close::before {
   content: "\f060";
   font-family: "FontAwesome";
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .ui-dialog.mobile-layout .ui-dialog-titlebar .ui-dialog-titlebar-close {
   background: none;
@@ -23273,12 +23276,12 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .ui-dialog.mobile-layout .ui-dialog-titlebar-close::before {
   content: "\f060";
   font-family: "FontAwesome";
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .ui-dialog.mobile-layout .ui-dialog-titlebar-close::before:hover {
   content: "\f060";
   font-family: "FontAwesome";
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .panel-titlebar .panel-titlebar-text {
   padding-top: 3px;
@@ -23287,7 +23290,7 @@ body.skin-glass-001-style-8 {
   background-color: #e4e4e4a6;
 }
 .skin-glass-001-style-8 .s-PropertyGrid .category-links a.category-link {
-  color: #007bff;
+  color: #0b80fd;
   text-shadow: 1px 1px 1px #eaeaea;
   font-weight: 300;
   font-size: 13px;
@@ -23300,7 +23303,7 @@ body.skin-glass-001-style-8 {
   border-bottom: 1px solid #e4e4e4a6;
 }
 .skin-glass-001-style-8 .s-PropertyGrid .category-title a {
-  color: #007bff;
+  color: #0b80fd;
   font-family: Poppins, Helvetica, "sans-serif";
   font-weight: 300;
   text-shadow: 1px 1px 1px #eaeaea;
@@ -23525,11 +23528,11 @@ body.skin-glass-001-style-8 {
   background: #e4e4e4a6;
 }
 .skin-glass-001-style-8 .property-tabs > li > a {
-  color: #007bff;
+  color: #0b80fd;
   background: transparent;
 }
 .skin-glass-001-style-8 .property-tabs > li.active a {
-  color: #007bff;
+  color: #0b80fd;
   background: #d6d6d647;
 }
 .skin-glass-001-style-8 .property-tabs > li.active > a:hover,
@@ -23554,12 +23557,12 @@ body.skin-glass-001-style-8 {
   color: #5baaff;
 }
 .skin-glass-001-style-8 .nav-tabs-custom > .nav-tabs > li.active {
-  color: #007bff;
+  color: #0b80fd;
   background-color: #e4e4e4a6;
 }
 .skin-glass-001-style-8 .nav-tabs-custom > .nav-tabs > li.active a {
   background-color: #e4e4e4a6;
-  color: #007bff;
+  color: #0b80fd;
   border-color: transparent;
 }
 .skin-glass-001-style-8 .nav-tabs-custom > .nav-tabs > li.active a:hover {
@@ -23581,7 +23584,7 @@ body.skin-glass-001-style-8 {
   color: #777;
 }
 .skin-glass-001-style-8 .link-black {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 blockquote footer,
 .skin-glass-001-style-8 blockquote small,
@@ -23625,12 +23628,12 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner i,
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled):hover span.button-inner,
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner {
-  color: #007bff;
+  color: #0b80fd;
   text-shadow: 0 0 5px #eaeaea;
 }
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled):hover span.button-inner::before,
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled).no-text:hover span.button-inner::before {
-  color: #007bff;
+  color: #0b80fd;
   text-shadow: 0 0 5px #eaeaea;
 }
 .skin-glass-001-style-8 .tool-buttons .tool-button {
@@ -23691,7 +23694,7 @@ body.skin-glass-001-style-8 {
   text-shadow: unset;
 }
 .skin-glass-001-style-8 .tool-buttons .tool-button:not(.disabled).hover span.button-inner::before {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .tool-buttons .tool-button:hover div.button-outer {
   background-color: unset;
@@ -24015,7 +24018,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #ffffff4d;
   border: solid 1px #4aa1ffba;
@@ -24027,7 +24030,7 @@ body.skin-glass-001-style-8 {
   text-shadow: 0 0 5px #777;
 }
 .skin-glass-001-style-8 .inplace-button:hover b::before {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .inplace-create b {
   background: none;
@@ -24091,12 +24094,12 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .slick-header-column-sorted,
 .skin-glass-001-style-8 .slick-header-column-sorted.ui-state-default {
-  border-bottom-color: #0062cc;
+  border-bottom-color: #0267d3;
 }
 .skin-glass-001-style-8 .slick-sort-indicator-asc,
 .skin-glass-001-style-8 .slick-sort-indicator-desc {
-  border-bottom-color: #007bff;
-  border-top-color: #007bff;
+  border-bottom-color: #0b80fd;
+  border-top-color: #0b80fd;
 }
 .skin-glass-001-style-8 .slick-row {
   background: transparent;
@@ -24128,12 +24131,12 @@ body.skin-glass-001-style-8 {
   padding-top: 2px;
 }
 .skin-glass-001-style-8 .slick-cell > a {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .slick-footerrow-column,
 .skin-glass-001-style-8 .slick-footerrow-column.ui-state-default {
   background-color: #e4e4e4a6;
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .s-DataGrid.editor,
 .skin-glass-001-style-8 .s-Dialog .s-DataGrid.editor {
@@ -24262,7 +24265,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .check-box.checked::before {
   content: "\f14a";
-  color: #007bff;
+  color: #0b80fd;
   font-size: 16px;
 }
 .skin-glass-001-style-8 .check-box.checked.disabled {
@@ -24276,7 +24279,7 @@ body.skin-glass-001-style-8 {
 }
 .skin-glass-001-style-8 .check-box.partial::before {
   content: "\f0c8";
-  color: #007bff;
+  color: #0b80fd;
   font-size: 17px;
 }
 .skin-glass-001-style-8 .check-box.partial.disabled {
@@ -24305,7 +24308,7 @@ body.skin-glass-001-style-8 {
 .skin-glass-001-style-8 .s-FilterDisplayBar .edit {
   background: #ffffff4d;
   border: solid 1px #4aa1ffba;
-  color: #007bff;
+  color: #0b80fd;
   font-weight: 400;
   padding: 3px 10px;
   line-height: 15px;
@@ -24322,7 +24325,7 @@ body.skin-glass-001-style-8 {
   text-shadow: 0 0 5px #eaeaea;
 }
 .skin-glass-001-style-8 .s-FilterDisplayBar .cap {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .s-FilterDisplayBar .txt {
   color: #777;
@@ -24351,7 +24354,7 @@ body.skin-glass-001-style-8 {
   background-color: #fff;
 }
 .skin-glass-001-style-8 .ui-datepicker .ui-datepicker-calendar th {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .ui-datepicker .ui-datepicker-calendar td > a {
   color: #777;
@@ -24419,7 +24422,7 @@ body.skin-glass-001-style-8 {
   border: unset;
 }
 .skin-glass-001-style-8 .slick-pg-btn:hover > .slick-pg-btn-span::before {
-  color: #007bff;
+  color: #0b80fd;
 }
 .skin-glass-001-style-8 .slick-pg-btn-span {
   width: 24px;
@@ -26343,7 +26346,7 @@ body.skin-glass-001-style-9 {
 .skin-glass-001-style-9 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #ffffff87;
   border: solid 1px #c7c7c7;
@@ -28752,7 +28755,7 @@ body.skin-glass-001-style-10 {
 .skin-glass-001-style-10 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #ffffff87;
   border: solid 1px #c7c7c7;
@@ -31147,7 +31150,7 @@ body.skin-glass-001-style-11 {
 .skin-glass-001-style-11 .inplace-button {
   height: 34px;
   padding: 2px 3px;
-  width: 34px;
+  width: 30px;
   margin-left: 2px;
   background: #ffffff87;
   border: solid 1px #e3cbfd;
