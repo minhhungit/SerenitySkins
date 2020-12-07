@@ -88,6 +88,10 @@
             color: @glass-001-text-color;
         }
 
+        /*input[type="text"] {
+            height: 32px;
+        }*/
+
         .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
             border-top: 1px solid #ffffff14;
         }
@@ -231,6 +235,7 @@
         }
 
         .btn {
+            border-radius: @glass-001-border-radius;
 
             &.btn-social {
                 color: @glass-001-tool-button-text-color;
@@ -255,9 +260,10 @@
             background-color: #fff;
             color: inherit;
             border-color: @glass-001-tool-button-border-color;
-            i{
-                &::before{
-                    color: #ccc; 
+
+            i {
+                &::before {
+                    color: #ccc;
                 }
             }
         }
@@ -1440,8 +1446,8 @@
 
         .select2-dropdown-open {
             .select2-choice {
-                box-shadow: 0 1px 0 @glass-001-input-box-shadow inset;
-                -webkit-box-shadow: 0 1px 0 @glass-001-input-box-shadow inset;
+                box-shadow: @glass-001-input-box-shadow;
+                -webkit-box-shadow: @glass-001-input-box-shadow;
             }
         }
 
@@ -1676,6 +1682,8 @@
                 color: @glass-001-tool-button-text-color;
                 text-shadow: @glass-001-tool-button-text-shadow;
                 border-radius: @glass-001-border-radius;
+                box-shadow: @glass-001-tool-button-box-shadow;
+                -webkit-box-shadow: @glass-001-tool-button-box-shadow;
 
                 span.button-inner {
                     line-height: 28px;
@@ -1757,6 +1765,7 @@
                     span.button-inner {
                         &::before {
                             content: "\f067";
+                            vertical-align: middle;
                         }
                     }
                 }
@@ -1773,6 +1782,7 @@
                     span.button-inner {
                         &::before {
                             content: "\f00b";
+                            font-size: 14px;
                         }
                     }
                 }
@@ -2302,6 +2312,10 @@
             color: @glass-001-tool-button-text-color;
             text-shadow: @glass-001-tool-button-text-shadow;
 
+            b {
+                line-height: 28px;
+            }
+
             &:hover {
                 text-shadow: @glass-001-tool-button-hover-active-text-shadow;
 
@@ -2340,6 +2354,8 @@
         .s-QuickSearchBar {
             border-right: 0;
             border-radius: 0 @glass-001-border-radius @glass-001-border-radius 0;
+            box-shadow: @glass-001-tool-button-box-shadow;
+            -webkit-box-shadow: @glass-001-tool-button-box-shadow;
 
             .quick-search-icon {
                 height: 34px;
@@ -2726,8 +2742,8 @@
                     background: @glass-001-tool-button-bg-color;
                     border: unset;
                     color: @glass-001-text-color;
-                    box-shadow: 0 2px 5px 0 @glass-001-tool-button-box-shadow;
-                    -webkit-box-shadow: 0 2px 5px 0 @glass-001-tool-button-box-shadow;
+                    box-shadow: @glass-001-tool-button-box-shadow;
+                    -webkit-box-shadow: @glass-001-tool-button-box-shadow;
                     padding: 2px 5px;
                     border-radius: @glass-001-border-radius;
 
