@@ -114,7 +114,7 @@
         //    });
         //}
 
-        if (curSkinClass.toLowerCase().trim() == "glass-001-style-1") {
+        if (curSkinClass.toLowerCase().trim() == "glass-001-style-1" || curSkinClass.toLowerCase().trim() == "glass-001-style-3") {
             $(document).ready(function () {
                 $("body").append(`<div class="bg-animation-firefly"></div>
                     <div class="bg-animation-firefly"></div>
